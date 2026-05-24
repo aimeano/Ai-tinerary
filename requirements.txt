@@ -1,0 +1,14 @@
+qdrant-client
+requests
+python-dotenv
+ollama
+rank-bm25
+numpy
+scikit-learn
+tqdm
+pypdf
+beautifulsoup4
+lxml
+langgraph
+langchain
+langchain-core

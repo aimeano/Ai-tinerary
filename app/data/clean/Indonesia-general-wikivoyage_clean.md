@@ -1,0 +1,1078 @@
+Asia > Southeast Asia > Indonesia
+
+## Indonesia
+
+Indonesia is a huge archipelago of diverse islands scattered over both sides of the Equator between the Indian Ocean and the Pacific Ocean. With extensive (but rapidly diminishing) rainforests on its 17,000 islands, Indonesia is nicknamed The Emerald of the Equator . Indonesia's best known tourist destination is Bali, but with 6,000 inhabited islands, tourists have a wealth of diversity to explore.
+Indonesia is one of the most exotic countries you will ever visit. Indonesia markets itself as Wonderful Indonesia , and the slogan is often quite true. It has a diversity of culture with more than 900 tribes and languages and food, while its enchanting nature, mostly outside of Java, and the friendliness of the people in most areas will entice you to stay as long as you want. Today, some senior citizens from Europe stay for months in Indonesia to avoid the winter.
+
+## Regions
+
+The nation of Indonesia is almost unimaginably vast: More than 17,500 islands providing 108,000 km of beaches. The distance between Aceh in the west and Papua in the east is 4,702 km (2,500 mi), comparable to the distance between New York City and San Francisco. Lying on the western rim of the Ring of Fire, Indonesia has more than 400 volcanoes, of which 129 are considered active, as well as many undersea volcanoes. The island of New Guinea (on which the Indonesian province of Papua is located) is the second-largest island in the world, Borneo (about 2/3 Indonesian, with the rest belonging to Malaysia and Brunei) is the third-largest, and Sumatra is the sixth-largest.
+Travellers to Indonesia tend to have Bali at the top of their mind as their reason to visit, which is a shame given there are even more breathtaking natural beauty and cultural experiences elsewhere that are waiting to be explored. The vastness of the estate and the variety of islands offer significant cultural differences that are worth sensing.
+Most of the 38 provinces are composed of a group of smaller islands (East & West Nusa Tenggara, Maluku), or divide up a larger island and its outlying islands into pieces (Sumatra, Kalimantan, Java, Sulawesi, Papua). The listing below follows a simpler practice of putting together several provinces in one region, except with Bali, which is treated as a separate region in Wikivoyage.
+Sumatra (incl.
+the Riau Islands and Bangka- Belitung) Wild and rugged, the
+Sumatra (incl.
+the Riau Islands and Bangka- Belitung) Wild and rugged, the
+sixth-largest island in the world has a great natural and cultural wealth with more than 40 million inhabitants and is the habitat for many endangered species. This is where you can find Aceh, Palembang, Padang, Lampung and Medan, as well as the multicoloured Lake Toba in the land of the outspoken Toba Batak and Indonesia's gateway island, Batam.
+
+## Kalimantan (Borneo)
+
+The vast majority of Borneo, the world's third-largest island, forms Kalimantan (with the remainder belonging to Malaysia and Brunei). An explorer's paradise for the uncharted (but quickly disappearing) forest, mighty rivers, the indigenous Dayak tribe, and home to most of the orangutans. The cities of Pontianak, Banjarmasin, and Balikpapan are some of the fastest growing in the nation, and it is also the site of the newly purposebuilt city called Nusantara that replaced Jakarta as Indonesia's capital.
+
+## Java (incl. Karimunjawa, the Thousand Islands, and Madura)
+
+The country's heartland, big cities including the former capital Jakarta, Bandung, Surabaya, Semarang and a lot of people (with almost 50% of the population) packed on a not-so-big island. Also features the cultural treasures of Yogyakarta, Solo, Borobudur and Prambanan.
+
+## Bali
+
+By far the most popular tourist destination and has the most complete facilities for all kinds of tourists in Indonesia. Bali's blend of unique Hindu culture, legendary beaches, numerous religious and historical sites, spectacular highland regions and unique underwater life make it a perennial favourite amongst global travellers.
+
+## Sulawesi (Celebes)
+
+Strangely shaped, this island houses a diversity of societies and some spectacular scenery. This includes the Toraja culture, megalithic civilisation in Lore Lindu National Park, rich flora and fauna, and world-class diving sites like Bunaken and Bitung.
+
+## Nusa Tenggara (NTT & NTB)
+
+Also known as the Lesser Sunda Islands - literally the "Southeast Islands" - they are divided into East Nusa Tenggara and West Nusa Tenggara and contain scores of
+ethnic groups, languages and religions, as well as Komodo lizards and more spectacular diving. West NT contains Lombok and Sumbawa and many small islands. Lombok is the less-visited but equally interesting sister of Bali and offers several diving sites as well as historical and religious locations. East NT contains Flores, Sumba and West Timor as well as several other islands, including Komodo Island, home of the Komodo dragon, and offers the unique attraction of containing tiny kingdoms on Sumba. Traditional art in East NT, especially woven cloth, is interesting and reasonably priced, and you can find beaches that are literally covered with sand of unique colours, coral, and shells.
+
+## Maluku (Moluccas)
+
+The historic Spice Islands , formerly much fought over by colonial powers, are now seldom visited, but Ambon, Ternate, the Banda Islands, the Kei Islands and the Morotai Island are promising destinations for marine tourism.
+
+## Papua (Irian Jaya)
+
+The western half of the island of New Guinea, with mountains, forests, swamps and an almost impenetrable wilderness in one of the remotest places on earth. Aside from the gold and copper mining in the area of Freeport, this is probably one of the most pristine parts of the country, and scientists have discovered previously unknown species here.
+
+## Cities
+
+- Jakarta -the 1
+- perennially congested capital which is also the
+- largest city in the country
+- Bandung -university town in the cooler highlands of Java 2
+- 3
+- Banjarmasin - a cultural hub of Kalimantan
+- Jayapura -the capital of 4
+Map of Indonesia
+6
+- Papua and a gateway to the highlands
+- Kuta - with its great beaches and exciting nightlife, Kuta is yet another reason for visiting Bali 5
+- Makassar (Ujung Pandang) - the gateway to Sulawesi and home of the regionally famous Bugis seafarers 6
+- Medan - the diverse main city of Sumatra, known for its large Indonesian-Chinese community, and gateway to Lake Toba and the rest of the Batak land 7
+- Palembang - southeastern Sumatra's port city, and former capital of the great Srivijaya kingdom 8
+- Yogyakarta - central Java's cultural hub and the access point to the mighty temples of Prambanan and Borobudur 9
+
+## Other destinations
+
+The following is a limited selection of some of Indonesia's top sights.
+- Baliem Valley - superb trekking into the lands of the Lani, Dani and Yali tribes in remote Papua 1
+- Borobudur - one of the largest Buddhist temples in the world located in Central Java province; often combined with a visit to the equally impressive Hindu ruins at nearby Prambanan 2
+- Bromo-Tengger-Semeru National Park - some of the scariest volcanic scenery on the planet and one of the best locations in the world to see the sunrise 3
+*Image caption: ... there be dragons*
+- Bunaken - one of the best scuba diving destinations in Indonesia, if not the world 4
+- Kerinci Seblat National Park - tigers, elephants, and monstrous rafflesia flowers in this huge expanse of forest in Sumatra 5
+- Komodo National Park - home of the Komodo dragon and a hugely important marine ecosystem 6
+- Lake Toba - the largest volcanic lake in the world 7
+- Lombok - popular island to east of Bali with the tiny laid-back Gili Islands and mighty Mount Rinjani 8
+- Tana Toraja - highland area of Southern Sulawesi famed for extraordinary funeral rites 9
+
+## Understand
+
+With 17,500 islands, 6,000 of them inhabited, Indonesia is the largest archipelago in the world. To imagine how vast Indonesia is, Indonesia stretches from west to east as wide as the United States or Western and Eastern Europe combined, yet more than two thirds of the area is sea water.
+With more than 260 million people, Indonesia is the fourth most populous country in the world - after India, China and the United States - and by far the largest in Southeast Asia.
+Capital
+Jakarta rupiah (IDR) 275.4 million (2021) 127 volt / 50 hertz and 230 volt / 50 hertz (Europlug, Schuko)
+Currency Population Electricity
+Country code
++62
+Capital
+Jakarta rupiah (IDR) 275.4 million (2021) 127 volt / 50 hertz and 230 volt / 50 hertz (Europlug, Schuko)
+Currency Population Electricity
+Country code
++62
+The population is not spread equally among the five biggest islands, Java, Sumatra, Sulawesi, Kalimantan and Papua; Java has half of the population. More than 50% of foreign tourists enter Indonesia through the airport of Bali, and most of the rest come in through Jakarta's Soekarno-Hatta International Airport for business or as a hub to other Indonesia tourist destinations or through Batam mostly by ferry from Singapore. These three arrival sites account for about 90% of foreign arrivals.
+Time zone
+Indonesia Western Standard Time to Indonesia Eastern Standard Time and Asia/Pontianak, Asia/Makassar, Asia/Jayapura
+Emergencies
+112
+Driving side
+left
+edit on Wikidata
+Indonesia also has the largest Muslim population in the world, mostly Sunni. Indonesia is a member of the G20 and although it has potential to become a world leader, it is still hampered by corruption and shortcomings in education as well as an infrastructure hampered by difficult terrain and water.
+Indonesia's tropical forests are the second-largest in the world after Brazil, and are being logged and cut down to grow oil palm plantations at the same alarming speed. While the rich shop and party in the cities and resorts, the poor work hard and struggle to survive. After decades of economic mismanagement 50.6% of the population still earns less than US$4 per day according to figures compiled by the World Bank in 2012. In 2015, the poverty rate was 5.5% and declining, due to Indonesia's stable growth at 4-6% annually since 2014 - the best growth rate among ASEAN countries. However, the birth rate is still high, at almost 2% a year, after the previous government stopped the birth control program, and this has slowed the decline in poverty. However the total fertility rate ("number of children per woman") has fallen dramatically and sits now just above replacement at 2.1 - roughly the same as the US and barely above most of Europe.
+Infrastructure in much of the country, though extensively rebuilt, remains rudimentary, and travellers off the beaten track will need some patience and flexibility. Although progress has been made in expanding the network of toll highways, most inter-city roads are still two lane affairs of variable quality, most often packed with large buses and trucks hauling goods and materials, all eagerly jockeying with each other and everything else on the road to achieve pole position where there is no race. Perhaps reflecting the poor road conditions, low cost carrier airlines developed well with growth up to 15 percent a year, so if someone flops from one site to others sites, it can be done easily mainly for big cities such as from Bali, to Malang to see Bromo-Tengger-Semeru National Park to Jakarta with many attractions for tourists to Medan to see Lake Toba and go back to your home country. Even if you're in a city, don't expect the roads to be good or the layout to be easy to navigate. Many roads in older cities are left-overs from the Dutch era and, thus, are small, winding and in poor shape. Add to that the fact that street names change every few kilometres, requiring that you know which area to go to if you want to even find that length of street it's quite frustrating. Street signs, if there are any at all, are placed perpendicular to the street they represent. If you leave Java and Bali, the roads are even worse. Severe traffic jams are a common feature, with Greater Jakarta and Surabaya being particularly regarded as extremely bad. Fortunately, the whole TransJava Toll Road has been functionally opened in December 2018, with a length of more than 900 km (560 mi) from Merak to Surabaya. Several segments of the Trans Sumatra Toll Road have also been functionally opened.
+Flexibility should be a prerequisite anywhere in the country as things can change very suddenly and promptness is not often a high priority despite being appreciated. If you are the kind of person who expects everything to be written in stone, then you should probably only consider tours with large, reputable travel agents; otherwise, you're bound to experience some "upsets". Tolerance, patience and acceptance of surprises (not always the good kind) are good traits for anyone planning to visit.
+
+## History
+
+Human settlement has a very long prehistory in Indonesia. Remains of Homo erectus have been found on Java, especially Sangiran, near Solo, dating back to as early as 1.81 million years ago. The most famous prehistoric human remains excavated in Indonesia, known as Java Man, were discovered in 1891 and are estimated to date back 1.66 million years. A wave of Austronesian immigrants migrated around 2500 BCE to 1500 BCE. This Neolithic group of people, skilled in open-ocean maritime travel and agriculture, is believed to have quickly supplanted the existing, less technologically advanced population.
+From this point onward, dozens of kingdoms and civilisations
+flourished and faded in different parts of the archipelago. Some notable ones include The Buddhist Srivijaya on Sumatra, Peninsula Malaysia and Singapore in the 8th century from its capital that is now Palembang, while the Hindu Majapahit' s territory included a large portion of what is now Indonesia, Singapore and Malaysia, ruled from its capital: the Hindu-Buddhist archaeological site of Trowulan. Many temples, most notably Prambanan and Borobudur , were built during this era. When Islam became ascendant on Java in the 14th century through trade with the Arabs, kingdoms were sporadically established around the country with the
+*Image caption: Java Man, National Museum of Indonesia, Jakarta*
+*Image caption: The temples of Prambanan (c. 10th century)*
+king being called a sultan . One of the most notable was the Malacca Sultanate , which although based in Malacca in what is now Malaysia, also included parts of Sumatra and the Riau Islands among its territories.
+The first Europeans to arrive (after Marco Polo who passed through in the late 1200s) were the Portuguese, who were given permission to erect a godown near present-day Jakarta in 1522 following attempts to monopolise the spice trade from the Spice Islands. But by the early 17th century, the Dutch had pretty much taken over, and the razing of a competing English fort in 1619 secured their hold on Java, opening the opportunity for 350 years of colonisation, including a genocidal campaign in the Banda Islands, where the locals had the temerity to try to break the Dutch monopoly on the spice trade and sell to the English. In 1824, the Dutch and the British signed the Anglo-Dutch Treaty which ended a short period of British administration (during which Stamford Raffles, founder of Singapore, also presided over the re-
+*Image caption: Fort Tolukko, a colonial fortification built on the clove island of Ternate by the Spanish in 1611, later occupied by the Dutch and used as a royal residence by Ternate's Sultan*
+discovery of the stupendous monuments of both Borobudur and Prambanan) and divided the Malay world into Dutch and British spheres of influence. The Dutch ceded Malacca to the British, and the British ceded all their colonies on Sumatra, particularly Bencoolen (Bengkulu in Indonesian) to the Dutch with the line of division roughly corresponding to what is now the border between Malaysia and Indonesia.
+As with most colonies, Indonesia was exploited for manpower and natural resources. Various nationalist groups developed in the 19th and 20th centuries, and there were several disturbances, quickly put down by the Dutch. Leaders were arrested and exiled, and some of the Dutch were particularly nasty when dealing with locals; however, the Netherlands did provide some infrastructure, education and a national language, among other things.
+The Japanese conquered most of the islands during World War II, and behaved even more brutally than the Dutch had and were guilty of numerous wartime crimes. Sukarno and Suharto, future leaders of Indonesia, collaborated with the Japanese occupiers, in exchange for gaining valuable military and leadership experience. In August 1945, in the post-war vacuum following the Japanese surrender to allied forces, the
+*Image caption: Pulau Run, one of the Banda Islands and now a sleepy place, remote from the mainstream of worldwide commerce, was once traded by Britain to the Dutch in exchange for another small island, off the coast of America: Manhattan!*
+Japanese still controlled the majority of the Indonesian archipelago. The Japanese agreed to return Indonesia to the Netherlands but continued to administer the region as the Dutch were unable to immediately return.
+On 17 August 1945, Sukarno read the Proklamasi Kemerdekaan (Declaration of Independence) on behalf of the Indonesian people, and the Panitia Persiapan Kemerdekaan Indonesia (Preparatory Committee for Indonesian Freedom) moved to form an interim government. A constitution, drafted by the PPKI, was announced on 18 August and Sukarno was declared President with Mohammad Hatta as vicepresident. The PPKI became the Central Indonesian National Committee, which acted as the interim governing body. The new government was installed on 31 August 1945. The Dutch, however, initially fought several bloody wars in an effort to hold on to their colony. After reaching a military stalemate, under international pressure, the Dutch would eventually withdraw their forces and recognise the independence of Indonesia on 27 December 1949. The Dutch would, however, continue to hold on to their territory on New Guinea, which would only become a part of Indonesia in 1963.
+Sukarno would be overthrown by Suharto in a coup in 1967. Although Suharto's regime ushered in a period of stability with rapid development and economic growth, the country would also suffer from widespread corruption, nepotism and severe restrictions on freedom of speech under his iron-fisted rule. Under Suharto, Indonesia would send its military into the Portuguese colony of Timor-Leste in 1976, incorporating it as a province of Indonesia until 1999.
+During the Asian economic crisis of 1997, the value of the Indonesian rupiah plummeted, halving the purchasing power of ordinary Indonesians. In the ensuing violent upheaval in 1998, there were riots and ethnic purges that mostly targeted ethnic Chinese, primarily in and around Jakarta. Looting, rape and murder of many Chinese occurred and it is still unclear how many victims there were. Many cases remain unsolved. In addition, sectarian violence and armed secessionist movements re-erupted in other parts of the country, the most notable ones being the Aceh independence movement, and clashes between the Christian and Muslim communities in Ambon. Suharto became a major target for those who sought to reform Indonesia and, after the period known as Reformasi , Suharto was brought down and a more democratic regime installed. Suharto's fall also led to an independence referendum in Timor-Leste, in which an overwhelming majority voted for independence. Although marred by violence perpetrated by the Indonesian military and paramilitary groups loyal to Indonesia, the Indonesian government
+grudgingly accepted the result, eventually withdrawing its military in favour of an Australian-led United Nations peacekeeping force in 1999. This arrangement would hold until Timor-Leste formally declared independence in 2002.
+Free and public general elections are now held every 5 years, and despite its infancy in democracy, the world has looked at Indonesia as a role model where democracy and religion go hand-in-hand. In 2022, then-President Joko Widodo announced that Indonesia will move its capital from Jakarta to a new purpose-built city in East Kalimantan called Nusantara, near the existing city of Balikpapan. It is hoped that this will ease the perennial congestion and strain on public infrastructure in Jakarta, and also reduce the developmental inequality between Java and Indonesia's other islands.
+
+## Reinvention
+
+Indonesia is one of the world's largest democracies and the most populous Muslim-majority country. It is going through a period of difficult reforms and re-invention following the Reformasi and the institution of a democratically elected government. To assist in the transformation from the years of
+*Image caption: Sukarno's tribute to independence and unity - National Monument, Central Jakarta*
+centralised control under the Suharto regime, the role of regional and provincial governments has been strengthened and enhanced. The election process in Indonesia has a high participation rate, and the nature and fabric of governance and administration is slowly changing across Indonesia. Change in the nation since the fall of Suharto has also been characterised by greater freedom of speech and a massive reduction in the political censorship that was a feature of Suharto's New Order era. There is more open political debate in the news media as well as in general discourse, political and social debate. Indonesia is now the largest economy in Southeast Asia, and the only one to be a member of the elite G-20 group of major economies.
+
+## Legal concerns
+
+There are laws in place that prevent foreigners from being involved politically, and another law prevents
+derogatory comments about the state-approved religions (Hinduism, Buddhism, Christianity, Confucianism and Islam), fearing the risk of dividing the nation. Sadly, laws about corruption are weak and sentences are generally light when handled by the regular courts. The Komisi Pemberantasan Korupsi (Anti-Corruption Commission) is stricter about this and has its own police force and courts, but it too has been experiencing problems. KPK cases are mostly for Jakarta and Java and cases involving other islands are rarely enforced well enough to stop the illegal behaviour that caused them, such as the illegal deforestation and development in Kalimantan.
+Things have slowly been improving, despite some intransigent corrupt operators in various departments of the government that you may have to deal with, and the requests for money, furniture, "blue" films and such have decreased and the quality of service in some Immigration offices has become better. The key is to remember that one bribe opens the floodgates, so never bribe.
+
+## People
+
+Despite 50 years of promoting Bhinneka Tunggal Ika ("Unity in Diversity") as the official state motto, the concept of an "Indonesia" remains artificial and the country's citizens divide themselves amongst a vast slew of ethnicities, clans, tribes and even castes. If this isn't enough, religious differences add a volatile ingredient to the mix and the vast gaps in wealth reinforce a class society as well. On a purely numerical scale, the largest ethnic groups are the Javanese (45%) of central and eastern Java who are the dominant ethnicity across the nation, the Sundanese (14%) from western Java, the Madurans (7.5%) from the island of Madura, and Coastal Malays (7.5%), mostly from Sumatra. This leaves 26% for the Acehnese and Minangkabau of Sumatra, the Balinese, the Iban and Dayaks of Kalimantan, and a bewildering patchwork of groups in Nusa Tenggara and Papua - the official total is no less than 3,000. The jungles of Papua are also home to some of the last uncontacted peoples of the world.
+For the most part, Indonesia's many peoples co-exist happily, however ethnic conflicts do continue to fester in some remote areas of the country. The policy of transmigration ( transmigrasi ), initiated by the Dutch but continued by Suharto, resettled Javanese, Balinese and Maduran migrants to less crowded parts of the archipelago. The new settlers, viewed as privileged and insensitive, were often resented by the indigenous populace and, particularly on Papua, this has sometimes led to violent conflict, but nowadays are relatively rare.
+One particularly notable ethnic group found throughout the country are the Indonesian Chinese , known as Tionghoa or the somewhat derogatory Cina . Numbering around 7 million, they make up less than 3% of the population, but represent the second-largest ethnic Chinese community outside of China, behind only the Thai-Chinese. Chinese immigrants were encouraged to settle in the then-Dutch East Indies by the Dutch, although they were treated as second-class citizens, effectively middle managers between the European rulers and the rest of the population. After the departure of the Dutch, many Indonesian Chinese worked as shopkeepers and moneylenders, but a very wealthy subset of the community has wielded enormous influence in the locally owned economic sector, with one famous - if largely discredited study of companies on the Jakarta Stock Exchange concluding that as many as 70% of its companies (and, by extension, the country) were controlled by ethnic Chinese. They have thus been subject to persecution, with Chinese forcibly relocated into urban areas in the 1960s, forced to adopt Indonesian names and bans imposed on teaching Chinese and displaying Chinese characters. Anti-Chinese pogroms have also taken place, notably in the 1965-66 anti-Communist purges after Suharto's coup and again in 1998 after his downfall, when over 1,100 people were killed in riots in Jakarta and some other major cities. However, the postReformasi governments have repealed most of the discriminatory legislation, and Chinese writing and Chinese festivals have made a reappearance, with the Chinese New Year having been declared a public holiday nationwide since 2003. Although anti-Chinese sentiment continues to persist in certain population segments, the Indonesian Chinese today officially have the same rights as all other Indonesian citizens. Today, while most of the ethnic Chinese in Java only speak Indonesian, various Chinese dialects such as Hokkien, Teochew and Hakka continue to be widely spoken amongst the ethnic Chinese communities in Sumatra and Kalimantan.
+
+## Culture
+
+There is no one unified Indonesian culture per se , as the country is made up of many diverse ethnic groups and variations across geographical areas. Prepare to be surprised as you jump between islands! The tall roofs of Sumatran traditional residences are different from the long houses of Borneo and a cluster of structures in a Balinese home.
+Most of the exported cultural heritage comes from the islands of Sumatra, Java, Bali and Lombok, whose frameworks are provided by the former Majapahit kingdom. Perhaps the most distinctively "Indonesian" arts are wayang kulit shadow puppetry, where intricately detailed cut-outs are used to act out scenes from the Mahabharata and Ramayana and other popular Hindu folk stories, and its accompaniment the gamelan orchestra, whose incredibly complex metallic rhythms are the obligatory backdrop to both religious ceremonies and traditional entertainment. Indonesia's worldfamous batik clothing pattern and keris daggers are culturally intertwined with the Malays, and Arabic culture has also been adopted to varying degrees thanks to Islam. Let's not forget the impact of Buddhism, the Portuguese, the English, the Japanese, the Chinese and, of course, the Dutch. Words from
+*Image caption: Wayang kulit shadow puppetry, Solo*
+these can be found in Indonesian as well as in ethnic languages, and ethnic languages spill over into Indonesian, but only rarely have a national dispersion.
+The process of standardisation of language and culture in Indonesia has made headway as communications between villages and islands have become easier, and many areas that use to use only local languages now use Indonesian, too. Yet regional cultures remain strong in many areas, and probably will be for the foreseeable future. For the visitor to Indonesia, the regional diversity is a wonderful thing, as cultures as different as those of Flores, Bali, Sunda, Minangkabau and the Toba Batak country can be experienced on a single trip, with adequate time and planning. The variety of cultural, historical and religious sites and experiences, the vast array of traditional handicrafts, and the variety of activities one can experience in Indonesia are truly amazing.
+One interesting cultural experience is the Baduy settlement in the province of West Java, a Sundanese community that chooses to reject modern technology and all its trappings, even deodorants! Visitors are welcome with restrictions they must adhere to. Culture hounds will find Ubud, a city on Bali to be an excellent place to go, but there are so many cultural hotspots in Indonesia that it's almost impossible to make a list.
+Suharto's ban on Western imports like rock'n'roll, while long since repealed, led to the development of
+indigenous forms of music like dangdut , a sultry form of pop developed in the 1970s, and the televised pelvic gyrating " ngebor " of singer Inul Daratista in 2003 was nearly as controversial as Elvis once was. Modern pop music has gained ground in the new century, and a few artists have made attempts to promote their masterpieces internationally, with some success especially in neighbouring Malaysia and Brunei. Anggun Cipta Sasmi is a talented Indonesian singer who became famous in France after her single La neige au Sahara became a top hit on the summer 1997 European charts. Agnes Monica is an energetic dancer, actress and singer who performed duets with international artists and gained fame.
+While many Indonesian films were low-budget B-rated movies, quality has increased since the turn of the century. Daun di Atas Bantal (1998) won the "best movie" award at the 1998 Asia Pacific Film Festival in Taipei, Taiwan. The Raid, Redemption (Indonesian: Serbuan Maut) was released in 2011 at the Toronto International Film Festival to international acclaim, featuring a local Pencak Silat artist Iko Uwais who has since played roles on Hollywood movies.
+Indonesian literature has shown considerable domestic success as themes became more liberal and freedom of speech was expanded, but few examples have made its way onto the world stage. Torch-bearer Pramoedya Ananta Toer's works were long-banned in his own homeland, but the post-Suharto era has seen a small boom. One notable example is Ayu Utami's Saman , breaking both taboos and sales records right in the midst of Soeharto's fall. Perhaps the best example would be Andrea Hirata's Laskar Pelangi (2007): both the series of books and the movies are praised in Indonesia and around the globe.
+*Image caption: Sundanese traditional singing performance*
+Probably the most important (although not universal) cultural feature present in most of the archipelago
+that you should be aware of is that of "face" or "honour," which stems from the principle of harmony. Harmony is considered so important that religious prohibitions on lying take a back seat to protecting someone's honour, which can be looked down on by foreigners. Harmony is, simply put, the effort to maintain peaceful co-existence and pleasant relationships. The harmonious organisation of society is in fact the fundamental basis of wayang kulit plots and performances, and those of related traditional dramas, although some of these traditional values have been somewhat weakened in the process of transition from kingdoms through dictatorship to today's more democratic form of government. Nevertheless, conflict resolution is handled much differently from the way many foreigners might expect - don't expect that things will be done the way you are accustomed to.
+
+## Religion
+
+It is expected that people here have a religion, especially since the first principle of the Pancasila ("five principles") is: Ketuhanan yang Maha Esa , roughly translated as "There's only one god," so don't feel offended if someone asks you about your religious beliefs. While you may exercise your right of religion (or not believing in one) at least privately, making disparaging remarks about any of the official religions is frowned upon as many Indonesians take pride in their religion by observing most or all of the customs tied to their belief. The law also protects anyone from doing so and you don't want to be prosecuted.
+Roughly 88% of the population of Indonesia state their religion as being Islam, with nearly all of them
+following the Sunni branch, making it numerically by far the largest religion in the nation and Indonesia the largest Muslim-majority country in the world. Nevertheless, Indonesia is officially a secular state, with all the state-sanctioned religions, at least theoretically, given equal status under Indonesian law. Although religious orthodoxies do vary across the Indonesia archipelago, the strict observance of Islamic dress codes apparent in some countries is generally absent. In larger Javanese cities veils and overt manifestations of faith are exceptions rather than the rule. In some regional areas and the devout state of Aceh, things can be considerably stricter. Do not be surprised if you can hear a chant of the azan without seeing a mosque, as that is commonly done by loudspeakers to call everyone to pray. Work paces may slow down on Fridays at midday as the males get down to pray at the mosques.
+Despite being nominally Muslim, many local folk stories and customs which are Hindu, Buddhist or animist in origin are faithfully preserved by much of the population.
+The other five state-sanctioned religions are Protestantism (5%), Roman Catholicism (3%), Hinduism (2%), Buddhism (1%) and Confucianism (1%). Hindus are concentrated on Bali, while Christians are found mostly in parts of North Sumatra, Maluku, some parts of Java, Papua, North Sulawesi, East Nusa Tenggara, and Kalimantan. Buddhism, on the other hand, is mainly practiced by the ethnic Chinese in the larger cities, such as Medan and Pontianak. There are also some people in various parts of the country who practice traditional animist religions exclusively, and many Indonesians practice a form of Islam or Christianity that is syncretised with animistic and Hindu beliefs that their ancestors had previously followed. In Java, this syncretic belief system is called Kejawen, and while it is popular, it is condemned by the more strictly orthodox practitioners.
+Indonesian national law decrees that all citizens of the Republic must declare their religion and that the declared religion must be one of the six that are officially sanctioned by the state. This results in obvious distortions. For example, many animist practitioners notionally call themselves Muslim, Hindu, or Christian for the benefit of the state bureaucracy. There are occasional attacks against places of worship (mosques and churches) linked to extremist groups, and a record of outbreaks of violence between different religious groups in the Maluku islands. While it is always a good rule of thumb to follow the latest developments on this topic, this should not deter from visiting the country.
+Since November 2017, the constitutional court has agreed that traditional beliefs are recognised and can be stated in an electronic ID card.
+
+## Folk beliefs
+
+Folk beliefs - both traditional ones and others adopted from other lands - are very much alive and a vital part of Indonesian culture(s). These are just a few examples of Indonesian folk beliefs and practices:
+The use of paranormals as well as dukun (medicine men, shamans or wizards) for both the black and white magic persuasions, and medical needs, is frequent, and there are even "reality" TV programs that feature Muslim clerics doing battle with invisible supernatural beings, which are usually bottled up and a painting or drawing is shown of the creature later, which is usually created by another Muslim cleric who makes the picture while blindfolded.
+Many people also believe that keris (wavy-bladed daggers traditionally made from the metal in a meteorite) and special rings with any one of a number of types of stones and gems affixed to them contain magical beings of limited intelligence and specific powers for the owner. These "makhluk halus" (supernatural beings) are thought to prefer specific, well-cared for homes in these daggers and rings, and will desert them if the owner doesn't perform proper ceremonies on a specific basis. If the inhabited object or/and spirits are neglected or abandoned, the spirits may attack people nearby, which may necessitate a healing ceremony and the propitiation of the spirits.
+The use of sleight of hand and other trickery is employed by some mystics and traditional healers, and some European and Chinese superstitions have been adopted, such as the fear of the number 13. Another example is a kejawen tradition that has been added to some religions, including Islam, whereby the umbilical cord and afterbirth are put in a clay urn and either hung outside the house from the rafters or buried in the yard with a red light placed over it. It is believed that it is the companion of the baby that was born and the light serves double duty by lighting its way into the afterlife and letting neighbours
+know the family has a new baby. A crying baby may sometimes be taken to this place to pacify or to provide it with reassurance, and an infant might be bathed at the location on some occasions for the same reason.
+
+## Holidays
+
+Multicultural Indonesia celebrates a vast range of religious holidays and festivals, but most celebrations are effectually limited to small areas (e.g. the Hindu festivals of Bali). All Indonesians, regardless of religion, get a day off for all these public holidays:
+- 1 January: New Year's Day (Tahun Baru Masehi)
+- A day between mid-January and mid-February: Tahun Baru Imlek (Chinese New Year). Festivals are mainly isolated to Chinese populated areas.
+- A day in March: Nyepi (Hindu New Year). It is not advisable to be in Bali on this day . Effectively the whole island shuts down, even the airport & seaports. Non-observers at the very least are discouraged from mingling outdoors.
+- A Friday in March or April: Wafat Isa Al-Masih (Good Friday). The Catholic communities at Flores Island in East Nusa Tenggara conduct The Way of the Cross at Holy Thursday, an attraction worth seeing.
+- 1 May: Hari Buruh Internasional (International Labor Day)
+- 1 June: Hari Lahir Pancasila (Pancasila Birth Day). This is a patriotic celebration to celebrate the birth of the country's philosophical foundation.
+- A Thursday in May: Kenaikan Isa Al-Masih (Ascension of Christ Day, 14 May 2026)
+- A day in May or June: Waisak (Vesak Day). Some Buddhist monks conduct a pilgrimage tour to the famous Borobudur Temple.
+- 17 August: Hari Kemerdekaan (Independence Day). Flag hoisting at homes and in most communities, Indonesian traditional games with prizes!
+- 25 December: Hari Natal (Christmas Day)
+Muslim holidays are movable by 11 days earlier each year:
+- Tahun Baru Hijriyah (Islamic New Year)
+- Maulid Nabi (Birth of the Prophet Muhammad)
+- Isra Miraj (Ascension of the Prophet Muhammad)
+- 2 days of Idul Fitri holiday (Eid, end of the 30-day Ramadan fasting period)
+
+## Ramadan
+
+Ramadan is the 9th and holiest month in the Islamic calendar and lasts 29-30 days. Muslims fast every day for its duration and most restaurants will be closed until the fast breaks at dusk. Nothing (including water and cigarettes) is supposed to pass through the lips from dawn to sunset. Non-Muslims are exempt from this, but should still refrain from eating or drinking in public as this is considered very impolite. Working hours are decreased as well in the corporate world. Exact dates of Ramadan depend on local astronomical observations and may vary somewhat from country to country. Ramadan concludes with the festival of Eid al-Fitr , which may last several days, usually three in most countries.
+- 18 February - 19 March 2026 ( 1447 AH )
+- 8 February - 8 March 2027 ( 1448 AH )
+- 28 January - 25 February 2028 ( 1449 AH )
+- 16 January - 12 February 2029 ( 1450 AH )
+If you're planning to travel to Indonesia during Ramadan, consider reading Travelling during Ramadan.
+A day before or after select public holidays, including a couple days around the Idul Fitri period, are additionally designated as bank holidays.
+The most significant time of the year is the Muslim fasting month of Ramadan . During this 30 lunar day period, Muslims refrain from passing anything through their lips (food, drink, smoke and even medicine) between sunrise and sunset. People get up early to eat sufficient for the day before the sunrise ( sahur ), go to work late, and take off early to get back home in time to break the fast ( buka puasa ) at sunset. This activity usually starts with a small snack of something sweet, followed by a complete, and snacking until bedtime. Theoretically, people are not supposed to eat excessively during this time because the point of the fast is to know what it's like to be extremely poor, but some Muslims don't abide by this. NonMuslims, as well as travelling ( musafir ), ill or menstruating, and engaged in heavy labour ( buruh or kuli ) Muslims are exempt from fasting, but it is polite to refrain from eating or drinking in public. Many restaurants close, but those that stay open through the fasting time maintain a low profile, often with curtains covering the windows, but in strict Islamic areas, the vendors totally close and open only near break fast. All forms of nightlife including bars, nightclubs, karaoke and massage parlors normally close by midnight, and (especially in more devout areas) quite a few opt to stay closed throughout the month. Business travellers will notice that things move at an even more glacial pace than usual and, especially towards the end of the month, many people will take leave. If you are with Indonesians, they may not say anything out of politeness if you eat or drink in front of them, but you really should at least ask permission first and preferably avoid it unless it is openly and clearly encouraged.
+The climax at the end of the month is the two days of Idul Fitri (Indonesian: Lebaran ), when pretty much the entire country takes a week or two off to head back home to visit family in a ritual known locally as mudik , meaning "to go home". This is the few times of the year when Jakarta has no traffic jams, but the rest of the country does, with all forms of transportation packed to the gills and travel time can easily treble being the norm. All government offices (including embassies) and many businesses close for a week or even two, and travelling around Indonesia is best avoided if at all possible .
+
+## Climate
+
+Upon arrival and disembarking from the aircraft, you'll immediately notice the sudden rush of warm, damp air. Indonesia is a warm place. It has no spring, summer, autumn or winter, just two seasons: rainy and dry , both of which are relative (it still rains during the dry season, it just rains less). While there is significant regional variation, in most of the country (including Java and Bali) the dry season is April to October, while the wet season is November to March. In many areas, rain falls like clockwork, but global warming has made the seasons less predictable. One benefit of the rainy season is that the regular rainfall washes clean most of the mosquito habitats, especially at the foothills. While locally torrential rains are common, the country rarely suffers from typhoons.
+Droughts are a major problem in certain parts of Java and other islands during the dry season, and water becomes a serious issue, but bottled drinking water is always available even in the rural areas. Smog from bush or forest fires frequently blankets many areas of Sumatra and Kalimantan in the middle of the dry season, usually in June, July and August, and sometimes airports are closed for a day or two as a result. Also, when it is dry in one area, it may still be wet in another.
+Temperatures in most places are about 26-32 °C (80-90 °F) during the day, with little fluctuation from day to day; nights may be cooler by a few degrees. The dry season south of the equator is cool because of the cold southern hemisphere, although the difference can be less noticeable. It is also advisable to bring a jacket for visiting the highlands, as temperatures will naturally be cooler, and there are even a few
+snow-covered peaks above 5,000 m (16,000 ft) in Papua. You may be amused to see people donning hats, gloves, jackets or even winter coats when the temperature dips just a little bit, and people usually wear them on their motorcycles, although more often to keep their skin from getting darker.
+
+## Time
+
+Indonesia stretches a long way from west to east and is thus divided into three time zones. Due to the country's equatorial location, sunlight duration is pretty consistent throughout the year, so there is no daylight saving time.
+- UTC+7 Western Indonesian Time (WIB, Waktu Indonesia Barat ): Sumatra, Java, west/central Kalimantan
+*Image caption: Time in Indonesia. WIB=yellow, WITA=light green, WIT=turquoise*
+- UTC+8 Central Indonesian Time (WITA, Waktu
+- Indonesia Tengah ): Bali, South/East/North Kalimantan, Sulawesi, Nusa Tenggara
+- UTC+9 Eastern Indonesian Time (WIT, Waktu Indonesia Timur ): Maluku, Papua
+
+## Tourist information
+
+- Indonesia Travel (https://www.indonesia.travel/gb/en/home) website
+
+## See also
+
+
+## Topics in Indonesia
+
+Driving in Indonesia Indonesian cuisine Indonesian national parks Indonesian zoos and botanical gardens Surfing in Indonesia
+
+## Talk
+
+
+## See also: Indonesian phrasebook
+
+The sole official language is Indonesian , known in that language as Bahasa Indonesia ( not Bahasa, which literally means "language"). It is similar to Malay (spoken in Malaysia, Brunei and Singapore), so speakers of both languages can generally understand each other. The main differences are in the loan words: Malay was more influenced by the English language, while Indonesian was more influenced by the Dutch language. Written phonetically with the Latin alphabet and with a fairly logical grammar, Indonesian is generally regarded as one of the easiest languages for English speakers to learn, especially compared to other East and Southeast Asian languages. The spelling is highly regular. The pronunciation is especially easy for Japanese (except the 'l' letter), Italian, Spanish, or, to an extent, Tagalog speakers. Unlike many other languages in the region. Indonesian is not a tonal language. Like other Asian languages, Indonesian has an elaborate etiquette around personal pronouns (read more at Respect ).
+While Indonesian is the official language throughout the archipelago, and is spoken by almost all Indonesians, over 80% of Indonesians actually have their own ethnic language, the most widely spoken being Javanese and Sundanese. Most of these languages belong to the same Austronesian language family as Indonesian, which also includes most of the languages of the Philippines, Malaysia and numerous Pacific islands. Their difficulty level is comparable with Indonesian, though learning materials are typically far less abundant. Some of the ethnic words do make up the Indonesian language so it is usually a good point to start from. If you do stray off the beaten track, it is a good idea to learn a few words of the local language to get along well with the society there. Some ethnic Chinese communities continue to speak various Chinese dialects, most notably Hokkien in Medan and Teochew in Pontianak.
+Colloquial and slang Indonesian generally drops any indication of time and tense (of which there are few), prepositions, and helper verbs, and a sentence may be as little as a word or three. Many times, additional questions have to be asked due to the lack of clarity (especially with regard to whether an event has already taken place, is happening now or will occur in the future) and local dialect loanwords may further confuse things. When using English, these tendencies carry over into their English because they're translating from their slang to English, so you may experience the same problems - or worse.
+Unlike in neighbouring Malaysia or the Philippines, English is generally not widely spoken. Staff at better hotels and airline staff generally speak a decent level of English, and it is widely spoken in tourist areas and among the business community. While English is a compulsory foreign language in Indonesian schools, expect only basic to moderate proficiency.
+A few educated seniors in Indonesia may speak Dutch but these days English is far more useful. Though Arabic is not widely spoken, many educated Muslims, especially those who graduated from Islamic religious institutes, understand Arabic to some degree, and many Arabic loanwords are found in Indonesian.
+
+## Get in
+
+
+## Visa restrictions:
+
+Citizens of Afghanistan, Guinea, North Korea, Cameroon, Liberia, Nigeria, Somalia and Israel must obtain a clearance from Indonesian authorities prior to a visa issuance. Allow up to 1-3 months for the process. (Information last updated Dec 2012)
+Indonesia offers a multitude of visas via its official e-Visa website (https://evisa.imigrasi.go.id/) . The easiest to get is the 30-day electronic visa on arrival / B1 tourist visa (https://www.imigrasi.go.id/wna/daft ar-visa-indonesia/B1), which is approved within minutes after supplying passport details, the intended address of stay in Indonesia, and a PDF copy of outbound transportation (e.g. a flight which can be cancelled later if plans change). The visa application wizard makes the process pretty straightforward. Just make sure to check "Credit/debit card" for the payment type. The fee for the 30-day visa is 500,000 IDR, and the visa can be extended for another 30 days. There is also a 60-day tourist visa (https://www.im igrasi.go.id/wna/daftar-visa-indonesia/C1) (C1, also known as 211A), which can be issued within 5 business days for a cost of 1,500,000 IDR and can be extended twice, for a total of 180 days.
+Alternatively, a visa can be obtained on arrival, but the process will take longer due to queues at the airport. A minimum of 6 months' validity must be available in your passport and it must contain at least one or more blank pages. This same rule applies to any visa extension that may be sought whilst in the country.
+In addition to the visa, all travelers must complete the All Indonesia arrival card (https://allindonesi a.imigrasi.go.id/) before arrival. The website opens 72 hours before your flight, and replaces previous customs, immigration and health form.
+With the visa obtained online, and their passport in hand, tourists can pass through certain entry points in minutes (e.g. the Denpasar airport in Bali) using auto-gates, without needing to talk to any immigration officer.
+The days a visa holder is within Indonesia are counted with the day of entry being day 1, not day 0. This means that by 00:00 on the night of the day of arrival you have been in Indonesia for one day. If you enter at 23:59, then the next minute would have been your second day. If you receive a visa on January 1 for 30 days, you will need to leave the country by no later than January 30. The exact date you must exit the country by is printed on the sticker affixed to your passport.
+Leaving after the last day will result in a penalty of Rp1,000,000 (one million)/day of maximum 60 days overstay being charged. Long-term more than 60 days overstays are frowned upon and could result, if caught, in being kept in detention, fined and deported. This is not something that should be entertained as providing an alternative to seeking a visa extension.
+Customs in Indonesia is usually quite laid-back. You're allowed to bring in 1 litre of alcohol, 200 cigarettes or 50 cigars or 100 g of tobacco products, and a reasonable quantity of perfume. Amounts of money in excess of 100 million rupiahs, or its equivalent in other currencies, have to be declared upon arrival or departure. In addition to the obvious drugs and guns, importing pornography and fruit, plants, meat or fish is prohibited. Bringing narcotics into Indonesia is prohibited, "having illicit drugs is subject to capital punishment", and medication containing narcotics must be declared using a special form (http s://kemlu.go.id/bucharest/en/pages/prosedur_membawa_obat_ke_indonesia/1191/about-service). Your luggage is subject to x-ray machine scanning and inspection by sniffer dogs. Customs declaration is now digital. Complete the Electronic Customs Declaration (ECD) online up to 2 days before arrival to get a QR code
+Travelers declaring an item or collection of the same items worth at least US$1000 are also subject to an import duty.
+
+## Visa
+
+For further information, including a list of eligible countries and point of entries to be granted a visa-free entry, please see the Visa and Immigration Policies (https://www.indonesia.travel/en/travel-guidance/visaand-immigration) from the Ministry of Tourism of Indonesia.
+
+## Visa waiver and visas on arrival
+
+Citizens of all ASEAN countries who are going for leisure, transit, or business are allowed to stay in Indonesia for up to 30 days without a visa. This visa waiver cannot be extended, transferred or converted to any other kind of visa, nor does it allow one to work in Indonesia. They may enter Indonesia through
+any official port of entry.
+Visitors from 77 other countries (http s://kemlu.go.id/bern/en/pages/visa_ku njungan_saat_kedatangan/5210/etc-m enu) or those who want to stay for more than 30 days may buy a visa-onarrival (VOA) for Rp 500,000 (around US$33), only payable in cash (in the local currency, US dollars or euros). This visa is also valid for 30 days, but can be extended one time for another 30 days without a local sponsor. eVOA can be extended easily online.
+*Image caption: Visa policy of Indonesia with countries in green having free visa and yellow having a visa on arrival. Countries in gray may only enter Indonesia by applying for a visa in advance.*
+They may only enter Indonesia
+through specific ports of entry; entering through any other port of entry requires a visa in advance.
+Everyone else needs a visa in advance.
+
+## Applying for a visa
+
+Nationals of countries not listed above are required to apply for visas. Single entry visas are available for 60 & 180 days in addition to multiple entry visas.
+Online visas are available for US$150 for the visa and a Rp200.000 processing fee. If you are applying through a sponsor, they must register, upload all the required documents. The decision of whether the application is approved or rejected will be given by e-mail to both the sponsor and applicant, allow at least one week for this process. If approved, you must print the e-visa to be shown to your carrier for entry to Indonesia.
+Single-entry visas are normally valid for 60 days and fairly routine if pricey at US$50-100 depending on the individual country and prevailing exchange rates. Multiple entry visas are officially also available but, as the issuance policy varies in different embassies and is occasionally changed, it is best to inquire at the consulate you hope to use well in advance of departure. Normally, Indonesian embassies and consulates stipulate 3-4 clear working days for processing; however, it may take at least one week. Websites are often not updated and so may offer incorrect information.
+The citizens of these countries need to obtain an approval from the immigration services head office, the
+Direktorat Jenderal Imigrasi (Directorate General of Immigration) in Jakarta: Afghanistan, Israel, Albania, North Korea, Angola, Nigeria, Pakistan, Cameroon, Somalia, Cuba, Ethiopia, Tanzania, Ghana, Tonga and Iraq. Citizens of these countries must have a sponsor in Indonesia, either personal or a company. The sponsor must go in person to the Immigration Head Office in South Jakarta ( Jakarta Selatan ) and must produce a photocopy of the applicant's passport, a supporting letter and the applicant's photograph. When it is approved, the Immigration Head Office will send a copy of the approval letter to the applicant.
+For people arriving in Indonesia, there are several types of visas of the pre-approved variety, which include business, social-cultural, student, work and tourist, for example. Of these, a business visa only allows work that doesn't receive payment (such as sales visits to customers), and the work visa is the only one that allows full employment and is for 1 or 5 years, combined with a work permit from the Ministry of Manpower. Most other types of visas do not allow any sort of work to be done, even volunteer work, although there are some exceptions, such as religious and diplomatic visas. If you are unsure, ask the local Department of Manpower and Transmigration (DisNaKerTrans), not : your employer, the agent handling your documentation, or Immigration, as many employers and agents are ignorant of the law or are willing to lie about it to get you to work, and Immigration has no authority over employment. As with most countries, students are not allowed to work.
+If there is a delay in processing your paperwork (e.g.: because the company doesn't yet have a licence to operate, or hasn't yet submitted the appropriate documents and requests to the government to employ foreigners), your employer can request from the Ministry of Manpower a temporary work permit as a stopgap, this is a letter that you should also have a photocopied copy.
+
+## Customs
+
+All arriving international passengers are required to undergo luggage screening including their hand luggage, regardless of whether you declare your items or not. Each household must fill out a customs declaration form that they must surrender to the customs before luggage screening.
+Food items, especially raw fruits, must be declared and undergo quarantine, as are vegetables and agricultural products. Packaged foods are usually let through. Customs officials will usually let you know if any items must have duty paid or if your food must be under quarantine.
+Besides your personal effects, which will go home with you, you are allowed to import individual gifts with an accumulating value of up to $500 or up to $1000 per family. To avoid or reduce paying the duty for importing more than the allowed amount, travellers would usually cut off the price tag of the most expensive stuff they wish to carry and use them as they arrive, in order to be assumed that it is theirs. You may also import limited quantities of tobacco and alcohol products duty-free:
+- Up to 200 cigarettes (one carton) or twenty-five cigars or up to 100 grams of loose tobacco products such as snuff (or a proportional combination thereof.)
+- Up to one litre of alcohol and perfume.
+If you intend on using your mobile phone with an Indonesian SIM card - other than expensive ones for tourists - or if you bring one as a gift, you need to declare it at customs, unless it has been used on an Indonesian network before 15 April 2020: fill in the preliminary registration form (https://www.beacukai. go.id/register-imei.html) at the customs website beforehand, print out the QR code that you will get, and present it at the customs checkpoint upon arrival in Indonesia. Customs will complete registration and assess any applicable duties. The duty-free allowance is two devices valued at US$500 total. Any declared value above that amount will be taxed at 40% (30% if you have an Indonesian tax ID). If your phone is expensive, check the price differences and whether you could use a cheaper one for the Indonesian SIMs. Declarations made after arrival will result in the entire value of the device being taxed. While it is not a violation of the law to not declare phones for personal use, most non-tourist Indonesian service plans are off-limits for undeclared phones.
+Any money transported in and out of Indonesia that exceeds Rp100,000,000 (100 million rupiahs) or its equivalent in other currencies must be declared.
+Indonesia has very strict drug laws : bringing them into the country, even for personal consumption, will result in prosecution and shaming on national television at best and death penalty at worst. If you are required to take methamphetamine, you must bring a doctor's prescription with you.
+
+## By plane
+
+Most visitors to Indonesia arrive at Ngurah Rai ( DPS IATA ) in Bali or Soekarno-Hatta ( CGK IATA ) in Jakarta. Many airports in secondary cities such as Bandung, Yogyakarta, Surabaya, and Medan also have international flights from Singapore and/or Malaysia, which can be interesting and convenient entry points into Indonesia.
+Travel to Indonesia from the Americas can take as little as 20 hours and requires at least a transit to East Asia, Europe, or the Middle East. Travel from most of Europe will take less than 20 hours. While there are direct flights to Jakarta from Amsterdam, London, and Istanbul, for other cities at least a transit is required. Australia, though, is just 4-7 hours away. There are several flights from various cities in the Middle East to Indonesia. There are also short flights from Indonesian cities to nearby Malaysian cities, such as from Pontianak to Kuching, Tarakan to Tawau, and Pekanbaru to Malacca.
+Garuda Indonesia (https://www.garuda-indonesia.com) , ☏ +62 21 2351-9999, the Indonesian flag carrier, flies to several cities in Southeast Asia, East Asia, Australia, Saudi Arabia, Amsterdam in Europe. The airline also has extensive code-sharing agreements (Sky Team) and this assists in providing quite good flight frequencies from airports in countries near Indonesia.
+The cost of flying to Indonesia from within Southeast Asia and the Pacific region has reduced with the inception of low-cost carriers. Air Asia Group (https://www.airasia.com) flies to major Indonesian destinations from Malaysia, Thailand, and Singapore. Lion Air (https://www.lionair.co.id) in addition to its full-service subsidiary Batik Air flies also has multiple daily flights to Singapore, Saudi Arabia, and Malaysia. Garuda Indonesia's low cost subsidiary, Citilink are also making inroads with direct flights to southeast Asia in addition to Perth in Australia.
+
+## By boat
+
+Ferries connect Indonesia with Singapore, Malaysia and the Philippines. Most connections are between ports in Sumatra (mostly in Riau and Riau Islands provinces) and those in Peninsular Malaysia and Singapore, although there is also a ferry service (Indomaya Express) between Malaysia's Sabah state and East Kalimantan on Borneo. Onward boat connections to Jakarta and other Indonesian islands are available from these ports. See the pages for each city for more details.
+Ferries have different classes of seats, with the most expensive (and cleanest) section on top with comfortable seats and windows for a nice frontal view, followed by second class behind that in a separate room that is more cramped and dirtier with less comfortable seating, and third class is usually on the lower decks and is the worst, although different ferries may have their own organisation.
+
+## From Singapore
+
+- Frequent ferries to/from the various ports of Batam (Sekupang, Batu Ampar, Nongsa, Marina Teluk Senimba and Batam Centre).
+- Frequent ferries from Tanah Merah Ferry Terminal to Tanjung Pinang, Nongsapura and Bandar Bintan Telani Lagoi (Bintan Resorts) on Bintan.
+- Several ferries daily to Tanjung Balai in Karimun Island from Harbourfront.
+*Image caption: Ferry terminal in Batam*
+
+## From Peninsular Malaysia
+
+- Daily ferries go from Port Klang near Kuala Lumpur to Dumai in Riau, Sumatra and Tanjung Balai Asahan in North Sumatra.
+- Daily ferries between Port Dickson , Negeri Sembilan and Dumai in Riau province, Sumatra.
+- Daily ferries link Malacca with Dumai and Pekanbaru in Riau province, Sumatra.
+- Frequent ferries go from Kukup in Johor to Tanjung Balai * on Karimun Island in the Riau Islands.
+- Frequent ferries link the Johor Bahru with Batam and Tanjung Pinang on the Island of Bintan .
+- Regular ferries link Puteri Harbour in Johor with Tanjung Balai * Karimun.
+- Regular ferries link Tanjung Belungkor in Johor with Batam.
+- Regular ferries link Hutan Melintang in Perak with Tanjung Balai Asahan in North Sumatra.
+- Regular ferries link Bengkalis with Malacca and Muar in Johor.
+
+## From Sabah, Malaysia
+
+- Daily ferries link Tawau with Tarakan in North Kalimantan province on Borneo.
+Visa-free/visa-on-arrival is available at Tawau but not Tarakan, where you will need a visa in advance.
+
+## By cruise ship
+
+Cruise ships call at 5 ports: Tanjung Priok (North Jakarta), Tanjung Perak (Surabaya), Belawan (near Medan), Makassar and Benoa (Bali). There is 24 schedule of regular cruise ship from Singapore, visits Java and Bali, whereas irregular schedule cruise ship visits Bali and Nusa Tenggara. You may take a cruise and stop at specific locations along the way with everyone else, in which case Immigration will be handled on your ship. It may be possible to end your cruise here, in which case you'll need to visit an Immigration office after disembarking.
+
+## By yacht
+
+To increase tourist visits, the government has simplified procedures for entry by yacht. If you enter by yacht, you need only 3 days' notice to get a permit for 30 days' visit, and this can be extended for another 30 days. Yachters may arrive at the ports in Jakarta, Batam, Bangka Belitung and Kupang.
+
+## By land
+
+From Timor-Leste: The main crossing is at Mota'ain between Batugade in Timor-Leste and Atambua, West Timor, on the main road between Kupang and Dili. Another border crossing exists on the south coast of the island between Salele and Motamasin. There is also a border crossing at Sacato/Wini from the Timorese exclave of Oecussi.
+From Malaysia: There are three official border crossings with Malaysia, all between West Kalimantan and Sarawak; Entikong-Tebedu on the Kuching-Pontianak road, Aruk-Biawak on the KuchingSingkawang road, and the more remote Lubok Antu-Nanga Badau crossing. There are also numerous unofficial crossings used by locals in the border region, but as a foreigner, you are highly advised not to use them to avoid any legal issues.
+From Papua New Guinea: The only recognised crossing into Indonesia is at Wutung , between Vanimo in Sandaun Province in Papua New Guinea, and Jayapura, the capital of Indonesian Papua. PNG border officials are known to regularly not show up for work, especially on market days when they will often be out drinking instead; when this happens, you will not be able to cross the border legally, so make sure you have made contingency plans before attempting this.
+
+## Get around
+
+
+## By plane
+
+Indonesia's vast area and lack of fixed links between islands mean that the only rapid means of longdistance travel within Indonesia is by air. State-owned carrier Garuda Indonesia (https://www.garuda-i ndonesia.com) is a full-service airline and thus usually comes out as the most expensive, but offers seamless connection between its extensive domestic networks and international flights, and has the best safety record of the lot. Lion Air (https://www.lionair.co.id) is a low cost carrier (LCC) that has plenty of flights to a specific destination, though major delays occur sporadically. Wings Air is a subsidiary of Lion Air is also a LCC. Other low-cost competitors include Citilink (https://www.citilink.co.id) , Garuda Indonesia's subsidiary, and Indonesia AirAsia (https://www.airasia.com) , a subsidiary of Malaysia's AirAsia.
+Sriwijaya Air (https://www.sriwijayaair.co.id) is one of the provides a middle-of-the-road service between full fare and low cost carrier, with more spacious leg room compared to low cost carriers, and also has modest on board meals. Routes for a few less popular destinations are usually served by Air Fast (https://www.airfastindonesia.com) , Susi Air (https://susiair.com/) , Trigana (https://www.trigana-ai r.com/) , and Wings Air (a Lion Air subsidiary), operates mostly propeller aircraft to smaller airports. If you really get off the beaten track, e.g. Papua, there are no scheduled services at all, and you'll need to charter a plane or seek rides with missionaries or mining company workers.
+Prices are low by international standards, however their ranges are capped by the government. Many airlines tend to decrease their price a week before flight if the plane is not full enough up to the bottom price limit - so you may try that and get a cheaper fare, if you're not on a tight schedule and do not need to go during a public holiday, a weekend or Monday morning. When travelling off the beaten track, it may assist to reconfirm early and often, as frequencies are low and paid-up, occasionally even checked-in passengers are bumped off with depressing regularity. Be sure to arrive at the airport by 90 minutes
+before your low-cost flight departs, in line with regulations noted on the ticket, and 45 minutes before your full-service airline flight departs. Due to the aviation boom, airports have not been able to keep up with the air traffic. While many airports have been renovated and refurbished by adding gates and expanding the terminal building, a lot of them still have only one runway that the aircraft must backtrack to take off, sometimes delaying subsequent departures & arrivals. Regarding baggage, typically only 7 kg (15 lb) of carry-on baggage is free, and the rest must be in checked baggage, which incurs an extra charge.
+A few airlines also enable passengers to pay their ticket fares in cash at minimarts by showing their ticket or confirmation number.
+
+## By boat
+
+Indonesia is all islands and consequently boats have long been the most popular means of inter-island travel. Ferries may take you on long trips lasting days or weeks, or short jumps between islands for several hours. However, not all destinations are served daily. Some destinations, such as Karimunjawa from Semarang and the Thousand Islands from North Jakarta, offer yacht services, which are faster, safer and more comfortable. The prices are, of course, higher.
+*Image caption: PELNI route map from 2006. More up-to-date versions can be found in PELNI's yearly reports (h ttps://www.pelni.co.id/annual-report).*
+
+## The largest company is the state-owned PELNI (http
+
+s://www.pelni.co.id/en) , whose giant ferries visit practically every major inhabited island in Indonesia on lengthy journeys that can take a week from end to end. PELNI uses European-built boats, which are large enough to deal with rough seas and have a good safety record. Ship capacity varies from 1000 to 3000 passengers. PELNI ferries were once notorious for their overcrowding but this is no longer an issue since the company began a policy of place-numbered tickets. All fares include 3 very basic meals per day.
+Most PELNI ships today have only a single class, ekonomi . Only two vessels, the KM. Kelud , operating between Jakarta and Medan, and KM. Sinabung , operating between Surabaya and Jayapura, retains the traditional fare configuration, consisting roughly of:
+- 1st class , around US$40/day: two beds per cabin, private bathroom, TV, aircon
+- 2nd class , around US$30/day: four beds per cabin, private bathroom, aircon
+- Ekonomi , around US$15/day: bed in a dormitory
+For those with time, travelling in PELNI ekonomi class is the cheapest, greenest and most authentic way to see Indonesia. Most Western tourists will also find the experience deeply uncomfortable. Dormitory accommodation is invariably dirty, sometimes unbearably hot, with blaring music, screaming babies, bright strip-lighting day and night, and toilets that are best left unvisited. Since the removal of 1st and 2nd class, PELNI has become the domain of poorer Indonesians alone. Foreign tourists are now vanishingly rare and will be the centre of attention for all other passengers. This is an authentic experience which only the hardiest, most open-minded and gregarious travellers should attempt.
+In addition to PELNI's slow boats, ASDP (https://www.asdp.id/) runs fast ferries ( Kapal Ferry Cepat , rather amusingly abbreviated KFC ) on a number of popular routes. They also run a fleet of inter-island car ferries, particularly in Nusa Tenggara, Maluku and Kupang (Timor). Both PELNI and ASDP tickets can be booked via travel agents and at their respective offices, usually situated near ports.
+A private ship company, DLU (https://dlu.co.id) also has class services like PELNI with bigger ships because it can carry vehicles such as cars and even trucks and has a range of routes to all the archipelago.
+Last but not least, there are also countless services running short island-to-island hops, including between Merak in Java to Sumatra's Bakauheni (hourly), Java and Bali (every 15 min) and Bali and Lombok (near-hourly). In general, schedules on these short-hop services are notional, creature comforts sparse and safety records poor. Try to check what, if any, safety devices are on board and consider postponing your trip if the weather looks bad. As maintenance is poor and overloading is common, sinkings are all too common on ferries run by smaller companies, with reports of such each year, so try to stick to the larger ones if possible.
+Food on ferries varies from bad to inedible, and journey times can stretch well beyond the schedule, so bring along enough to tide you over even if the engine stalls and you end up drifting for an extra day. If you have trouble with motion sickness, buy some medicine such as Dramamine or Antimo.
+Ferries have different classes of seats, with the most expensive (and cleanest) section on top with comfortable seats and windows for a nice frontal view, followed by second class behind that in a separate room that is more cramped and dirtier with less comfortable seating, and third class is usually on the lower decks and is the worst. Different ferries may have their own organisation. Of course, vehicles are housed below on the main deck.
+You may get hassled by people on board trying to extract extra money under some dubious excuse. Feel free to ignore them, although on the upside, it may be possible to bribe your way to a better class of accommodation.
+In some places, even smaller boats, such as outriggers, glass-bottom boats, sailboats, motorboats and fishing boats, may be the only form of transport available, and prices can vary from a small amount to tens of dollars. Be prepared by finding out the prices and routes ahead of time and always haggle. Some of these boats can be rented out for fishing, snorkeling, scuba diving and touring.
+
+## By yacht
+
+With more than 17,000 islands, Indonesia can be considered a paradise for a yacht journey, although be aware that there are pirates near the border of the Southern Philippines. Typically no typhoons occur in this region and the maximum wave height is only 2.5 metres for the inner seas of the country, suitable for even a small yacht. The worst season is from December to February.
+
+## By train
+
+PT Kereta Api Indonesia (https://kai.id/) , ☏ +62 21 121, the government-owned train company, runs trains across most of Java and some parts of Sumatra. The network was built by the Dutch, but the lines have only been revitalised then expanded since Independence. Maintenance quality is acceptable, and
+derailments and crashes occur rarely. As railroads are state-run companies, the customer service is polite but not always interested in pleasing the customer in the case of a problem.
+Java has by far the best railway network, with trains connecting the capital city, Jakarta, with other main cities such as Surabaya, Semarang, Yogyakarta and Solo. In particular, Indonesia's (and Southeast Asia's also Southern Hemisphere's) first high-speed railway ( Kereta Cepat ), a Chinese-built line from Jakarta to Bandung somewhat cringily named Whoosh , opened in 2023 and, running at up to 350 km/h, connects the two cities in as little as 30 minutes. There are plans to eventually expand the line across Java, but for now there are only ordinary trains onward from Bandung to Yogyakarta and Surabaya. Bali has no railway lines, but there are trains to Banyuwangi, connecting with ferries to the island. Generally, the trains travel through scenic areas, and travellers not in a hurry should consider the length of the journey and the scenery as a bonus to their travels, although some slums are built around tracks. Commuter trains have no reserved seating and unlimited standees, so they can be crowded; beware of pickpockets. Other intercity trains have reserved seats and require passengers to check in before boarding; passengers are at low risk from theft on such trains.
+Sumatra has train lines in Aceh and Medan in North Sumatra, West Sumatra, Lampung and South Sumatra. These are unfortunately not connected - travelling cross-island by train is not possible - and run less frequently than in Java.
+
+## Class of service
+
+While all trains are air-conditioned, not all of them are properly designed to accommodate persons with certain disabilities and senior citizens. On every train excluding commuter trains, you can also purchase food either on board or at the time of booking.
+- Eksekutif Luxury class has eighteen flat-reclining seats with features and services not unlike a business class in airplanes.
+- Eksekutif class has assigned seating only and you should be prepared with full-length clothes as the temperature is usually rather low (perhaps 18°C).
+- Inside an executive train car These trains feature paired reclining seats with foot rests (and, for a group of four, you can have the paired seats turned to face each other),
+- televised entertainment (when the TV isn't broken and the signal is good) and you can ask for blankets and pillows during the trip.
+- Bisnis class has a bit similar seats with "Ekonomi" but with forward-facing seats and more comfortable seats than typical economy class.
+- Ekonomi Premium class has a much nicer car than the Ekonomi class and a slight reclining seat. Seat configuration is 2-2.
+- Ekonomi classes are also available for the most budget-conscious traveller. Cheaper prices usually get older coaches (with 3-2 config) with air-con, while more costly prices usually got newer coaches (with 2-2 configurations). Both older and newer coaches are using face-toface seats in the middle section of the car.
+Commuter trains have sideways seating with poles and hand straps for standing passengers and, during peak hours, can be very crowded, although they are usually air-conditioned and usually have cars at either end for women only.
+Train stations are guarded by train police, who wear drab uniforms, but there may also be regular police or, rarely, military personnel.
+Tickets can be purchased 30 days in advance, although a limited number of Ekonomi and Ekonomi Premium classes will usually still be available at the last minute. An exception is the very busy Eid-AlFitr season when the tickets are sold out in minutes, due to extremely high demand. Online ticket reservation is available on the official website.
+Sometimes, discounts are offered for particular lines, but you have to order well in advance to get them. Senior citizens ages 60 and above are eligible for a 20% discount. Be sure to check that your ticket is correct before you leave the ticketing window. You can also buy tickets at minimarts and post offices and won't be charged for the administration fee, but they don't sell reduced fare tickets. Payment with a debit/credit card is possible with a minimum payment of Rp50,000.
+The ticket reservation from the official PT Kereta Api website and mobile app is only available in Indonesian. A common problem shared with many booking services was the rejection of foreign-issued credit cards used for payment. An alternative way to reserve your train ticket is through the booking portal tiket.com (http://en.tiket.com/kereta-api), with an English language interface and fewer glitches with payment. Passengers can also buy a ticket or check-in at kiosks (12 hours to 10 minutes before departure) in front of the station.
+Larger train stations usually have multiple platforms and regular service to many cities, but the smallest stations only have infrequent stops and one platform. Be sure to ask in advance which platform you'll need to go to. While you are waiting, most stations have stores and restaurants where you can buy food and drink to be consumed on board before boarding. After the boarding gate, there are only limited food stalls. The boarding gate closes 3 minutes before the train's departure. Previously, vendors ( asongan ) would jump on the train and hawk their wares until the train started to leave. This was intrusive and noisy, although certainly convenient for passengers and vendors alike. As of 2016, vendors are not allowed on the train, but in small stations, many still block the entrances to the cars while they call out to passengers inside. But with more express trains, the vendors are relatively diminishing.
+Toilets vary between squatting toilets or sit-down toilets without proper seats and the indicator lamp can be seen from your seat. Most executive trains have bidets to wash your posterior and a sink, and using a squatting toilet can require a balancing act. Bring your own (wet) tissue, because if available, the tissue maybe is not in the normal condition. The toilets generally release directly onto the tracks, so using them while at a station is forbidden.
+Passengers travelling in groups (preferably about 20 people) can charter a special train car with traditional decoration, better toilets and lounging seats, with a tailored itinerary for selected destinations.
+
+## By bus
+
+The use of luxury long-distance buses is a new trend, very comfortable with air suspension and can stop wherever you want. Most services depart in the afternoon or evening and arrive the following morning at their destination. The term "luxury" means that there are limited reclining seats with ample leg and a footrest and/or leg rest and get one dinner or supper. Some buses have a personal 10" display and some even have beds. When travelling by bus from Banda Aceh in Sumatra to Bali, the bus company can arrange the ferry, and include the fare in the bus ticket.
+Inter-city buses are often run by cooperatives of drivers or by private companies (of which there are many of both) and follow specific routes - but they may deviate from their route if you ask, usually for a little bit extra. They can be either luxurious or deteriorating; in some places, such as Bali and Kupang, bus drivers take a great deal of pride in their vehicles by decorating them and taking good care of them. A bus ticket will usually cost about Rp75.000 for an economy van (6 people) or Rp150.000 for an executive class coach (up to double-decker size). They can pick you up at a spot near their depot or terminal for free if you can't get to their designated departure point. In case of mealtime, the bus will get off at a rest stop where everyone is expected to dine at the same restaurant; some bus companies may have included the meal cost in your fare.
+It is possible to charter buses. The air-conditioned chartered buses can be rented with their drivers for a tourist group and, in fact, any size city bus will take on a charter assignment if the money is right. Indonesian bus companies offer intercity ( antar kota ) and inter-province ( antar propinsi ) routes. The inter-province routes usually include transportation to other
+*Image caption: Depok bus station with angkots queuing to get out*
+islands mainly between Java and Sumatra and Java and Bali. In several cities, the government offers its own line, DAMRI (http://damri.co.id), which comes in medium and large sizes and is always airconditioned, and tends to be in better condition.
+On occasion, there are reports of drivers and conductors colluding with criminals, but this usually happens at night or in desolate places. There are also reports of hypnotists robbing people of their possessions, and street vendors selling drugged beverages and drinks to waiting for passengers at stops and terminals, who then become victims of crimes. Long, overnight journeys are particularly dangerous. Guard your bags like a hawk. In the wilder parts of the country (notably South Sumatra), inter-province buses are occasionally ambushed by bandits.
+There is a way to reserve a bus ticket through the booking portal like Traveloka , with an English language interface option. Passengers can buy a bus ticket from multiple bus operators to many cities in Java, Sumatra, Kalimantan, and Lombok. Otherwise, walking up to an inter-city bus terminal or a bus depot for a last-minute reservation is still feasible.
+There can be many intra-city bus systems, depending on the city. Angkot is the staple for all major cities where passengers sits sideways on a minivan. Buses and BRTs can be found in larger cities. However, if you see a bus that's of poor quality (deteriorating paint & dusty windows), it is advised not to ride them as their safety standard is compromised.
+
+## By scheduled travel or shuttle
+
+A mini-shuttle is the latest model of Indonesian transportation, growing in line with the new toll roads and better highways. The travel , as locals call it, uses various AC minibus with passengers from 6 to 12 persons on reclining seats and run based on 'point to point' routes. It means every operator has their own
+(multiple) departure points in the cities they serve. The most developed route is between Jakarta and Bandung with ticket prices varying from Rp80,000 to Rp110,000 depending on convenience, seat pitch, and luxury.
+The scheduled travel is generally more expensive than the regular inter-city buses, but is faster and has multiple departure/arrival points. Your belongings are more secure but expect to pay additional fees for surfboards and bulky packages. You can book at the respective companies, but last-minute passengers are sometimes welcomed.
+
+## By ridesharing service
+
+Ride-hailing for both cars and motorbikes, powered by smartphone apps, has quickly become popular in more than 200 Indonesian cities. Locally owned Go-jek (https://www.gojek.com/en-id) and Malaysianowned Grab (https://www.grab.com/id/en/) divide up the market between them. GoJek tends to have lower prices than Grab, but it helps to compare. Both apps allow payment by cash or international credit cards, as well as local payment methods. There are some other regional operators, especially in the motorcycle-sharing sector, including Shejek (http://shejek.id) who only accept female customers.
+While most motorbike drivers wear a uniform jacket of the respective companies, some don't so as not to provoke conventional taxis. License plates are in most cases the same as shown in the app; if not, usually the driver will tell you beforehand or call out your name at the arranged pick-up spot. If in doubt, tell you name so they can verify you're the rider, ask for their name, or tell them from their face. Only one passenger at a time for a motorbike; if travelling as a group, compare the prices between ordering a multitude of them or just order a single car - the latter can usually fit up to 4 people, with larger cars can fit up to 6 people but are usually more expensive.
+As most drivers speak limited English, it is worth spending some time to learn enough Indonesian, or other relevant regional languages, to talk to the driver who may call or chat you to ask your precise location and how to identify you.
+There have been tensions between conventional taxis (both car and motorbike) and ride-hailing services, and drivers may be unwilling to pick up in certain places, especially near taxi ranks. If you insist on ordering one, try walking a bit further away from where it's prohibited. Most drivers may already know this and will simply ask you to do so.
+In addition to passenger services, both Gojek and Grab can be used to deliver food from partner restaurants to your place or to ship items to another place. The former can also be used to order Bluebird taxis. Payment can be made by cash, although using their dedicated E-Wallet earns you discounts.
+Ride-hailing rides are almost always free of misunderstandings or scams. However, while it is possible to rent a grab car by the hour, this provides more scam surface for a dishonest driver to exploit. Don't take one to a remote location, or you may be shaken down by a driver who turns off the app or who, once you have reached a location where it would be hard for you to say no, simply demands more cash off-app. In spots where tourists wait for Grab cars, scammers may approach you and tell you they are your Grab driver. Real Grab drivers do not ordinarily get out of the car and wander around looking for customers. Keep your phone screen hidden, ask the driver's name, and check the license plate.
+By car
+Main article: Driving in Indonesia
+
+## Self drive
+
+Driving in Indonesia is rarely rewarding. You may wish to avoid it unless you have prior experience.
+Indonesian driving habits are generally atrocious and the rule is "me first," often signalled by using the horn or lights, or sometimes not at all. Lanes and traffic laws are happily ignored, passing habits are suicidal and driving on the road shoulder is common. Emergency vehicles are often ignored simply because all their space has already been used, making a ride in an ambulance a chancy proposition. Drivers tend to pay the most attention to what they can see in front of them and peripherally, and far less to what is behind their peripherals and to the rear. Mirrors may or may not be consulted before lane changes. Distances between vehicles
+*Image caption: Road in Bali*
+tend to be small and drivers are noted for their ability to squeak by with almost no space, but side view mirrors are frequent victims of such acts. Bumper to bumper driving at high speed is frequent; practice defensive driving and always be ready to brake suddenly if necessary. The number one cause of death and injury on the road, however, is motorcycle accidents. Traffic drives on the left in Indonesia, at least most of the time. Please beware of motorcycles passing on the left, especially when you turn left.
+Renting a car in Indonesia is cheap compared to many other countries, costing from US$12.5/day, and fuel costs remain relatively low, due to a low (fuel) tax. In many cases, a driver is also offered to take you through the sometimes atrocious driving habits. A litre of subsidised fuel is pegged at Rp6.450 for octane 88 quality (Premium brand); other fuel types, which are highly recommended for newer cars, fluctuate with the market price, but barely above Rp10.000 at its highest. Renting a motorcycle is also increasingly common, especially in Bali, and costs between Rp50.000 and Rp70.000 per day, but almost always only to be driven by the renter themselves.
+Gas stations from state-owned company Pertamina is easy to find along major roads everywhere in the country. They have reasonably clean toilets, but usually only in squat pots. In the rest areas, they are always big and reliable, with minimarts and even restaurants within the facility. The station has employees who will fill-up for you and receive your payment.
+To drive a car in Indonesia yourself, a current home-nation-issued driver's license of the appropriate class must be carried, plus an International Driver's Permit (IDP) of that same class. There are no exceptions to this unless you are holding an Indonesian SIM (driver's license) of the appropriate class. Careful consideration must be given, however, as many travel insurance policies may only acknowledge responsibility if the driver has an applicable home-issued license, with the fully matching IDP.
+Road conditions and maintenance are rudimentary outside major cities and certain tourist destinations. During the rainy season, major roads in Sumatra, Kalimantan and Sulawesi are often flooded or blocked by a landslide for several days. Toll roads, which are of better quality, spans along Java with coverage outside the island limited to the biggest towns. All toll roads in Indonesia require users to pay at the toll gates using a prepaid card, which can be bought and topped up at certain convenience stores such as Indomaret or Alfamart.
+Seat belts must be worn especially in the front seat, especially in big cities in Indonesia, although this law is often unenforced.
+Having a trash bin in the car is advisable to reduce littering, especially in Bandung, where such a rule is implemented.
+
+## Rental with driver
+
+Consider renting a car with a driver; the additional cost is quite low, approximately Rp150,000 or less, plus three square meals a day for Rp20,000 to Rp25,000 each, and an optional room and board. Having a driver also reduces your chance of having an accident for they know how to pass the frantic traffic and know a faster way to reach your destination.
+This option can be time- and cost-effective, and allow you to travel and see places beyond the public transport network.
+
+## By motorcycle
+
+In many parts of Indonesia, such as Bali and Yogyakarta, it is possible for tourists to rent a motorcycle to get around. Prices are usually around Rp60,000-80,000; negotiate a price and seek a discount for longer rental periods. An automatic is normally provided. Engine capacity will be in the range of 110cc to 125cc. Be sure to check over the vehicle first and confirm that it has a current Surat Tanda Nomor Kendaraan (STNK, which is proof of registration and legality).
+People who rent the motorcycles may be unconcerned with whether or not you have a driver's license, however, to ride a motorcycle in Indonesia, a current home nation issued driver's license of the appropriate class must be carried, plus an International Driver's Permit (IDP) of that same class. There are no exceptions to this unless you are holding an Indonesian Surat Izin Mengemudi (SIM C), which is the local license for a sepeda motor (motorbike). Careful consideration must be given to being provided with a SIM C if not also possessing an appropriate home-issued license and IDP. Many travel insurance policies may only acknowledge responsibility if you possess an applicable home issued license, with the fully matching IDP. A 'moped' classification or endorsement is not sufficient, it must be a full license.
+By law, helmets are required to be worn, so make sure they provide them for you. Having an accident while not wearing one will also likely void your travel insurance policy, or provide some serious policy complications if making a claim. It is also required have your headlamp and tail lamp illuminated at all times.
+Be sure to drive defensively as most road users are quite reckless and an astounding number of the visitors to Indonesian hospital emergency rooms and morgues were only recently sitting on a motorbike.
+For budget traveller, this is recommended way to go as cheap local options may be not available or hard to get in many regions (Bali, Lombok) and only leave more expensive tourist bus and tours. Without it, you are less likely to be able to explore as freely as you would want.
+Several motorcycle rental companies offer point-to-point services, where you can pick up a bike from one location, and drop it off at another. For example, picking a bike up from Yogyakarta (Java) and dropping it off as far away as Maumere (Flores). This means you can take the bike on a one-way, inter-island
+journey, which includes riding through islands such as Java-Bali-Lombok-Sumbawa-Flores, taking the ASDP car ferry between islands, and dropping the bike in cities where the rental company has an office. The trans-Flores route is particularly popular. Obviously, this type of rental is more expensive.
+
+## By taxi
+
+For a group of two to four people, a conventional taxi may be the best choice for relatively short journeys. Taxi fares in Indonesia are relatively cheap and relatively uniform across the country. The flagfall is among Rp7,000 and Rp 8,500 and subsequent kilometre is among Rp 4,000 to Rp4,500, but rises higher if you are trapped in a traffic jam (when the taxi stop due to traffic jam, it will cost about Rp45,000/hour). Despite the price scheme, mostly you are still required to pay a minimum fare if you are going for short distances or booking by phone, usually indicated by the respective companies, but usually Rp25,000 and stated on the dashboard. Most people recommend the company Blue Bird taxis for their convenient booking, polite drivers and safe driving. Blue Bird Taxis are available in many of the main cities and when Blue Bird
+*Image caption: An abundance of taxis: 5 Express taxis (white) and 6 Blue Bird taxis (blue) waiting for a fare*
+exist, all (other) taxies run its meter well. In the other cities Blue Bird does not serve, some taxi drivers are naughty: they use the meter, but will still charge you more (sometimes more than twice the normal rate), claiming their stated price is common. Ask first before you get into the taxi, 'sesuai argo tidak' (pay same with the (argo)meter or not).
+In every major city in Indonesia, taxis are abundant even in rush hours. Nowadays with abundant taxis and traffic jams, the taxi drivers prefer to wait order by phone calling through call centre or receive order directly from a customer through EasyTaxi or GrabTaxi apps using their smartphones and are known as online taxis. The nearest driver will pick you up. Only qualified taxi companies and drivers are allowed in the system and all is monitored by GPS from their HQ.
+Most conventional taxis are sedans or multipurpose vehicles with 1.5L engines. Most online taxis use city cars or multipurpose vehicles with smaller engines. As a result, regular taxis are more comfortable, have more leg room and are more spacious. However, online taxis charge only 2/3 of the tariff of a regular taxi tariff; their drivers are usually more educated than regular taxi drivers, and many online taxi drives own the cars they drive. And they're much less likely to behave inappropriately than regular taxi drivers.
+
+## By angkot
+
+Angkot (acronym for angkutan perkotaan or 'city transport') is a type of public minivan that is available in all cities and large towns, and often in rural areas (then sometimes called angdes , 'village transport'). They follow a fixed route (usually marked by a colour or number), but there is no fixed schedule and there are no fixed stops. To get on, simply raise your hand. To get off, simply shout "Kiri!" to the driver, so he will pull over on the left (Indonesian: kiri ) side of the road. The price within a city is usually Rp2,000 to 5,000. It is best to ask a local which angkot route to take, and how to recognise the location you want to get off.
+
+## By bajaj
+
+Less common than the becak , and found only practically in Jakarta city is the Indian-style bajaj (BAH-jai) three-wheeler auto rickshaw, now upgraded to run on CNG and thus quieter than the old petrol rattletraps. The driver sits in front and the passengers (up to 3 small adults) in the back. The cabin is covered by a canvas roof and there is a windshield and, while doors don't have windows and are half-height, the sides and back of the roof may have soft plastic windows. You may ask the driver to take you somewhere else for an extra fee, and they may be willing to take you on a viewing and/or shopping tour for even more money. If you take a shopping tour, they
+*Image caption: A bajaj in Jakarta*
+will generally guide you to specific venues with which they have informal agreements that give them extra income from your purchases, or perhaps a free meal.
+As with most small forms of transport, communication and haggling skills are important, and it is best to know the price before talking to a driver.
+
+## By motorcycle taxi
+
+Ojek (OH-jeck) are motorcycle taxis. They're dangerous, often uncomfortable, can only take one passenger and not much luggage, but they're cheap and can weave through traffic, making them very popular. Traditional ojek that wait at a fixed point ( ojek pangkalan ) outside a market or station have a negotiated fare system. Communication and haggling skills are important, and it is best to know the going rate for a trip before you talk to a driver. The price is Rp10,000 to Rp15,000 for four kilometres, but negotiating is important. Some drivers will agree to a price but then try to extort additional money at the end of the journey by claiming it is common to pay more than the agreed price, and acting angrily. The threat of violence is low, the aim is more to humiliate, but do be wary.
+In some areas, ojek may be the only public transportation available. Getting off the main road into rural villages, for example, if the road condition is too poor for cars or buses. You do not have to go too far out of the big cities to
+*Image caption: Ojeks in Salatiga*
+experience this. Prices may be a little high due to the monopoly, but rural drivers may be more honest than in big cities.
+Ride-sharing apps have revolutionised the ojek industry, starting with Go-jek and now adopted by other providers such as Grab. Easily spotted by their green vests, prices are competitive, fares are transparent and there is an opportunity to complain if service is poor. The minimum charge is between Rp 7,000 and Rp 12,500 and additional charges are no more than Rp3,000 per kilometre. One effort to fight back has been ojek argo which uses taxi meters.
+
+## By becak
+
+The becak ("BEH-chahk") is a colourfully decorated tricycle (pedicab) transportation mode for short distances such as residential areas in many cities. The passengers' seat can be covered by a convertible-style canvas or plastic roof, and they sometimes add a sheet of clear plastic in front during rainstorms. In some areas, the driver is sitting behind the passenger, but in some areas (like Medan) the driver sits to the side . Some drivers have started to outfit their becak with small motors.
+*Image caption: Becak in Bandung*
+Good communication and haggling skills are important to assure you get to your destination and to prevent getting
+overcharged on these rides. Some sly drivers try to get some more money out of you after you've reached your destination, ensure you know how much it costs beforehand. You can hire a group of becak if you're in a group, or you can even hire them to transport belongings, blocks of ice, groceries, building materials etc. You may ask the driver to take you somewhere else for an extra fee, and they may be willing to take you on a viewing and/or shopping tour for even more money. If you take a shopping tour, they will generally guide you to specific venues with which they have informal agreements that give them extra income from your purchases, or perhaps a free meal.
+There are no becak in Jakarta or Bali. Instead, the motorised bajaj (BAH-jai), somewhat similar to the Thai tuk-tuk, serves the same function. In other provinces (e.g. North Sumatra, Aceh, Gorontalo) you can also find motorbikes with sidecars, known as bentor or bemo (short for becak bermotor ). The latter can be called on-demand the same way as the ride-sharing apps (see above).
+Becak is the most expensive form of public transport, and nowadays, it's rarely used except by elderly women who are carrying goods from traditional markets; the younger would take ojek if they are carrying fish or other smelly products, or otherwise use angkot. In some cities such as Yogyakarta, the use of the becak has diminished so much, they are used almost exclusively by tourists.
+
+## On foot
+
+Indonesia's larger cities are remarkably pedestrian-hostile, so travel on foot is best avoided except for short distances. Proper sidewalks are rare and often packed with obstacles, while walking on the road means constantly dodging crazy traffic. Follow the crowd at marked crosswalks or use overhead bridges when possible.
+
+## By horsecart
+
+Horsecarts are called delman (DEL-mahn), dokar (DOE-car) or andong (AHN-dong) depending on where in Indonesia you are, and the shape of the vehicle. Not available everywhere, but are more common than one might think. In some places, such as Gili Air (Lombok) where motorised vehicles are both impractical and forbidden, they are the only form of transport, but you can also find them in large cities like Jogjakarta. They generally follow a specific route but you may ask the driver to take you somewhere else for an extra fee, and they may be willing to take you on a sightseeing or shopping trip for even more money.
+If you take a shopping trip, they will generally guide you to specific venues with which they have informal agreements that give them extra income from your purchases, or perhaps a free meal.
+As with most small forms of transport, communication and haggling skills are important, and it is best to know the price before talking to a driver.
+The horses are not always very well cared-for and may be in poor physical condition.
+
+## See
+
+
+## Natural attractions
+
+See also: Indonesian national parks and Volcanoes § Indonesia
+Indonesia is home to 167 active volcanoes , far more than any other country. Don't let this fact scare you, though, as most are dormant and what you see is most often their topography rather than spewing smoke. Some of the more accessible mountains for visitors are in the Bromo-Tengger-Semeru National Park and the Ijen Crater in East Java, Mount Rinjani in Lombok and perhaps easiest of all, Mount Batur, and Mount Agung, its neighbour in Bali.
+Hardly surprisingly in the world's largest archipelago, beaches are significant attractions. Aside from the obvious like Bali and Lombok, there are wonderful beaches in off-the-
+*Image caption: The Tengger Massif consists of Mount Bromo on the left, and Mount Semeru at the far centre spewing smoke.*
+beaten-track locations, especially in Maluku, Nusa Tenggara and Sulawesi. In a nation of 18,000+ islands, the options are almost endless.
+Indonesia is within two wildlife regions; the west is part of the Indomalayan region, and the east is within the Australasian region. The country has some of the largest remaining tracts of tropical forest anywhere in the world, and these support an incredibly diverse wildlife from orangutans and other primates to critically endangered Javan rhinoceros and Sumatran tigers, and an extraordinarily wide range of bird species. Forest areas recognised as UNESCO World Heritage Sites are Ujung Kulon National Park in West Java, and three huge parks in Sumatra, which together constitute the Tropical Rain Forest Heritage of Sumatra : Bukit Barisan Selatan National Park, Gunung Leuser National Park and Kerinci Seblat National Park. Sadly, the forests of Kalimantan are disappearing at an alarming clip due to illegal logging.
+*Image caption: An endemic Sumatran orangutan in the Gunung Leuser National Park*
+Unfortunately, in more populated areas, even nearby forests, such as much of Java, bird species are disappearing at an alarming rate due to the bird trade. Birds are a major source of income for poor trappers, and the birds are sold to people in cities, most of which spend the rest of their days in individual cages. Most commonly seen are finches, sparrows, swallows and certain other birds that are of lesser interest to pet bird owners. The various species of burung Cendrawasih (bird of paradise) of Papua are mostly endangered. Snakes are also in serious decline in many places due to a knee-jerk reaction to any snake: "Kill it!" Yet, you can see scorpions, whip scorpions, spiders, mole crickets (which make a terribly loud, droning sound at night), many butterflies and moths, the elusive and rare squirrel, certain types of monkeys, geckos, including the Tokek (TOE-kay: Tokay gecko) and a variety of cicak (geckos), as well as the undesirable mice, rats, shrews, cockroaches, termites, and, in numbers that may boggle your mind, ants of various sizes and shapes and personalities. Indonesia is paradise for those who want to study arachnids and insects. Bali sports a nice butterfly park, as well as Turtle Island. 6 of 7 kinds of turtles can be found in Indonesia sea water and even 4 kinds of turtles can be found only in Kampung Penyu (Turtle Village) in Selayar Island, South Sulawesi.
+Further east, Komodo Island is the home of the remarkable Komodo dragon and a very diverse marine life. Close to the very eastern limit of Indonesia, the remote Lorentz National Park in Papua has a permanent glacier, and is the single largest national park anywhere in Southeast Asia.
+Indonesia is home to several beautiful scuba diving and snorkelling spots in many different places, such as Bali, Lombok, Nusa Tenggara, the Thousand Islands north of Jakarta, Bunaken, Selayar Islands, and Raja Ampat. Indonesia is also famous for surfing, notably Bali, the south coast of Java including Cimaja and Pangandaran, and the Mentawai Islands.
+
+## Historical, religious and cultural attractions
+
+Indonesia is particularly rich with places to visit, some of which are quite old and many still have significant importance for locals. You could spend your life exploring Indonesia and still not see them all!
+Borobudur in Central Java is the world's largest Buddhist monument, dating from the 8th century, and nearby Prambanan within Yogyakarta is a remarkable Hindu monument dating from just a few years later. You'll notice how the architecture is very different compared to the shrines at where the religions come from, mainly because of the assimilation with the Javanese culture. Those two, together with the charm of Yogyakarta and Solo, former kingdoms, make for a popular cultural combination in Central Java. It is said that if you can touch a Buddha's hand within one of the " stupa " near the top of the temple, it will give you luck, although such action is frowned upon by the park authorities. Prambanan, sadly, was damaged by an earthquake some years ago and repairs have been
+*Image caption: A Buddha statue at the Borobudur temple with the hand position of dharmachakra mudra*
+stalled by lack of funds. Many sites in Indonesia suffer from this problem and are damaged by graffiti and littering, generally by locals.
+Demak on the north coast of Central Java, is the home of one of the oldest mosques in Indonesia, Masjid Agung (lit. "Great Mosque"), as well as Sunan Kalijaga Cemetery . Nearby Semarang is home to several Buddhist, Hindu and Confucian temples, as well as mosques and churches, and nearby Bandungan offers
+the historic Gedung Songo (lit. "9 Buildings") temple complex, which has 9 Hindu shrines in it, as well as various activities for families and hikers to enjoy. In addition, it offers Old Semarang, the original part of town with many Dutch-era buildings; Lawang Sewu (lit. "1,000 doors"), is located at the Tugu Muda roundabout intersection (which is also home to a museum and a government office), is a large complex of Dutch buildings featuring stain glass windows and numerous doors which was used by the military, the Japanese during their World War II occupation of Indonesia, and prior to that the Dutch as the office of the railway system, prison, hospital and
+*Image caption: Part of Pura Ulun Danau Bratan temple complex in Bali*
+barracks. Supposedly, Lawang Sewu is haunted with over 30 different supernatural beings but you must be very talented to see even one after surveying the entire grounds from the foundation to attics and water towers!
+Still in Central Java, the Dieng Plateau is home to the oldest extant temples in Indonesia, predating Borobudur by some 100 years and, just north of Solo, the Pithecanthropus Erectus aka "Java Man" archaeological excavation at Sangiran, Trinil - Ngawi Regency is a UNESCO World Heritage Site.
+In such a vast archipelago it is hardly surprising that there are some very distinct and unique cultures, often contained in relatively small areas. Sumatra has noticeably distinct differences between the patriarchal Batak and the matrirchal Minangkabau or the Sundanese and Javanese wayangs in Java, despite both being separated less than 200 kilometres away! Bali has a unique Hindu culture, adorned by beautifully kept temples ( pura ), and a seemingly endless procession of colourful ceremonies. Some of the better known are the mother temple at Besakih, Pura Ulun Danau Bratan, and Pura Uluwatu. A unique temple, Tanah Lot, is situated on an island right off the coast and is reached by an elevated land bridge. In the north of Bali, you can find small villages of the original Balinese, the Bali Aga (A-geh), as well as Trunyan island where the dead are buried above ground yet the smell of corpses is absent.
+*Image caption: The Sundanese Wayang Golek is noticeably different than the Javanese shadow puppets.*
+Further east, Sumba is home to one of the few remaining megalithic cultures anywhere on earth. Many of the tribes there still live in small kingdoms, although this practice is starting to disappear. In Sulawesi, the Tana Toraja region is famous for spectacular animist burial rites. Visiting the vast hinterland of Papua in the far east of the country requires considerable planning, an awful lot of money, and a tolerance for extremely challenging conditions. However, for those who want a true wilderness experience and the opportunity to witness first-hand cultures that have had very little contact with the outside world, it is hard to think of a better option anywhere on earth.
+Indonesia is largely Muslim, but across the archipelagic country, it includes a collection of sites from many sultanates dating to pre-Dutch colonial rule.
+
+## Itineraries
+
+- Pontianak to Kuching
+- Great Post Road - route across Java Island form west to east, built in the early 19th century.
+- Gunung Semeru - a demanding trek up an active volcano
+
+## Ten new Balis
+
+The ten new Balis program was launched by the Indonesian government in 2016. With the goal to further increase tourist arrivals while attempting to stem the overdevelopment and environmental degradation on the island of Bali, these ten locations are receiving special infrastructure projects to boost their tourist potential. They are:
+- Belitung
+- Borobudur
+- Labuan Bajo
+- Lake Toba
+- Mandalika
+- Morotai
+- Mount Bromo
+- Tanjung Lesung
+- Thousand Islands
+- Wakatobi
+
+## Do
+
+
+## Diving
+
+
+## See: Diving in Indonesia
+
+Indonesia has some of the best scuba diving spots in the world . Indonesia is at the centre of the so-called Coral Triangle which is home to 5,000 species of fish and hosts 20% of the world's reefs. The beautiful reef formations are a major draw for tourists to places like Bunaken in Northern Sulawesi, Wakatobi in South East Sulawesi, the Alor Archipelago (Nusa Tenggara) and Raja Ampat in Papua. While diving off Bali can be a little mediocre, Nusa Penida and the Gili Islands just to the east of the island offer excellent recreational diving, as well as being important teaching centres. Pulau Weh in the Indian Ocean has the best diving in Sumatra.
+*Image caption: Bunaken National Marine Park, Manado*
+
+## Spa treatments
+
+Indonesia is one of the best places to pamper or rejuvenate yourself. Visiting a spa is a very popular activity for all types of visitors. The soothing natural ingredients and graceful massages are a perfect combination for detoxification. These vary from simply constructed huts to lavish so-called "wellness
+centres" in the grandest of five star hotels. There is usually an option to suit just about every budget. Bali's beaches and pristine nature is the centre of this activity.
+If massage is your thing, there are few places anywhere which offer such high quality for such low prices. Again this could be at a five star hotel or it could be under coconut tree on a quiet beach.
+
+## Surfing
+
+See: Surfing in Indonesia
+Indonesia is a premier destination for travelling surfers.
+The Mentawai Islands off the west coast of Sumatra feature dozens of world class surf spots. Chartering a private boat for up to two weeks is the most popular way to access the island chain, however there is a public ferry from Padang. Just to the north Nias is equally popular amongst hard-core surfers.
+Further east, Bali and tiny Nusa Lembongan have some great waves, the south of Lombok likewise, and for the more adventurous, Sumbawa offers world class surfing.
+All Indonesia's surf beaches are described in the beautifully photographed "Indo Surf and Lingo" surfing guidebook (http://www.indosurf.com.au) together with comprehensive listings of the best surf camps and surf charter yachts.
+
+## Hiking and climbing
+
+Indonesia has more than 100 volcanoes in all areas, except Borneo and Papua. Many of them can be climbed, conditions allowing, but go with a guide, take appropriate clothing for temperatures that may range between 0 and 30°C, and exercise due caution. Puncak Jaya (Carstensz Pyramid) in Lorentz National Park has become a part of the World Seven Summits.
+
+## Karaoke
+
+If the spa treatment doesn't help you unwind enough, you are never more than a stone's throw away from karaoke in Indonesia. An hour or two unleashing your inner Tom Jones or Mariah Carey will help you cope with anything life can throw at you. Karaoke joints vary according to seediness and selection of songs. There are a number of national chains - Inul Vizta, Happy Puppy, Masterpiece - that are found in malls and city centres. Patronising those will help you avoid those that are borderline brothels. You'll get a private room with a bell to call someone to take your orders for fried snacks, and a sound system with enough reverb to make anyone sound great.
+
+## Buy
+
+
+## Money
+
+Indonesia's currency is the rupiah , abbreviated Rp (ISO code: IDR ).
+Exchange rates for Indonesian Rupiah
+- Bills : Rp1,000 (yellow), Rp2,000 (gray), Rp5,000 (brown), Rp10,000 (purple), Rp20,000 (green), Rp50,000 (blue), and Rp100,000 (red). Three banknote series are in circulation in Indonesia, the 2004 series, the 2016 and 2023 series featuring Indonesian national heroes.
+While the new, colorful large-denomination notes are easy to tell apart, the smaller notes are all confusingly similar pale pastel shades of yellow, green and brown and often filthy and mangled to boot. Banknotes issued before 2000 are no longer legal tender.
+- Coins : Rp100, Rp200, Rp500, and Rp1,000. Three series of coins are in circulation, the 2003 series featuring birds, the 2010 Rp1,000 coin and the 2016 series featuring Indonesian national heroes.
+Coins have never really caught on, partly because inflation keeps chewing away their value: the largest, Rp1,000, is worth only around US$0.06. You're only likely to encounter these at supermarkets and similar "exact change" places, and even then coins below Rp500 are now rarely seen.
+In restaurant menus and casual speech, it's not uncommon to drop the final three zeroes, so Nasi goreng - Rp 25 actually means 25,000 rupiah.
+
+## Acceptance of other currencies
+
+U.S. dollars are the de facto second currency of Indonesia but are typically used as an investment and for larger purchases and not for buying a bowl of noodles on the street. By law, however, all goods and services in Indonesia are required to be priced in rupiah, and all business transactions must be
+
+## As of April 2026:
+
+- US$1 ≈ Rp16,960
+- €1 ≈ Rp19,620
+- UK£1 ≈ Rp22,500
+- AU$1 ≈ Rp22,460
+- SG$1 ≈ Rp13,200
+- Malaysian RM1 ≈ Rp4,190
+Exchange rates fluctuate. Current rates for these and other currencies are available from xe.com (https://www.xe.co m/currency/idr-indonesian-rupi ah)
+*Image caption: Indonesian rupiah (IDR) banknotes, 2023 series*
+conducted in rupiah. Vendors in the main tourist areas may accept U.S. dollars for cash payments (at poor exchange rates), but this is actually illegal. Credit card payments by law must be charged in rupiah.
+Aside from the U.S. dollar, Singapore dollars, Malaysian ringgit, and other major international currencies are also widely accepted for a cash settlement, especially in border areas and major tourist areas. But again, the rates are generally exorbitant.
+
+## Acceptance of payment cards
+
+Visa, MasterCard and JCB debit/credit cards are widely accepted in hotels and larger restaurants and stores, but American Express can be problematic. At smaller operations, surcharges of 2-5% over cash are common. Some credit card terminals may offer the choice between the charge being made in rupiah, or in the currency of the card-issuing country. Beware when using cards with magnetic strips, as they may be subject to cloning and fraud in Indonesia, but the newest cards with chips are relatively safe from cloning and fraud.
+Alternately, if you wish not to hold too much cash, ask for a stored value card issued by multiple banks across the country; you do not need to open an account at the respective bank. They are very useful for shopping at convenience stores, as it also helps the cashier with them not having to look for coins. In addition, all toll roads, public transportation fare in major cities, and parking inside buildings can only be paid using this card.
+
+## Exchange
+
+Banks and money exchange are widely available on Java, Bali and Lombok, but can be a major headache anywhere else, so load up with Rupiah before heading off to any outer islands. While most major currencies of the world are readily accepted in large cities with tourists & business hotspots like Jakarta, Surabaya and Bali, many small money exchange kiosks outside these cities are only ready to convert to rupiah from US dollars or to some extent: Singapore dollar, Malaysian ringgit, and Saudi Arabian riyal. Money exchanges are very picky about bill condition, and pre-2006 dollars or any imperfect bills or (ripped, wrinkled, stained, or marked in any way) will normally be rejected. Banks will most likely reject any pre-2006 US currency. Counterfeit US dollars are a huge problem in the country and as a result the older your dollars are, the lower the exchange rate. You will get the highest exchange rate for dollars issued in 2006 or later and the exchange rate drops for dollars for currency outside a very narrow range of perceived acceptability. There are even different exchange rates according to the serial number for dollars from 1996. Banks and money exchanges on outer islands are sparse and will charge commissions of 1020% if you can find them.
+In the reverse direction, money changers will be happy to turn your rupiah into dollars, but the spread is often considerable (10% is not unusual). Be very careful dealing with money changers, who are very adept at distracting your attention during the counting process and short-changing you as a result. As a precaution, consider bringing a friend along to watch over the transaction very carefully. Be aware of money changers who offer great rates. They will quote you one price, and start counting stacks of Rp20,000 notes, and ask you to count along with them. This is a ploy to confuse and shortchange you. If they realize you are onto them, they will tell you that they have to subtract 6-8% for "commission" or "taxes".
+
+## ATMs
+
+ATMs (pronounced ah-teh-em in Indonesia) on the international Plus/Cirrus or Alto networks are common in all major Indonesian cities and tourist destinations. You can typically withdraw only 25-30 banknotes at a time, and withdrawal limits of Rp 10-15 million per day may also apply. Machines are loaded with Rp50,000 or Rp100,000 banknotes as indicated on the machine; the bigger notes can be harder to split, especially in rural non-tourist areas. Nonetheless, have a stash of cash with you, especially outside large towns, as the ATM may occasionally run out of cash.
+
+## Mobile payment
+
+Mobile payments are making inroads to shops and restaurants across the country. Two of the popular ones are GoPay by Go-Jek and Ovo (https://www.ovo.id/) , which can be used to pay for a Grab ride. You don't necessarily need an Indonesian bank account to use them, but without it you'll need to use an ATM or visit a convenience store (Alfamart) to top up your balance.
+As of 2024, NFC based payments like Apple Pay or Google Wallet are supported by a few merchants, but it is not very reliable.
+
+## Costs
+
+Living in Indonesia is cheap, as long as you're willing to live like an Indonesian. For example, Rp20,000 (roughly US$1.50) will get you a meal on the street or a packet of cigarettes, 3 km in a taxi, or three liters of drinking water. A Rp300,000 (US$20) per night hotel room may already include breakfast while Rp8,500 (65 US cents) can get you a liter of gasoline. Prices in larger cities and tourist areas like Jakarta and Bali are often more expensive than smaller ones like Yogyakarta or Bandung; eastern Indonesia tends to be the most expensive because of the difficult and long shipping times. Fuel prices are the same and products sold at supermarkets & department stores do not differ too much.
+*Image caption: A row of shops in Purwokerto*
+Fancy restaurants, hotels and the like will charge 10% government sales tax plus a variable service charge. This may be denoted with "++" after the price or just written in tiny print on the bottom of the menu.
+
+## Tipping
+
+Tipping is not a universal practice in Indonesia. You will find some areas and businesses discourage it while others encourage it or there may be a neutral viewpoint about it. In popular tourist areas, in particular on Java and Bali, tipping is often hoped for. Tipping is certainly not a requirement in Indonesia, but if you feel you'd like to reward the person who helped you because they did a great job, or they made an extra effort then give it consideration if it is not openly discouraged. You can try asking people but you may not get a very clear answer. It is up to your discretion how much you give, Rp10,000 can buy a meal here, and in many occupations people may often struggle to make ends meet. In general, Indonesians themselves do not tip unless the service was exemplary. If you do tip, then ensure you give it directly to the person concerned, normally it is done by passing the money folded and in a slightly cupped right hand and placing directly into their own. This is done without flourish as though it were a quick light handshake, and normally without announcement, watch the locals, it is normally a quite discreet exchange.
+Also, in some cultures it is traditional to refuse something a few times (3 is a common number) before accepting it, but there are cultural nuances that can let you know whether it's politeness or a rejection of a tip.
+Finally, keep in mind that some people deliberately tell stories about how hard their life is in order to get a tip. If the person has offered these tales with little or no prompting, and has been quite detailed, you may wish to be cautious.
+
+## Shopping
+
+
+## Shopping times
+
+While most stores close on Sunday in the West, the inverse is true in Indonesia. The weekends (and national holidays) tend to be the busiest times. Midnight shopping with discounts are also common in a few of Jakarta's more than 100 shopping malls/plazas, one of the world's most populous shopping mall city. Almost all of original high branded items can be found in luxury and big shopping malls with prices comparable to Singapore. Tanah Abang is the biggest textile and garment in Southeast Asia which lure Africans and Middle Eastern come to buy in bulks (such as 20 pieces of a kind). ITC in Mangga Dua, Jakarta has more quality garment and you can buy either in one piece or in package. Malaysians would flock to Bandung to look for various Islamic attires and colorful hijab patterns.
+Malls generally open at 10:00, and high street shops open as early as 06:00; both closing at around 21:0022:00, 7 days a week. Traditional markets are usually bustling straight after dawn prayers, if not before, and many will have stopped by midday, but also open daily. There will usually be at least one market in a big town or city that is open all day. Ask around. Twenty-four hour mini-marts are now common in cities and larger towns.
+During Idul-Fitri ( Lebaran , the celebration at the end of the Ramadan fasting month), shops may close altogether for some days, or open late. This is less likely in non-Muslim majority areas like North Sulawesi and Bali). To a lesser extent, the same goes for Christmas, particularly in Christian-majority areas (North Sulawesi and parts of North Sumatra) and in Chinese trading areas (like Glodok in West Jakarta or Mangga Dua in North Jakarta), as a large number of Indonesian Chinese are Christian.
+
+## Convenience stores
+
+Chains such as Alfamart and Indomaret can be found on virtually every city in the country while foreign brands like Circle K and Japanese imports like FamilyMart and Lawson may be found at the bigger cities. Non-chain brands might be found on cities where the aforementioned products do not exist (such as Padang in West Sumatra) or even banned to allow local entrepreneurs to flourish; they are typically easily spotted with the word mart on their sign. Those in the villages can look for toko kelontong or warung where similar offerings are made available though their store are not as lavish or even air-conditioned, however these kind of stores are still available in big cities such as Jakarta, because the prices are cheaper than mini markets for same items. Most stores open from about 06:00 to 21:00, though some busier locations may be open around the clock.
+Their range of products typically include packaged snacks and cold drinks that for most of them cost less than Rp15,000. They also sell assorted breads and even a few of them offer ready-to-eat food and coffee dispensers.
+In a country where non-cash payment is not yet the norm for many, customers can also come here to pay using cash for various purposes, from cellphone package top-up, online shopping purchases, to even transportation tickets!
+
+## Bargaining
+
+Bargaining (tawar-menawar) is the norm in most places, even in what appear to be nice stores, so be prepared to negotiate. This is also a way to socialize with the locals, so relax, enjoy the process and get some local insights and tips. If you think you're getting a good price based on what you'd pay back home - you're probably paying too much. Try an initial counter-offer of 50-70% off what they offer, and then work from there. Clever vendors will ask you to start the bidding, which puts you at a disadvantage. You can always try walking away to see if they'll cooperate and give you a better price. However, supermarkets and malls don't usually allow haggling unless you're buying something very expensive, such as electronics or a car.
+
+## Oleh-oleh
+
+Indonesia has a strong tradition of taking a little something back with you, for family and friends and colleagues, if you have been travelling. This is oleholeh (OH-lay OH-lay). It is usually the local specialty food or produces. In Medan, it is syrup made from the local passion fruit. In Bali, it has traditionally been salak or snakefruit.
+More modern oleh-oleh is also provided, like in Surabaya, they have super-crispy "almond crispy cheese" cookies. Also, in Bogor, there is lapis talas cake.
+*Image caption: Smoked milkfish, the oleh-oleh of choice from Semarang*
+Many places that have not had a specific product to
+offer have generated one, in order to cash in. As a result, there are a lot of fried crackers and chips on offer.
+
+## Eat
+
+
+## Main article: Indonesian cuisine
+
+With 17,000 islands to choose from, Indonesian food is an umbrella term covering a vast variety of regional cuisines found across the nation. But, if used without further qualifiers, the term tends to mean the food originally from the central and eastern parts of the main island Java. Now widely available throughout the archipelago, Javanese cuisine features an array of simply seasoned dishes, the predominant flavorings the Javanese favor being peanuts, chillies, sugar (especially Javanese coconut sugar) and various aromatic spices.
+*Image caption: Spiced nasi kuning (rice coloured yellow with turmeric) shaped into the ceremonial tumpeng (cone) and topped with dried beef abon*
+All too often, many backpackers seem to fall into a rut of eating nothing but nasi goreng (fried rice), and perhaps commonly available Javanese dishes, but there are much more interesting options lurking about if you're adventurous enough to seek them out. In West Java, Sundanese dishes composed of many fresh vegetables and herbs are commonly eaten raw. Padang is famous for the spicy and richly-seasoned Minangkabau cuisine, which shares some similarities to cooking in parts of neighboring Malaysia, and eateries specializing in the buffet-style nasi padang are now ubiquitous across the nation. The Christian Batak people and the Hindu Balinese are great fans of pork, while the Minahasa of North Sulawesi are well known for eating almost everything, including dog and fruit bat, and a very liberal usage of chillies even by Indonesian standards. Tamed Muslim-friendly versions of all three can be found in the malls and food courts of many Indonesian cities, but it's worth it to seek out the real thing especially if you happen to be in these regions. And by the time you get to Papua in the extreme east of the country, you're looking at a Melanesian diet of boar, taro and sago.
+Chillies ( cabai/cabe , CHA-beh) are used widely in Indonesian cuisine, most commonly as sambal sauces. Watch out for the small but extra spicy bird's eye chilli ( cabe rawit ). Terasi (tuh-RAH-see), dried shrimp paste, is used much like fish sauce and while it blends into the background in cooked dishes, on its own or in large quantities it has a powerful fishy taste. Petai/pete (puh-TAY), known as the "stink bean" in English for a reason, is an occasional seasonal ingredient in stir-fries. A Sundanese favorite is oncom (OHN-chohm) and is composed of peanuts that have been fermented in a block until they are colourfully covered with certain types of fungus; this food doesn't just look moldy but also tastes moldy and is an acquired taste.
+In Jakarta, Bali and some other big cities, franchises of Asian, European and American restaurant chains are common, with Kentucky Fried Chicken as the pioneer, following by McDonald's. You can also find modest to expensive restaurants with specialties of Thai, Korean, Middle Eastern, African, Spanish, Russian foods and so on.
+
+## Dietary restrictions
+
+The vast majority of Indonesian restaurants serve only halal (comply with Muslim restrictions) food. This means no pork, rat, toad or bats, among others. This includes Western fast food chains like McDonald's, KFC, Pizza Hut, Burger King, Wendy's, and ethnic restaurants such as Padangese restaurants. The main exception is ethnic restaurants catering to Indonesia's non-Muslim minorities, especially those serving Batak, Manadonese (Minahasan), Balinese and Chinese cuisine, so enquire if unsure. Although Indonesia is a Muslim-majority country, Muslims do not form the majority everywhere. If you are in areas mainly populated by other religious groups such as Christians or Hindus, most of the local restaurants and stalls will not be halal, and you will need to spend some effort seeking out a halal establishment. A safe bet is to seek out nasi padang restaurants, which can be found in virtually every Indonesian city, and are almost always halal. Beef is shunned in Balinese cuisine due to the fact that the cow is a holy animal in Hinduism.
+Strict vegetarians and vegans will have a tough time in Indonesia, as the concept is poorly understood and avoiding fish and shrimp-based condiments is a challenge. Tahu (tofu aka soybean curd) and its chunkier, indigenous cousin tempe (soybean cake) are an essential part of the diet, but they are often served with non-vegetarian condiments. For example, the ubiquitous sambal chili pastes very often contain shrimp, and kerupuk crackers with a spongy appearance, including those always served with nasi goreng , nearly always contain shrimp or fish. (Those that resemble potato chips, on the other hand, are usually fine.) You
+can, however, ask them to make something without meat or seafood, which can be indicated by asking for vegetarian ("ve-GEH-tah-rian") or tanpa daging atau hasil laut . Restaurants are usually willing to take special orders. Cities with large Indonesian-Chinese communities like Medan, Pontianak and Singkawang will often have Buddhist vegetarian restaurants, and these are usually a safe bet. Chinese Buddhist vegetarian food traditionally does not include dairy products, so most non-dessert dishes are essentially vegan , but make sure your dish does not contain eggs.
+Kosher food is virtually unknown in Indonesia, and there are no kosher eateries.
+
+## Eating etiquette
+
+Eating with your hand (instead of utensils like forks and spoons) is very common. The basic idea is to use four of your fingers to pack together a little ball of rice and other things, which can then be dipped into sauces before you pop it in your mouth by pushing it with your thumb. There's one basic rule of etiquette to observe: Use only your right hand , as the left hand is reserved for handling dirty things. Don't stick either hand into communal serving dishes: instead, use the left hand to serve yourself with utensils and then dig in.
+However, eating by hand is frowned upon in "classier" places. If you are provided with cutlery and everybody else seems to be using them, then take the hint.
+Chopsticks, forks and spoons are equally common, although knives are somewhat rare, except for upscale restaurants.
+It is considered polite and a sign of enjoyment to eat quickly, and some people view burping as a compliment.
+
+## Places to eat
+
+Eating on the cheap in Indonesia is cheap indeed, and a complete street side meal can be had for only Rp5,000. However, the level of hygiene may not be up to Western standards, so you may wish to steer clear for the first few days and patronize only visibly popular establishments. If the food is served buffet style without heat, or is left out in dishes or pans, it is best to ask how long ago the food was prepared, or just avoid it. It's usually up to you to get the attention of the staff if you want to order, need something or want the bill - even in some expensive restaurants. You can motion them over to your table, and this is not considered rude.
+*Image caption: A gerobak mobile stall serving up batagor stuffed tofu fritters, Jakarta*
+There are travelling vendors who carry a basket of pre-prepared food (usually women), or who carry two small wooden cabinets on a bamboo stick (usually men), who may serve light snacks or even simple meals, some of which are very cheap and enjoyable, but hygiene is questionable.
+The fastest way to grab a bite is to visit a kaki lima , literally "five feet". Depending on whom you ask, they're named either after the mobile stalls' three wheels plus the owner's two feet, or the "five-foot way" pavements. These can be found by the side of the road in any Indonesian city, town or village, usually
+offering up simple fare like fried rice, noodles, meatball soup ( bakso ), siomay (dimsum) and porridge. At night, a kaki lima can turn into a lesehan eatery simply by providing some bamboo mats for customers to sit on and chat, but they may provide plastic stools or even benches, and tables.
+A step up from the kaki lima is the warung (or the old spelling waroeng ), a slightly less mobile stall offering much the same food, but perhaps a few plastic stools and a tarp for shelter. Some warung are permanent structures.
+One of the big questions for the above three choices is hygiene: where do they get clean water to wash dishes, where do they go to use a toilet (a nearby river or ditch), where do they wash their hands and just how clean are they. Typhoid fever is a common problem for eaters here, as are hepatitis and food poisoning. Indonesians have been exposed to poorly prepared/spoiled food for most of their lives, so they are rarely affected by diarrhea and food poisoning.
+A rather more comfortable option is the rumah makan (lit: eating house), a basic restaurant more often than not specializes in a certain cuisine. Nasi padang restaurants, easily identified by their soaring Minangkabau roofs, typically offer rice and an array of curries and dishes to go along with it. Ordering is particularly easy: just sit down, and your table will promptly fill up with countless small plates of dishes. Eat what you want and pay for what you eat.
+The other way to order, particularly in smaller Padang warung , is to order nasi campur (mixed rice), which is a plate of rice, and an accompaniment of other dishes displayed at
+*Image caption: Stacks of dishes at a nasi padang restaurant*
+the counter or in the window, which you choose from depending on what you would like to eat. Usually served with the in-house sambal olek (chili condiment). You only pay for what you have ordered.
+Buffets ( prasmanan or buffet ) and steam-boat restaurants are self-service choices, but the former should be approached warily (see above).
+Another easy mid-range option in larger cities is to look out for food courts (known there as Pujasera , short for Pusat Jajanan Serba Ada , which translates to All-in-one snack center in English) and Indonesian restaurants in shopping malls, which combine air conditioning with hygienic if rather predictable/boring food.
+A restoran indicates more of a Western-style eating experience, with air conditioners, tablecloths, table service and prices to match. Especially in Jakarta and Bali, it's possible to find very good restaurants offering authentic fare from around the world, but you'll be lucky to escape for under Rp100,000 a head.
+
+## Chain outlets
+
+Most chain restaurants in Indonesia have ample seating area. Most offer meals set, so it is one of the cheapest (and most often, also the cleanest) option. Famous chains to look for:
+- Hoka Hoka Bento (also known as Hokben) offers Japanese style fast food. (And no, there is no Hoka Hoka Bento in Japan!). You can get rice with teriyaki and fried chicken, egg roll, or shrimp for about Rp50,000 or less, plus a drink, salad, and miso soup.
+- Bakmi GM is famous for its ubiquitous types of noodle entrées (including its very own special version of noodle dish) and its fried wontons (pangsit goreng), although it also offers dishes of rice. A good meal usually costs Rp50,000 or less.
+- Es Teler 77 is one of the oldest fast food chains in Indonesia, in business since 1982, and has more than 200 outlets throughout Indonesia. Offers Indonesian dishes such as bakso , and as its name suggests, es teler . Dishes cost about Rp50,000 (incl. Food + Drinks).
+- Indonesia's Pizza Hut restaurants look like more of a fine dining option rather than a fast food franchise like its original location, the United States. The pizzas have more generous types of toppings and crust, and also more options for sides & pasta. It is also famous for their waitresses or waiters who would make miniatures from balloons to children. In addition, it operates a separate business unit called PHD (Pizza Hut Delivery) with its own menu exclusive for delivery in selected cities.
+- Kebab Turki Baba Rafi is the world's largest kebab restaurant chain. The kebabs, shawarma, hot dogs, and fries are very affordable for a quick meal. It can usually be found as food court stalls.
+- Most imported minimart stores such as FamilyMart , Circle K and Lawson provide prepared meals that the staff can heat for you, in addition to the usual groceries you typically find, for less than Rp30,000. Local chains such as Indomaret and Alfamart have a lot more branches but is more like a typical minimart. At best it provides bread or salad as a prepared meal, though nowadays both Indomaret and Alfamart are stepping up their quality to provide similar services as the imported convenience stores.
+- Transmart or Lotte Mart supermarkets have area for produce such as bakery & snacks, but most people will do a take-away instead of a dine-in although some seating is available.
+American fast food franchises McDonalds, KFC, Wendy's, Burger King, or A&W also maintain their presence in just about every mall in Indonesia. Other chains from around the globe, such as the worldfamous Yoshinoya , can be found in more upscale malls.
+
+## Order in
+
+In the same way that the transport sector has been revolutionized by ride-hailing services run through smartphone apps, the way Indonesians eat has also changed, thanks to the same apps. Almost any food can be ordered in through the apps, down to some of the smallest warungs.
+This negates the point of travelling, so it might not be your first choice of how to choose dinner, but there will always be times when the effort to get up and out is just too much.
+
+## Drink
+
+Quite a few Indonesians believe that cold drinks are unhealthy, so specify dingin when ordering if you prefer your water, bottled tea or beer cold, rather than at room temperature.
+
+## Juices
+
+Fruit juices - prefixed by jus for plain juice, panas for heated (usually only citrus drinks), or es if served with ice (not to be confused with the dessert es buah ); are popular with Indonesians and visitors alike. Just about any Indonesian tropical fruit can be juiced. Jus alpukat , found only in Indonesia, is a tasty drink made from avocados, usually with some condensed chocolate milk or, at more expensive places, chocolate syrup poured around the inside of the glass prior to filling it. For a total refreshment, you can
+try air kelapa (coconut water), easily found at virtually every beach in the country. Some juices have become special region beverages like Medan's Jus martabe made from tamarillo and passion fruit also Ambon's Jus gandaria made from plummango. Still, in Depok, there are juices for food souvenirs that are jus belimbing (starfruit juice), jus lidah buaya (aloe vera juice), and jus rumput laut (seaweed juice).
+It is very common to mix some fruits and vegetables into a single drink.
+
+## Coffee and tea
+
+Indonesians drink both kopi (coffee) and teh (tea), at least as long as they have had vast quantities of sugar added in. An authentic cup of coffee, known as kopi tubruk , is strong and sweet, but let the grounds settle to the bottom of the cup before you drink it. Some coffees are named after areas, like kopi Aceh and Lampung. No travel guide would be complete without mentioning the infamous kopi luwak , coffee made from coffee fruit which have been eaten, the beans partially digested and then excreted by the luwak (palm civet), but even in Indonesia this is an exotic delicacy costing upwards of Rp200,000 for a small pot of brew. However, conservationists advise against this drink due to the cruel conditions in which many of the civet cats are kept. But now many stalls in the shopping malls serve up to 20 combinations of coffee beans and produce with grinding and coffee maker for less than Rp20,000, but be ready to stand when you drink it.
+Tea ( teh ) is also quite popular, as is es teh (iced tea), and the Coke-like glass bottles of the Sosro brand of sweet bottled tea and cartons and bottles of Fruit Tea are ubiquitous, as is Tebs , a carbonated tea. In shopping areas, you can often find vendors selling freshly poured large cups of tea, often jasmine, such as 2Tang or the stronger Tong Tji jasmine, fruit and lemon teas for as little as Rp2,000.
+
+## Jamu
+
+The label jamu covers a vast range of local medicinal drinks for various diseases. Jamu is available in the ready-to-drink form, in powder sachets or capsules, or sold by women walking around with a basket of bottles wrapped to them by a
+*Image caption: Avocado juice ( jus alpukat ) with a squirt of chocolate syrup or condensed chocolate milk*
+*Image caption: Tehbotol Sosro, Indonesia's answer to Coca-Cola*
+large colorful length of Batik kain (cloth). Most of them are bitter or sour and drunk for the supposed effect, not the taste. Famous brands of jamu include Iboe , Sido Muncul , Jago , and Nyonya Meneer ; avoid buying jamu from the street as the water quality is dubious. Some well-known jamu include:
+- galian singset - weight reduction
+- beras kencur (rice, sand ginger and brown sugar) - cough, fatigue
+- temulawak (turmeric) - for liver disease
+- gula asem (tamarind and brown sugar) - rich in vitamin C
+- kunyit asam (tamarind, turmeric) - for skin care, canker sores
+Chase a sour or bitter jamu with beras kencur, which has a taste slightly reminiscent of anise. If you'd like a semeriwing (cooling) effect, request kapu laga (cardamom) or, for heating, add ginger.
+
+## Traditional drinks
+
+- Wedang Serbat - made from star anise, cardamom, tamarind, ginger, and sugar. Wedang means "hot water".
+- Ronde - made from ginger, powdered glutinous rice, peanut, salt, sugar, food coloring additives.
+- Wedang Sekoteng - made from ginger, green pea, peanut, pomegranate, milk, sugar, salt and mixed with ronde (see above).
+- Bajigur - made from coffee, salt, brown sugar, coconut milk, sugar palm fruit, vanillin.
+- Bandrek - made from brown sugar, ginger, pandanus (aka screwpine) leaf, coconut meat, clove bud, salt, cinnamon, coffee.
+- Cinna-Ale - made from cinnamon, ginger, tamarind, sand ginger and 13 other spices.
+- Cendol /Dawet - made from rice flour, sago palm flour, pandanus leaf, salt, food coloring additives in a coconut milk and Javanese sugar liquid.
+- Talua Tea /Teh Telur (West Sumatra) - made from tea powder, raw egg, sugar and limau nipis (a fragrant lime).
+- Lidah Buaya Ice (West Kalimantan) - made from aloe vera, French basil, Javanese black jelly, coconut milk, palm sugar, pandanus leaf, sugar.
+
+## Alcohol
+
+Although Islam is the religion of the majority of Indonesians, there are no laws against alcohol consumption in most of the country. Alcohol is widely available in most areas, especially in upscale restaurants and bars. Public displays of drunkenness are strongly frowned upon and in the larger cities are likely to make you a victim of crime or get you arrested by police. Do not drive if you are drunk. The legal drinking age is 21 and supermarkets have begun enforcing ID checks for alcohol purchases.
+The exception is Aceh, in which alcohol is banned and those caught with alcohol can be publicly caned.
+*Image caption: Bintang Beer is Indonesia's most famous beer brand.*
+Indonesia's most popular tipple is Bintang (http://www.multibintang.co.id/) bir (beer), a standard-issue lager available more or less everywhere, although the locals like theirs lukewarm. Other popular beers include Bali Hai (http://www.balihaibeer.com/) and Anker . From 2015, convenience stores and small shops no longer sell alcoholic drinks. However, cafes, bars and restaurants with appropriate licenses can continue to sell alcoholic drinks, including hard liquor. Tourist areas are exempted at the discretion of each regent and mayor, who can decide which area with small vendors or 'warung' can serve/sell 1-5% alcohol drinks. They can cost as much as Rp50,000 in a fancy bar, but a more usual bar/restaurant price for Bintang is Rp25,000-35,000 for a big 0.65 liter bottle.
+Wine is expensive and only available in expensive restaurants and bars in large hotels. Although you can still find some wines in the big supermarkets within some big malls in big cities. Almost all of it is imported, but there are a few local vintners of varying quality on Bali whose wine is cheaper. 30 percent of alcohol drinks are imported and new taxation scheme of imported alcohol drinks are 150 percent of base price and 90 percent of base price for imported beers.
+Various traditional alcoholic drinks are also available:
+- Tuak - sugar palm wine (15% alcohol)
+- Arak - the distilled version of tuak , up to 40%
+- Brem - Balinese style sweet glutinous rice wine
+Exercise some caution in choosing what and where to buy - homemade moonshine may contain all sorts of nasty impurities. In May 2009, 23 people, including four tourists, were killed by adulterated, or possibly inadvertently contaminated illicitly-supplied arak distributed in Java, Bali and Lombok. In many other cases, tourists have been blinded or killed by methanol in drinks. If you want to save money in Indonesia, don't do it by buying the cheapest alcohol you can find. Buying them at supermarkets would usually be the safest option.
+
+## Tobacco
+
+Many Indonesians smoke like chimneys and the concepts of "no smoking" and "second-hand smoke" have yet to make much headway in most of the country; however, some TV channels are now blotting out cigarettes in TV programs and movies they show. Western-style cigarettes are known as rokok putih ("white smokes") but the cigarette of choice is the ubiquitous kretek , a clove-tobacco cigarette that has become something of a national symbol and whose scent you will likely first encounter the moment you step out of the airport. Popular brands of kretek include Djarum , Gudang Garam , Bentoel and Sampoerna . A pack of decent kretek will cost you on the order of Rp17,000. Some brands don't have filters because traditionally kretek cigarette have no filter and the taste is different with the kretek filter cigarette. Indonesia's legal smoking age is 21 . By law, all packs of cigarettes bear a
+*Image caption: Djarum Black, a popular brand of kretek*
+label with pictures containing the effect of smoking. Kretek are lower in nicotine but higher in tar than normal cigarettes; an unfiltered Dji Sam Soe has 39 mg tar and 2.3 mg nicotine. Most studies indicate that the overall health effects are roughly the same as for traditional western-style cigarettes.
+A ban on smoking has been instituted for public places in Jakarta. Anyone violating this ban can be fined up to US$5,000. Although "vaping" - smoking e-cigarettes, which basically emits vapor clouds instead of burning smoke - is now popular in Jakarta and other big cities, always ask for permission to smoke. If you want to smoke, check with the locals by asking: "Boleh merokok di sini?". With increasing cigarette taxes and more AC areas, cigarette sales have been decreasing as of the mid-2010s.
+All big restaurants outside the malls in big cities usually provide smoking and non smoking areas in different rooms (sometimes the smoking area is at the terrace of the restaurant). Sometimes the waiter or waitress will ask for your seating preferences, "Merokok atau Tidak Merokok?" (smoking or nonsmoking).
+
+## Sleep
+
+Accommodation options at popular travel destinations like Bali and Jakarta run the gamut from cheap backpacker guesthouses to some of the most opulent (and expensive) five-star hotels and resorts imaginable. Off the beaten track, though, your options will be more limited. Probably the most common lodging choice for backpackers is the losmen , or guesthouse, which also go by the names wisma or pondok . Often under US$15/night, basic losmen are fan-cooled and have shared bathroom facilities, usually meaning Asian-style squat toilets and bak mandi (water storage tank) baths, from
+*Image caption: A guesthouse in South Sulawesi*
+which you ladle water over yourself (do not enter one or use it as a sink.) Very small losmen, essentially homestays or rented rooms, are known as penginapan . For a longer stay, try a kost (boardinghouse) with similar facilities, if not better - though many only accept a specific gender with perempuan/wanita/cewek for ladies and pria/laki-laki/cowok for gents.
+The next step up on the scale are cheap or budget hotels, usually found even in the smallest towns and cities, typically near transport terminals and tourist areas. These may have some more little luxuries like air-conditioning, hot water, wi-fi and even a mini breakfast, but a few are often depressing otherwise, with tiny, often windowless rooms. Prices can be quite competitive with losmen and kost, starting at US$20/night. Some reliable local chains include POP! (http://www.pophotels.com/) , Amaris by Santika (h ttp://www.amarishotel.com/) and Favehotel (https://www.favehotels.com/home/eng) .
+Hotels of sufficient quality and facilities are berbintang (starred), a room can cost as little as US$30 to US$45 in big cities, 5 star hotel rooms can hover around US$70 per night. Prices fluctuate depending on the season; the high season is typically during the June & July and December school holidays and long weekends, while the low season is ironically during the Idul Fitri period where most went to their family homes instead of staying in a hotel (this is an exception in tourist areas). Hotels that do not qualify for a star ( melati ) can charge you for less than US$30, with of course more inferior amenities.
+By law, all hotels have to display a price list ( daftar harga ). You should never have to pay more than the list says, but discounts are often negotiable, especially in the off season, on weekdays, longer stays, etc. If possible, book in advance as walk-in prices are often higher.
+
+## Unmarried couples
+
+Under the 2022 criminal code, it is illegal for unmarried couples to cohabit (live together) or have sex. However, only relatives of either party can press charges, and most hotels geared towards foreign tourists, including virtually all in Bali, have indicated that they do not intend to enforce the law.
+If you are staying at Sharia (Muslim) hotels or small establishments in religiously conservative areas such as Aceh and West Sumatra, be aware that you may be asked to produce a marriage certificate, which you can show on your smartphone. This is because of the local customs that only people of the same gender otherwise can occupy one room. The words "Syariah" (Sharia) or "Halal" in a hotel advert are clear flags that unmarried couples will be turned away.
+
+## Learn
+
+Foreign students from many countries study various majors in certain universities in a number of cities (mainly Jakarta, Bandung, Yogyakarta, and Denpasar). The cost of studying at Indonesian higher learning institutes is generally much lower than in the west, but you'll need to be fluent in Indonesian for many topics, and some topics also require knowledge of English (such as medicine and IT) or another language.
+The Darmasiswa Program (http://darmasiswa.kemdikbud.go.id/) is a scholarship program funded by the government of Indonesia. It is open to all foreign students from countries with which Indonesia has diplomatic relations to study Indonesian languages, arts, music and crafts, and even some other subjects, including IT, science and photography. Participants can choose to study at any of the state universities and colleges participating in the program. There are over 50 participating locations.
+For university education in English, one can consider studying at, among others, Swiss-German University (http://www.sgu.ac.id), Universitas Pelita Harapan (http://www.uph.edu) or President University (http://www.president.ac.id). Some famous Indonesian institutes include University of Indonesia (http://www.ui.ac.id), Bandung Institute of Technology (http://www.itb.ac.id) and Gajah Mada University (http://www.ugm.ac.id).
+
+## Work
+
+Indonesia is a developing country and work opportunities for foreigners are limited. An average Indonesian monthly salary is around US$175/month, while an expat English teacher may earn around $700-1500/month: quite comfortable by Indonesian standards, less so by global ones.
+To legally earn income in Indonesia, unless you have married an Indonesian or hold a long-term resident card (KITAS/KITAP), you must have a work visa (VITAS, Visa Izin Tinggal Terbatas ). Obtaining one requires both you and your employer to run a notoriously complex bureaucratic gauntlet involving both Immigration and the Ministry of Manpower. By law, a foreigner can only work at a company in a particular capacity for 5 years, and they are required to train a local to replace them but, in reality, this doesn't often happen. Also, foreigners may not work in any job, including CEO, that is related to personnel and human resources. Working a second job without your employer's permission, or working in
+a position that is different from your stated position, is considered illegal, too, and penalties can range from fines and/or imprisonment to deportation, and even blacklisting is possible (but that is generally only for six months).
+In 2024, Indonesia introduced the Remote Worker Visa (E33G) visa targeted at digital nomads, allowing them to work legally in Indonesia for up to a year, as long as they can demonstrate income of at least US$60,000/year which is all sourced from overseas.
+
+## Stay safe
+
+WARNING: Indonesia treats drug offences severely. The death penalty or life in prison is highly possible for those convicted of trafficking, manufacturing, importing or exporting more than 5 grams of heroin, morphine, cocaine or 1 kilogram of cannabis or opium. But bringing any type of drugs that potentially causes addiction is essentially forbidden in any way as even a small usage of them will result in conviction, regardless of an accidental or deliberate act of carrying them into the country. Penalty for carrying below that amount can still result in up to 15 years of imprisonment and/or a fine of up to Rp15,000,000,000 (about 1 million US dollars). Attempts of bringing them have caused lengthy prosecution and shaming on national television at best, and capital punishment at worst.
+If a stranger asks you to bring some stuff on your way to Indonesia, even in exchange for money, do not accept, as you are most likely implicitly asked to transport drugs. Point-of-entry securities have found cases of these drugs found in strange places, from luggage handle to disguised as sachets of cereal, and thus have vigilant eyes for suspicious activities. If you need to bring any necessary medicine that is unconventional or controlled in Indonesia, you are highly advised to bring a doctor's prescription
+that is translated to English.
+*Image caption: Skyscrapers in Jakarta*
+Indonesia has been and continues to be wracked by every pestilence known to man: earthquakes, tsunamis, volcanoes, terrorism, civil strife, plane crashes, sinking boats, and corruption make the headlines on a depressingly regular basis. However, it is important to retain a sense of proportion and remember Indonesia's vast size : a tsunami in Aceh will not cause the slightest ripple on the beaches of Bali, and street battles in troubled Papua are irrelevant in the jungles of Borneo.
+Scams are rare in the less touristy areas, though be more cautious in Bali.
+*Image caption: Mount Semeru, a popular tourist attraction in East Java, erupting in 2004*
+
+## Crime
+
+The crime rate in Indonesia is generally considered moderate . Violent crime is rare, and the risk of getting shot is almost nil (guns are strictly controlled), but opportunistic theft and pickpocketing are common. Stay vigilant and be aware of your surroundings, particularly in densely-populated areas like markets, public transport and pedestrian overpasses. Due to the increasing popularity of e-payments, criminals are increasingly snatching smartphones rather than wallets and purses. Avoid flashing jewellery, cameras, or any valuables. Thieves have been known to snatch laptops and cellphones from Internet hotspot areas.
+Local and long-distance public transport (buses, trains, ships) is often targeted by thieves. Do not place valuable items in checked baggage, as they may be stolen by baggage handlers. Do not accept drinks from strangers, as they may be laced with drugs. Choose your taxis carefully in cities (hotel taxis are often best), lock doors when inside and avoid using your phone or camera at traffic lights or in traffic jams.
+Do not leave valuable items in an empty hotel room, and use the hotel's safe deposit box instead of the inroom safe. Do not draw large amounts of cash from banks or ATMs. Guard your belongings carefully and consider carrying a money clip instead of a wallet.
+There are incidents of cards being skimmed or cloned at ATMs. 'Gallery ATMs' are where there are a number of ATMs in one room, often attached to larger branch of a bank. They sometimes have a security guard on duty, so there is a lower chance of someone being able to install a card skimmer into a machine. Cover your hand when entering the PIN. Pretty much all Indonesian ATM booths have a CCTV camera, supposedly for customer security, but who knows? If your card has a chip, there's a much lower chance of trouble.
+
+## Corruption
+
+Indonesia is notorious for corruption. Officials may ask for uang suap (bribes), tips or "gifts" - the Indonesian terms are uang kopi or uang rokok , literally "coffee money" and "cigarette money" - to supplement their meager salaries; pretending you do not understand may work. Some officials have been known to ask for furniture or whatever your company sells, or adult films. Even members of the Department of Religion have been known to extort money from mixed-nationality newlyweds. Generally, being polite, smiling, asking for an official receipt for any 'fees' you are asked to pay, more politeness and
+more smiling, will avoid any problems. Keep your cool and be patient. If you feel you've been overcharged, be sure to write a polite letter of complaint or inquiry to the person's boss. Many expatriates have done so with positive results, including a formal apology and refund of money, and some offices will expedite matters in the future for you just to avoid any more loss of face. Also, if you are dealing with, say, immigration or the police, it is best to be aware of any laws that affect you and bring a photocopy with you. It is not uncommon for them to be unaware of the laws that directly affect them, or at least pretend to be, and some are so brazen as to thump a big book of laws down on the table and demand that you show them the law you are referring to.
+The going rate for paying your way out of small offences (not carrying your passport, losing the departure card, minor or imaginary traffic violation) is Rp50,000. It's common for police to initially demand silly amounts or threaten you with going to the station, but keep cool and they'll be more reasonable. If your taxi, bus or car driver is stopped, any fine or bribe is not your problem and it's best not to get involved. (If it's clear that the police were out of line, your driver certainly won't object if you compensate him afterwards though.)
+Giving one bribe can lead to a seemingly never-ending chain of demands, even if you were just giving a gift of thanks. Many government officials still feel it is their right to receive such money and feel not one lick of shame or guilt; they can be, in fact, outrageously brazen if you're on their hook. Just say no.
+Carrying identity documents on your person is important. However, it is recommended that if an official on the street asks for your passport, for example, you instead provide a photocopy. Some officials have been known to hold documents hostage to ensure compliance with what they want from you.
+- Corruption Eradication Commission (https://kws.kpk.go.id/) (Komisi Pemberantasan Korupsi (KPK)), ☏ 198, pengaduan@kpk.go.id (mailto:pengaduan@kpk.go.id). The main anti-corruption agency for Indonesia. The agency's website has an online reporting system, although it is only available in Indonesian. Corruption cases may also be reported in email and phone. (updated Mar 2025)
+
+## Civil strife and terrorism
+
+Civil strife continues to affect some far-flung parts of Indonesia, notably Papua, which has an active separatist movement that sometimes kidnaps foreigners, and the Maluku Islands (Ambon), where Muslim-Christian tensions continue to simmer and occasionally flare into violence. Once troubled Aceh and Central Sulawesi, on the other hand, have been calm since peace agreements were brokered in 2004 and 2002 respectively.
+While the great majority of civil strife in Indonesia is a strictly local affair, there have been terrorist bombings targeting Western interests in Bali and Jakarta, most notably the 2002 and 2005 Bali bombings and the 2009 JW Marriott/Ritz-Carlton bombing. The group behind these, Jemaah Islamiyah, has been mercilessly crushed and the increasingly few attacks since have targeted the police and state institutions, not tourists.
+Elections in Indonesia frequently involve rowdy demonstrations that have on occasion spiralled into violence, and the Indonesian military has also been known to employ violent measures to control or disperse protesting crowds. Although most demonstrations and strife occur in Jakarta, provincial capitals and even smaller places aren't immune. Watch the latest news for updates if a conflict is erupting and don't get involved, even as a spectator.
+
+## Drugs
+
+Visitors are greeted with cheery "Death to Drug Traffickers" signs at airports, and offenders have received long jail terms for mere possession of even "soft" drugs like marijuana. In a high-profile case, nine Australian heroin traffickers (known as the "Bali 9") were caught and two of them were executed while the other seven spent nearly two decades in prison. Entrapment and drug busts are common and you really, really don't want to get involved with the Indonesian justice system; thanks to the anticorruption drive, you cannot count on being able to bribe your way out anymore and escape a harsh or even far worse sentence.
+
+## Natural disasters
+
+Indonesia is a chain of highly volcanic islands located along the Ring of Fire, so earthquakes occur often and tsunamis and volcano eruptions are all too common. On 26 December 2004, a 9.2 magnitude earthquake shook the coast of Aceh, sending tsunami waves up to 30 metres high across the Indian Ocean. Hundreds of thousands perished and many more were displaced. Mount Merapi in Yogyakarta spews ash nearly every year or so. In some years, the ash can reach far into the Yogyakarta city and deadly hot smoke cascades down into the villages, as happened in 2010. Most of the country is, unfortunately, prone to these kinds of disasters, with the exception of Sumatra's east coast, Java's north coast, Kalimantan, southern Sulawesi, and southern Papua.
+Realistically, there is little you can do to avoid these risks. You need to brace yourself in the event of an earthquake. But volcanoes, unlike earthquakes, are much more predictable. The local media & authority usually has good warning of how active the volcano is and will be. Steer clear of the areas around the volcano and change your travel plans if the situation is imminent.
+In the event of being near a volcanic activity - take note of what media reports say about where things are dangerous, check warning signs and fire escape routes in hotels. Always be aware of areas experiencing volcanic activity and evacuate when prompted. However, should you be caught in a cloud of volcanic ash from a far-away eruption, cover your mouth and nose immediately, then seek shelter in an enclosed place with a strong roof.
+In the event of earthquakes, hide under sturdy objects if indoors or run outside if near the door, and stay away from tall objects if outdoors. Any earthquake bigger than a 6.5 magnitude that lasts a long time usually triggers a tsunami warning (usually by siren or loudspeaker). Even if you don't hear a warning, if you feel a persistent & violent shaking, get away from the coast and seek higher land immediately.
+Indonesia is not prone to organised tropical systems, yet the rain can be heavy with thunderstorms and (sometimes swirling) winds, especially during the rainy season when it happens pretty frequent. Landslides occur in mountain slopes or cliffs, and flooding in lowlands or former deltas can be serious and ongoing. While there are rarely weather reports in any form of media, it's a good idea to pack an umbrella if it is said to rain or be vigilant for any signs of incoming storm, such as dark, towering and puffy clouds.
+In heavy rain when there is an accumulation of volcanic ash in recently erupted volcanoes, it can result in lahar dingin (a very dangerous of slurry with stones and boulders).
+
+## Wildlife
+
+Crocodiles and venomous snakes are present throughout Indonesia, although they are uncommon in most areas. Cobras and green tree snakes are generally the most common. Since most locals don't know the difference between venomous and harmless snakes, snakes are aggressively slaughtered in many places, and some places sell them as food, especially cobra and python meat.
+Komodo dragons can be very dangerous if harassed, but are only found on Komodo National Park islands and in the neighbouring island of Flores.
+Scorpions, whip scorpions, crabs, spiders and certain other critters, among them rove beetles can be found around the country and, while an encounter can produce unpleasant results, they are generally not fatal. Despite this, seek professional help if you are bitten or develop a mysterious rash.
+Large predators are increasingly rare, with Sumatran tigers being seriously endangered along with most other large animals, and even small jungle felines are hard to find now. Birds, excepting certain types that have little commercial value, are absent in areas once flush with a variety of species.
+
+## LGBT travellers
+
+Attitudes toward homosexuality vary vastly. There are no laws against homosexuality in most of Indonesia, with the notable exception of Aceh. Cosmopolitan Jakarta and Bali boast gay nightclubs, and bencong or banci (transvestites and transsexuals) seem to have a special place in Indonesian culture, even as far as being hosts and MCs of TV programs, as well as special districts where these types of Pekerja Seks Komersial (prostitute or gigolo) offer services - albeit illegally. In Aceh, however, homosexuals can legally be caned. As a general rule, gay visitors should err on the side of discretion; while violence against homosexuals is a rarity, they may be met with nasty comments and unwanted attention.
+
+## Directions
+
+Indonesians like to try to be helpful when you are lost - even when they don't really know where your destination is - but be careful to check directions received with at least one other person, and this problem extends to drivers of private transportation, such as taxis. You may find yourself in the general area you want to be in before the driver will admit they don't know where to go.
+
+## Stay healthy
+
+The bad news is that every disease known to humans can be found somewhere in Indonesia - the good news is that you most probably will not go there.
+Malaria prophylaxis is not necessary for Java or Bali, but is wise if travelling for extended periods in remote areas of Sumatra, Borneo, Lombok or points east.
+Dengue fever can be contracted anywhere, so using insect repellents (DEET) and mosquito nets is highly advisable. The common advice to turn your air-con to its lowest setting
+
+## Break like the wind
+
+Most Indonesians have not yet quite accepted the germ theory of disease: instead, any flu-like diseases are covered under the concept of masuk angin , lit. "enter wind". Preventive measures include avoiding cold drinks and making sure bus windows are tightly rolled
+to deter mosquitoes doesn't work - they simply fly under the
+covers and enjoy your body heat while sucking up a bloody cocktail; a fan on medium or high is much more effective. Dengue can take up to 10 days to manifest, and early symptoms resemble a bad flu with headache and muscle pains. If you get a red rash on your back or sides, particularly one that temporarily goes away when pressed, head to a doctor immediately.
+Hepatitis B is also common, mainly in Lombok and Lesser Sunda Islands, and getting vaccinated before arriving in Indonesia is wise, but Hepatitis B cannot be transmitted by foods. Food hygiene is often questionable, and getting vaccinated for hepatitis A and possibly typhoid fever is a wise precaution. Both kinds of hepatitis vaccines should be administered 6 months before your itinerary. See a doctor if what seems like travellers' diarrhoea does not clear up within a few days, or is accompanied by a fever.
+Oralit is a cheap, widely-available brand of rehydration salts, you should be able to find the sachets in even the smallest apotek . The usual advice - one dose after every bowel movement or every time you vomit. It tastes pretty lousy but is effective in making you feel a bit better.
+The air quality in major cities, especially Jakarta and Surabaya, is poor, and the seasonal haze (June-October) from forest fires on Borneo and northern Sumatra can also cause respiratory problems. If you have asthma, bring your medicine and nebuliser/inhaler.
+up during a 48-hour bus ride (evidently kretek smoke does not cause masuk angin ), while accepted cures include the practice of kerokan (scrubbing a coin over your oiled skin) or the less socially acceptable kentut , in other words, fart! Belching is socially acceptable, both after eating to indicate satisfaction and while undergoing reflexology, as the skilful foot manipulation forces all of that wayward wind to exit your body.
+More deadly still than masuk angin is angin duduk , lit. "wind while sitting". This is when a fan or air-conditioner blows cool air directly onto your neck while you are sitting down. To prevent it, never turn any fitted fan on, or make sure to set the air-conditioner temperature a couple of degrees warmer than the ambient air temperature.
+Polio has been eradicated from Indonesia now. Avian influenza (bird flu) has also made headlines, but outbreaks are sporadic and limited to people who deal with live or dead poultry in rural areas. Eating cooked chicken appears to be safe.
+There is rabies in Indonesia, and it can be carried by any warm-blooded animal. Many are asymptomatic and appear healthy while being infectious. Bali has a known problem with its dog population. Cats and monkeys are still risky. If your travel involves handling animals in any way, you might want to get the shots first. Otherwise, try not to get too close.
+
+## Health care
+
+The local Indonesian health care system is, in many cases, not up to western standards . While a shortterm stay in an Indonesian hospital or medical centre for simple health problems is probably not markedly different to a western facility, serious and critical medical emergencies will stretch the system to the limit. However, some private hospitals in big cities (like SOS Medika klinik) (https://www.internationalsos.co m/locations/indonesia) - such as in Java and Bali - have an international accreditation, though you will be paying a steep premium for their services. In any case, travel health insurance that includes medical
+evacuation back to a home country is highly recommended. Many rich Indonesians often choose to travel to neighbouring Singapore to receive more serious health care, and you should consider that option too. Before going to a hospital for non-emergency cases, it is advisable to ask which hospitals are good and which aren't. In some cases, hospitals have refused to treat uninsured patients.
+If you need a specific medicine, bring the medicine in its
+container/bottle, if possible, with the doctor's prescription. Indonesian custom inspectors may ask about the medicine. If you need additional medicine in Indonesia, bring the container to an apotek (pharmacy) and if possible mention the active ingredients of the medicine. Drugs are usually manufactured locally under different brand names but contain the same ingredients, the ingredients are always accompanied by the brand names in smaller letters. Be careful about the proper dosage of the medicine and be aware that small toko obat (not apotek) knowingly sell "recycled" (expired) medicine at low prices.
+For routine traveller complaints, one can often find dokter (medical doctors) in towns. These small clinics are usually walk-in, although you may face a long wait. Most clinics open in the afternoon (from 16:00). The emergency room (UGD/IGD) in hospitals are always open (24 hr). There are poliklinik (clinics) in most hospitals (08:00-16:00). Advance payment, incremental payments or some amount of credit card blocked are expected for treatment in some of the hospitals.
+*Image caption: Pharmacy in Ubud*
+Be warned that the doctors/nurses may not speak English well enough to describe an appropriate diagnosis or may be reluctant to provide one, be patient and take a good phrasebook or a translator with you. Ask about the name and dosage of the prescription medicine, as a few doctors may oversubscribe to inflate their own commission, antibiotics are often inappropriately prescribed, and vitamins are often provided liberally.
+There are several different pharmacies (Apotek) in Indonesia, and the level of service varies widely. Some pharmacies belong to larger chains and generally have a good selection. It is advisable to check in advance the availability of specialised medicines. Make sure you have the necessary vaccines and medication well in advance of your trip.
+In large cities, pharmacies can be found, for example, in shops or shopping centres, with the same opening hours as shops, from around 10 am to 9 pm.
+
+## HIV
+
+Indonesia has a high HIV prevalence rate (0.5% of the population in 2014). However, most infections are among injecting of same syringe drug users and followed by sex workers . Be careful and always protect yourself before engaging in risky activities.
+
+## Water
+
+Tap water is generally not potable in Indonesia. Water or ice served to you in restaurants may have been purified and/or boiled ( air minum or air putih ), but do ask. Air mineral (bottled water), usually known as Aqua after the best-known brand, is cheap and available everywhere, but check that the seals are intact. Also, be wary of buying from wandering vendors near public transport, as there are occasional reports of people being drugged with a bottle that has been injected with a drug and robbed.
+Most hotels provide free drinking water (generally, 2 small bottles, or a water heater) because tap water is rarely potable. Beware of ice, which may not have been prepared with potable water or transported and kept in hygienic conditions.
+
+## Respect
+
+- Do not be surprised if a few locals interact with foreigners, especially those of European descent, in a way that may be taken as "rude and overreacting". They may refer to you as a "bule" (literally, albino) and do things such as constant staring, taking pictures with you, greeting you with laughter, and then asking questions to some extent. You might also see some form of astonishment or amusement for doing what they do that they assume you don't. This is not meant to be an insult, but a form of curiosity.
+- A few Buddhist and Hindu temples and homes may have a Swastika placed somewhere. They are religious symbols, not a form of anti-Semitism or support of Nazism, which they pre-date.
+
+## Dress
+
+By and large, Indonesia is a conservative country and modest dress is advisable. At most of the beaches on Bali and Lombok the locals are used to foreigners prancing around in bikinis ( never topless or nude), but elsewhere women are advised to keep legs and necklines covered and to match the locals when bathing. Women are not legally required to wear the hijab, except Muslim women in Aceh. Wearing shorts or miniskirts is unlikely to cause actual offence, but clothing like this is sometimes associated with sex workers. Men, too, can gain respect by wearing collared, long-sleeve shirts and trousers if dealing with bureaucracy; a tie is not normally worn in Indonesia.
+
+## Names and addressing names
+
+Indonesians follow the western naming order convention; however, some people do not denote their surnames or don't have one. Indonesia has thousands of cultures with their own naming conventions, and not all of them have the concept of "family surnames." Chinese names typically follow Chinese naming conventions (family name first, then given name). Indonesian ID cards do not differentiate first names from surnames.
+Polite forms of address for people you don't know are Bapak ("Father") for men and Ibu ("Mother") for women. If you know the name of the person you're talking to, you can address them respectfully as (Ba)pak or (i)bu followed by their name (typically their first name), for men and women respectively; for example, former president Suharto was known as Pak Harto . The Javanese terms mas ("older brother") and mbak ("older
+
+## Manners
+
+By and large, except for hawkers and touts, Indonesians are polite people and adopting a few local conventions will go a long way toward smoothing your stay.
+- Saving face is extremely important in Indonesian culture. If you should get into a dispute with anybody, don't try to 'win' or argue and accuse the person at fault. Better results will be gained by remaining polite and humble at all times, never raising your voice, and smiling, asking the person to seek a solution to the problem. However, if someone is clearly corrupt or obstructive, a letter or call to, or a meeting with, a higher up may remedy the problem. How high up you may have to go is variable.
+- Do smile and nod your head or greet people as you walk around. A very Indonesian way to wave off hawkers and touts is to thank them: terima kasih in this case is short for tidak, terima kasih , "No, thank you".
+- When meeting someone, be it for the first time ever or just the first time that day, it is common to shake hands - but in Indonesia this is no knuckle-crusher, just a light touching of the palms , often followed by bringing your hand to your chest. Meetings often start and end with everybody shaking hands with everybody. However, don't try to shake hands with a Muslims woman unless she offers her hand first. It is respectful to bend slightly (not a complete bow) when greeting someone older or in a position of authority.
+- Never use your left hand! It is considered very rude as one uses one's left hand to wash one's privates after using the toilet. This is especially true when you are shaking hands or handing something to someone. It can be hard to get used to, especially if you are left-handed. However, sometimes special greetings are given with both hands. If you are, out of necessity, to hand someone something with your left hand, you should apologise: "Maaf, tangan kiri," (Sorry for using my left hand).
+- Avoid touching the top of anyone's head as some cultures here consider it as a holy part of their body. Do not point at someone with your finger; instead
+sister") are also common but is best reserved for equals, not superiors or those who are obviously more senior. You may be called Tuan (Mr), Nona (Ms) or Nyonya (Mrs), as these are usually used in Western terms.
+Calling by someone's first name is enough only if you already know the person personally. When referring to other people, it is best to mention them by name (or as many Indonesians do, use "si+the name". Example: "Si mas John" or "Si mbak Mary") rather than "dia" ("he/she"), as it signifies openness (so as not to talk of them secretly) and acknowledgement.
+*Image caption: The Torajan symbol used in parts of Indonesia resembles a Swastika but has nothing to do with Nazism*
+- with your right thumb, or a fully opened hand. Do not stand or sit with your arms crossed or on your hips as this a sign of anger or hostility.
+- Remove your footwear outside before entering a house, unless the owner explicitly allows you to keep them on. Even then, it might be more polite to remove them. Do not put your feet up while sitting and try not to show the bottom of your feet to someone - it is considered rude.
+- Don't walk in front of people, instead walk behind them. When others are sitting, while walking around them, it is customary to bow slightly and lower a hand to "cut" through the
+crowd; avoid standing upright.
+If all this seems terribly complex, don't worry about it too much - Indonesians are an easygoing bunch and don't expect foreigners to know or understand the intricacies of local etiquette. If you're wondering about a person's reaction or you see any peculiar gesture you don't understand, they will appreciate it if you ask them directly (casually later, in a friendly and humble manner), rather than ignoring it. In general, such a question is more than an apology; it shows trust.
+
+## Sensitive topics
+
+- Do not assume that everyone will have the same opinion as you regarding the Suharto regime. While a lot of people criticise this era for corruption, dictatorship, and racism, especially towards Chinese Indonesians, many still praise this era for economic growth, stability, and cheap prices of produce. It is better to assess the speaker's opinion before approaching the topic.
+- Communism is a very sensitive topic, since in the Suharto regime, there was a mass killing of Indonesian Communist Party members. Communism, as well as communist symbolism, is banned in Indonesia; promoting communism or displaying communist symbols is punishable with imprisonment.
+- Some Islamic institutions or clerics in Indonesia have promoted anti-Semitic views in the past, often conflating Judaism with political Zionism. However, these views are not representative of the general Muslim population, and Jewish people are not a prominent topic in daily public discourse.
+- Anti-Zionism is pretty strong in the Muslim communities; it's best to not discuss about Israel. Many Indonesian Muslims are vocal in their support for Palestine and Palestinians.
+- Nazism is not really a sensitive topic. There are even several small groups of Wehraboo (those who take an interest in Nazi Germany) in big cities.
+
+## Unmarried couples
+
+The Indonesian criminal code of 2022 made sex or cohabiting between unmarried people a criminal offense punishable by up to a year in jail. However, charges can only be pressed by the couple's relatives, meaning that foreign visitors are effectively off the hook. Exercise caution if dating locals, and if things get serious, try to keep on the good side of any future in-laws! As a Muslim-majority country, Indonesia has a negative attitude towards children born out of wedlock.
+Sharia-compliant hotels as well as those in conservative regions like Aceh may ask for marriage certificates, but the vast majority of regular hotels (including those in Bali) will not. See Sleep above for details.
+
+## Connect
+
+Keeping in touch with the outside world from Indonesia is rarely a problem, at least if you stay anywhere close to the beaten track.
+
+## Phone calls
+
+In the past the locals would go to wartel (short for warung telekomunikasi or telecommunication booth) to make phone call, but nowadays it is hardly to be found as many Indonesians can now afford mobile phones.
+Phone numbers in Indonesia are of the form +62 12 3456789 where "62" is the country code for Indonesia, followed by the area code without the prefix 0, and the phone number. If you omit the +62 prefix, you will need to punch the "0" area code prefix for calls to another area code. Omit the
+*Image caption: Cell phone mast in Java*
+prefix "0" if calling with a +62 prefix. Mobile numbers start with the prefix 08xx (or +62 8xx), in which "xx" denote the original mobile network assigned; this prefix must always be dialed.
+
+## Making local calls
+
+Dial (telephone number)
+Making long-distance calls
+Dial 0- (area code) (telephone number) -
+Making international calls
+Dial 017- (country code) (area code, if any) (telephone number) - - . You can use the "001", "007" or "008" prefix (real fixed line), but the tariffs are 3 times than using prefix 017 (through internet).
+You can make International calls through operator
+dial 101 or 102.
+Making long distance collect calls
+Dial 0871- (area code) Telkom Calling Card access number
+Dial 168
+
+## Mobile phones
+
+When dialing from mobile phones, always include the operator or area code, prefixed by +62 or 0: +62 812-3456-7890 or 0812-3456-7890 .
+There are legal requirements on registration of you and your device, the latter before entering the country, for using an Indonesian SIM card, see below.
+The Indonesian mobile phone market is very competitive and prices are low: you can pick up a prepaid SIM card for less than Rp10,000 and calls cost as little as Rp300 a minute to some other countries using certain carriers (subject to the usual host of restrictions). SMS (text message) service is cheap, with local SMS about Rp300, and international SMS for Rp600, but not all providers allow international SMS and also only to and from certain countries. For easier communication, the providers encourage using WhatsApp. Indonesia is also the world's largest market for used phones, which can be bought for as little as Rp80,000, whereas basic feature phones with dual SIM slots start from Rp120,000, and smartphones with 4G (LTE) support from Rp700,000. Using a 4G smartphone is sufficient, because not all Indonesian tourist areas have 5G coverage, even in Bali.
+The country has multiple service providers, in the order of the largest coverage, Telkomsel (https://www. telkomsel.com/en) , 3 (https://tri.co.id) Indosat / Ooredoo (https://im3.id/portal/en/indexpersonal) (they actually merged into IOH in 2023, but operate as separate providers sharing the same combined
+network), XL Axiata (http://www.xl.co.id) and Smartfren (https://www.smartfren.com/en/) . Each has sub-brands that are either a pre-paid or a post-paid service. In major cities, any will work just fine, but if you are travelling beyond the major cities (as you should do), Telkomsel is often the most reliable and in many cases the only one operating. By law, all phone numbers in Indonesia must be registered using a national ID Card and a Family Card. While this practically renders foreigners ineligible to use an Indonesian phone number, it can often however be worked around by activating it at the respective provider's office (for example, Telkomsel's GraPari, Galeri Indosat or XL Center).
+A new device registration law came into effect in 2020, intended to control the long-term importation of untaxed devices from outside of Indonesia. Unless your device has been used in Indonesia before 15 April 2020, it must be declared at customs, to be used with an Indonesian SIM card; see Customs above. If you do not complete this procedure, you will be limited to purchasing special "tourist SIMs" or roaming from your home country. The latter may still be cheaper if your phone is particularly expensive or you forgot to declare your phone before arrival; if so, also consider bringing or buying a cheaper phone for this use.
+The tourist SIMs cost significantly more than local plans - Telkomsel's tourist plan is Rp 100,000 for 300 minutes, 300 SMS, and 10 GB for 14 days. The validity periods cannot be extended, so you may have to buy a new one even if you have minutes and GBs left.
+Making international calls from mobile phone: Telkomsel: Dial 01017, Smartfren: Dial 01033 and then (country code) (area code, if any) (telephone number) --. For other providers can check the prefix at envelope of the SIM card or ask to its call centre. Most of the tariff is Rp 1,000/minutes to Rp 1,500/minutes call to phone line, and about double tariff call to mobile phone. Call to Africa is expensive about Rp 4,000/minutes call to phone line.
+
+## Internet
+
+Similar to wartel, in the past the locals would go to warnet (internet cafes) to use internet. These are now hard to be found except in small towns. Prices vary considerably, and as usual, you tend to get what you pay for, but you'll usually be looking for prices around Rp 5,000 per hour with faster access than from your own mobile phone. In large cities, there are free Wi-Fi hotspots in some restaurants, stores, and in many parks and public utility areas. Some hotels also provide free hotspots in the lobby, in their restaurants and in the rooms; these may be free or incur an additional charge.
+Indonesia practices Internet censorship and some 70,000 sites are blocked. The vast majority of these are porn, but some common Western sites like Reddit and many LGBTQ+ targeted dating apps are also blocked, and social messaging systems like Facebook, WhatsApp, and Instagram have been temporarily blocked as recently as 2019 during riots and other sensitive events. Set up a VPN to ensure uninterrupted access, and have a backup plan for reaching friends and family; so far email services like Gmail have not been targeted.
+If you are staying for longer than a week and need to browse the Internet on mobile , it is recommended to buy a local SIM card as the price is much cheaper compared to roaming with your own operator; Rp 20,000 can give you at least 2GB of data for the majority of networks. If you have GSM/WCDMA mobile phones, you can easily use them for internet connections with most prepaid cards from the major operators. Monthly, weekly and daily packages are available both as quota-based and unlimited (the latter becoming more popular), and the available deals and combinations change constantly. The best way to
+know the current deals is to visit the operators' websites (generally in Indonesian only) or to ask the dealers selling SIM cards. Despite the claims of various dodgy airport shops, you do not need to buy a modem bundle to use these packages with your phone. Also, the package price in the airport is often considerably inflated so it's a good idea to buy it later in the city, or visit a chosen operator's local (official) office, or easily at street or mall vendors.
+4G-LTE coverage in Java and Bali is widespread, as in cities and some rural areas elsewhere. However, it may not be there if you're in a remote place or in parts of eastern Indonesia. 5G is rolling out, but so far only in a few cities. As the frequency may be different from other countries, you are advised to check for your device's compatibility.
+Registering for a new SIM card is a must for Indonesian citizens, who need to show their ID card and Family Card. Foreigners will have the passport photographed by the vendor, but not all vendors are familiar with this procedure; visiting a service provider's shop is the best. Most plans require that your phone was declared at customs.
+
+## Telephone directories and information services
+
+- Current time , ☏ 999.
+- Information about Telkom services , ☏ 162.
+- Phone directory , ☏ 108. Phone directory in other cities (Code Area) 108
+- Hello Yellow Phone Directory , ☏ 1500057 (in country only).
+- Code area of large cities in Indonesia: Balikpapan (0542), Banda Aceh (0651), Bandung (022), Batam (0778), Betung (022), Bintan (0770), Bogor (025), Cirebon (023), Demak (029), Denpasar (0361), Jakarta (021), Jember (033), Jogyakarta (0274), Kupang (0380), Makassar (0411), Malang (034), Manado (0431), Mataram (0370), Medan (061), Palembang (0711), Pekanbaru (0761), Semarang (024), Solo (0271), Surabaya (031)
+
+## Postal service
+
+Postal service is provided by the state-owned Pos Indonesia (http://www.posindonesia.co.id), which will deliver to even the remotest areas. JNE and Tiki are also reliable enough to send packages to anywhere in Indonesia for less than $15 in up to 10 business days, depending on the origin and destination. FedEx, DHL, and UPS send packages internationally, and FedEx as well as its local affiliation RPX have drop box offices. Intra-city deliveries, especially in Jakarta, can be easily done in hours using a courier service from the same smartphone app that you can call for an ojek (see by motorcycle taxi section).
+*Image caption: Postal office in Yogyakarta*
+
+## Tourism Promotion Centre
+
+- Ministry of Tourism and Culture , Jl. Medan Merdeka Barat No.17, 9th floor, Jakarta, ☏ +62 21 383 8303.
+- Indonesia Tourism Promotion Board (BPPI), Wisma Nugraha Santana 9th flr. Jl. Jend. Sudirman Kav. 8, Jakarta, ☏ +62 21 570 4879, fax: +62 21 570 4855.
+
+## Emergency
+
+In most major cities, all emergency services can be called at 112 free of charge from any telephone, and will deploy services based on the type of emergency; calling that number everywhere else will usually be redirected to police, which will in turn also tries to deploy the necessary services, although it will take a little longer. For a specific service, have the numbers below in hand.
+- Police (https://polri.go.id/) (POLRI), ☏ 110. (updated Dec 2023)
+- Indonesian Police HQ , Jl. Trunojoyo 3, South Jakarta, ☏ +62 21 7218144.
+- Fire department , ☏ 113.
+- Ambulance , ☏ 118.
+- Search and rescue team , ☏ 115.
+- National Search and Rescue agency (BASARNAS), Jl. Medan Merdeka Timur No.5, Jakarta, ☏ +62 21 348-32881, +62 21 348-32908, +62 21 348-32869.
+- Red Cross HQ , Jakarta,
+- ☏ +62 21 3843582.
+English-speaking operators are not available even in major cities, as operators will typically speak Indonesian as their primary language.
+
+## Media
+
+English publications in Indonesia have sprung up, albeit very slowly. The Jakarta Post (https://www.thej akartapost.com) is Indonesia's largest circulating English newspaper; you can grab a copy in some of Indonesia's biggest cities. The Jakarta Globe (http://www.thejakartaglobe.com) is in a tabloid format and usually has richer content. Both newspapers provide good online content too.
+Tempo Media (https://en.tempo.co) maintains an online presence in English, even publishing its own English weekly magazine, but it is mostly filled with hard news.
+Antara News (http://www.antaranews.com/en/) also provides some news in English as well.
+State-owned TV network, TVRI, has its own English news service at 18:00 WIB (West Indonesian time) daily. Indonesia's pioneer news channel, MetroTV, also has an English news program at 01:00 WIB Tuesdays through Saturdays. Berita Satu World is an English news channel that can be watched on selected cable TV providers.
+
+## Cope
+
+
+## Electricity
+
+Indonesia uses a 220 volt and 50 Hz system. Outlets are European standard two round pins, either the CEE-7/7 "Schukostecker" or "Schuko" or the compatible, but non-grounded, CEE-7/16 "Europlug" types. Power adapters are easily found.
+Electricity within Java and Bali is on 24 hours a day. This is also generally true in most populated areas outside the two islands, although they may be more prone to blackouts. The remote or less populated villages may have electricity on for a few hours per day only or even none at all.
+
+## Laundry
+
+Main article: Laundry
+Almost all hotels offer laundry service. If you want to save some money, look for a public laundry service called "Laundry Kiloan" (in Indonesian) and usually charged by weight. For standard service, your clothes will be washed, dried, ironed, folded, and usually packed in plastic. It may take as long as up to three days to get your clothes back, so
+*Image caption: A typical Indonesian wall socket.*
+plan in advance. The tariff is Rp 7,000-12,000 per kilo and the price is doubled if you wish to use an express service.
+
+## Embassies and consulates
+
+The Kementerian Luar Negeri (https://www.kemlu.go.id/portal/en/page/29/kedutaan_konsulat) or Ministry of Foreign Affairs maintains a complete searchable database of diplomatic institutions. All embassies are located in Jakarta (see that article for listings), but a few countries maintain consulates and honorary consulates elsewhere, mostly in Surabaya, Bali, and some cities (e.g. Malaysia in Pekanbaru, the Philippines in Manado, Papua New Guinea in Jayapura and so on).
+Retrieved from "https://en.wikivoyage.org/w/index.php?title=Indonesia&oldid=5271006"
