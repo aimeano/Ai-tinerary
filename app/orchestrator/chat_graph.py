@@ -5,6 +5,7 @@ from langgraph.graph import StateGraph, END
 from app.retrieval.hybrid_retrieve import hybrid_retrieve
 from app.retrieval.rerank import rerank_hybrid_results
 from app.llm.generate import generate_with_ollama
+from app.llm.model_config import MODELS
 
 
 class ChatState(TypedDict):
@@ -78,7 +79,10 @@ User message:
 Return ONLY the route name.
 """
 
-    raw = generate_with_ollama(prompt).strip().lower()
+    raw = generate_with_ollama(
+        prompt,
+        model=MODELS["router"]
+    ).strip().lower()
 
     allowed = [
         "ask_country_info",
@@ -118,14 +122,14 @@ def build_query_for_itinerary_edit(state: ChatState) -> str:
     cities = ", ".join(profile.get("cities", []))
 
     return f"""
-{country} {cities} itinerary modification support.
+        {country} {cities} itinerary modification support.
 
-User requested change:
-{state["user_message"]}
+        User requested change:
+        {state["user_message"]}
 
-Retrieve information relevant to modifying the itinerary.
-Focus on places, activities, transport, food, shopping, cafes, nature, nightlife, nearby alternatives, and practical schedule changes.
-"""
+        Retrieve information relevant to modifying the itinerary.
+        Focus on places, activities, transport, food, shopping, cafes, nature, nightlife, nearby alternatives, and practical schedule changes.
+        """
 
 
 def build_chat_query_node(state: ChatState):
@@ -185,27 +189,31 @@ def retrieve_chat_context_node(state: ChatState):
 
 def answer_country_info_node(state: ChatState):
     prompt = f"""
-You are a helpful travel assistant.
+        You are a helpful travel assistant.
 
-User profile:
-{state["profile"]}
+        User profile:
+        {state["profile"]}
 
-Retrieved travel context:
-{state["retrieved"]}
+        Retrieved travel context:
+        {state["retrieved"]}
 
-User question:
-{state["user_message"]}
+        User question:
+        {state["user_message"]}
 
-Instructions:
-- Answer the latest question directly.
-- Use retrieved context when relevant.
-- If retrieved context is empty or unrelated, say the uploaded travel documents do not contain enough information.
-- For live weather, current prices, opening hours, or current visa rules, say live verification/API is needed.
-- Do not pretend unsupported facts came from retrieved context.
-- Be practical and concise.
-"""
+        Instructions:
+        - Answer the latest question directly.
+        - Use retrieved context when relevant.
+        - If retrieved context is empty or unrelated, say the uploaded travel documents do not contain enough information.
+        - For live weather, current prices, opening hours, or current visa rules, say live verification/API is needed.
+        - Do not pretend unsupported facts came from retrieved context.
+        - Be practical and concise.
+        """
 
-    answer = generate_with_ollama(prompt)
+    answer = generate_with_ollama(
+            prompt,
+            model=MODELS["simple_qa"]
+        )
+
 
     return {"response": answer}
 
@@ -230,7 +238,11 @@ Instructions:
 - Keep the answer short and useful.
 """
 
-    answer = generate_with_ollama(prompt)
+    answer = generate_with_ollama(
+        prompt,
+        model=MODELS["simple_qa"]
+    )
+
 
     return {"response": answer}
 
@@ -260,7 +272,10 @@ Task:
 - Return the updated itinerary clearly.
 """
 
-    updated_itinerary = generate_with_ollama(prompt)
+    updated_itinerary = generate_with_ollama(
+                                prompt,
+                                model=MODELS["edit_itinerary"]
+                            )
 
     return {
         "itinerary": updated_itinerary,
@@ -290,7 +305,10 @@ Use retrieved context when relevant.
 Do not invent unsupported travel facts.
 """
 
-    new_itinerary = generate_with_ollama(prompt)
+    new_itinerary = generate_with_ollama(
+                    prompt,
+                    model=MODELS["generate_itinerary"]
+                    )
 
     return {
         "itinerary": new_itinerary,
@@ -317,7 +335,10 @@ Instructions:
 - Do not switch countries or cities.
 """
 
-    answer = generate_with_ollama(prompt)
+    answer = generate_with_ollama(
+            prompt,
+            model=MODELS["simple_qa"]
+        )
 
     return {"response": answer}
 

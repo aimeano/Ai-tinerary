@@ -1,6 +1,5 @@
 from app.retrieval.hybrid_retrieve import hybrid_retrieve
 from app.retrieval.rerank import rerank_hybrid_results
-from app.planning.poi_extractor import extract_pois
 from app.planning.distance_planner import geocode_pois, build_local_distance_matrix, cluster_pois
 from app.planning.poi_metadata import collect_pois_from_metadata
 query = "shopping and food itinerary in Kuala Lumpur "

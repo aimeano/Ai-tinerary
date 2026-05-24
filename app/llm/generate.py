@@ -16,9 +16,10 @@ HEADERS = {
 }
 
 
+
 def generate_with_ollama(
     prompt: str,
-    model: str = "luxia2.5-llm-32b-0505"
+    model: str
 ) -> str:
     response = requests.post(
         URL,
