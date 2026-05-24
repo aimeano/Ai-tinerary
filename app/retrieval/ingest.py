@@ -3,7 +3,6 @@ import hashlib
 from pathlib import Path
 
 from app.services.luxia_parse import parse_document
-from app.preprocessing.clean_html import clean_luxia_html
 from app.services.luxia_chunk import chunk_text
 from app.services.luxia_embed import embed_texts
 from app.services.metadata_extract import extract_chunk_metadata
@@ -13,7 +12,7 @@ from app.retrieval.vectorstore import recreate_collection, upsert_chunks
 
 
 RAW_DIR = Path("app/data/raw")
-CLEAN_DIR = Path("app/data/clean")
+PARSED_DIR = Path("app/data/parsed_md")
 PROCESSED_DIR = Path("app/data/processed")
 MANIFEST_PATH = PROCESSED_DIR / "ingest_manifest.json"
 
@@ -44,19 +43,6 @@ def file_hash(path: Path) -> str:
     return h.hexdigest()
 
 
-def load_manifest() -> dict:
-    if MANIFEST_PATH.exists():
-        return json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
-    return {}
-
-
-def save_manifest(manifest: dict):
-    MANIFEST_PATH.write_text(
-        json.dumps(manifest, indent=2),
-        encoding="utf-8",
-    )
-
-
 def load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -66,6 +52,16 @@ def save_json(path: Path, data):
         json.dumps(data, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+
+
+def load_manifest() -> dict:
+    if MANIFEST_PATH.exists():
+        return load_json(MANIFEST_PATH)
+    return {}
+
+
+def save_manifest(manifest: dict):
+    save_json(MANIFEST_PATH, manifest)
 
 
 def make_manual_chunk(
@@ -101,13 +97,13 @@ def make_manual_chunk(
 
 
 def build_chunks_from_markdown(
-    cleaned: str,
+    markdown: str,
     source: str,
     country: str,
     location: str,
     source_type: str,
 ) -> list[dict]:
-    sections = split_markdown_by_h2(cleaned)
+    sections = split_markdown_by_h2(markdown)
 
     chunks = []
     child_id = 0
@@ -125,18 +121,18 @@ def build_chunks_from_markdown(
             continue
 
         if word_count <= 900:
-            chunk = make_manual_chunk(
-                text=content,
-                section=title,
-                source=source,
-                country=country,
-                location=location,
-                source_type=source_type,
-                parent_id=parent_id,
-                child_id=child_id,
+            chunks.append(
+                make_manual_chunk(
+                    text=content,
+                    section=title,
+                    source=source,
+                    country=country,
+                    location=location,
+                    source_type=source_type,
+                    parent_id=parent_id,
+                    child_id=child_id,
+                )
             )
-
-            chunks.append(chunk)
             child_id += 1
 
         else:
@@ -169,10 +165,8 @@ def enrich_chunks_with_metadata(
     for i, chunk in enumerate(chunks, start=1):
         print(f"Extracting metadata {i}/{len(chunks)}")
 
-        text = chunk.get("chunk_text", "")
-
         metadata = extract_chunk_metadata(
-            chunk_text=text,
+            chunk_text=chunk["chunk_text"],
             country=country,
             location=location,
         )
@@ -222,8 +216,7 @@ def ingest_pdf(pdf_path: Path):
     location = file_metadata["location"]
     source_type = file_metadata["source_type"]
 
-    html_path = CLEAN_DIR / f"{stem}_raw.html"
-    clean_path = CLEAN_DIR / f"{stem}_clean.md"
+    parsed_md_path = PARSED_DIR / f"{stem}.md"
     chunks_path = PROCESSED_DIR / f"{stem}_chunks.json"
     enriched_chunks_path = PROCESSED_DIR / f"{stem}_enriched_chunks.json"
     vectors_path = PROCESSED_DIR / f"{stem}_vectors.json"
@@ -243,34 +236,25 @@ def ingest_pdf(pdf_path: Path):
         and vectors_path.exists()
     ):
         print("Already ingested. Loading cached enriched chunks and vectors.")
+        return load_json(enriched_chunks_path), load_json(vectors_path)
 
-        chunks = load_json(enriched_chunks_path)
-        vectors = load_json(vectors_path)
-
-        return chunks, vectors
-
-    if html_path.exists():
-        html = html_path.read_text(encoding="utf-8")
-        print("Loaded cached parsed HTML.")
+    if parsed_md_path.exists():
+        markdown = parsed_md_path.read_text(encoding="utf-8")
+        print("Loaded cached parsed Markdown.")
     else:
-        html = parse_document(str(pdf_path))
-        html_path.write_text(html, encoding="utf-8")
-        print("Parsed PDF with Luxia and saved HTML.")
-
-    if clean_path.exists():
-        cleaned = clean_path.read_text(encoding="utf-8")
-        print("Loaded cached cleaned Markdown.")
-    else:
-        cleaned = clean_luxia_html(html)
-        clean_path.write_text(cleaned, encoding="utf-8")
-        print("Cleaned HTML and saved Markdown.")
+        markdown = parse_document(
+            str(pdf_path),
+            output_mode="markdown",
+        )
+        parsed_md_path.write_text(markdown, encoding="utf-8")
+        print("Parsed PDF with Luxia and saved Markdown.")
 
     if chunks_path.exists():
         chunks = load_json(chunks_path)
         print("Loaded cached chunks.")
     else:
         chunks = build_chunks_from_markdown(
-            cleaned=cleaned,
+            markdown=markdown,
             source=source,
             country=country,
             location=location,
@@ -304,15 +288,12 @@ def ingest_pdf(pdf_path: Path):
         print("Loaded cached vectors.")
     else:
         chunks = clean_valid_chunks(chunks)
-
         texts = [chunk["chunk_text"] for chunk in chunks]
 
         print("Embedding texts:", len(texts))
 
         if not texts:
             raise ValueError(f"No valid chunk_text found for embedding: {source}")
-
-        print("First text preview:", texts[0][:200])
 
         vectors = embed_texts(texts, batch_size=4)
 
@@ -330,11 +311,10 @@ def ingest_pdf(pdf_path: Path):
         "country": country,
         "location": location,
         "source_type": source_type,
+        "parsed_md_path": str(parsed_md_path),
         "chunks_path": str(chunks_path),
         "enriched_chunks_path": str(enriched_chunks_path),
         "vectors_path": str(vectors_path),
-        "html_path": str(html_path),
-        "clean_path": str(clean_path),
     }
 
     save_manifest(manifest)
@@ -343,7 +323,7 @@ def ingest_pdf(pdf_path: Path):
 
 
 def ingest_all():
-    CLEAN_DIR.mkdir(parents=True, exist_ok=True)
+    PARSED_DIR.mkdir(parents=True, exist_ok=True)
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 
     pdf_files = sorted(RAW_DIR.glob("*.pdf"))
