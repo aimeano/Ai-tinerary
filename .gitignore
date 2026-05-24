@@ -39,9 +39,14 @@ htmlcov/
 .ipynb_checkpoints/
 
 # Project data / generated files
-app/data/processed/
-app/data/web_raw/
-app/data/cleaned_md/
+# Processed data
+app/data/processed/*_vectors.json
+app/data/processed/ingest_manifest.json
+
+# keep chunk metadata for reproducibility
+!app/data/processed/*_chunks.json
+!app/data/processed/*_enriched_chunks.json
+
 
 # Vector DB / local DB
 chroma_db/
