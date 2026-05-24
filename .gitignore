@@ -1,21 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
 .venv/
 venv/
+env/
+ENV/
 
-__pycache__/
-*.pyc
-.DS_Store
-
+# Environment variables / secrets
 .env
+.envrc
+.streamlit/secrets.toml
 
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Testing / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project data / generated files
 app/data/processed/
 app/data/web_raw/
 app/data/cleaned_md/
 
+# Vector DB / local DB
 chroma_db/
 qdrant_storage/
+*.sqlite3
+*.db
 
+# Playwright
 playwright-report/
 test-results/
 
-.vscode/
-.idea/
+# Logs
+*.log
