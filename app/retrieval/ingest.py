@@ -244,7 +244,7 @@ def ingest_pdf(pdf_path: Path):
     else:
         markdown = parse_document(
             str(pdf_path),
-            output_mode="markdown",
+            output_mode="html",
         )
         parsed_md_path.write_text(markdown, encoding="utf-8")
         print("Parsed PDF with Luxia and saved Markdown.")
