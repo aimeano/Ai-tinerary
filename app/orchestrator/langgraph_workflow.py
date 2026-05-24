@@ -14,6 +14,7 @@ from app.planning.restaurant_suggestions import (
     attach_restaurants_to_itinerary
 )
 from app.planning.attach_travel_time import attach_travel_time
+from app.llm.model_config import MODELS
 
 
 
@@ -147,7 +148,10 @@ def generate_itinerary_node(state: TravelState):
         clusters=state["clusters"],
     )
 
-    raw = generate_with_ollama(prompt)
+    raw = generate_with_ollama(
+        prompt,
+        model=MODELS["generate_itinerary"]
+        )
     print("\n===== RAW MODEL OUTPUT =====\n")
     print(raw)
 
