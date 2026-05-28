@@ -1,6 +1,9 @@
 import json
 import hashlib
+import re
 from pathlib import Path
+
+from bs4 import BeautifulSoup
 
 from app.services.luxia_parse import parse_document
 from app.services.luxia_chunk import chunk_text
@@ -12,7 +15,7 @@ from app.retrieval.vectorstore import recreate_collection, upsert_chunks
 
 
 RAW_DIR = Path("app/data/raw")
-PARSED_DIR = Path("app/data/parsed_md")
+PARSED_DIR = Path("app/data/clean")
 PROCESSED_DIR = Path("app/data/processed")
 MANIFEST_PATH = PROCESSED_DIR / "ingest_manifest.json"
 
@@ -48,6 +51,7 @@ def load_json(path: Path):
 
 
 def save_json(path: Path, data):
+    path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
         json.dumps(data, ensure_ascii=False, indent=2),
         encoding="utf-8",
@@ -62,6 +66,108 @@ def load_manifest() -> dict:
 
 def save_manifest(manifest: dict):
     save_json(MANIFEST_PATH, manifest)
+
+
+def normalize_text(text: str) -> str:
+    text = text.replace("\xa0", " ")
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def is_noise_line(text: str) -> bool:
+    lowered = text.lower().strip()
+
+    if not lowered:
+        return True
+
+    if len(lowered) <= 2:
+        return True
+
+    if re.fullmatch(r"\d+", lowered):
+        return True
+
+    if ">" in text and len(text.split(">")) >= 3:
+        return True
+
+    noise_patterns = [
+        "map of",
+        "table of contents",
+        "contents",
+        "ichong",
+        "page-number",
+    ]
+
+    if any(pattern in lowered for pattern in noise_patterns):
+        return True
+
+    bad_exact = {
+        ")",
+        "(",
+        "-",
+        "—",
+        "•",
+    }
+
+    if lowered in bad_exact:
+        return True
+
+    if len(lowered.split()) == 1 and len(lowered) <= 4:
+        return True
+
+    return False
+
+
+def clean_broken_paragraph(text: str) -> str:
+    text = re.sub(r"\s+", " ", text)
+    text = text.replace(" )", ")")
+    text = text.replace("( ", "(")
+    text = text.replace(" ,", ",")
+    return text.strip()
+
+
+def clean_parsed_markdown(raw_html: str) -> str:
+    soup = BeautifulSoup(raw_html, "html.parser")
+
+    for tag in soup([
+        "style",
+        "script",
+        "head",
+        "meta",
+        "link",
+        "title",
+    ]):
+        tag.decompose()
+
+    for tag in soup.find_all(["figure", "img"]):
+        tag.decompose()
+
+    cleaned_lines = []
+
+    for element in soup.find_all(["h1", "h2", "h3", "p", "li"]):
+        text = element.get_text(" ", strip=True)
+
+        if not text:
+            continue
+
+        text = normalize_text(text)
+
+        if is_noise_line(text):
+            continue
+
+        if element.name in ["h1", "h2"]:
+            cleaned_lines.append(f"\n## {text}\n")
+        elif element.name == "h3":
+            cleaned_lines.append(f"\n### {text}\n")
+        else:
+            paragraph = clean_broken_paragraph(text)
+            if paragraph:
+                cleaned_lines.append(paragraph)
+
+    cleaned = "\n\n".join(cleaned_lines)
+    cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
+    cleaned = re.sub(r"[ \t]{2,}", " ", cleaned)
+
+    return cleaned.strip()
 
 
 def make_manual_chunk(
@@ -134,7 +240,6 @@ def build_chunks_from_markdown(
                 )
             )
             child_id += 1
-
         else:
             luxia_result = chunk_text(content)
 
@@ -240,14 +345,19 @@ def ingest_pdf(pdf_path: Path):
 
     if parsed_md_path.exists():
         markdown = parsed_md_path.read_text(encoding="utf-8")
-        print("Loaded cached parsed Markdown.")
+        print("Loaded cached cleaned Markdown.")
     else:
-        markdown = parse_document(
+        raw_html = parse_document(
             str(pdf_path),
-            output_mode="markdown",
+            output_mode="html",
         )
+
+        markdown = clean_parsed_markdown(raw_html)
+
+        parsed_md_path.parent.mkdir(parents=True, exist_ok=True)
         parsed_md_path.write_text(markdown, encoding="utf-8")
-        print("Parsed PDF with Luxia and saved Markdown.")
+
+        print("Parsed PDF, cleaned Markdown, and saved.")
 
     if chunks_path.exists():
         chunks = load_json(chunks_path)
