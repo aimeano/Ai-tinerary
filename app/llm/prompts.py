@@ -1,47 +1,59 @@
-def build_itinerary_prompt(profile: dict, retrieved_results: list[dict], clusters: list[dict]) -> str:
-    context_blocks = []
+import json
+
+
+def build_itinerary_prompt(
+    profile: dict,
+    retrieved_results: list[dict],
+    clusters: list[dict],
+    validated_pois: list[dict] | None = None,
+) -> str:
+
+    # ── Validated place menu ──────────────────────────────────────────────────
+    # This is the single source of truth for what locations the LLM may use.
+    # Every activity must reference a place from this list.
+    if validated_pois:
+        place_menu = json.dumps(
+            [
+                {
+                    "name": p["name"],
+                    "latitude": p["lat"],
+                    "longitude": p["lng"],
+                    "address": p.get("formatted_address", ""),
+                    "types": p.get("types", []),
+                }
+                for p in validated_pois
+            ],
+            indent=2,
+            ensure_ascii=False,
+        )
+        few_places_note = (
+            "\nNOTE: There are fewer validated places than days. "
+            "Reuse locations with different activity types "
+            "(e.g., same beach for morning swim and sunset walk)."
+            if len(validated_pois) < profile.get("days", 3)
+            else ""
+        )
+    else:
+        place_menu = "[]"
+        few_places_note = (
+            "\nNOTE: No validated places were found. "
+            "Use well-known, real landmarks in "
+            f"{', '.join(profile.get('cities', []))} only."
+        )
+
+    # ── Context snippets (descriptions only, no new place names) ─────────────
+    context_snippets = []
 
     for i, item in enumerate(retrieved_results, start=1):
         payload = item["payload"]
 
-        context_blocks.append(f"""
-            [Context {i}]
-            Source: {payload.get("source")}
-            Section: {payload.get("section")}
-            Topic: {payload.get("topic")}
-            Travel intents: {payload.get("travel_intents")}
-            POIs: {payload.get("pois")}
-
-            Text:
-            {payload.get("parent_chunk") or payload.get("chunk_text")}
-            """)
-
-    cluster_blocks = []
-
-    for cluster in clusters:
-        places = []
-
-        for place in cluster["places"]:
-            places.append(f"""
-                - Name: {place.get("name")}
-                Latitude: {place.get("lat")}
-                Longitude: {place.get("lng")}
-                Address: {place.get("formatted_address")}
-                """)
-
-            cluster_blocks.append(f"""
-                [Cluster {cluster["cluster_id"]}]
-                {''.join(places)}
-                """)
-            
-    
-            
-
+    context_block = "\n\n".join(context_snippets) if context_snippets else "No context available."
 
     return f"""
 You are an AI travel itinerary planner.
 
-Create a realistic travel itinerary using ONLY the retrieved context and clustered places.
+Your task is to create a day-by-day itinerary using ONLY the validated places listed below.
+Do NOT invent, guess, or use any place not in the VALIDATED PLACES list.
 
 USER PROFILE
 Country: {profile["country"]}
@@ -53,37 +65,31 @@ Interests: {", ".join(profile["interests"])}
 Budget: {profile["budget"]}
 Must include: {", ".join(profile["must_include"])}
 
-RETRIEVED CONTEXT
-{''.join(context_blocks)}
+VALIDATED PLACES — the ONLY locations you may schedule activities at:
+{place_menu}{few_places_note}
 
-CLUSTERED PLACES WITH COORDINATES
-{''.join(cluster_blocks)}
-
+CONTEXT (use only for writing activity descriptions — do NOT derive new place names from this):
+{context_block}
 
 RULES
-- Output ONLY valid JSON.
-- Do not use markdown.
-- Do not include explanations outside JSON.
-- Every activity must have latitude and longitude.
-- Use coordinates from CLUSTERED PLACES only.
-- If coordinates are not available, set latitude and longitude to null.
-- Respect the trip duration exactly.
-- Group nearby places into the same day.
-- Minimize unnecessary travel.
-- Respect must-include places when possible.
-- Do not invent unsupported places.
-- Do not include places from unrelated countries or cities.
+- Every activity.location_name MUST exactly match a "name" from VALIDATED PLACES.
+- Every activity.latitude and activity.longitude MUST come from VALIDATED PLACES.
+- Do NOT use any place that is not in VALIDATED PLACES above.
+- ALL activities on a given day must belong to the SAME city — never mix cities within one day.
+- When a day is in City A, only use places listed under City A's section.
+- Group geographically close places on the same day.
+- Respect must-include items when possible.
 - Use realistic time blocks.
-- Keep descriptions concise.
+- Keep descriptions concise (1–2 sentences).
+- Output ONLY valid JSON, no markdown fences, no explanations outside JSON.
+- If the trip covers multiple cities, dedicate full days to one city at a time.
+- Do not mix cities within a single day's activities.
 
 CRITICAL OUTPUT REQUIREMENTS
 - Generate exactly {profile["days"]} day objects inside "days".
 - Day numbers must be 1 to {profile["days"]}.
 - Each day must contain 3 to 5 activities.
-- Do not write "...".
-- Do not summarize missing days.
-- Do not include markdown fences.
-- Do not write "Here is".
+- Do not write "..." or summarize missing days.
 - Return raw JSON only.
 
 JSON SCHEMA
@@ -91,12 +97,12 @@ JSON SCHEMA
   "trip": {{
     "country": "",
     "cities": [],
-    "duration_days": 0,
+    "duration_days": 0
   }},
   "days": [
     {{
       "day": 1,
-      "date" : "",
+      "date": "",
       "title": "",
       "summary": "",
       "activities": [

@@ -1,4 +1,4 @@
-def build_retrieval_query(profile: dict) -> str:
+"""def build_retrieval_query(profile: dict) -> str:
     country = profile.get("country", "").strip()
     cities = [c.strip() for c in profile.get("cities", []) if c.strip()]
     days = profile.get("days", 0)
@@ -11,7 +11,7 @@ def build_retrieval_query(profile: dict) -> str:
     interests_text = ", ".join(interests)
     must_include_text = ", ".join(must_include)
 
-    return f"""
+    return f
 Travel itinerary planning request.
 
 Primary destination:
@@ -46,3 +46,30 @@ Avoid:
 - generic country overview unless it directly supports the trip
 - table of contents, cover pages, contact pages, or noisy OCR text
 """
+
+#test
+def build_retrieval_query(profile: dict) -> list[str]:
+    country = profile["country"]
+    cities = ", ".join(profile["cities"])
+    interests = " ".join(profile["interests"])
+    must_include = " ".join(profile["must_include"])
+
+    queries = []
+
+    base = f"{cities} {country}"
+
+    queries.append(
+        f"{base} tourist attractions landmarks"
+    )
+
+    if interests:
+        queries.append(
+            f"{base} {interests}"
+        )
+
+    if must_include:
+        queries.append(
+            f"{base} {must_include}"
+        )
+
+    return queries

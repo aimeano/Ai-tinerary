@@ -5,7 +5,7 @@ from langgraph.graph import StateGraph, END
 from app.planning.preference_extractor import build_retrieval_query
 from app.retrieval.hybrid_retrieve import hybrid_retrieve
 from app.retrieval.rerank import rerank_hybrid_results
-from app.planning.distance_planner import geocode_pois, cluster_pois
+from app.planning.distance_planner import geocode_pois, cluster_pois, validate_geocoded_pois
 from app.llm.prompts import build_itinerary_prompt
 from app.llm.generate import generate_with_ollama
 from app.planning.poi_metadata import collect_pois_from_metadata
@@ -14,19 +14,22 @@ from app.planning.restaurant_suggestions import (
     attach_restaurants_to_itinerary
 )
 from app.planning.attach_travel_time import attach_travel_time
+from app.planning.coordinate_guard import fix_itinerary_coordinates
 from app.llm.model_config import MODELS
 
 
 
 class TravelState(TypedDict):
     profile: Dict[str, Any]
-    query: str
+    queries: List[str]   # one focused query per intent (landmarks / interests / must-include)
+    query: str           # joined string used by the reranker (needs a single str)
     hybrid_results: List[dict]
     reranked_results: List[dict]
     llm_context: List[dict]
     poi_context: List[dict]
     pois: List[str]
     geocoded: List[dict]
+    validated_pois: List[dict]
     clusters: List[dict]
     itinerary: str
     user_message: str
@@ -62,22 +65,49 @@ def print_retrieved_chunks(results: list[dict]):
         print("\n" + "=" * 80)
 
 def build_query_node(state: TravelState):
-    query = build_retrieval_query(state["profile"])
-    return {**state, "query": query}
+    result = build_retrieval_query(state["profile"])
+
+    # build_retrieval_query returns a list of focused query strings.
+    # Keep the list for multi-pass retrieval and also store a joined string
+    # for the reranker which expects a single query.
+    if isinstance(result, list):
+        queries = [q for q in result if q.strip()]
+        query = " ".join(queries)
+    else:
+        queries = [result]
+        query = result
+
+    return {**state, "queries": queries, "query": query}
 
 
 def retrieve_node(state: TravelState):
     profile = state["profile"]
 
-    hybrid_results = hybrid_retrieve(
-        query=state["query"],
-        top_k=25,
-        candidate_k=40,
-        country=profile["country"],
-        locations=profile["cities"],
-    )
+    # Run one retrieval pass per focused query and deduplicate by doc identity.
+    # This gives better coverage: one pass finds landmarks, another finds
+    # interest-specific content, another finds must-include items.
+    queries = state.get("queries") or [state["query"]]
 
-    return {**state, "hybrid_results": hybrid_results}
+    seen: set[str] = set()
+    all_results: list[dict] = []
+
+    for q in queries:
+        results = hybrid_retrieve(
+            query=q,
+            top_k=25,
+            candidate_k=40,
+            country=profile["country"],
+            locations=profile["cities"],
+        )
+        for r in results:
+            payload = r["payload"]
+            doc_id = f"{payload.get('source')}_{payload.get('child_id')}"
+            if doc_id not in seen:
+                seen.add(doc_id)
+                all_results.append(r)
+
+    print(f"\n[retrieve] {len(queries)} queries → {len(all_results)} unique chunks")
+    return {**state, "hybrid_results": all_results}
 
 
 def rerank_node(state: TravelState):
@@ -107,9 +137,11 @@ def rerank_node(state: TravelState):
     }
 
 def poi_node(state: TravelState):
+    # Use a lower threshold here — geocode validation (not rerank score)
+    # is the real quality gate that filters out off-city places.
     poi_context = [
         r for r in state["reranked_results"]
-        if r["rerank_score"] >= 0.5
+        if r["rerank_score"] >= 0.2
     ]
 
     pois = collect_pois_from_metadata(poi_context)
@@ -129,14 +161,23 @@ def geocode_cluster_node(state: TravelState):
         city_hint=city_hint,
     )
 
-    clusters = cluster_pois(
+    validated_pois = validate_geocoded_pois(
         geocoded,
+        cities=profile["cities"],
+        country=profile["country"],
+    )
+
+    print(f"\n[geocode] {len(geocoded)} geocoded → {len(validated_pois)} validated")
+
+    clusters = cluster_pois(
+        validated_pois,
         radius_km=2.5,
     )
 
     return {
         **state,
         "geocoded": geocoded,
+        "validated_pois": validated_pois,
         "clusters": clusters,
     }
 
@@ -146,6 +187,7 @@ def generate_itinerary_node(state: TravelState):
         profile=state["profile"],
         retrieved_results=state["reranked_results"],
         clusters=state["clusters"],
+        validated_pois=state["validated_pois"],
     )
 
     raw = generate_with_ollama(
@@ -156,6 +198,14 @@ def generate_itinerary_node(state: TravelState):
     print(raw)
 
     itinerary_json = extract_json_object(raw)
+
+    # ── Coordinate guard ──────────────────────────────────────────────────────
+    # Snap lat/lng to validated values and null out any hallucinated places
+    # before restaurants and travel time are computed from those coordinates.
+    itinerary_json = fix_itinerary_coordinates(
+        itinerary_json,
+        validated_pois=state["validated_pois"],
+    )
 
     itinerary_json = attach_restaurants_to_itinerary(
         itinerary_json,
@@ -199,6 +249,7 @@ initial_itinerary_app = build_initial_itinerary_graph()
 def run_initial_itinerary(profile: dict):
     initial_state: TravelState = {
         "profile": profile,
+        "queries": [],
         "query": "",
         "hybrid_results": [],
         "reranked_results": [],
@@ -206,6 +257,7 @@ def run_initial_itinerary(profile: dict):
         "poi_context": [],
         "pois": [],
         "geocoded": [],
+        "validated_pois": [],
         "clusters": [],
         "itinerary": "",
         "user_message": "",
