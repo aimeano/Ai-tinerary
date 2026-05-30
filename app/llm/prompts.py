@@ -36,9 +36,10 @@ def build_itinerary_prompt(
     else:
         place_menu = "[]"
         few_places_note = (
-            "\nNOTE: No validated places were found. "
-            "Use well-known, real landmarks in "
-            f"{', '.join(profile.get('cities', []))} only."
+            "\nNOTE: No validated places were found for this city. "
+            "Generate activities with latitude and longitude set to null. "
+            "Do not invent coordinates. "
+            "The post-processing pipeline will handle coordinate lookup."
         )
 
     # ── Context snippets (descriptions only, no new place names) ─────────────
@@ -73,8 +74,9 @@ CONTEXT (use only for writing activity descriptions — do NOT derive new place 
 
 RULES
 - Every activity.location_name MUST exactly match a "name" from VALIDATED PLACES.
-- Every activity.latitude and activity.longitude MUST come from VALIDATED PLACES.
+- Every activity.latitude and activity.longitude MUST be copied exactly from VALIDATED PLACES.
 - Do NOT use any place that is not in VALIDATED PLACES above.
+- location_name must be a specific proper-noun place name (e.g. "Petronas Twin Towers"). NEVER use generic category words like "kopitiam", "food_court", "mamak_stalls", "nasi_kandar", "beach", "park", or any underscore-separated placeholder.
 - ALL activities on a given day must belong to the SAME city — never mix cities within one day.
 - When a day is in City A, only use places listed under City A's section.
 - Group geographically close places on the same day.
@@ -82,8 +84,9 @@ RULES
 - Use realistic time blocks.
 - Keep descriptions concise (1–2 sentences).
 - Output ONLY valid JSON, no markdown fences, no explanations outside JSON.
-- If the trip covers multiple cities, dedicate full days to one city at a time.
-- Do not mix cities within a single day's activities.
+- ONLY use location names that appear exactly in the VALIDATED PLACES list. Never invent or guess place names.
+- For island hopping activities, only use island names from VALIDATED PLACES. Never invent island names.
+- If a must-include activity has no matching place in VALIDATED PLACES, describe it as an activity type rather than a specific named location. For example use "Island Hopping Tour" as the title with location_name set to the nearest ferry terminal or departure point that IS in VALIDATED PLACES.
 
 CRITICAL OUTPUT REQUIREMENTS
 - Generate exactly {profile["days"]} day objects inside "days".

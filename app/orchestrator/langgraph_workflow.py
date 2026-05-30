@@ -82,52 +82,58 @@ def build_query_node(state: TravelState):
 
 def retrieve_node(state: TravelState):
     profile = state["profile"]
-
-    # Run one retrieval pass per focused query and deduplicate by doc identity.
-    # This gives better coverage: one pass finds landmarks, another finds
-    # interest-specific content, another finds must-include items.
-    queries = state.get("queries") or [state["query"]]
+    cities = profile["cities"]
+    query = state["query"]  # pre-joined string set by build_query_node
 
     seen: set[str] = set()
     all_results: list[dict] = []
 
-    for q in queries:
+    for city in cities:
+        city_query = f"{city} {profile['country']} tourist attractions landmarks {' '.join(profile['interests'])}"
         results = hybrid_retrieve(
-            query=q,
-            top_k=25,
-            candidate_k=40,
+            query=city_query,
+            top_k=15,
+            candidate_k=30,
             country=profile["country"],
-            locations=profile["cities"],
+            locations=[city],
         )
         for r in results:
             payload = r["payload"]
             doc_id = f"{payload.get('source')}_{payload.get('child_id')}"
             if doc_id not in seen:
                 seen.add(doc_id)
-                all_results.append(r)
+                # Tag the result with its source city so downstream nodes
+                # can filter strictly by city without cross-contamination.
+                all_results.append({**r, "city": city})
 
-    print(f"\n[retrieve] {len(queries)} queries → {len(all_results)} unique chunks")
+    print(f"\n[retrieve] {len(cities)} city pass(es) → {len(all_results)} unique chunks")
     return {**state, "hybrid_results": all_results}
 
 
 def rerank_node(state: TravelState):
+    profile = state["profile"]
+
+    # Build a lookup before reranking so the city tag can be re-attached
+    # afterwards. The reranker only copies rerank_score, rrf_score, and
+    # payload — the city field is stripped from the result dicts.
+    city_lookup: dict[str, str] = {
+        f"{r['payload'].get('source')}_{r['payload'].get('child_id')}": r.get("city", "")
+        for r in state["hybrid_results"]
+    }
+
     reranked = rerank_hybrid_results(
-        query=state["query"],
+        query=f"{' '.join(profile['cities'])} {profile['country']} {' '.join(profile['interests'])}",
         hybrid_results=state["hybrid_results"],
-        top_k=5,
+        top_k=12,
     )
 
-    llm_context = [
-        r for r in reranked
-        if r["rerank_score"] >= 0.2
-    ]
+    for r in reranked:
+        doc_id = f"{r['payload'].get('source')}_{r['payload'].get('child_id')}"
+        r["city"] = city_lookup.get(doc_id, "")
 
+    llm_context = [r for r in reranked if r["rerank_score"] >= 0.15]
     print_retrieved_chunks(llm_context)
-
-    poi_context = [
-        r for r in reranked
-        if r["rerank_score"] >= 0.5
-    ]
+    poi_context = [r for r in reranked if r["rerank_score"] >= 0.4]
 
     return {
         **state,
@@ -137,49 +143,88 @@ def rerank_node(state: TravelState):
     }
 
 def poi_node(state: TravelState):
-    # Use a lower threshold here — geocode validation (not rerank score)
-    # is the real quality gate that filters out off-city places.
-    poi_context = [
-        r for r in state["reranked_results"]
-        if r["rerank_score"] >= 0.2
-    ]
+    profile = state["profile"]
+    all_validated: list[dict] = []
 
-    pois = collect_pois_from_metadata(poi_context)
+    for city in profile["cities"]:
+        # Only use chunks that were retrieved for this specific city.
+        city_results = [
+            r for r in state["reranked_results"]
+            if r.get("city") == city
+        ]
 
-    return {
-        **state,
-        "pois": pois
-    }
+        pois = collect_pois_from_metadata(city_results)
+
+        geocoded = geocode_pois(
+            pois,
+            city_hint=f"{city}, {profile['country']}",
+        )
+
+        # Validate strictly against this city only — no cross-city leakage.
+        validated = validate_geocoded_pois(
+            geocoded,
+            cities=[city],
+            country=profile["country"],
+        )
+
+        all_validated.extend(validated)
+
+    print(
+        f"\n[poi] {len(profile['cities'])} cities "
+        f"→ {len(all_validated)} total validated POIs"
+    )
+    return {**state, "validated_pois": all_validated}
 
 
 def geocode_cluster_node(state: TravelState):
-    profile = state["profile"]
-    city_hint = f"{', '.join(profile['cities'])}, {profile['country']}"
-
-    geocoded = geocode_pois(
-        state["pois"],
-        city_hint=city_hint,
-    )
-
-    validated_pois = validate_geocoded_pois(
-        geocoded,
-        cities=profile["cities"],
-        country=profile["country"],
-    )
-
-    print(f"\n[geocode] {len(geocoded)} geocoded → {len(validated_pois)} validated")
-
+    # Geocoding and per-city validation now happen in poi_node.
+    # This node only clusters the already-validated POIs.
     clusters = cluster_pois(
-        validated_pois,
+        state["validated_pois"],
         radius_km=2.5,
     )
 
     return {
         **state,
-        "geocoded": geocoded,
-        "validated_pois": validated_pois,
         "clusters": clusters,
     }
+
+
+def validate_itinerary_against_clusters(
+    itinerary: dict,
+    validated_pois: list[dict],
+) -> dict:
+    """
+    Post-generation hallucination check.
+
+    Walk every activity and verify its location_name appears (or is a
+    substring of) a validated POI name.  Activities that cannot be matched
+    have their coordinates nulled so that attach_restaurants and
+    attach_travel_time skip them gracefully.
+    """
+    valid_names = {p["name"].lower().strip() for p in validated_pois}
+
+    for day in itinerary.get("days", []):
+        for activity in day.get("activities", []):
+            name = activity.get("location_name", "").lower().strip()
+            matched = (
+                name in valid_names
+                or any(name in v or v in name for v in valid_names)
+            )
+            if not matched:
+                print(
+                    f"[hallucination_check] Day {day.get('day')} "
+                    f"'{activity.get('location_name')}' not in validated places — nulling."
+                )
+                activity["latitude"] = None
+                activity["longitude"] = None
+                activity["_warning"] = (
+                    f"'{activity['location_name']}' was not found "
+                    f"in the validated place list. "
+                    f"Coordinates have been removed."
+                )
+
+    return itinerary
 
 
 def generate_itinerary_node(state: TravelState):
@@ -198,6 +243,15 @@ def generate_itinerary_node(state: TravelState):
     print(raw)
 
     itinerary_json = extract_json_object(raw)
+
+    # ── Hallucination check ───────────────────────────────────────────────────
+    # Null coordinates for any activity whose location_name cannot be matched
+    # against the validated POI list.  Runs before the coordinate guard so
+    # the guard only needs to snap coordinates for known-good places.
+    itinerary_json = validate_itinerary_against_clusters(
+        itinerary_json,
+        state["validated_pois"],
+    )
 
     # ── Coordinate guard ──────────────────────────────────────────────────────
     # Snap lat/lng to validated values and null out any hallucinated places

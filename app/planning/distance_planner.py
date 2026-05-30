@@ -14,6 +14,54 @@ GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 # Avoids repeated geocoding API calls for the same city within one run.
 _city_token_cache: dict[str, set[str]] = {}
 
+# Session-scoped cache: "kota kinabalu|malaysia" → {"north": ..., "south": ..., ...}
+# Populated as a side-effect of resolve_city_tokens; used in validate_geocoded_pois
+# to reject POIs whose coordinates fall outside the city's real bounding box.
+_city_bbox_cache: dict[str, dict | None] = {}
+
+# Google Maps `types` that indicate the geocoder returned a real, specific
+# place rather than a city / region / generic area.  If a geocoded result
+# has none of these types we know Google fell back to the city centre — the
+# POI name was too generic (e.g. "kopitiam", "mamak stalls") or doesn't
+# exist in the requested city, so we drop it.
+_SPECIFIC_POI_TYPES = frozenset({
+    "point_of_interest",
+    "establishment",
+    "tourist_attraction",
+    "restaurant",
+    "food",
+    "park",
+    "museum",
+    "place_of_worship",
+    "shopping_mall",
+    "amusement_park",
+    "aquarium",
+    "art_gallery",
+    "zoo",
+    "natural_feature",
+    "stadium",
+    "premise",
+    "store",
+    "cafe",
+    "bar",
+    "lodging",
+    "university",
+    "library",
+    "transit_station",
+    "bus_station",
+    "train_station",
+    "subway_station",
+    "airport",
+    "night_club",
+    # Extra types commonly returned by the Places API for Malaysian attractions
+    # (e.g. Chew Jetty / Clan Jetties were being skipped by the Geocoding API
+    # because it classified them as administrative_area_level_1).
+    "neighborhood",
+    "route",
+    "jetty",
+    "heritage_site",
+})
+
 
 def resolve_city_tokens(city: str, country: str) -> set[str]:
     """
@@ -42,6 +90,7 @@ def resolve_city_tokens(city: str, country: str) -> set[str]:
 
     if not GOOGLE_MAPS_API_KEY:
         _city_token_cache[cache_key] = tokens
+        _city_bbox_cache[cache_key] = None
         return tokens
 
     try:
@@ -73,13 +122,51 @@ def resolve_city_tokens(city: str, country: str) -> set[str]:
                     tokens.add(component.get("short_name", "").lower())
 
             tokens.discard("")
-            print(f"[resolve_city_tokens] '{city}' → {tokens}")
+
+            # Extract the city's bounding box for coordinate-level validation.
+            geometry = result.get("geometry", {})
+            bounds = geometry.get("bounds") or geometry.get("viewport")
+            if bounds:
+                _city_bbox_cache[cache_key] = {
+                    "north": bounds["northeast"]["lat"],
+                    "south": bounds["southwest"]["lat"],
+                    "east":  bounds["northeast"]["lng"],
+                    "west":  bounds["southwest"]["lng"],
+                }
+            else:
+                _city_bbox_cache[cache_key] = None
+
+            print(f"[resolve_city_tokens] '{city}' → tokens={tokens}, bbox={_city_bbox_cache[cache_key]}")
+
+        else:
+            _city_bbox_cache[cache_key] = None
 
     except Exception as exc:
         print(f"[resolve_city_tokens] Warning for '{city}': {exc}")
+        _city_bbox_cache[cache_key] = None
 
     _city_token_cache[cache_key] = tokens
     return tokens
+
+
+def get_city_bbox(city: str, country: str) -> dict | None:
+    """
+    Return the cached bounding box for a city, or fetch it by triggering
+    resolve_city_tokens (which populates _city_bbox_cache as a side-effect).
+    Returns None when no bbox is available (API key missing, API error, etc.).
+    """
+    cache_key = f"{city.lower().strip()}|{country.lower().strip()}"
+    if cache_key not in _city_bbox_cache:
+        resolve_city_tokens(city, country)
+    return _city_bbox_cache.get(cache_key)
+
+
+def _within_bbox(lat: float, lng: float, bbox: dict) -> bool:
+    """Return True if the coordinate falls inside the given bounding box."""
+    return (
+        bbox["south"] <= lat <= bbox["north"]
+        and bbox["west"] <= lng <= bbox["east"]
+    )
 
 
 def geocode_pois(pois: list[str], city_hint: str = "") -> list[dict]:
@@ -92,30 +179,43 @@ def geocode_pois(pois: list[str], city_hint: str = "") -> list[dict]:
         query = f"{poi}, {city_hint}" if city_hint and city_hint.lower() not in poi.lower() else poi
 
         response = requests.get(
-            "https://maps.googleapis.com/maps/api/geocode/json",
+            "https://maps.googleapis.com/maps/api/place/findplacefromtext/json",
             params={
-                "address": query,
-                "key": GOOGLE_MAPS_API_KEY
+                "input": query,
+                "inputtype": "textquery",
+                "fields": "name,geometry,formatted_address,types,place_id",
+                "key": GOOGLE_MAPS_API_KEY,
             },
-            timeout=30
+            timeout=30,
         )
 
         response.raise_for_status()
         data = response.json()
 
-        if data.get("status") != "OK":
-            print(f"Skipping {poi}: {data.get('status')}")
+        if data.get("status") != "OK" or not data.get("candidates"):
+            print(f"[geocode] Skipping '{poi}': {data.get('status')}")
             continue
 
-        result = data["results"][0]
-        location = result["geometry"]["location"]
+        candidate = data["candidates"][0]
+        location = candidate["geometry"]["location"]
+        types = candidate.get("types", [])
+
+        # Drop city-level fallbacks: if the Places API returned only a
+        # locality / political / administrative result the POI name is too
+        # generic or doesn't exist as a real place in the target city.
+        if not _SPECIFIC_POI_TYPES.intersection(types):
+            print(
+                f"[geocode] Skipping '{poi}': result is a city/region, "
+                f"not a specific place (types={types})"
+            )
+            continue
 
         geocoded.append({
             "name": poi,
-            "formatted_address": result.get("formatted_address"),
+            "formatted_address": candidate.get("formatted_address"),
             "lat": location["lat"],
             "lng": location["lng"],
-            "types": result.get("types", [])
+            "types": types,
         })
 
     return geocoded
@@ -154,15 +254,29 @@ def validate_geocoded_pois(
                 matched_city = city
                 break
 
-        if matched_city:
-            valid.append({**poi, "city": matched_city})
-        else:
+        if not matched_city:
             all_tokens = set().union(*city_tokens.values())
             print(
                 f"[validate] Dropped '{poi['name']}' — "
                 f"geocoded to '{poi.get('formatted_address')}' "
                 f"(expected tokens: {all_tokens})"
             )
+            continue
+
+        # Second check: coordinates must fall within the city's bounding box.
+        # This catches cases where the address string matched but the actual
+        # lat/lng lands in a different city (e.g. a suburb that shares a name).
+        bbox = get_city_bbox(matched_city, country)
+        if bbox:
+            lat, lng = poi.get("lat"), poi.get("lng")
+            if lat is not None and lng is not None and not _within_bbox(lat, lng, bbox):
+                print(
+                    f"[validate] Dropped '{poi['name']}' — "
+                    f"lat/lng ({lat}, {lng}) is outside {matched_city} bbox {bbox}"
+                )
+                continue
+
+        valid.append({**poi, "city": matched_city})
 
     return valid
 

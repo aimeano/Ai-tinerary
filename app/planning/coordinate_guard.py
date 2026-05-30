@@ -41,6 +41,23 @@ def fix_itinerary_coordinates(
             raw_name = activity.get("location_name", "")
             key = raw_name.lower().strip()
 
+            # Reject obvious generic/placeholder names before looking them up.
+            # Real place names never contain underscores; underscores signal
+            # the LLM used a code-style category word (e.g. "mamak_stalls",
+            # "food_courts", "nasi_kandar") instead of a real named venue.
+            if "_" in raw_name:
+                print(
+                    f"[coord_guard] Day {day_num} '{raw_name}': "
+                    "generic placeholder (underscore in name) — nulling."
+                )
+                activity["latitude"] = None
+                activity["longitude"] = None
+                activity["_warning"] = (
+                    f"'{raw_name}' is a generic category, not a specific place. "
+                    "Coordinates removed."
+                )
+                continue
+
             if key in lookup:
                 poi = lookup[key]
                 old_lat = activity.get("latitude")
