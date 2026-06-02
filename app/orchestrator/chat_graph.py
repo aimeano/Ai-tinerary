@@ -420,3 +420,4 @@ def run_chat_turn(session: dict, user_message: str):
         session["itinerary"] = result["itinerary"]
 
     return result["response"], session
+
