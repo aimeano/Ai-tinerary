@@ -1,4 +1,5 @@
 import json
+from datetime import datetime, timedelta
 
 
 def build_itinerary_prompt(
@@ -6,6 +7,7 @@ def build_itinerary_prompt(
     retrieved_results: list[dict],
     clusters: list[dict],
     validated_pois: list[dict] | None = None,
+    flights: list[dict] | None = None,
 ) -> str:
 
     # ── Validated place menu ──────────────────────────────────────────────────
@@ -50,6 +52,55 @@ def build_itinerary_prompt(
 
     context_block = "\n\n".join(context_snippets) if context_snippets else "No context available."
 
+    # ── Flight / travel schedule context ─────────────────────────────────────
+    if not flights:
+        flights = profile.get("flights", [])
+
+    flight_lines = []
+    for f in flights:
+        if f["type"] == "arrival":
+            flight_lines.append(
+                f"- ARRIVAL: Traveller arrives in {f['city']} at {f['time']} "
+                f"on {f['date']}. Do NOT schedule any activity before {f['time']} "
+                f"on this date. First activity must start at {f['time']} or later."
+            )
+        elif f["type"] == "departure":
+            try:
+                dep_dt = datetime.strptime(f["time"], "%H:%M")
+                cutoff_dt = dep_dt - timedelta(hours=4)
+                cutoff_str = cutoff_dt.strftime("%H:%M")
+            except Exception:
+                cutoff_str = "at least 4 hours before departure"
+            flight_lines.append(
+                f"- DEPARTURE: Traveller departs FROM {f['city']} at {f['time']} "
+                f"on {f['date']}. The LAST activity on {f['date']} MUST end by "
+                f"{cutoff_str} at the latest. After the last activity, add a "
+                f"mandatory final activity titled 'Depart to Airport' with "
+                f"location_name set to the main airport serving {f['city']}, "
+                f"scheduled at {cutoff_str}. No activities after this."
+            )
+        elif f["type"] == "intercity":
+            try:
+                dep_dt = datetime.strptime(f["departure_time"], "%H:%M")
+                ready_dt = dep_dt - timedelta(hours=1)
+                ready_str = ready_dt.strftime("%H:%M")
+            except Exception:
+                ready_str = "1 hour before departure"
+            flight_lines.append(
+                f"- INTERCITY TRAVEL: On {f['date']}, traveller travels from "
+                f"{f['from_city']} to {f['to_city']}, departing at "
+                f"{f['departure_time']}. Schedule this as a half travel day. "
+                f"Last activity in {f['from_city']} must end by {ready_str}. "
+                f"After that, add a mandatory activity titled "
+                f"'Travel to {f['to_city']}' with no specific location coordinates "
+                f"(set latitude and longitude to null). "
+                f"Remaining activities that day should be in {f['to_city']} "
+                f"if arrival time permits, otherwise start {f['to_city']} "
+                f"activities the next day."
+            )
+
+    flight_context = "\n".join(flight_lines) if flight_lines else "No flight or travel details provided."
+
     return f"""
 You are an AI travel itinerary planner.
 
@@ -72,6 +123,9 @@ VALIDATED PLACES — the ONLY locations you may schedule activities at:
 CONTEXT (use only for writing activity descriptions — do NOT derive new place names from this):
 {context_block}
 
+FLIGHT AND TRAVEL SCHEDULE — MUST BE FOLLOWED EXACTLY
+{flight_context}
+
 RULES
 - Every activity.location_name MUST exactly match a "name" from VALIDATED PLACES.
 - Every activity.latitude and activity.longitude MUST be copied exactly from VALIDATED PLACES.
@@ -87,6 +141,14 @@ RULES
 - ONLY use location names that appear exactly in the VALIDATED PLACES list. Never invent or guess place names.
 - For island hopping activities, only use island names from VALIDATED PLACES. Never invent island names.
 - If a must-include activity has no matching place in VALIDATED PLACES, describe it as an activity type rather than a specific named location. For example use "Island Hopping Tour" as the title with location_name set to the nearest ferry terminal or departure point that IS in VALIDATED PLACES.
+- FLIGHT RULES ARE MANDATORY AND OVERRIDE ALL OTHER SCHEDULING DECISIONS.
+- If an arrival time is given, the first activity on that date must start at or after the arrival time. Never schedule sightseeing before the traveller has landed.
+- If a departure time is given, calculate the airport cutoff as exactly 4 hours before departure. The last sightseeing activity must END before this cutoff. The final scheduled item must be "Depart to Airport".
+- If an intercity travel event is given, treat that date as a transition day. Morning belongs to the departing city, afternoon to the arriving city (only if arrival is before 15:00, otherwise next day).
+- Never schedule more than 2 activities on a travel/transition day.
+- Never schedule an activity that would overlap with a flight or travel window.
+- Always insert "Depart to Airport" as the last activity on a departure day, scheduled at exactly 4 hours before the flight time.
+- For food/meal activities (breakfast, lunch, dinner, snack), do NOT invent a specific restaurant as the location_name. Instead, set the location_name to the nearest validated place where the meal would logically happen (e.g. the previous or next activity's location), and write the meal description in the description field. The nearby_restaurants field will automatically be populated with real restaurant options near that location. Example: Instead of location_name "Penang Restaurant", use location_name "Petronas Twin Towers" with description "Enjoy lunch at one of the many restaurants near the towers."
 
 CRITICAL OUTPUT REQUIREMENTS
 - Generate exactly {profile["days"]} day objects inside "days".

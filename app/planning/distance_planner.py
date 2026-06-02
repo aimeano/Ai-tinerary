@@ -127,12 +127,30 @@ def resolve_city_tokens(city: str, country: str) -> set[str]:
             geometry = result.get("geometry", {})
             bounds = geometry.get("bounds") or geometry.get("viewport")
             if bounds:
-                _city_bbox_cache[cache_key] = {
+                bbox = {
                     "north": bounds["northeast"]["lat"],
                     "south": bounds["southwest"]["lat"],
                     "east":  bounds["northeast"]["lng"],
                     "west":  bounds["southwest"]["lng"],
                 }
+
+                # Clamp oversized bboxes (e.g. Kuala Lumpur's Google bounds
+                # can span an entire state) to 0.3° centred on the city point.
+                max_span = 0.3
+                lat_center = (bbox["north"] + bbox["south"]) / 2
+                lng_center = (bbox["east"]  + bbox["west"])  / 2
+                lat_span   =  bbox["north"] - bbox["south"]
+                lng_span   =  bbox["east"]  - bbox["west"]
+
+                if lat_span > max_span:
+                    bbox["north"] = lat_center + max_span / 2
+                    bbox["south"] = lat_center - max_span / 2
+
+                if lng_span > max_span:
+                    bbox["east"] = lng_center + max_span / 2
+                    bbox["west"] = lng_center - max_span / 2
+
+                _city_bbox_cache[cache_key] = bbox
             else:
                 _city_bbox_cache[cache_key] = None
 

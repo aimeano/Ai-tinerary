@@ -50,7 +50,9 @@ def attach_restaurants_to_itinerary(
     limit_per_activity: int = 3,
 ):
     for day in itinerary.get("days", []):
-        for activity in day.get("activities", []):
+        activities = day.get("activities", [])
+
+        for i, activity in enumerate(activities):
             lat = activity.get("latitude")
             lng = activity.get("longitude")
 
@@ -58,10 +60,23 @@ def attach_restaurants_to_itinerary(
                 activity["nearby_restaurants"] = []
                 continue
 
+            # Food activities that share coordinates with the previous activity
+            # are anchored to a nearby landmark rather than their own venue.
+            # Widen the search radius so the restaurant options are actually
+            # walkable from that shared location.
+            is_food = activity.get("category", "").lower() == "food"
+            shares_coords = (
+                i > 0
+                and activities[i - 1].get("latitude") == lat
+                and activities[i - 1].get("longitude") == lng
+            )
+            radius = 800 if (is_food and shares_coords) else 300
+
             activity["nearby_restaurants"] = find_restaurants_near_point(
                 latitude=lat,
                 longitude=lng,
                 limit=limit_per_activity,
+                radius=radius,
             )
 
     return itinerary

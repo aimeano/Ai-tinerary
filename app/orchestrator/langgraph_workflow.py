@@ -206,6 +206,11 @@ def validate_itinerary_against_clusters(
 
     for day in itinerary.get("days", []):
         for activity in day.get("activities", []):
+            # Skip travel/transit activities and blank location names — these
+            # legitimately have no validated POI to match against.
+            if not activity.get("location_name") or activity.get("category") in ["travel", "airport", "transit"]:
+                continue
+
             name = activity.get("location_name", "").lower().strip()
             matched = (
                 name in valid_names
@@ -233,6 +238,7 @@ def generate_itinerary_node(state: TravelState):
         retrieved_results=state["reranked_results"],
         clusters=state["clusters"],
         validated_pois=state["validated_pois"],
+        flights=state["profile"].get("flights", []),
     )
 
     raw = generate_with_ollama(
