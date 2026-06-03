@@ -28,7 +28,7 @@ def run_constraint_validator(itinerary: dict) -> dict:
             notification = {
                 "day":      place["day"],
                 "location": place["location"],
-                "type":     place["type"],
+                "type":     place.get("type", "unknown"),
                 "weather":  description,
                 "temp":     temp,
                 "message":  (
