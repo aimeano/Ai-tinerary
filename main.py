@@ -21,7 +21,7 @@ def ask_form():
     end_dt = datetime.strptime(end_date, "%Y-%m-%d")
     days = (end_dt - start_dt).days + 1
 
-    return {
+    profile = {
         "country": country.title(),
         "cities": [c.strip().title() for c in cities if c.strip()],
         "start_date": start_date,
@@ -32,6 +32,50 @@ def ask_form():
         "budget": budget,
         "must_include": [m.strip() for m in must_include if m.strip()],
     }
+
+    print("\nOptional: Enter flight/travel details for accurate scheduling.")
+    print("Press Enter to skip any field.\n")
+
+    flights = []
+    cities_list = [c.strip().title() for c in cities if c.strip()]
+
+    for i, city in enumerate(cities_list):
+        if i == 0:
+            arr = input(f"Arrival time in {city} on {start_date} (HH:MM, e.g. 14:30): ").strip()
+            if arr:
+                flights.append({
+                    "type": "arrival",
+                    "city": city,
+                    "date": start_date,
+                    "time": arr
+                })
+
+        if i < len(cities_list) - 1:
+            next_city = cities_list[i + 1]
+            travel_date = input(f"Date of travel from {city} to {next_city} (YYYY-MM-DD): ").strip()
+            depart_time = input(f"Departure time from {city} to {next_city} (HH:MM): ").strip()
+            if travel_date and depart_time:
+                flights.append({
+                    "type": "intercity",
+                    "from_city": city,
+                    "to_city": next_city,
+                    "date": travel_date,
+                    "departure_time": depart_time
+                })
+
+        if i == len(cities_list) - 1:
+            dep = input(f"Departure time FROM {city} on {end_date} (HH:MM, e.g. 18:00): ").strip()
+            if dep:
+                flights.append({
+                    "type": "departure",
+                    "city": city,
+                    "date": end_date,
+                    "time": dep
+                })
+
+    profile["flights"] = flights
+
+    return profile
 
 
 def adapt_planning_output(itinerary_json: dict) -> dict:
