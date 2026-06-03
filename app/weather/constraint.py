@@ -34,8 +34,8 @@ def run_constraint_validator(itinerary: dict) -> dict:
                 "message":  (
                     f"⚠️  Rain predicted for Day {place['day']} — "
                     f"{place['location']} ({description}, {temp}°C)\n"
-                    f"Would you like to change this outdoor activity "
-                    f"to an indoor alternative? [yes/no]"
+                    f"Would you like to change this activity "
+                    f"to other alternative? [yes/no]"
                 ),
                 "status":   "pending_user_response"
             }
@@ -100,7 +100,7 @@ def handle_user_weather_response(itinerary: dict,
                     # waiting for planning agent to find replacement
                     place["needs_replan"] = "waiting_for_planning_agent"
                     print(f"  ⏳ User said yes — waiting for planning agent")
-                    print(f"     Planning agent needs to find indoor alternative")
+                    print(f"     Planning agent needs to find otheralternative")
 
             elif user_says.lower() == "no":
                 place["needs_replan"]    = False

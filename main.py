@@ -35,19 +35,10 @@ def ask_form():
 
 
 def adapt_planning_output(itinerary_json: dict) -> dict:
-    """
-    Reshapes planning agent output into weather code format.
-    """
     plan = []
 
     for day in itinerary_json.get("days", []):
         for order, activity in enumerate(day.get("activities", []), start=1):
-
-            category = activity.get("category", "attraction")
-            if category in ["food", "shopping", "museum"]:
-                place_type = "indoor"
-            else:
-                place_type = "outdoor"
 
             plan.append({
                 "day":           day["day"],
@@ -57,7 +48,6 @@ def adapt_planning_output(itinerary_json: dict) -> dict:
                 "city":          itinerary_json.get("destination") or itinerary_json.get("city") or "",
                 "lat":           activity["latitude"],
                 "lon":           activity["longitude"],
-                "type":          place_type,
                 "user_modified": False
             })
 

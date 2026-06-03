@@ -67,10 +67,10 @@ def trigger_1a_itinerary_created(itinerary: dict) -> dict:
                 api_calls += 1
 
                 # add note based on historical weather
-                if weather["was_rainy"] and place["type"] == "outdoor":
+                if weather["was_rainy"]:
                     place["weather_note"] = (
                         "Based on last year's weather, it may rain on this day. "
-                        "Check back within 5 days for live weather updates."
+                        "Check back within 16 days for live weather updates."
                     )
                     print(f"     ⚠️  Historical rain detected — note added")
                 else:
@@ -117,10 +117,10 @@ def trigger_1a_itinerary_created(itinerary: dict) -> dict:
                 place["weather_last_updated"] = datetime.now().strftime("%Y-%m-%d %H:%M")
                 api_calls += 1
 
-                if weather["is_bad"] and place["type"] == "outdoor":
+                if weather["is_bad"]:
                     place["weather_note"] = (
                         f"Rain predicted on this day. "
-                        f"Would you like to change this outdoor activity?"
+                        f"Would you like to change this activity?"
                     )
                     place["needs_replan"] = True
                     bad_weather_places.append(place)
@@ -210,10 +210,10 @@ def trigger_1b_place_updated(itinerary: dict,
                     place["lat"], place["lon"], place_date
                 )
                 if weather:
-                    if weather["was_rainy"] and place["type"] == "outdoor":
+                    if weather["was_rainy"]:
                         place["weather_note"] = (
                             "Based on last year's weather, it may rain on this day. "
-                            "Check back within 5 days for live weather updates."
+                            "Check back within 16 days for live weather updates."
                         )
                     else:
                         place["weather_note"] = (
@@ -223,10 +223,10 @@ def trigger_1b_place_updated(itinerary: dict,
                 place_date = place.get("date") or trip_date
                 weather = get_forecast_weather(place["lat"], place["lon"], place_date)
                 if weather:
-                    if weather["is_bad"] and place["type"] == "outdoor":
+                    if weather["is_bad"]:
                         place["weather_note"] = (
                             "Rain predicted on this day. "
-                            "Would you like to change this outdoor activity?"
+                            "Would you like to change this activity?"
                         )
                         place["needs_replan"] = True
                     else:
@@ -330,10 +330,10 @@ def trigger_2_itinerary_opened(itinerary: dict) -> dict:
                 place["weather"]              = live
                 place["weather_last_updated"] = datetime.now().strftime("%Y-%m-%d %H:%M")
 
-                if live["is_bad"] and place["type"] == "outdoor":
+                if live["is_bad"]:
                     place["weather_note"]  = (
                         "Rain predicted on this day. "
-                        "Would you like to change this outdoor activity?"
+                        "Would you like to change this activity?"
                     )
                     place["needs_replan"]  = True
                     needs_replan           = True
