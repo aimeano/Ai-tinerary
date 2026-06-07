@@ -60,6 +60,55 @@ _SPECIFIC_POI_TYPES = frozenset({
     "route",
     "jetty",
     "heritage_site",
+    # Malaysian government buildings and places of worship can return
+    # political/sublocality types without the usual establishment marker.
+    "political",
+    "sublocality",
+    "sublocality_level_1",
+    "campground",
+    "church",
+    "mosque",
+    "hindu_temple",
+    "cemetery",
+    "local_government_office",
+    # Retail and service types — kept here so cultural neighbourhoods and
+    # mixed-use landmarks are not rejected when the Places API tags them with
+    # a commercial sub-type.  Unwanted commercial venues are filtered earlier
+    # by the supermarket/hypermarket blocklist in poi_metadata.py.
+    "rv_park", "spa", "gym",
+    "clothing_store", "electronics_store", "furniture_store",
+    "hardware_store", "home_goods_store", "jewelry_store",
+    "shoe_store", "sporting_goods_store", "department_store",
+    "convenience_store", "florist", "pet_store", "bicycle_store",
+    "book_store", "car_dealer", "car_rental", "car_wash",
+    "car_repair", "parking", "gas_station", "bank", "atm",
+    "insurance_agency", "real_estate_agency", "travel_agency",
+    "lawyer", "accounting", "electrician", "plumber", "painter",
+    "roofing_contractor", "general_contractor", "moving_company",
+    "storage", "laundry", "hair_care", "beauty_salon", "nail_salon",
+})
+
+# Purely administrative types: if ALL of a result's types fall within this
+# set it is a city / district / country boundary, not a real venue.
+# Kept narrow on purpose — sublocality/neighborhood are NOT here because
+# they can legitimately describe a real cultural quarter or landmark.
+_PURELY_ADMIN_TYPES = frozenset({
+    "administrative_area_level_1",
+    "administrative_area_level_2",
+    "administrative_area_level_3",
+    "locality",
+    "country",
+    "postal_code",
+    "plus_code",
+    "political",
+})
+
+# Keywords that indicate a street-level address (as opposed to a bare
+# district or city name), used in the secondary political-type check.
+_STREET_INDICATORS = frozenset({
+    "jalan", "lorong", "lebuh", "lebuhraya", "persiaran",
+    "street", "road", "avenue", "lane", "boulevard", "drive",
+    "jln", "lot",
 })
 
 
@@ -218,15 +267,30 @@ def geocode_pois(pois: list[str], city_hint: str = "") -> list[dict]:
         location = candidate["geometry"]["location"]
         types = candidate.get("types", [])
 
-        # Drop city-level fallbacks: if the Places API returned only a
-        # locality / political / administrative result the POI name is too
-        # generic or doesn't exist as a real place in the target city.
-        if not _SPECIFIC_POI_TYPES.intersection(types):
-            print(
-                f"[geocode] Skipping '{poi}': result is a city/region, "
-                f"not a specific place (types={types})"
+        # Reject only when ALL three conditions hold:
+        #   1. no type in _SPECIFIC_POI_TYPES
+        #   2. every type is purely administrative (city/country/postal)
+        #   3. the address has no street-level detail
+        # Any result that doesn't satisfy all three is accepted — this is
+        # intentionally permissive so that valid cultural quarters, palaces,
+        # and mixed-use landmarks aren't rejected by an overly strict filter.
+        address = candidate.get("formatted_address", "")
+        types_set = set(types)
+        has_specific = bool(_SPECIFIC_POI_TYPES.intersection(types_set))
+        is_purely_admin = types_set.issubset(_PURELY_ADMIN_TYPES)
+
+        if not has_specific and is_purely_admin:
+            address_lower = address.lower()
+            has_street = (
+                any(c.isdigit() for c in address)
+                or any(kw in address_lower for kw in _STREET_INDICATORS)
             )
-            continue
+            if not has_street:
+                print(
+                    f"[geocode] Skipping '{poi}': purely administrative result "
+                    f"with no street detail (address='{address}', types={types})"
+                )
+                continue
 
         geocoded.append({
             "name": poi,

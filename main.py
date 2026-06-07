@@ -1,6 +1,5 @@
 from app.orchestrator.langgraph_workflow import run_initial_itinerary
 from app.orchestrator.chat_graph import run_chat_turn
-from app.planning.events import fetch_events_for_profile
 from datetime import datetime
 import json
 
@@ -102,9 +101,6 @@ def chat_loop(session: dict):
 
 def main():
     profile = ask_form()
-    events_by_city = fetch_events_for_profile(profile)
-
-
 
     print("\nGenerating itinerary with LangGraph...\n")
 
@@ -116,14 +112,6 @@ def main():
             session["response"],
             indent=2,
             ensure_ascii=False
-        )
-    )
-
-    print("\n===== EVENTS HAPPENING DURING YOUR TRIP =====\n")
-    print(
-        json.dumps(
-            events_by_city,
-            indent=2
         )
     )
 

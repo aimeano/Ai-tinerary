@@ -101,6 +101,21 @@ def build_itinerary_prompt(
 
     flight_context = "\n".join(flight_lines) if flight_lines else "No flight or travel details provided."
 
+    if flights:
+        flight_section = f"""FLIGHT AND TRAVEL SCHEDULE — MUST BE FOLLOWED EXACTLY
+{flight_context}
+"""
+        flight_rules = """\
+- FLIGHT RULES ARE MANDATORY AND OVERRIDE ALL OTHER SCHEDULING.
+- If an arrival time is given, first activity must start at or after arrival time.
+- If a departure time is given, last activity must end 4 hours before departure. Insert "Depart to Airport" as final activity.
+- If intercity travel is given, treat that date as a transition day.
+- Never schedule more than 2 activities on a travel/transition day.
+- Never insert "Depart to Airport" unless a departure flight time was explicitly provided by the user."""
+    else:
+        flight_section = ""
+        flight_rules = ""
+
     return f"""
 You are an AI travel itinerary planner.
 
@@ -123,9 +138,7 @@ VALIDATED PLACES — the ONLY locations you may schedule activities at:
 CONTEXT (use only for writing activity descriptions — do NOT derive new place names from this):
 {context_block}
 
-FLIGHT AND TRAVEL SCHEDULE — MUST BE FOLLOWED EXACTLY
-{flight_context}
-
+{flight_section}
 RULES
 - Every activity.location_name MUST exactly match a "name" from VALIDATED PLACES.
 - Every activity.latitude and activity.longitude MUST be copied exactly from VALIDATED PLACES.
@@ -141,14 +154,16 @@ RULES
 - ONLY use location names that appear exactly in the VALIDATED PLACES list. Never invent or guess place names.
 - For island hopping activities, only use island names from VALIDATED PLACES. Never invent island names.
 - If a must-include activity has no matching place in VALIDATED PLACES, describe it as an activity type rather than a specific named location. For example use "Island Hopping Tour" as the title with location_name set to the nearest ferry terminal or departure point that IS in VALIDATED PLACES.
-- FLIGHT RULES ARE MANDATORY AND OVERRIDE ALL OTHER SCHEDULING DECISIONS.
-- If an arrival time is given, the first activity on that date must start at or after the arrival time. Never schedule sightseeing before the traveller has landed.
-- If a departure time is given, calculate the airport cutoff as exactly 4 hours before departure. The last sightseeing activity must END before this cutoff. The final scheduled item must be "Depart to Airport".
-- If an intercity travel event is given, treat that date as a transition day. Morning belongs to the departing city, afternoon to the arriving city (only if arrival is before 15:00, otherwise next day).
-- Never schedule more than 2 activities on a travel/transition day.
-- Never schedule an activity that would overlap with a flight or travel window.
-- Always insert "Depart to Airport" as the last activity on a departure day, scheduled at exactly 4 hours before the flight time.
-- For food/meal activities (breakfast, lunch, dinner, snack), do NOT invent a specific restaurant as the location_name. Instead, set the location_name to the nearest validated place where the meal would logically happen (e.g. the previous or next activity's location), and write the meal description in the description field. The nearby_restaurants field will automatically be populated with real restaurant options near that location. Example: Instead of location_name "Penang Restaurant", use location_name "Petronas Twin Towers" with description "Enjoy lunch at one of the many restaurants near the towers."
+{flight_rules}
+- Do NOT create standalone food/meal activities such as "Lunch at X", "Breakfast at X", "Dinner at X", or any activity whose sole purpose is eating a meal.
+- Every activity must be a real attraction, landmark, experience, or place to visit — not just a meal stop.
+- The nearby_restaurants field already provides food options near each activity. Users will choose where to eat from those suggestions.
+- If must_include contains a specific restaurant name, include it as a brief mention in the description of the nearest activity instead of creating a separate food activity.
+- Meal times (breakfast, lunch, dinner) should be built into the activity schedule naturally — schedule activities with enough time gaps between them for meals, but do not create explicit meal activities.
+- The day title MUST accurately reflect the actual activities planned for that day. Never write a title like "Explore Bukit Bintang" if the activities are all in Bangsar.
+- Generate the day title AFTER deciding the activities, not before.
+- The title must be derived from the location_name values of the activities in that day — use the most prominent or repeated area.
+- If activities span multiple neighborhoods, use the most visited area or a general descriptor like "Kuala Lumpur City Highlights".
 
 CRITICAL OUTPUT REQUIREMENTS
 - Generate exactly {profile["days"]} day objects inside "days".

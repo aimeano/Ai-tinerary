@@ -167,7 +167,11 @@ def poi_node(state: TravelState):
             country=profile["country"],
         )
 
-        all_validated.extend(validated)
+        # Extra guard: validate_geocoded_pois tags each POI with the city
+        # it matched, but nearby cities can share address tokens. Keep only
+        # POIs whose city tag exactly matches the requested city.
+        city_pois = [p for p in validated if p.get("city", "").lower() == city.lower()]
+        all_validated.extend(city_pois)
 
     print(
         f"\n[poi] {len(profile['cities'])} cities "
@@ -232,6 +236,29 @@ def validate_itinerary_against_clusters(
     return itinerary
 
 
+def remove_meal_activities(itinerary: dict) -> dict:
+    meal_keywords = {
+        'lunch', 'breakfast', 'dinner', 'brunch',
+        'supper', 'meal', 'eat', 'dining', 'dine', 'makan'
+    }
+    for day in itinerary.get("days", []):
+        original = day.get("activities", [])
+        filtered = []
+        for activity in original:
+            category = activity.get("category", "").lower()
+            title = activity.get("title", "").lower()
+            is_meal = (
+                category == "food" and
+                any(kw in title for kw in meal_keywords)
+            )
+            if not is_meal:
+                filtered.append(activity)
+            else:
+                print(f"[remove_meal] Removed meal activity: {activity.get('title')}")
+        day["activities"] = filtered
+    return itinerary
+
+
 def generate_itinerary_node(state: TravelState):
     prompt = build_itinerary_prompt(
         profile=state["profile"],
@@ -258,6 +285,11 @@ def generate_itinerary_node(state: TravelState):
         itinerary_json,
         state["validated_pois"],
     )
+
+    # ── Meal activity removal ─────────────────────────────────────────────────
+    # Strip standalone lunch/breakfast/dinner activities — nearby_restaurants
+    # already surfaces food options for every activity.
+    itinerary_json = remove_meal_activities(itinerary_json)
 
     # ── Coordinate guard ──────────────────────────────────────────────────────
     # Snap lat/lng to validated values and null out any hallucinated places
