@@ -36,9 +36,12 @@ def find_restaurants_near_point(
     for item in data.get("results", [])[:limit]:
         loc = item.get("geometry", {}).get("location", {})
 
+        name = item.get("name", "").replace(" ", "+")
+        place_id = item.get("place_id", "")
+
         restaurants.append({
             "name": item.get("name"),
-            "link": f"https://www.google.com/maps/place/?q=place_id:{item.get('place_id')}"
+            "link": f"https://www.google.com/maps/search/?api=1&query={name}&query_place_id={place_id}"
         })
 
         

@@ -4,11 +4,6 @@ from datetime import datetime
 import json
 
 
-
-
-
-
-
 def ask_form():
     print("\n===== AI ITINERARY PLANNER =====\n")
 
@@ -16,9 +11,24 @@ def ask_form():
     cities = input("Cities, comma separated: ").strip().split(",")
     start_date = input("Start date (YYYY-MM-DD): ").strip()
     end_date = input("End date (YYYY-MM-DD): ").strip()
-    travel_style = input("Travel style: ").strip()
+    print("\nTravel style options:")
+    print("  1. relaxed")
+    print("  2. adventurous")
+    print("  3. honeymoon")
+    print("  4. with friends")
+    print("  5. family and kids")
+    travel_style_input = input("Travel style (enter option number or type your own): ").strip()
+
+    style_map = {
+        "1": "relaxed",
+        "2": "adventurous",
+        "3": "honeymoon",
+        "4": "with friends",
+        "5": "family and kids",
+    }
+    travel_style = style_map.get(travel_style_input, travel_style_input)
     interests = input("Interests, comma separated: ").strip().split(",")
-    budget = input("Budget: ").strip()
+    budget = input("Budget (include currency, e.g. RM2000, USD500, SGD300): ").strip()
     must_include = input("Must include places/activities, comma separated: ").strip().split(",")
 
     start_dt = datetime.strptime(start_date, "%Y-%m-%d")
@@ -38,7 +48,8 @@ def ask_form():
         "must_include": [m.strip() for m in must_include if m.strip()],
     }
 
-    print("\nOptional: Enter flight/travel details for accurate scheduling.")
+    print("\nOptional: Enter flight numbers for automatic scheduling.")
+    print("The system will look up departure and arrival times automatically.")
     print("Press Enter to skip any field.\n")
 
     flights = []
@@ -46,36 +57,48 @@ def ask_form():
 
     for i, city in enumerate(cities_list):
         if i == 0:
-            arr = input(f"Arrival time in {city} on {start_date} (HH:MM, e.g. 14:30): ").strip()
-            if arr:
+            fn = input(
+                f"Inbound flight number arriving in {city} "
+                f"on {start_date} (e.g. AK6153, or skip): "
+            ).strip()
+            if fn:
                 flights.append({
                     "type": "arrival",
                     "city": city,
                     "date": start_date,
-                    "time": arr
+                    "flight_number": fn,
                 })
 
         if i < len(cities_list) - 1:
             next_city = cities_list[i + 1]
-            travel_date = input(f"Date of travel from {city} to {next_city} (YYYY-MM-DD): ").strip()
-            depart_time = input(f"Departure time from {city} to {next_city} (HH:MM): ").strip()
-            if travel_date and depart_time:
+            travel_date = input(
+                f"Date of travel from {city} to {next_city} "
+                f"(YYYY-MM-DD, or skip): "
+            ).strip()
+            fn = input(
+                f"Flight number from {city} to {next_city} "
+                f"(e.g. AK6154, or skip): "
+            ).strip()
+            if travel_date and fn:
                 flights.append({
                     "type": "intercity",
                     "from_city": city,
                     "to_city": next_city,
                     "date": travel_date,
-                    "departure_time": depart_time
+                    "flight_number": fn,
                 })
 
         if i == len(cities_list) - 1:
-            dep = input(f"Departure time FROM {city} on {end_date} (HH:MM, e.g. 18:00): ").strip()
-            if dep:
+            fn = input(
+                f"Outbound flight number departing from {city} "
+                f"on {end_date} (e.g. AK6155, or skip): "
+            ).strip()
+            if fn:
                 flights.append({
                     "type": "departure",
                     "city": city,
                     "date": end_date,
-                    "time": dep
+                    "flight_number": fn,
                 })
 
     profile["flights"] = flights

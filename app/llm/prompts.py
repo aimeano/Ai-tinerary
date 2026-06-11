@@ -132,6 +132,53 @@ Interests: {", ".join(profile["interests"])}
 Budget: {profile["budget"]}
 Must include: {", ".join(profile["must_include"])}
 
+BUDGET CONSTRAINTS
+Total budget: {profile["budget"]}
+- Every activity must be realistic within this total budget.
+- Prioritize free or low-cost attractions if budget is tight (under RM500 / USD120 / SGD160 equivalent).
+- For moderate budgets (RM500-2000 / USD120-500), mix paid attractions with free ones.
+- For higher budgets (above RM2000 / USD500), premium experiences like resort islands, guided tours, and fine dining areas are appropriate.
+- Never suggest activities that would clearly exceed the stated budget.
+- When budget is tight, avoid suggesting luxury resorts, premium theme parks with high entry fees, or expensive day trips.
+
+TRAVEL STYLE: {profile["travel_style"]}
+
+Apply these style-specific rules strictly:
+
+If travel_style is "relaxed":
+- Maximum 3 activities per day
+- Include rest time between activities
+- Avoid long travel distances between activities (prefer under 5km)
+- No physically demanding activities
+- Prefer parks, cafes, scenic walks, museums, shopping
+
+If travel_style is "adventurous":
+- Up to 5 activities per day
+- Prioritize outdoor activities: hiking, water sports, wildlife, nature parks, extreme sports
+- Include physically challenging activities where available
+- Day trips to nature reserves or remote areas are encouraged
+
+If travel_style is "honeymoon":
+- Maximum 3 activities per day
+- Prioritize romantic settings: sunset spots, scenic viewpoints, fine dining areas, beach resorts, gardens
+- Avoid crowded tourist markets or family activity centers
+- Activities should feel intimate and special
+- Suggest evening activities like waterfront walks or hilltop views
+
+If travel_style is "with friends":
+- Up to 5 activities per day
+- Mix of shopping, street food areas, nightlife districts, social activities, and popular tourist spots
+- Include vibrant areas with lots of options
+- Night markets, entertainment districts, and group activities preferred
+
+If travel_style is "family and kids":
+- Maximum 4 activities per day
+- ONLY include family-friendly and child-appropriate activities
+- Prioritize: zoos, aquariums, theme parks, beaches, interactive museums, nature parks with easy trails
+- NEVER include: bars, nightlife, adult-only venues, strenuous hikes
+- Include rest breaks between activities
+- Prefer locations with facilities (toilets, parking, food nearby)
+
 VALIDATED PLACES — the ONLY locations you may schedule activities at:
 {place_menu}{few_places_note}
 
@@ -155,11 +202,7 @@ RULES
 - For island hopping activities, only use island names from VALIDATED PLACES. Never invent island names.
 - If a must-include activity has no matching place in VALIDATED PLACES, describe it as an activity type rather than a specific named location. For example use "Island Hopping Tour" as the title with location_name set to the nearest ferry terminal or departure point that IS in VALIDATED PLACES.
 {flight_rules}
-- Do NOT create standalone food/meal activities such as "Lunch at X", "Breakfast at X", "Dinner at X", or any activity whose sole purpose is eating a meal.
-- Every activity must be a real attraction, landmark, experience, or place to visit — not just a meal stop.
-- The nearby_restaurants field already provides food options near each activity. Users will choose where to eat from those suggestions.
-- If must_include contains a specific restaurant name, include it as a brief mention in the description of the nearest activity instead of creating a separate food activity.
-- Meal times (breakfast, lunch, dinner) should be built into the activity schedule naturally — schedule activities with enough time gaps between them for meals, but do not create explicit meal activities.
+- Do NOT create standalone food or meal activities such as "Lunch at X", "Breakfast at X", "Dinner at X", or any activity whose sole purpose is eating a meal. Every activity must be a real attraction, landmark, experience, or place to explore. The nearby_restaurants field already provides food suggestions near each activity. Schedule natural time gaps between activities for meals without creating explicit meal activity slots.
 - The day title MUST accurately reflect the actual activities planned for that day. Never write a title like "Explore Bukit Bintang" if the activities are all in Bangsar.
 - Generate the day title AFTER deciding the activities, not before.
 - The title must be derived from the location_name values of the activities in that day — use the most prominent or repeated area.

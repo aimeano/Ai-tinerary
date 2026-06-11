@@ -64,6 +64,84 @@ def print_retrieved_chunks(results: list[dict]):
 
         print("\n" + "=" * 80)
 
+def resolve_flights_node(state: TravelState):
+    """
+    Resolves flight numbers to actual departure/arrival times
+    using AirLabs Routes DB before itinerary generation begins.
+    """
+    from app.services.airlabs_service import get_flight_schedule
+
+    profile = state["profile"]
+    flights = profile.get("flights", [])
+
+    if not flights:
+        return state
+
+    resolved = []
+    for flight in flights:
+        fn = flight.get("flight_number", "").strip()
+        travel_date = flight.get("date", "")
+
+        if not fn or not travel_date:
+            resolved.append(flight)
+            continue
+
+        try:
+            schedule = get_flight_schedule(fn, travel_date)
+
+            if "error" in schedule:
+                print(f"[flights] Could not find schedule for {fn}: "
+                      f"{schedule['error']}")
+                print(f"[flights] Skipping {fn} — "
+                      f"please enter time manually if needed.")
+                resolved.append(flight)
+                continue
+
+            if not schedule["operates_on_date"]:
+                days = schedule.get("operates_days", [])
+                print(f"[flights] Warning: {fn} does not operate on "
+                      f"{travel_date} ({travel_date}). "
+                      f"Operates on: {days}")
+
+            dep_time = schedule["dep_time"]
+            arr_time = schedule["arr_time"]
+
+            print(
+                f"[flights] Resolved {fn}: "
+                f"{schedule['dep_iata']} {dep_time} → "
+                f"{schedule['arr_iata']} {arr_time}"
+            )
+
+            flight_type = flight["type"]
+
+            if flight_type == "arrival":
+                resolved.append({
+                    **flight,
+                    "time": arr_time,
+                    "resolved_from": fn,
+                })
+            elif flight_type == "departure":
+                resolved.append({
+                    **flight,
+                    "time": dep_time,
+                    "resolved_from": fn,
+                })
+            elif flight_type == "intercity":
+                resolved.append({
+                    **flight,
+                    "departure_time": dep_time,
+                    "resolved_from": fn,
+                })
+
+        except Exception as e:
+            print(f"[flights] Error resolving {fn}: {e}")
+            print(f"[flights] Continuing without flight schedule for {fn}.")
+            resolved.append(flight)
+
+    profile["flights"] = resolved
+    return {**state, "profile": profile}
+
+
 def build_query_node(state: TravelState):
     result = build_retrieval_query(state["profile"])
 
@@ -316,6 +394,7 @@ def generate_itinerary_node(state: TravelState):
 def build_initial_itinerary_graph():
     graph = StateGraph(TravelState)
 
+    graph.add_node("resolve_flights", resolve_flights_node)
     graph.add_node("build_query", build_query_node)
     graph.add_node("retrieve", retrieve_node)
     graph.add_node("rerank", rerank_node)
@@ -323,8 +402,9 @@ def build_initial_itinerary_graph():
     graph.add_node("geocode_cluster", geocode_cluster_node)
     graph.add_node("generate_itinerary", generate_itinerary_node)
 
-    graph.set_entry_point("build_query")
+    graph.set_entry_point("resolve_flights")
 
+    graph.add_edge("resolve_flights", "build_query")
     graph.add_edge("build_query", "retrieve")
     graph.add_edge("retrieve", "rerank")
     graph.add_edge("rerank", "extract_pois")
