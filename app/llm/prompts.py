@@ -129,17 +129,7 @@ Trip dates: {profile["start_date"]} to {profile["end_date"]}
 Duration: {profile["days"]} days
 Travel style: {profile["travel_style"]}
 Interests: {", ".join(profile["interests"])}
-Budget: {profile["budget"]}
 Must include: {", ".join(profile["must_include"])}
-
-BUDGET CONSTRAINTS
-Total budget: {profile["budget"]}
-- Every activity must be realistic within this total budget.
-- Prioritize free or low-cost attractions if budget is tight (under RM500 / USD120 / SGD160 equivalent).
-- For moderate budgets (RM500-2000 / USD120-500), mix paid attractions with free ones.
-- For higher budgets (above RM2000 / USD500), premium experiences like resort islands, guided tours, and fine dining areas are appropriate.
-- Never suggest activities that would clearly exceed the stated budget.
-- When budget is tight, avoid suggesting luxury resorts, premium theme parks with high entry fees, or expensive day trips.
 
 TRAVEL STYLE: {profile["travel_style"]}
 

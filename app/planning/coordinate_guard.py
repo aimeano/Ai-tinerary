@@ -38,7 +38,13 @@ def fix_itinerary_coordinates(
     for day in itinerary.get("days", []):
         day_num = day.get("day", "?")
         for activity in day.get("activities", []):
-            raw_name = activity.get("location_name", "")
+            raw_name = activity.get("location_name") or ""
+
+            # Skip travel/transit activities and blank location names — these
+            # legitimately have no validated POI to snap coordinates to.
+            if not raw_name or activity.get("category") in ["travel", "airport", "transit"]:
+                continue
+
             key = raw_name.lower().strip()
 
             # Reject obvious generic/placeholder names before looking them up.

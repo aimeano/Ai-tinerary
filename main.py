@@ -17,7 +17,7 @@ def ask_form():
     print("  3. honeymoon")
     print("  4. with friends")
     print("  5. family and kids")
-    travel_style_input = input("Travel style (enter option number or type your own): ").strip()
+    travel_style_input = input("Travel style (enter option number): ").strip()
 
     style_map = {
         "1": "relaxed",
@@ -28,7 +28,6 @@ def ask_form():
     }
     travel_style = style_map.get(travel_style_input, travel_style_input)
     interests = input("Interests, comma separated: ").strip().split(",")
-    budget = input("Budget (include currency, e.g. RM2000, USD500, SGD300): ").strip()
     must_include = input("Must include places/activities, comma separated: ").strip().split(",")
 
     start_dt = datetime.strptime(start_date, "%Y-%m-%d")
@@ -44,7 +43,6 @@ def ask_form():
         "days": days,
         "travel_style": travel_style,
         "interests": [i.strip() for i in interests if i.strip()],
-        "budget": budget,
         "must_include": [m.strip() for m in must_include if m.strip()],
     }
 
