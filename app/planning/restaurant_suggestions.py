@@ -47,10 +47,14 @@ def find_restaurants_near_point(
 
 def attach_restaurants_to_itinerary(
     itinerary: dict,
+    cache: dict | None = None,
     limit_per_activity: int = 3,
 ):
+    cache = cache or {}
+
     for day in itinerary.get("days", []):
         for activity in day.get("activities", []):
+
             lat = activity.get("latitude")
             lng = activity.get("longitude")
 
@@ -58,10 +62,25 @@ def attach_restaurants_to_itinerary(
                 activity["nearby_restaurants"] = []
                 continue
 
-            activity["nearby_restaurants"] = find_restaurants_near_point(
+            key = make_restaurant_cache_key(lat, lng)
+
+            if key in cache:
+                activity["nearby_restaurants"] = cache[key]
+                continue
+
+            restaurants = find_restaurants_near_point(
                 latitude=lat,
                 longitude=lng,
                 limit=limit_per_activity,
             )
 
-    return itinerary
+            cache[key] = restaurants
+
+            activity["nearby_restaurants"] = restaurants
+
+            print("Restaurant cache size:", len(cache))
+
+    return itinerary, cache
+
+def make_restaurant_cache_key(lat, lng):
+    return f"{round(lat, 5)}|{round(lng, 5)}"

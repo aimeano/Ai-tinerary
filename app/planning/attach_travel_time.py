@@ -51,8 +51,14 @@ def get_travel_time(origin, destination):
     return results
 
 
-def attach_travel_time(itinerary: dict):
+def attach_travel_time(
+    itinerary: dict,
+    cache: dict | None = None,
+):
+    cache = cache or {}
+
     for day in itinerary.get("days", []):
+
         activities = day.get("activities", [])
 
         for i, activity in enumerate(activities):
@@ -72,9 +78,32 @@ def attach_travel_time(itinerary: dict):
                 activity["travel_from_previous"] = None
                 continue
 
-            activity["travel_from_previous"] = get_travel_time(
+            key = make_travel_cache_key(
                 previous,
                 activity
             )
 
-    return itinerary
+            if key in cache:
+                activity["travel_from_previous"] = cache[key]
+                continue
+
+            travel_data = get_travel_time(
+                previous,
+                activity
+            )
+
+            cache[key] = travel_data
+
+            activity["travel_from_previous"] = travel_data
+
+            print("Travel cache size:", len(cache))
+
+    return itinerary, cache
+
+def make_travel_cache_key(origin, destination):
+    return (
+        f"{round(origin['latitude'],5)},"
+        f"{round(origin['longitude'],5)}->"
+        f"{round(destination['latitude'],5)},"
+        f"{round(destination['longitude'],5)}"
+    )

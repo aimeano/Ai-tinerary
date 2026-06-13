@@ -2,20 +2,33 @@ from typing import TypedDict, Dict, Any, List
 
 from langgraph.graph import StateGraph, END
 
-from app.retrieval.hybrid_retrieve import hybrid_retrieve
+from app.retrieval.hybrid_retrieve import retrieve_by_location_strategy
 from app.retrieval.rerank import rerank_hybrid_results
 from app.llm.generate import generate_with_ollama
 from app.llm.model_config import MODELS
+from app.llm.json_utils import extract_json_object
+from copy import deepcopy
+from app.planning.restaurant_suggestions import attach_restaurants_to_itinerary
+from app.planning.attach_travel_time import attach_travel_time
+from app.planning.itinerary_validator import validate_itinerary,validate_and_fix_coordinates
+from app.planning.weather_enrichment import attach_weather_to_itinerary
+from app.planning.distance_planner import get_weather_safe_clusters
+
 
 
 class ChatState(TypedDict):
     profile: Dict[str, Any]
+    raw_itinerary: Any
     itinerary: Any
     user_message: str
     intent: str
     query: str
     retrieved: List[dict]
-    response: str
+    response: Any
+    enrichment_cache: dict
+    geocoded: list
+    clusters: list
+    weather_safe_clusters: list
 
 
 def print_retrieved_chunks(results: List[dict]):
@@ -101,36 +114,90 @@ Return ONLY the route name.
     return {"intent": intent}
 
 
+def get_target_locations_from_message(
+        message: str,
+        profile: dict,
+    ) -> list[str] | None:
+    message_lower = message.lower()
+
+    matched = [
+        city for city in profile.get("cities", [])
+        if city.lower() in message_lower
+    ]
+
+    return matched or None
+
 def build_query_for_country_info(state: ChatState) -> str:
     profile = state["profile"]
     country = profile["country"]
-    cities = ", ".join(profile.get("cities", []))
 
     return f"""
-{country} {cities} travel information.
+    {country} travel information.
 
-Latest user question:
-{state["user_message"]}
-
-Retrieve only information relevant to the latest user question.
-"""
+    User question:
+    {state["user_message"]}
+    """
 
 
 def build_query_for_itinerary_edit(state: ChatState) -> str:
     profile = state["profile"]
-    country = profile["country"]
-    cities = ", ".join(profile.get("cities", []))
 
-    return f"""
-        {country} {cities} itinerary modification support.
+    prompt = f"""
+        You are a retrieval query rewriting assistant.
+
+        Rewrite the user's itinerary edit request into a better search query for travel document retrieval.
+
+        Rules:
+        - Do not modify the itinerary.
+        - Do not answer the user.
+        - Extract only useful travel search terms.
+        - Add relevant country and city names.
+        - If the user mentions a day, infer the city from the itinerary.
+        - Do not invent specific POIs.
+        - Keep it short.
+        - Return plain text only.
+
+        Important:
+        - Only add indoor/weather-safe terms if the user explicitly mentions rain, storm, bad weather, heat, or weather.
+        - If the user asks for nature, use: parks, gardens, lakes, viewpoints, botanical gardens, forest parks, outdoor nature attractions.
+        - If the user asks for shopping, use: malls, markets, shopping streets, outlets.
+        - If the user asks for food, use: local food, street food, restaurants, cafes, dining areas.
+        - If the user asks for culture or arts, use: museums, galleries, heritage sites, cultural attractions.
+
+        Country: {profile.get("country")}
+        Cities: {", ".join(profile.get("cities", []))}
+        Interests: {", ".join(profile.get("interests", []))}
+
+        Current raw itinerary:
+        {state["raw_itinerary"]}
 
         User requested change:
         {state["user_message"]}
 
-        Retrieve information relevant to modifying the itinerary.
-        Focus on places, activities, transport, food, shopping, cafes, nature, nightlife, nearby alternatives, and practical schedule changes.
+        Better retrieval query:
         """
 
+    try:
+        rewritten_query = generate_with_ollama(
+            prompt,
+            model=MODELS.get("rewrite_query", MODELS["edit_itinerary"]),
+        )
+
+        rewritten_query = rewritten_query.strip()
+
+        if rewritten_query:
+            print(rewritten_query)
+            return rewritten_query
+        
+
+
+    except Exception as e:
+        print("Edit retrieval query rewrite failed:", e)
+
+    return f"""
+    {profile.get("country")} {", ".join(profile.get("cities", []))}
+    {state["user_message"]}
+    """
 
 def build_chat_query_node(state: ChatState):
     intent = state["intent"]
@@ -161,12 +228,22 @@ def retrieve_chat_context_node(state: ChatState):
 
     profile = state["profile"]
 
-    hybrid_results = hybrid_retrieve(
+    if state["intent"] == "ask_country_info":
+        target_locations = get_target_locations_from_message(
+            state["user_message"],
+            profile,
+        )
+    else:
+        target_locations = profile["cities"]
+
+    print("\n===== CHAT RETRIEVAL TARGET LOCATIONS =====")
+    print(target_locations)
+
+    hybrid_results = retrieve_by_location_strategy(
         query=state["query"],
-        top_k=20,
-        candidate_k=30,
         country=profile["country"],
-        locations=profile["cities"],
+        target_locations=target_locations,
+        intent=state["intent"],
     )
 
     reranked = rerank_hybrid_results(
@@ -246,16 +323,86 @@ Instructions:
 
     return {"response": answer}
 
+def build_weather_safe_cluster_context(clusters: list[dict]) -> str:
+    if not clusters:
+        return "No weather-safe clusters available."
+
+    blocks = []
+
+    for cluster in clusters:
+        places = []
+
+        for poi in cluster.get("places", []):
+            places.append(f"""
+- Name: {poi.get("name")}
+  Canonical name: {poi.get("canonical_name")}
+  Category: {poi.get("category")}
+  Weather suitability: {poi.get("weather_suitability")}
+  Latitude: {poi.get("lat")}
+  Longitude: {poi.get("lng")}
+  Address: {poi.get("formatted_address")}
+""")
+
+        blocks.append(f"""
+[Cluster {cluster.get("cluster_id")}]
+City: {cluster.get("assigned_city")}
+Cluster score: {cluster.get("cluster_score")}
+Places:
+{''.join(places)}
+""")
+
+    return "\n".join(blocks)
+
 
 def edit_itinerary_node(state: ChatState):
+    user_message_lower = state["user_message"].lower()
+
+    is_weather_replacement = (
+        "weather is bad" in user_message_lower
+        or "bad weather" in user_message_lower
+        or "rain" in user_message_lower
+        or "storm" in user_message_lower
+    )
+
+    weather_rules = ""
+
+    if is_weather_replacement:
+        safe_clusters = state.get("weather_safe_clusters", [])
+
+        weather_safe_cluster_context = build_weather_safe_cluster_context(
+            safe_clusters
+        )
+
+        print("\n===== WEATHER SAFE CLUSTERS PASSED TO EDIT LLM =====")
+        print(weather_safe_cluster_context[:5000])
+
+        weather_rules = f"""
+WEATHER REPLACEMENT RULES:
+- Regenerate the entire requested day, not only one activity.
+- Keep all other days exactly the same.
+- Use ONLY places listed under WEATHER SAFE CLUSTERS.
+- Do not invent new locations.
+- Do not use outdoor activities.
+- Do not use beaches, parks, gardens, islands, waterfalls, hiking areas, viewpoints, outdoor monuments, outdoor markets, marinas, waterfront walks, or open-air attractions.
+- Prefer places from the same cluster so the day remains geographically sensible.
+- Keep the same date and same city for the requested day.
+- Use exact latitude and longitude from WEATHER SAFE CLUSTERS.
+- Do not reuse coordinates from another place.
+
+WEATHER SAFE CLUSTERS:
+{weather_safe_cluster_context}
+"""
+
     prompt = f"""
 You are an itinerary modification assistant.
+
+{weather_rules}
 
 User profile:
 {state["profile"]}
 
-Current itinerary:
-{state["itinerary"]}
+Current raw itinerary:
+{state["raw_itinerary"]}
 
 Retrieved travel context:
 {state["retrieved"]}
@@ -264,76 +411,212 @@ User requested change:
 {state["user_message"]}
 
 Task:
-- Modify the itinerary according to the user's request.
+- Modify the raw itinerary according to the user's request.
 - Keep the same trip duration unless the user asks otherwise.
-- Respect budget, cities, interests, dates, and must-include items.
-- Use retrieved context when relevant.
 - Preserve unchanged days where possible.
-- Return the updated itinerary clearly.
+- Do not include nearby_restaurants.
+- Do not include travel_from_previous.
+- Return ONLY valid JSON.
+- Do not use markdown.
+- Do not wrap in ```json.
+- Do not write explanation.
+- Use double quotes only.
+- If the user mentions a specific day, modify that day only.
+- Keep all other days exactly the same.
+- Do not move activities between days unless the user asks.
+- Do not duplicate any location already used elsewhere in the itinerary.
+- Before adding a location, check that it does not already appear in another day.
 """
 
-    updated_itinerary = generate_with_ollama(
-                                prompt,
-                                model=MODELS["edit_itinerary"]
-                            )
+    updated_raw_itinerary = generate_with_ollama(
+        prompt,
+        model=MODELS["edit_itinerary"]
+    )
+
+    updated_raw_itinerary = extract_json_object(updated_raw_itinerary)
+
+    updated_raw_itinerary, coordinate_issues = validate_and_fix_coordinates(
+        updated_raw_itinerary,
+        state["geocoded"],
+    )
+
+    if coordinate_issues:
+        print("\n===== COORDINATE ISSUES =====")
+        print(coordinate_issues)
+
+    cache = state["enrichment_cache"]
+
+    restaurant_cache = cache.get("restaurants", {})
+    travel_cache = cache.get("travel_times", {})
+
+    enriched_itinerary = deepcopy(updated_raw_itinerary)
+
+    enriched_itinerary, restaurant_cache = attach_restaurants_to_itinerary(
+        enriched_itinerary,
+        cache=restaurant_cache,
+    )
+
+    enriched_itinerary, travel_cache = attach_travel_time(
+        enriched_itinerary,
+        cache=travel_cache,
+    )
+
+    enriched_itinerary = attach_weather_to_itinerary(
+        enriched_itinerary,
+        geocoded=state["geocoded"],
+    )
+
+    validation = validate_itinerary(enriched_itinerary)
+
+    repaired_raw_itinerary = repair_itinerary_if_needed(
+        raw_itinerary=updated_raw_itinerary,
+        enriched_itinerary=enriched_itinerary,
+        validation=validation,
+        state=state,
+    )
+
+    if repaired_raw_itinerary != updated_raw_itinerary:
+        updated_raw_itinerary = repaired_raw_itinerary
+        enriched_itinerary = deepcopy(updated_raw_itinerary)
+
+        enriched_itinerary, restaurant_cache = attach_restaurants_to_itinerary(
+            enriched_itinerary,
+            cache=restaurant_cache,
+            limit_per_activity=3,
+        )
+
+        enriched_itinerary, travel_cache = attach_travel_time(
+            enriched_itinerary,
+            cache=travel_cache,
+        )
+
+        enriched_itinerary = attach_weather_to_itinerary(
+            enriched_itinerary,
+            geocoded=state["geocoded"],
+        )
+
+        validation = validate_itinerary(enriched_itinerary)
 
     return {
-        "itinerary": updated_itinerary,
-        "response": updated_itinerary,
+        "raw_itinerary": updated_raw_itinerary,
+        "itinerary": enriched_itinerary,
+        "response": {
+            "itinerary": enriched_itinerary,
+            "validation": validation,
+        },
+        "enrichment_cache": {
+            "restaurants": restaurant_cache,
+            "travel_times": travel_cache,
+        },
     }
 
 
 def regenerate_itinerary_node(state: ChatState):
     prompt = f"""
-You are an itinerary regeneration assistant.
+        You are an itinerary regeneration assistant.
 
-User profile:
-{state["profile"]}
+        User profile:
+        {state["profile"]}
 
-Previous itinerary:
-{state["itinerary"]}
+        Previous itinerary:
+        {state["itinerary"]}
 
-Retrieved travel context:
-{state["retrieved"]}
+        Retrieved travel context:
+        {state["retrieved"]}
 
-User request:
-{state["user_message"]}
+        User request:
+        {state["user_message"]}
 
-Generate a new improved itinerary.
-Respect the original profile unless the user explicitly changed something.
-Use retrieved context when relevant.
-Do not invent unsupported travel facts.
-"""
+        Generate a new improved itinerary.
+        Respect the original profile unless the user explicitly changed something.
+        Use retrieved context when relevant.
+        Do not invent unsupported travel facts.
+        - Return ONLY valid JSON.
+        - Do not use markdown.
+        - Do not wrap in ```json.
+        - Do not write explanation.
+        - Do not use single quotes.
+        - Use double quotes only.
+        - The output must be directly parseable by json.loads().
+        """
 
     new_itinerary = generate_with_ollama(
                     prompt,
                     model=MODELS["generate_itinerary"]
                     )
+    
+    new_itinerary = extract_json_object(new_itinerary)
+
+
+
 
     return {
         "itinerary": new_itinerary,
         "response": new_itinerary,
     }
 
+def repair_itinerary_if_needed(
+    raw_itinerary: dict,
+    enriched_itinerary: dict,
+    validation: dict,
+    state: ChatState,
+):
+    if validation.get("valid") and not validation.get("warnings"):
+        return raw_itinerary
+
+    prompt = f"""
+        You are an itinerary repair assistant.
+
+        User profile:
+        {state["profile"]}
+
+        User requested change:
+        {state["user_message"]}
+
+        Current raw itinerary:
+        {raw_itinerary}
+
+        Validation result:
+        {validation}
+
+        Task:
+        - Repair ONLY the affected day(s).
+        - Keep unaffected days exactly the same.
+        - Fix travel flow, category imbalance, repeated places, or unrealistic pacing.
+        - Do not add nearby_restaurants.
+        - Do not add travel_from_previous.
+        - Use only places already in the itinerary or retrieved context.
+        - Return ONLY valid JSON.
+        - Do not use markdown.
+        - Use double quotes only.
+        """
+
+    repaired = generate_with_ollama(
+        prompt,
+        model=MODELS["edit_itinerary"]
+    )
+
+    return extract_json_object(repaired)
+
 
 def casual_chat_node(state: ChatState):
     prompt = f"""
-You are a travel chatbot continuing a conversation about the user's itinerary.
+            You are a travel chatbot continuing a conversation about the user's itinerary.
 
-User profile:
-{state["profile"]}
+            User profile:
+            {state["profile"]}
 
-Current itinerary:
-{state["itinerary"]}
+            Current itinerary:
+            {state["itinerary"]}
 
-User message:
-{state["user_message"]}
+            User message:
+            {state["user_message"]}
 
-Instructions:
-- Respond naturally.
-- Do not create a new itinerary.
-- Do not switch countries or cities.
-"""
+            Instructions:
+            - Respond naturally.
+            - Do not create a new itinerary.
+            - Do not switch countries or cities.
+            """
 
     answer = generate_with_ollama(
             prompt,
@@ -405,18 +688,33 @@ chat_app = build_chat_graph()
 
 def run_chat_turn(session: dict, user_message: str):
     state: ChatState = {
+
         "profile": session["profile"],
+        "raw_itinerary": session["raw_itinerary"],
         "itinerary": session["itinerary"],
+        "enrichment_cache": session.get("enrichment_cache", {
+            "restaurants": {},
+            "travel_times": {},
+        }),
         "user_message": user_message,
         "intent": "",
         "query": "",
         "retrieved": [],
         "response": "",
+        "geocoded": session.get("geocoded", []),
+        "clusters": session.get("clusters", []),
+        "weather_safe_clusters": session.get("weather_safe_clusters", []),
     }
 
     result = chat_app.invoke(state)
 
+    if "raw_itinerary" in result and result["raw_itinerary"]:
+        session["raw_itinerary"] = result["raw_itinerary"]
+
     if "itinerary" in result and result["itinerary"]:
         session["itinerary"] = result["itinerary"]
+    
+    if "enrichment_cache" in result and result["enrichment_cache"]:
+        session["enrichment_cache"] = result["enrichment_cache"]
 
     return result["response"], session

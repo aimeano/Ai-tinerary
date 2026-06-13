@@ -1,33 +1,54 @@
+# ==================================================
 # Python
+# ==================================================
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 
-# Virtual environments
+# ==================================================
+# Virtual Environments
+# ==================================================
 .venv/
 venv/
 env/
 ENV/
 
-# Environment variables / secrets
+# ==================================================
+# Environment Variables / Secrets
+# ==================================================
 .env
+.env.*
+!.env_sample
 .envrc
 .streamlit/secrets.toml
 
-# OS / editor
+# ==================================================
+# Local Database
+# ==================================================
+app.db
+*.db
+*.sqlite3
+
+# ==================================================
+# OS / IDE
+# ==================================================
 .DS_Store
 .vscode/
 .idea/
 
-# Build / packaging
+# ==================================================
+# Build / Packaging
+# ==================================================
 build/
 dist/
 *.egg-info/
 .eggs/
 *.egg
 
-# Testing / cache
+# ==================================================
+# Testing / Coverage
+# ==================================================
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
@@ -35,28 +56,36 @@ dist/
 htmlcov/
 .cache/
 
+# ==================================================
 # Jupyter
+# ==================================================
 .ipynb_checkpoints/
 
-# Project data / generated files
-# Processed data
-app/data/processed/*_vectors.json
-app/data/processed/ingest_manifest.json
-
-# keep chunk metadata for reproducibility
-!app/data/processed/*_chunks.json
-!app/data/processed/*_enriched_chunks.json
-
-
-# Vector DB / local DB
+# ==================================================
+# Vector DB Storage
+# ==================================================
 chroma_db/
 qdrant_storage/
-*.sqlite3
-*.db
 
+# ==================================================
 # Playwright
+# ==================================================
 playwright-report/
 test-results/
 
+# ==================================================
 # Logs
+# ==================================================
 *.log
+
+# ==================================================
+# Processed Data
+# ==================================================
+
+# Ignore embeddings
+app/data/processed/*_vectors.json
+app/data/processed/ingest_manifest.json
+
+# Keep chunks
+!app/data/processed/*_chunks.json
+!app/data/processed/*_enriched_chunks.json

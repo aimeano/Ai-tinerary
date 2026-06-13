@@ -2,8 +2,11 @@ import os
 import json
 import re
 import requests
+import time
+
 
 from dotenv import load_dotenv
+
 
 load_dotenv()
 
@@ -113,22 +116,57 @@ def extract_chunk_metadata(
     - travel_intents should be short keywords.
     """
 
-    response = requests.post(
-        URL,
-        headers=HEADERS,
-        json={
-            "model": "luxia3-llm-8b-0731",
-            "messages": [
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ],
-            "temperature": 0
-        }
-    )
+    for attempt in range(6):
 
-    response.raise_for_status()
+        response = requests.post(
+
+            URL,
+
+            headers=HEADERS,
+
+            json={
+
+                "model": "luxia3-llm-8b-0731",
+
+                "messages": [
+
+                    {
+
+                        "role": "user",
+
+                        "content": prompt
+
+                    }
+
+                ],
+
+                "temperature": 0
+
+            }
+
+        )
+
+        if response.status_code == 429:
+
+            wait = 2 ** attempt
+
+            print(f"Rate limited. Waiting {wait}s...")
+
+            time.sleep(wait)
+
+            continue
+
+        response.raise_for_status()
+
+        break
+
+    else:
+
+        raise RuntimeError(
+
+            "Metadata extraction failed after repeated retries."
+
+        )
 
     data = response.json()
 

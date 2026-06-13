@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 
 from bs4 import BeautifulSoup
-
+import time
 from app.services.luxia_parse import parse_document
 from app.services.luxia_chunk import chunk_text
 from app.services.luxia_embed import embed_texts
@@ -275,6 +275,7 @@ def enrich_chunks_with_metadata(
             country=country,
             location=location,
         )
+        time.sleep(0.5)
 
         enriched.append({
             **chunk,

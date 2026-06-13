@@ -1,0 +1,1754 @@
+{
+  "3d trick art museum|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "3D Trick Art Museum",
+      "canonical_name": "Penang 3D Trick Art Museum",
+      "formatted_address": "10, Lebuh Penang, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ-0kMfI_DSjARqGpGRw7VVdA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-0kMfI_DSjARqGpGRw7VVdA",
+      "lat": 5.4198087,
+      "lng": 100.3417021,
+      "types": [
+        "art_gallery",
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "agricultural museum|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Agricultural Museum",
+      "canonical_name": "Wonderfood Museum",
+      "formatted_address": "49, Lebuh Pantai, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJv4nHaI7DSjAR8peeKMlaKok",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJv4nHaI7DSjAR8peeKMlaKok",
+      "lat": 5.4163117,
+      "lng": 100.3411846,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "air itam|penang|malaysia": {
+    "accepted": false,
+    "reason": "Administrative/region result"
+  },
+  "asahan waterfalls|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 395.6 km"
+  },
+  "asia camera museum|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Asia Camera Museum",
+      "canonical_name": "Asia Camera Museum",
+      "formatted_address": "1st Floor, 71, Lbh Armenian, Georgetown, 10200 George Town, Penang, Malaysia",
+      "place_id": "ChIJmwyETpbDSjARZhO8fH8Oyvk",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJmwyETpbDSjARZhO8fH8Oyvk",
+      "lat": 5.4154278,
+      "lng": 100.3368096,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "benggali mosque|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Benggali Mosque",
+      "canonical_name": "Qaryah Masjid Jamek Benggali",
+      "formatted_address": "39, Lebuh Leith, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJjxLvqJDDSjARUktJ6Vhzu1A",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJjxLvqJDDSjARUktJ6Vhzu1A",
+      "lat": 5.420228199999999,
+      "lng": 100.3334812,
+      "types": [
+        "establishment",
+        "mosque",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "birch house|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Birch House",
+      "canonical_name": "Birch House (Heritage Building)",
+      "formatted_address": "Penang Times Square, 10000 George Town, Penang, Malaysia",
+      "place_id": "ChIJQYsXUHzDSjARm5W7H-0-ldI",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJQYsXUHzDSjARm5W7H-0-ldI",
+      "lat": 5.4129495,
+      "lng": 100.3259818,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "bukit bendera|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Bukit Bendera",
+      "canonical_name": "Penang Hill",
+      "formatted_address": "Penang Hill, 11500 Bukit Bendera, Penang, Malaysia",
+      "place_id": "ChIJQ-rUOIfCSjARuSuxHi7HYvg",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJQ-rUOIfCSjARuSuxHi7HYvg",
+      "lat": 5.4084613,
+      "lng": 100.2773317,
+      "types": [
+        "establishment",
+        "natural_feature"
+      ],
+      "category": "nature",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "bukit gapis (melaka mountain)|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 381.1 km"
+  },
+  "bukit senggeh forest reserve|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 383.5 km"
+  },
+  "butterworth art walk|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Butterworth Art Walk",
+      "canonical_name": "Butterworth Art Walk",
+      "formatted_address": "1, Lorong Bagan Luar 1, Bagan Luar, 12000 Butterworth, Pulau Pinang, Malaysia",
+      "place_id": "ChIJsXvOMhXESjAR8oY2zabZ2Jg",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJsXvOMhXESjAR8oY2zabZ2Jg",
+      "lat": 5.4095609,
+      "lng": 100.3703333,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "capal jago kepala batas|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Capal Jago Kepala Batas",
+      "canonical_name": "Capal Jago Gemilang",
+      "formatted_address": "Capal jago, 13200 Kepala Batas, Pulau Pinang, Malaysia",
+      "place_id": "ChIJX7wF9GTaSjARP5W4D_j7OKI",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJX7wF9GTaSjARP5W4D_j7OKI",
+      "lat": 5.5173792,
+      "lng": 100.425655,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "shoe_store",
+        "store"
+      ],
+      "category": "shopping",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 29.0,
+      "verified": true
+    }
+  },
+  "carpenters guild|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Carpenters Guild",
+      "canonical_name": "Carpenters Guild, 鲁班行 (鲁班古庙)",
+      "formatted_address": "70, Lorong Love, George Town, 10450 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJy-94QpDDSjARTX1mZKTQowE",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJy-94QpDDSjARTX1mZKTQowE",
+      "lat": 5.418888,
+      "lng": 100.3365112,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "cathedral of the assumption|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Cathedral of The Assumption",
+      "canonical_name": "Church of the Assumption",
+      "formatted_address": "Lebuh Farquhar, George Town, 10450 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJu40ep5rDSjARuoH1NhjrY-E",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJu40ep5rDSjARuoH1NhjrY-E",
+      "lat": 5.420503999999999,
+      "lng": 100.3376149,
+      "types": [
+        "church",
+        "establishment",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "cheah kongsi|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Cheah Kongsi",
+      "canonical_name": "世德堂謝公司 Cheah Kongsi Temple",
+      "formatted_address": "8, Lbh Armenian, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ81DUBZLDSjAR7At5WcU-o3E",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ81DUBZLDSjAR7At5WcU-o3E",
+      "lat": 5.415188199999999,
+      "lng": 100.3383087,
+      "types": [
+        "establishment",
+        "museum",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "cheong fatt tze mansion|penang|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'food', 'lodging', 'point_of_interest', 'restaurant']"
+  },
+  "chew jetty|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Chew Jetty",
+      "canonical_name": "Chew Jetty",
+      "formatted_address": "Georgetown, 10300 George Town, Penang, Malaysia",
+      "place_id": "ChIJ50W1D43DSjARlPqYV1MqscE",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ50W1D43DSjARlPqYV1MqscE",
+      "lat": 5.412717499999999,
+      "lng": 100.3397723,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "chinatown|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Chinatown",
+      "canonical_name": "Chinatown Penang",
+      "formatted_address": "409, Lbh Chulia, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJxz6n7ZDDSjARZ3KiXoRV3ys",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJxz6n7ZDDSjARZ3KiXoRV3ys",
+      "lat": 5.4178064,
+      "lng": 100.3342249,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "chowrasta bazaar|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Chowrasta Bazaar",
+      "canonical_name": "Pasar Chowrasta Market",
+      "formatted_address": "Lot 124, Jln Penang, George Town, 10100 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJH2nWHZfDSjARnmlmTw6Zi5k",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJH2nWHZfDSjARnmlmTw6Zi5k",
+      "lat": 5.4181782,
+      "lng": 100.3313024,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "city hall|penang|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['city_hall', 'establishment', 'local_government_office', 'point_of_interest', 'tourist_attraction']"
+  },
+  "clan jetties|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Clan Jetties",
+      "canonical_name": "Clan Jetties of Penang",
+      "formatted_address": "Pengkalan Weld, George Town, 10300 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJESJTC43DSjARiVDKy9hsY74",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJESJTC43DSjARiVDKy9hsY74",
+      "lat": 5.4128345,
+      "lng": 100.3396559,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "crystal museum|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Crystal Museum",
+      "canonical_name": "My Crystal Museum",
+      "formatted_address": "Lam Soon (M) Bhd, Lorong Baru, 10400 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJtWhrQb7DSjARZ_UdaftQGBI",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJtWhrQb7DSjARZ_UdaftQGBI",
+      "lat": 5.4139614,
+      "lng": 100.3255941,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "demang abdul ghani gallery|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 408.5 km"
+  },
+  "eagle ranch resort sports paradise|penang|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "energ x park|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 553.8 km"
+  },
+  "esplanade|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Esplanade",
+      "canonical_name": "Esplanade",
+      "formatted_address": "Esplanade, Georgetown, 10450 George Town, Penang, Malaysia",
+      "place_id": "ChIJpwSxS4_DSjARF_Hnkg2uEAk",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJpwSxS4_DSjARF_Hnkg2uEAk",
+      "lat": 5.419181699999999,
+      "lng": 100.3439331,
+      "types": [
+        "neighborhood",
+        "political"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "fort cornwallis|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Fort Cornwallis",
+      "canonical_name": "Fort Cornwallis",
+      "formatted_address": "4, Jalan Tun Syed Sheh Barakbah, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJSYg_noXDSjAR3mSegGnJxdQ",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJSYg_noXDSjAR3mSegGnJxdQ",
+      "lat": 5.420414300000001,
+      "lng": 100.3445489,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "frog hills|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Frog Hills",
+      "canonical_name": "Frog Hills Tasek Gelugor",
+      "formatted_address": "14400 Tasek Gelugor, Penang, Malaysia",
+      "place_id": "ChIJ5SDq_wDPSjARvLOxv16plK4",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5SDq_wDPSjARvLOxv16plK4",
+      "lat": 5.4356186,
+      "lng": 100.4852499,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "galeri aura islam|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 550.5 km"
+  },
+  "galeri melayu pulau pinang|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Galeri Melayu Pulau Pinang",
+      "canonical_name": "Penang Malay Gallery",
+      "formatted_address": "138, Jalan Hutton, 10050 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ1RzMcpjDSjARKKqjGkwttOs",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ1RzMcpjDSjARKKqjGkwttOs",
+      "lat": 5.4218813,
+      "lng": 100.3277942,
+      "types": [
+        "art_gallery",
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "gapam baru aborigine's village|penang|malaysia": {
+    "accepted": false,
+    "reason": "No Google result"
+  },
+  "gat lebuh macallum|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Gat Lebuh Macallum",
+      "canonical_name": "Gat Lebuh Macallum",
+      "formatted_address": "Gat Lebuh Macallum, 10300 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJQSjgCuzDSjARW5XJfodnRNs",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJQSjgCuzDSjARW5XJfodnRNs",
+      "lat": 5.4068838,
+      "lng": 100.3335253,
+      "types": [
+        "route"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "george town|penang|malaysia": {
+    "accepted": false,
+    "reason": "Administrative/region result"
+  },
+  "george town world heritage|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "George Town World Heritage",
+      "canonical_name": "Georgetown UNESCO Historic Site",
+      "formatted_address": "159, Lbh Chulia, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ0ZhzIZHDSjARWcrnjUdMN-M",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ0ZhzIZHDSjARWcrnjUdMN-M",
+      "lat": 5.4170037,
+      "lng": 100.3379775,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "ghost museum|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Ghost Museum",
+      "canonical_name": "Ghost Museum",
+      "formatted_address": "57, Lebuh Melayu, George Town, 10100 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJMVwPuZPDSjARUbEIN3RoO_Q",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJMVwPuZPDSjARUbEIN3RoO_Q",
+      "lat": 5.4137354,
+      "lng": 100.3348618,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction",
+        "travel_agency"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "goddess of mercy|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Goddess of Mercy",
+      "canonical_name": "Goddess of Mercy",
+      "formatted_address": "70, Jalan Burma, 10500 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ9fzE2pfDSjARqu6FZbQp9Y8",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ9fzE2pfDSjARqu6FZbQp9Y8",
+      "lat": 5.4187088,
+      "lng": 100.3279922,
+      "types": [
+        "establishment",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "goddess of mercy temple|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Goddess of Mercy Temple",
+      "canonical_name": "Goddess Of Mercy Temple",
+      "formatted_address": "30, Jln Masjid Kapitan Keling, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJTQlMJ5DDSjARGf6dJYfrYEA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJTQlMJ5DDSjARGf6dJYfrYEA",
+      "lat": 5.4184256,
+      "lng": 100.3387262,
+      "types": [
+        "establishment",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "gold bazaar|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Gold Bazaar",
+      "canonical_name": "Gold Bazaar",
+      "formatted_address": "Jln Masjid Kapitan Keling, George Town, 10450 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJX8ZSwpHDSjARVV1vfb2y-IA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJX8ZSwpHDSjARVV1vfb2y-IA",
+      "lat": 5.416574499999999,
+      "lng": 100.3377854,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "hard rock cafe puteri harbour|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 554.3 km"
+  },
+  "house of yeap chor ee|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "House of Yeap Chor Ee",
+      "canonical_name": "The House of Yeap Chor Ee",
+      "formatted_address": "4, Lebuh Penang, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJuWXFe4_DSjARPz1KgbJTrb4",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJuWXFe4_DSjARPz1KgbJTrb4",
+      "lat": 5.4198599,
+      "lng": 100.3418245,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "iskandar malaysia studio|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 553.2 km"
+  },
+  "jalan argyll|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Jalan Argyll",
+      "canonical_name": "Jalan Argyll",
+      "formatted_address": "Jalan Argyll, 10450 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJr6ePMJjDSjARVPJht9x9oRs",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJr6ePMJjDSjARVPJht9x9oRs",
+      "lat": 5.4225633,
+      "lng": 100.327842,
+      "types": [
+        "route"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "jalan cy choy|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Jalan CY Choy",
+      "canonical_name": "Jalan C.Y. Choy",
+      "formatted_address": "Jalan C.Y. Choy, George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ-_iZWerDSjARBXPpQd_SVc0",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-_iZWerDSjARBXPpQd_SVc0",
+      "lat": 5.4081636,
+      "lng": 100.3304407,
+      "types": [
+        "route"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "jalan macalister|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Jalan Macalister",
+      "canonical_name": "Jalan Macalister",
+      "formatted_address": "Jln Macalister, George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJYZQYgrrDSjARgFAdEeQFAa0",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJYZQYgrrDSjARgFAdEeQFAa0",
+      "lat": 5.4192598,
+      "lng": 100.3171069,
+      "types": [
+        "route"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "jalan magazine|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Jalan Magazine",
+      "canonical_name": "Jalan Magazine",
+      "formatted_address": "Jalan Magazine, 10450 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ38SLjZTDSjARZzLNMEOA1tI",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ38SLjZTDSjARZzLNMEOA1tI",
+      "lat": 5.4128096,
+      "lng": 100.3312043,
+      "types": [
+        "route"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "jalan penang|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Jalan Penang",
+      "canonical_name": "Jalan Penang",
+      "formatted_address": "Jln Penang, 10450 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJhxYxJZfDSjARzSOlhAKIRyU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJhxYxJZfDSjARzSOlhAKIRyU",
+      "lat": 5.4189329,
+      "lng": 100.3317744,
+      "types": [
+        "route"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "jalan sultan ahmad shah|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Jalan Sultan Ahmad Shah",
+      "canonical_name": "Jalan Sultan Ahmad Shah",
+      "formatted_address": "Jln Sultan Ahmad Shah, George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJXz0Zx5jDSjARF2Rarw0yH4c",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJXz0Zx5jDSjARF2Rarw0yH4c",
+      "lat": 5.4235517,
+      "lng": 100.3287625,
+      "types": [
+        "route"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "jasin hot springs|penang|malaysia": {
+    "accepted": false,
+    "reason": "Administrative/region result"
+  },
+  "kampung agong|penang|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest', 'tourist_attraction']"
+  },
+  "kampung sungai melayu eco-tourism|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 553.2 km"
+  },
+  "kapitan keling mosque|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Kapitan Keling Mosque",
+      "canonical_name": "Kapitan Keling Mosque",
+      "formatted_address": "14, Lbh Buckingham, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJq5qauJHDSjARY-1J3UITR0U",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJq5qauJHDSjARY-1J3UITR0U",
+      "lat": 5.4169573,
+      "lng": 100.3371206,
+      "types": [
+        "establishment",
+        "mosque",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction",
+        "travel_agency"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "khoo kongsi|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Khoo Kongsi",
+      "canonical_name": "Leong San Tong Khoo Kongsi",
+      "formatted_address": "18, Cannon Square, George Town, 10450 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJny-BJpLDSjARtmEDgFcyASw",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJny-BJpLDSjARtmEDgFcyASw",
+      "lat": 5.4145737,
+      "lng": 100.33719,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "komtar|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Komtar",
+      "canonical_name": "Komtar",
+      "formatted_address": "Komtar, 10450 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJP4BcxJXDSjARIkAwoVy-ih8",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJP4BcxJXDSjARIkAwoVy-ih8",
+      "lat": 5.414587200000001,
+      "lng": 100.3297474,
+      "types": [
+        "premise",
+        "street_address"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "kota iskandar mosque|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 552.8 km"
+  },
+  "lebuh campbell walk|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Lebuh Campbell Walk",
+      "canonical_name": "Lebuh Campbell",
+      "formatted_address": "Lebuh Campbell, George Town, 10450 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJn2BZ2JDDSjART0OcPSeNFSg",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJn2BZ2JDDSjART0OcPSeNFSg",
+      "lat": 5.4180268,
+      "lng": 100.3336558,
+      "types": [
+        "route"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "lebuh carnarvon|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Lebuh Carnarvon",
+      "canonical_name": "Lebuh Carnarvon",
+      "formatted_address": "Lebuh Carnarvon, 10450 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ1-LiaJHDSjARIRsSD3LpGwA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ1-LiaJHDSjARIRsSD3LpGwA",
+      "lat": 5.4151146,
+      "lng": 100.3346128,
+      "types": [
+        "route"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "lebuh chulia|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Lebuh Chulia",
+      "canonical_name": "Lebuh Chulia",
+      "formatted_address": "Lbh Chulia, George Town, 10450 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJBSCru5HDSjARxDADJ-h7Bms",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBSCru5HDSjARxDADJ-h7Bms",
+      "lat": 5.4183865,
+      "lng": 100.3362355,
+      "types": [
+        "route"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "lebuh farquhar|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Lebuh Farquhar",
+      "canonical_name": "Lebuh Farquhar",
+      "formatted_address": "Lebuh Farquhar, George Town, 10450 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJrVy-8prDSjAR0Z9PP5gktTg",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJrVy-8prDSjAR0Z9PP5gktTg",
+      "lat": 5.4218973,
+      "lng": 100.3367419,
+      "types": [
+        "route"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "lebuh light|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Lebuh Light",
+      "canonical_name": "Lebuh Light",
+      "formatted_address": "Lebuh Light, George Town, 10450 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ2c34fYXDSjARiogdw7_1V_c",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ2c34fYXDSjARiogdw7_1V_c",
+      "lat": 5.4204655,
+      "lng": 100.3410861,
+      "types": [
+        "route"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "lebuh pantai|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Lebuh Pantai",
+      "canonical_name": "Beach Street",
+      "formatted_address": "Beach St, Georgetown, George Town, Penang, Malaysia",
+      "place_id": "ChIJ_1nu-Y7DSjARITX3JRj_dO0",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_1nu-Y7DSjARITX3JRj_dO0",
+      "lat": 5.4150825,
+      "lng": 100.3390547,
+      "types": [
+        "route"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "lebuhraya tun dr lim chong eu|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Lebuhraya Tun Dr Lim Chong Eu",
+      "canonical_name": "Tun Dr. Lim Chong Eu Highway",
+      "formatted_address": "Lebuhraya Tun Dr. Lim Chong Eu, Pulau Pinang, Malaysia",
+      "place_id": "ChIJh3WPd2PASjARKGMtaptSng4",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJh3WPd2PASjARKGMtaptSng4",
+      "lat": 5.3478967,
+      "lng": 100.309594,
+      "types": [
+        "route"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "lengkok pengkalan weld|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Lengkok Pengkalan Weld",
+      "canonical_name": "Pengkalan Weld",
+      "formatted_address": "344, Pengkalan Weld, George Town, 10300 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ_Y8usCHDSjARu3S4La2f8yY",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_Y8usCHDSjARu3S4La2f8yY",
+      "lat": 5.405912499999999,
+      "lng": 100.3313692,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "store"
+      ],
+      "category": "shopping",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "little india|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Little India",
+      "canonical_name": "Penang Little India",
+      "formatted_address": "59, Lebuh China, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJvSXoM47DSjARJx_AFWVTwcU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJvSXoM47DSjARJx_AFWVTwcU",
+      "lat": 5.4162913,
+      "lng": 100.340406,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "lubok bandung aborigine's village|penang|malaysia": {
+    "accepted": false,
+    "reason": "No Google result"
+  },
+  "masjid abdullah fahim kepala batas|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Masjid Abdullah Fahim Kepala Batas",
+      "canonical_name": "Abdullah Fahim Masjid",
+      "formatted_address": "26, Lorong Bendahara 13, 13100 Kepala Batas, Pulau Pinang, Malaysia",
+      "place_id": "ChIJxZw8kfLQSjARWw_l5l5J9JY",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJxZw8kfLQSjARWw_l5l5J9JY",
+      "lat": 5.5205107,
+      "lng": 100.4639287,
+      "types": [
+        "establishment",
+        "mosque",
+        "place_of_worship",
+        "point_of_interest"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 28.7,
+      "verified": true
+    }
+  },
+  "masjid jamek haji abdul rashid sungai dua|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Masjid Jamek Haji Abdul Rashid Sungai Dua",
+      "canonical_name": "MASJID JAMEK HAJI ABDUL RASHID BUTTERWORTH PULAU PINANG",
+      "formatted_address": "Jalan Besar, Permatang Sungai Dua, 13220 Butterworth, Pulau Pinang, Malaysia",
+      "place_id": "ChIJw2e4sGfFSjARNl3FHBz50cM",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJw2e4sGfFSjARNl3FHBz50cM",
+      "lat": 5.4476983,
+      "lng": 100.4302473,
+      "types": [
+        "establishment",
+        "mosque",
+        "place_of_worship",
+        "point_of_interest"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "masjid melayu lebuh acheh|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Masjid Melayu Lebuh Acheh",
+      "canonical_name": "Malay Central Mosque Lebuh Acheh",
+      "formatted_address": "Aceh Street Mosque, George Town, 10450 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ64LDMZLDSjAR72L-xqT-Vgo",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ64LDMZLDSjAR72L-xqT-Vgo",
+      "lat": 5.414464,
+      "lng": 100.336141,
+      "types": [
+        "establishment",
+        "mosque",
+        "place_of_worship",
+        "point_of_interest"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "masjid tuan samad permatang dua|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Masjid Tuan Samad Permatang Dua",
+      "canonical_name": "Masjid Tuan Samad Permatang Sungai Dua kepala batas",
+      "formatted_address": "Seberang Perai Utara Kepala Batas, Pulau Pinang 13220 Malaysia, Kampung Tebiar, 13220 Kepala Batas, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ7cTbeVLFSjARE-sbLoilrLk",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ7cTbeVLFSjARE-sbLoilrLk",
+      "lat": 5.4678811,
+      "lng": 100.4287331,
+      "types": [
+        "establishment",
+        "mosque",
+        "place_of_worship",
+        "point_of_interest"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "nagore shrine|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Nagore Shrine",
+      "canonical_name": "Masjid Nagore Dargah Sheriff",
+      "formatted_address": "68, Lbh Chulia, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJdwlConDDSjARXB1lIi-IxPs",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJdwlConDDSjARXB1lIi-IxPs",
+      "lat": 5.4162288,
+      "lng": 100.3388533,
+      "types": [
+        "establishment",
+        "mosque",
+        "place_of_worship",
+        "point_of_interest"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "nine emperor gods temple|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Nine Emperor Gods Temple",
+      "canonical_name": "Nine Emperor Gods Temple",
+      "formatted_address": "27, Medan Melur Selatan, 4392, Jalan Raja Uda, Kampung Tengah, 12300 Butterworth, Penang, Malaysia",
+      "place_id": "ChIJn1h9JPjESjAR9sLp_mkUbFI",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJn1h9JPjESjAR9sLp_mkUbFI",
+      "lat": 5.4314795,
+      "lng": 100.3836557,
+      "types": [
+        "establishment",
+        "place_of_worship",
+        "point_of_interest"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "orna golf & country club|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 391.4 km"
+  },
+  "p. ramlee's house|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "P. Ramlee's House",
+      "canonical_name": "P. Ramlee House",
+      "formatted_address": "Lot 2180, Jalan P. Ramlee, Taman P. Ramlee, 10460 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ-aZ-K8jDSjAREf8njX7arQY",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-aZ-K8jDSjAREf8njX7arQY",
+      "lat": 5.409885099999999,
+      "lng": 100.3138274,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "pd ostrich farm|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 348.5 km"
+  },
+  "pd waterfront|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 338.1 km"
+  },
+  "pasar bisik kuala muda|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Pasar Bisik Kuala Muda",
+      "canonical_name": "Pasar Bisik Kuala Muda, Penaga Pulau Pinang",
+      "formatted_address": "H8GR+G8, Kampung Kuala Muda, 13110 Penaga, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ3fqbkw7fSjAR5kHpkMdx7wg",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ3fqbkw7fSjAR5kHpkMdx7wg",
+      "lat": 5.5759306,
+      "lng": 100.3412069,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 38.22,
+      "verified": true
+    }
+  },
+  "pasir panjang recreational forest|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Pasir Panjang Recreational Forest",
+      "canonical_name": "Bukit Mertajam Forest Park",
+      "formatted_address": "14000 Bukit Mertajam, Penang, Malaysia",
+      "place_id": "ChIJDQf5Z-7ISjAR0ScYfzrRw7A",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJDQf5Z-7ISjAR0ScYfzrRw7A",
+      "lat": 5.355669799999999,
+      "lng": 100.4923249,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "nature",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "penang hajj gallery|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Penang Hajj Gallery",
+      "canonical_name": "Penang Hajj Gallery",
+      "formatted_address": "87, Lbh Acheh, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ7WZMKZLDSjARshdvuGqrqtQ",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ7WZMKZLDSjARshdvuGqrqtQ",
+      "lat": 5.414949099999999,
+      "lng": 100.3361145,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "penang hill railway|penang|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'point_of_interest', 'transit_station']"
+  },
+  "penang state art gallery|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Penang State Art Gallery",
+      "canonical_name": "Penang State Art Gallery",
+      "formatted_address": "Jalan Tun Syed Sheh Barakbah, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJZYZoEIXDSjARiOQQlmIVnl0",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJZYZoEIXDSjARiOQQlmIVnl0",
+      "lat": 5.4221568,
+      "lng": 100.3405895,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "penang state museum|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Penang State Museum",
+      "canonical_name": "Penang State Museum",
+      "formatted_address": "57, Jln Macalister, 10400 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ6xszcb7DSjARQvFfMHklNZo",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ6xszcb7DSjARQvFfMHklNZo",
+      "lat": 5.4150027,
+      "lng": 100.3254963,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "penang war memorial|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Penang War Memorial",
+      "canonical_name": "Penang War Museum",
+      "formatted_address": "Penang War Museum, Jalan Batu Maung, 11960 Batu Maung, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ3xaC-ru_SjARrMFeCiCAbvE",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ3xaC-ru_SjARrMFeCiCAbvE",
+      "lat": 5.2813684,
+      "lng": 100.2888122,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "pengkalan kempas historical complex|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 355.9 km"
+  },
+  "pinang peranakan mansion|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Pinang Peranakan Mansion",
+      "canonical_name": "Pinang Peranakan Mansion",
+      "formatted_address": "29, Church St, Georgetown, 10200 George Town, Penang, Malaysia",
+      "place_id": "ChIJCWvz3I_DSjAR5hveCXjdfIs",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJCWvz3I_DSjAR5hveCXjdfIs",
+      "lat": 5.4178275,
+      "lng": 100.3412046,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "pulau besar|penang|malaysia": {
+    "accepted": false,
+    "reason": "Administrative/region result"
+  },
+  "puteri harbour|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 554.0 km"
+  },
+  "queen victoria memorial clock tower|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Queen Victoria Memorial Clock Tower",
+      "canonical_name": "Queen Victoria Memorial Clock Tower",
+      "formatted_address": "Lebuh Light, George Town, 10450 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ_Y9zS4_DSjARnxALwqb4vw8",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_Y9zS4_DSjARnxALwqb4vw8",
+      "lat": 5.4193699,
+      "lng": 100.3442629,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "rud carting centre|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 552.8 km"
+  },
+  "rekreasi air hitam dalam|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Rekreasi Air Hitam Dalam",
+      "canonical_name": "Air Hitam Dalam Educational Forest",
+      "formatted_address": "13310 Air Hitam, Pulau Pinang, Malaysia",
+      "place_id": "ChIJmUwOn-3PSjARHtH9d_ubSBs",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJmUwOn-3PSjARHtH9d_ubSBs",
+      "lat": 5.4550563,
+      "lng": 100.4526228,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "residence of ku din ku meh|penang|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "residence of tuanku syed hussain|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Residence of Tuanku Syed Hussain",
+      "canonical_name": "Makam Tengku Syed Hussain Idid",
+      "formatted_address": "Masjid Jamek Lebuh Acheh,, Gat Lebuh Acheh, George Town, 10300 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJd03lLZLDSjARhXjbB7XvF60",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJd03lLZLDSjARhXjbB7XvF60",
+      "lat": 5.4146152,
+      "lng": 100.3360658,
+      "types": [
+        "cemetery",
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "rope walk taman selat butterworth|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Rope walk Taman Selat Butterworth",
+      "canonical_name": "Ropewalk Taman Selat",
+      "formatted_address": "11a, Jalan Selat, Taman Selat, 12000 Butterworth, Pulau Pinang, Malaysia",
+      "place_id": "ChIJAQBA1xbESjARHgxBLrAsl10",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJAQBA1xbESjARHgxBLrAsl10",
+      "lat": 5.4019641,
+      "lng": 100.3674772,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "shopping_mall"
+      ],
+      "category": "shopping",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "rozana's batik|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Rozana's Batik",
+      "canonical_name": "Rozanas Batik",
+      "formatted_address": "81 B, Lbh Acheh, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJJUM9L5LDSjAR6YwPWoP-c9M",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJJUM9L5LDSjAR6YwPWoP-c9M",
+      "lat": 5.4148413,
+      "lng": 100.3362159,
+      "types": [
+        "clothing_store",
+        "establishment",
+        "point_of_interest",
+        "store"
+      ],
+      "category": "shopping",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "saint francis xavier church|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Saint Francis Xavier Church",
+      "canonical_name": "Saint Francis Xavier Church (1857)",
+      "formatted_address": "52 K, Jln Penang, George Town, 10000 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJSdWzjpnDSjARI2NEmo5bnAk",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJSdWzjpnDSjARI2NEmo5bnAk",
+      "lat": 5.421389899999999,
+      "lng": 100.3334505,
+      "types": [
+        "church",
+        "establishment",
+        "place_of_worship",
+        "point_of_interest"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "selandar farm|penang|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "sg. rambai aerodrome|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 415.7 km"
+  },
+  "sireh park|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 549.2 km"
+  },
+  "sri maha mariamman kovil|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Sri Maha Mariamman Kovil",
+      "canonical_name": "Sri Mahamariamman Temple",
+      "formatted_address": "Lebuh Queen, George Town, 10450 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJI3uh15HDSjARdnR9K1KmeN0",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJI3uh15HDSjARdnR9K1KmeN0",
+      "lat": 5.417179,
+      "lng": 100.3383389,
+      "types": [
+        "establishment",
+        "hindu_temple",
+        "place_of_worship",
+        "point_of_interest"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "st. george's church|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "St. George's Church",
+      "canonical_name": "St. George's Anglican Church, Penang, Malaysia",
+      "formatted_address": "1, Lebuh Farquhar, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJQTfD-o_DSjARPLUTC1hxGuI",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJQTfD-o_DSjARPLUTC1hxGuI",
+      "lat": 5.4197654,
+      "lng": 100.3391433,
+      "types": [
+        "church",
+        "establishment",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "straits of malacca|penang|malaysia": {
+    "accepted": false,
+    "reason": "Administrative/region result"
+  },
+  "street of harmony|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Street of Harmony",
+      "canonical_name": "Harmony Street Heritage Hindu Temple",
+      "formatted_address": "Kompleks Lebuh Pitt, 14, Jln Masjid Kapitan Keling, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJJ72pw5bDSjARmTpxID1nYAg",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJJ72pw5bDSjARmTpxID1nYAg",
+      "lat": 5.417298499999999,
+      "lng": 100.3381676,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "sun yat sen memorial centre|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Sun Yat Sen Memorial Centre",
+      "canonical_name": "槟城孙中山纪念馆 Sun Yat-Sen Memorial Centre",
+      "formatted_address": "65, Jln Macalister, George Town, 11400 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJSyeRMrzDSjAR4_b1Lgh9H-0",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJSyeRMrzDSjAR4_b1Lgh9H-0",
+      "lat": 5.4156129,
+      "lng": 100.3242694,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "sun yat sen museum|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Sun Yat Sen Museum",
+      "canonical_name": "Sun Yat Sen Museum Penang",
+      "formatted_address": "120, Lbh Armenian, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJb4Pwg5HDSjAR64Un_Vq8DCE",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJb4Pwg5HDSjAR64Un_Vq8DCE",
+      "lat": 5.4157093,
+      "lng": 100.3362209,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "teluk kemang observatory|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 348.2 km"
+  },
+  "tukang besi permatang benuan|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Tukang Besi Permatang Benuan",
+      "canonical_name": "Bengkel besi jaya Dayang enterprise",
+      "formatted_address": "Jalan, Permatang Pasir, 13500 Permatang Pauh, Pulau Pinang, Malaysia",
+      "place_id": "ChIJgTBrV3_FSjARHJcnwZXeXwE",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJgTBrV3_FSjARHJcnwZXeXwE",
+      "lat": 5.4182784,
+      "lng": 100.4369886,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "upside down house|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Upside Down House",
+      "canonical_name": "Upside Down Museum",
+      "formatted_address": "45, Lebuh Kimberley, George Town, 10100 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJLfBSUJHDSjARUKdRl_svCpA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJLfBSUJHDSjARUKdRl_svCpA",
+      "lat": 5.4158046,
+      "lng": 100.3335296,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "wisma kastam|penang|malaysia": {
+    "accepted": false,
+    "reason": "Blacklisted place name"
+  },
+  "x park port dickson|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 351.8 km"
+  },
+  "yap kongsi|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Yap Kongsi",
+      "canonical_name": "Yap Kongsi叶宗祠",
+      "formatted_address": "Lbh Armenian, George Town, 10450 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJFbbji5HDSjAR5MGxiVetGig",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJFbbji5HDSjAR5MGxiVetGig",
+      "lat": 5.4154076,
+      "lng": 100.3368522,
+      "types": [
+        "establishment",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  }
+}

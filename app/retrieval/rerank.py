@@ -12,6 +12,13 @@ def rerank_hybrid_results(query: str, hybrid_results: list[dict], top_k: int = 5
         documents=documents,
         top_k=top_k
     )
+    print("RERANK RESULT TYPE:", type(rerank_result))
+    print("RERANK RESULT KEYS:", rerank_result.keys())
+
+    for r in rerank_result.get("results", [])[:20]:
+        print(r)
+
+  
 
     final_results = []
 
