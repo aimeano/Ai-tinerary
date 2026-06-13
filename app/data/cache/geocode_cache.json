@@ -1,4 +1,2788 @@
 {
+  "amed|bali|indonesia": {
+    "accepted": false,
+    "reason": "Too far from Bali: 52.2 km > allowed 50.0 km"
+  },
+  "bali|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Bali",
+      "canonical_name": "Bali",
+      "formatted_address": "Bali, Indonesia",
+      "place_id": "ChIJ06f8IHUv0i0RhM1WxCy2cig",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ06f8IHUv0i0RhM1WxCy2cig",
+      "lat": -8.3405389,
+      "lng": 115.0919509,
+      "types": [
+        "establishment",
+        "natural_feature"
+      ],
+      "category": "nature",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "bali bird park|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Bali Bird Park",
+      "canonical_name": "Bali Bird Park",
+      "formatted_address": "Jl. Serma Cok Ngurah Gambir Singapadu, Jl. Bird Park, Batubulan, Kec. Sukawati, Kabupaten Gianyar, Bali 80582, Indonesia",
+      "place_id": "ChIJD0zF-k4-0i0RLDhW9qwgiV8",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJD0zF-k4-0i0RLDhW9qwgiV8",
+      "lat": -8.5996431,
+      "lng": 115.2520569,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest",
+        "tourist_attraction",
+        "zoo"
+      ],
+      "category": "nature",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 22.25,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "bali botanical gardens|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Bali Botanical Gardens",
+      "canonical_name": "Bali Botanical Garden",
+      "formatted_address": "Jl. Kebun Raya, Candikuning, Kec. Baturiti, Kabupaten Tabanan, Bali 82191, Indonesia",
+      "place_id": "ChIJDSEiPAyJ0S0RxX3GamOTQ4k",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJDSEiPAyJ0S0RxX3GamOTQ4k",
+      "lat": -8.276121500000002,
+      "lng": 115.1542029,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 15.32,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "bali golf & country club|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Bali Golf & Country Club",
+      "canonical_name": "Bali International Golf Driving Range",
+      "formatted_address": "Jl. Bypass Ngurah Rai No.88, Kesiman Kertalangu, Kec. Denpasar Tim., Kota Denpasar, Bali 80237, Indonesia",
+      "place_id": "ChIJu7v1SWRB0i0RSW6DaXJCzeY",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJu7v1SWRB0i0RSW6DaXJCzeY",
+      "lat": -8.6422015,
+      "lng": 115.2551054,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 26.88,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "bali handara kosaido country club|bali|indonesia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "bali marine and safari park|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Bali Marine and Safari Park",
+      "canonical_name": "Marine Safari Bali",
+      "formatted_address": "Jl. Prof. Dr. Ida Bagus Mantra No.Km. 19, Serongga, Kec. Blahbatuh, Kabupaten Gianyar, Bali 80551, Indonesia",
+      "place_id": "ChIJr7iCed4V0i0RQaYZ3SfXfic",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJr7iCed4V0i0RQaYZ3SfXfic",
+      "lat": -8.581709499999999,
+      "lng": 115.3469507,
+      "types": [
+        "aquarium",
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "entertainment",
+      "assigned_city": "Bali",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 25.86,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "bali treetop adventure park|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Bali Treetop Adventure Park",
+      "canonical_name": "De Brokong Bali Adventure",
+      "formatted_address": "Bangbang, Tembuku, Bangli Regency, Bali 80671, Indonesia",
+      "place_id": "ChIJBTf5Qfcb0i0Ra3T8Gq5QC10",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBTf5Qfcb0i0Ra3T8Gq5QC10",
+      "lat": -8.4467672,
+      "lng": 115.4012325,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 23.72,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "bali zoo|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Bali Zoo",
+      "canonical_name": "Bali Zoo",
+      "formatted_address": "Jl. Raya Singapadu, Singapadu, Kec. Sukawati, Kabupaten Gianyar, Bali 80582, Indonesia",
+      "place_id": "ChIJpe5hQz4-0i0RvsbXvzbr9Ds",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJpe5hQz4-0i0RvsbXvzbr9Ds",
+      "lat": -8.5918875,
+      "lng": 115.2656748,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest",
+        "tourist_attraction",
+        "zoo"
+      ],
+      "category": "nature",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 21.97,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "bedugul|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Bedugul",
+      "canonical_name": "Daya Tarik Wisata Bedugul",
+      "formatted_address": "Jl. Raya Bedugul No.1, Batunya, Kec. Baturiti, Kabupaten Tabanan, Bali 82191, Indonesia",
+      "place_id": "ChIJy52SWnGJ0S0RwgkbkQnE2IA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJy52SWnGJ0S0RwgkbkQnE2IA",
+      "lat": -8.275231999999999,
+      "lng": 115.1656329,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 15.15,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "benoa harbour|bali|indonesia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'point_of_interest', 'transit_station']"
+  },
+  "besakih|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Besakih",
+      "canonical_name": "Besakih",
+      "formatted_address": "Besakih, Rendang, Karangasem Regency, Bali, Indonesia",
+      "place_id": "ChIJW7P2rdsc0i0R8BWDyvsLAwU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJW7P2rdsc0i0R8BWDyvsLAwU",
+      "lat": -8.3749056,
+      "lng": 115.4510613,
+      "types": [
+        "administrative_area_level_4",
+        "political"
+      ],
+      "category": "other",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 29.09,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "bromo-tengger-semeru national park|bali|indonesia": {
+    "accepted": false,
+    "reason": "Too far from Bali: 249.9 km > allowed 50.0 km"
+  },
+  "bukit barisan selatan national park|bali|indonesia": {
+    "accepted": false,
+    "reason": "Too far from Bali: 1240.6 km > allowed 50.0 km"
+  },
+  "bukit pandawa golf|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Bukit Pandawa Golf",
+      "canonical_name": "Bukit Pandawa Golf & Country Club",
+      "formatted_address": "558W+5J4, Jl. Gunung Payung No.8, Kutuh, Kec. Kuta Sel., Kabupaten Badung, Bali 80361, Indonesia",
+      "place_id": "ChIJuZVlu5hc0i0RkG1TsRz1nhU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJuZVlu5hc0i0RkG1TsRz1nhU",
+      "lat": -8.8344509,
+      "lng": 115.1966107,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 47.26,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "bukit peninsula|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Bukit Peninsula",
+      "canonical_name": "Bukit Peninsula",
+      "formatted_address": "Bukit Peninsula, South Kuta, Badung Regency, Bali, Indonesia",
+      "place_id": "ChIJ2yOGv0pb0i0RrqHf8znNqOk",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ2yOGv0pb0i0RrqHf8znNqOk",
+      "lat": -8.814815300000001,
+      "lng": 115.1642494,
+      "types": [
+        "establishment",
+        "natural_feature"
+      ],
+      "category": "nature",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 45.15,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "bunaken|bali|indonesia": {
+    "accepted": false,
+    "reason": "Too far from Bali: 1539.7 km > allowed 50.0 km"
+  },
+  "butterfly park|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Butterfly Park",
+      "canonical_name": "Bali Butterfly Park Tabanan",
+      "formatted_address": "Jl. Batukaru No.76, Sedandan, Kec. Tabanan, Kabupaten Tabanan, Bali 82115, Indonesia",
+      "place_id": "ChIJMaOrTtM60i0RRirULm_EL5s",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJMaOrTtM60i0RRirULm_EL5s",
+      "lat": -8.479504799999999,
+      "lng": 115.1348148,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "nature",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "candidasa|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Candidasa",
+      "canonical_name": "Candi Dasa",
+      "formatted_address": "Candi Dasa, Nyuh Tebel, Manggis, Karangasem Regency, Bali, Indonesia",
+      "place_id": "ChIJLbEvgCwP0i0RAZQhlMn_sB4",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJLbEvgCwP0i0RAZQhlMn_sB4",
+      "lat": -8.4995354,
+      "lng": 115.5555238,
+      "types": [
+        "neighborhood",
+        "political"
+      ],
+      "category": "other",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 41.55,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "canggu|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Canggu",
+      "canonical_name": "Canggu",
+      "formatted_address": "Canggu, Kuta Utara, Badung Regency, Bali, Indonesia",
+      "place_id": "ChIJZZZY9GE40i0RMP2CyvsLAwU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJZZZY9GE40i0RMP2CyvsLAwU",
+      "lat": -8.6490446,
+      "lng": 115.1378565,
+      "types": [
+        "administrative_area_level_4",
+        "political"
+      ],
+      "category": "other",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 27.22,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "cimaja|bali|indonesia": {
+    "accepted": false,
+    "reason": "Too far from Bali: 972.5 km > allowed 50.0 km"
+  },
+  "denpasar|bali|indonesia": {
+    "accepted": false,
+    "reason": "Administrative/region result"
+  },
+  "goa lawah|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Goa Lawah",
+      "canonical_name": "Goa Lawah Temple",
+      "formatted_address": "CFX9+9GG, Jl. Raya Goa Lawah, Pesinggahan, Kec. Dawan, Kabupaten Klungkung, Bali 80761, Indonesia",
+      "place_id": "ChIJqbgnKwAS0i0RrRoZYjFw2WQ",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJqbgnKwAS0i0RrRoZYjFw2WQ",
+      "lat": -8.5515522,
+      "lng": 115.4688318,
+      "types": [
+        "establishment",
+        "hindu_temple",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 34.6,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "grand bali beach hotel|bali|indonesia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "gunung leuser national park|bali|indonesia": {
+    "accepted": false,
+    "reason": "Too far from Bali: 2371.3 km > allowed 50.0 km"
+  },
+  "ijen crater|bali|indonesia": {
+    "accepted": false,
+    "reason": "Too far from Bali: 111.0 km > allowed 50.0 km"
+  },
+  "jimbaran|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Jimbaran",
+      "canonical_name": "Jimbaran",
+      "formatted_address": "Jimbaran, South Kuta, Badung Regency, Bali, Indonesia",
+      "place_id": "ChIJI1DS-mFE0i0R3EWmvfDVHBE",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJI1DS-mFE0i0R3EWmvfDVHBE",
+      "lat": -8.7855882,
+      "lng": 115.1661257,
+      "types": [
+        "administrative_area_level_4",
+        "political"
+      ],
+      "category": "other",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 41.89,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "jimbaran bay|bali|indonesia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "kampung penyu|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Kampung Penyu",
+      "canonical_name": "Deluang Sari Turtle Conservation Center",
+      "formatted_address": "Tanjung Benoa, South Kuta, Badung Regency, Bali, Indonesia",
+      "place_id": "ChIJR41mLqND0i0R3vM_t4a9Uj0",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJR41mLqND0i0R3vM_t4a9Uj0",
+      "lat": -8.762476,
+      "lng": 115.2165938,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Bali",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 39.36,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "kerinci seblat national park|bali|indonesia": {
+    "accepted": false,
+    "reason": "Too far from Bali: 1711.8 km > allowed 50.0 km"
+  },
+  "kintamani|bali|indonesia": {
+    "accepted": false,
+    "reason": "Administrative/region result"
+  },
+  "komodo island|bali|indonesia": {
+    "accepted": false,
+    "reason": "Too far from Bali: 468.0 km > allowed 50.0 km"
+  },
+  "kuta|bali|indonesia": {
+    "accepted": false,
+    "reason": "Administrative/region result"
+  },
+  "lake bratan|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Lake Bratan",
+      "canonical_name": "Danau Beratan",
+      "formatted_address": "Danau Beratan, Baturiti, Tabanan Regency, Bali, Indonesia",
+      "place_id": "ChIJU51FwmiJ0S0RrGfIYReMAr4",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJU51FwmiJ0S0RrGfIYReMAr4",
+      "lat": -8.2720396,
+      "lng": 115.1740942,
+      "types": [
+        "establishment",
+        "natural_feature"
+      ],
+      "category": "nature",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 15.37,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "legian|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Legian",
+      "canonical_name": "Legian",
+      "formatted_address": "Legian, Kuta, Badung Regency, Bali, Indonesia",
+      "place_id": "ChIJpTwIQsNG0i0R4P2CyvsLAwU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJpTwIQsNG0i0R4P2CyvsLAwU",
+      "lat": -8.705548199999999,
+      "lng": 115.1711027,
+      "types": [
+        "administrative_area_level_4",
+        "political"
+      ],
+      "category": "other",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 32.98,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "legian beach|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Legian Beach",
+      "canonical_name": "Kuta Beach",
+      "formatted_address": "Kuta Beach, Kuta, Badung Regency, Bali, Indonesia",
+      "place_id": "ChIJQw23KrxG0i0RjrRKL-Gq_oI",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJQw23KrxG0i0RjrRKL-Gq_oI",
+      "lat": -8.7184926,
+      "lng": 115.1686322,
+      "types": [
+        "establishment",
+        "natural_feature"
+      ],
+      "category": "nature",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 34.43,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "lombok|bali|indonesia": {
+    "accepted": false,
+    "reason": "Too far from Bali: 127.8 km > allowed 50.0 km"
+  },
+  "lorentz national park|bali|indonesia": {
+    "accepted": false,
+    "reason": "Too far from Bali: 2551.2 km > allowed 50.0 km"
+  },
+  "lovina|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Lovina",
+      "canonical_name": "Lovina Beach",
+      "formatted_address": "Lovina Beach, Anturan, Buleleng, Buleleng Regency, Bali, Indonesia",
+      "place_id": "ChIJq2UHzD2b0S0RUAdyDHdHbKs",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJq2UHzD2b0S0RUAdyDHdHbKs",
+      "lat": -8.160609000000001,
+      "lng": 115.0299151,
+      "types": [
+        "neighborhood",
+        "political"
+      ],
+      "category": "other",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 32.74,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "menjangan island|bali|indonesia": {
+    "accepted": false,
+    "reason": "Too far from Bali: 81.8 km > allowed 50.0 km"
+  },
+  "mentawai islands|bali|indonesia": {
+    "accepted": false,
+    "reason": "Administrative/region result"
+  },
+  "mount agung|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Mount Agung",
+      "canonical_name": "Mount Agung",
+      "formatted_address": "Mount Agung, Jungutan, Bebandem, Karangasem Regency, Bali, Indonesia",
+      "place_id": "ChIJx-qyKOQC0i0Rraejs2zS16c",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJx-qyKOQC0i0Rraejs2zS16c",
+      "lat": -8.343310599999999,
+      "lng": 115.5070575,
+      "types": [
+        "establishment",
+        "natural_feature"
+      ],
+      "category": "nature",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 35.76,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "mount batur|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Mount Batur",
+      "canonical_name": "Mount Batur",
+      "formatted_address": "Mt Batur, South Batur, Kintamani, Bangli Regency, Bali, Indonesia",
+      "place_id": "ChIJP-7oyAP00S0RtHCGoa9FgNM",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJP-7oyAP00S0RtHCGoa9FgNM",
+      "lat": -8.2401299,
+      "lng": 115.3774944,
+      "types": [
+        "establishment",
+        "natural_feature"
+      ],
+      "category": "nature",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 28.02,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "mount rinjani|bali|indonesia": {
+    "accepted": false,
+    "reason": "Too far from Bali: 139.5 km > allowed 50.0 km"
+  },
+  "new kuta golf course|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "New Kuta Golf Course",
+      "canonical_name": "New Kuta Golf Bali",
+      "formatted_address": "Jalan Raya, Indah Resort, Uluwatu, Kawasan Pecatu Jl. New Kuta Golf, Pecatu, Kec. Kuta Sel., Kabupaten Badung, Bali 80361, Indonesia",
+      "place_id": "ChIJm8UHajtF0i0RYf7rGsXLE1Y",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJm8UHajtF0i0RYf7rGsXLE1Y",
+      "lat": -8.804020999999999,
+      "lng": 115.1280564,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 44.37,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "nias|bali|indonesia": {
+    "accepted": false,
+    "reason": "Administrative/region result"
+  },
+  "nirwana bali golf club|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Nirwana Bali Golf Club",
+      "canonical_name": "Nirwana Bali Golf Club",
+      "formatted_address": "93HW+Q39, Jl. Tanah Lot, Beraban, Kec. Kediri, Kabupaten Tabanan, Bali 82121, Indonesia",
+      "place_id": "ChIJawsIQ51A0i0RwgSO1Tmr94c",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJawsIQ51A0i0RwgSO1Tmr94c",
+      "lat": -8.6205755,
+      "lng": 115.0952387,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 25.63,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "nusa dua|bali|indonesia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "nusa lembongan|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Nusa Lembongan",
+      "canonical_name": "Nusa Lembongan",
+      "formatted_address": "Nusa Lembongan, Jungutbatu, Nusa Penida, Klungkung Regency, Bali, Indonesia",
+      "place_id": "ChIJ82l7U59t0i0RM6BnbL2UG9w",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ82l7U59t0i0RM6BnbL2UG9w",
+      "lat": -8.6785828,
+      "lng": 115.4555858,
+      "types": [
+        "establishment",
+        "natural_feature"
+      ],
+      "category": "nature",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 41.89,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "nusa penida|bali|indonesia": {
+    "accepted": false,
+    "reason": "Too far from Bali: 52.7 km > allowed 50.0 km"
+  },
+  "padang|bali|indonesia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "padang bai|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Padang Bai",
+      "canonical_name": "Padangbai",
+      "formatted_address": "Padangbai, Manggis, Karangasem Regency, Bali, Indonesia",
+      "place_id": "ChIJRyOliGgO0i0REBmDyvsLAwU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJRyOliGgO0i0REBmDyvsLAwU",
+      "lat": -8.5298984,
+      "lng": 115.5074108,
+      "types": [
+        "administrative_area_level_4",
+        "political"
+      ],
+      "category": "other",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 37.5,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "pangandaran|bali|indonesia": {
+    "accepted": false,
+    "reason": "Administrative/region result"
+  },
+  "pura lempuyang luhur|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Pura Lempuyang Luhur",
+      "canonical_name": "Penataran Agung Lempuyang Temple",
+      "formatted_address": "JJ5H+GQF, Jl. Pura Telaga Mas Lempuyang, Tri Buana, Kec. Abang, Kabupaten Karangasem, Bali 80852, Indonesia",
+      "place_id": "ChIJkygiUxcH0i0RY5J3_lj9oEA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJkygiUxcH0i0RY5J3_lj9oEA",
+      "lat": -8.3917875,
+      "lng": 115.6315557,
+      "types": [
+        "establishment",
+        "hindu_temple",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 48.73,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "pura luhur batukaru|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Pura Luhur Batukaru",
+      "canonical_name": "Luhur Batukau Temple",
+      "formatted_address": "Jl. Penatahan - Wongayagede, Wongaya Gede, Kec. Penebel, Kabupaten Tabanan, Bali 85125, Indonesia",
+      "place_id": "ChIJSUBnb6VA0i0RhfvVfeZ3Gc4",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJSUBnb6VA0i0RhfvVfeZ3Gc4",
+      "lat": -8.3720075,
+      "lng": 115.1025803,
+      "types": [
+        "establishment",
+        "hindu_temple",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "pura luhur uluwatu|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Pura Luhur Uluwatu",
+      "canonical_name": "Uluwatu Temple",
+      "formatted_address": "Pecatu, South Kuta, Badung Regency, Bali, Indonesia",
+      "place_id": "ChIJkYHLIPxP0i0RlQTbpxuNuQw",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJkYHLIPxP0i0RlQTbpxuNuQw",
+      "lat": -8.829143199999999,
+      "lng": 115.0849069,
+      "types": [
+        "establishment",
+        "hindu_temple",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 48.04,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "pura masceti|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Pura Masceti",
+      "canonical_name": "Pura Masceti",
+      "formatted_address": "Medahan, Keramas Blabatuh, Medahan, Kec. Gianyar, Kabupaten Gianyar, Bali, Indonesia",
+      "place_id": "ChIJ-0H4KGEW0i0RIMQxLg1f8R8",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-0H4KGEW0i0RIMQxLg1f8R8",
+      "lat": -8.5929193,
+      "lng": 115.3460744,
+      "types": [
+        "establishment",
+        "hindu_temple",
+        "place_of_worship",
+        "point_of_interest"
+      ],
+      "category": "religious",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 26.73,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "pura pasar agung|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Pura Pasar Agung",
+      "canonical_name": "Pura Pasar Agung",
+      "formatted_address": "South Batur, Kintamani, Bangli Regency, Bali 80652, Indonesia",
+      "place_id": "ChIJt255qwL00S0RPVe85zGO53A",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJt255qwL00S0RPVe85zGO53A",
+      "lat": -8.2456307,
+      "lng": 115.3782321,
+      "types": [
+        "establishment",
+        "hindu_temple",
+        "place_of_worship",
+        "point_of_interest"
+      ],
+      "category": "religious",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 27.68,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "pura ulun danu batur|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Pura Ulun Danu Batur",
+      "canonical_name": "Pura Ulun Danu Batur",
+      "formatted_address": "P8WP+6GW, Jl. Raya Kintamani, Batur Sel., Kec. Kintamani, Kabupaten Bangli, Bali 80652, Indonesia",
+      "place_id": "ChIJ30kdQGH00S0Rwqbgk_EKQOs",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ30kdQGH00S0Rwqbgk_EKQOs",
+      "lat": -8.254366899999999,
+      "lng": 115.3363341,
+      "types": [
+        "establishment",
+        "hindu_temple",
+        "place_of_worship",
+        "point_of_interest"
+      ],
+      "category": "religious",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 23.68,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "pura ulun danu bratan|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Pura Ulun Danu Bratan",
+      "canonical_name": "Ulun Danu Beratan Temple",
+      "formatted_address": "Candikuning, Baturiti, Tabanan Regency, Bali, Indonesia",
+      "place_id": "ChIJVwisn2yJ0S0RUxvb5GhlJBg",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJVwisn2yJ0S0RUxvb5GhlJBg",
+      "lat": -8.2751807,
+      "lng": 115.1668234,
+      "types": [
+        "establishment",
+        "hindu_temple",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 15.13,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "raja ampat|bali|indonesia": {
+    "accepted": false,
+    "reason": "Administrative/region result"
+  },
+  "sanur|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Sanur",
+      "canonical_name": "Sanur",
+      "formatted_address": "Sanur, Bali, Indonesia",
+      "place_id": "ChIJwRIJzsFB0i0RQdXwd3GvJvA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJwRIJzsFB0i0RQdXwd3GvJvA",
+      "lat": -8.7071782,
+      "lng": 115.2626236,
+      "types": [
+        "establishment",
+        "natural_feature"
+      ],
+      "category": "nature",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 34.08,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "selayar island|bali|indonesia": {
+    "accepted": false,
+    "reason": "Administrative/region result"
+  },
+  "seminyak|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Seminyak",
+      "canonical_name": "Seminyak",
+      "formatted_address": "Seminyak, Kuta, Badung Regency, Bali, Indonesia",
+      "place_id": "ChIJ_8h84N9G0i0R0P2CyvsLAwU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_8h84N9G0i0R0P2CyvsLAwU",
+      "lat": -8.6909879,
+      "lng": 115.1677598,
+      "types": [
+        "administrative_area_level_4",
+        "political"
+      ],
+      "category": "other",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 31.38,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "serangan|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Serangan",
+      "canonical_name": "Serangan",
+      "formatted_address": "Serangan, Denpasar Selatan, Denpasar City, Bali, Indonesia",
+      "place_id": "ChIJrZbMANND0i0R0YSUaSHUzfU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJrZbMANND0i0R0YSUaSHUzfU",
+      "lat": -8.7322542,
+      "lng": 115.233377,
+      "types": [
+        "administrative_area_level_4",
+        "political"
+      ],
+      "category": "other",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 36.22,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "sumatra|bali|indonesia": {
+    "accepted": false,
+    "reason": "Too far from Bali: 1763.0 km > allowed 50.0 km"
+  },
+  "sumbawa|bali|indonesia": {
+    "accepted": false,
+    "reason": "Administrative/region result"
+  },
+  "tanah lot|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Tanah Lot",
+      "canonical_name": "Tanah Lot",
+      "formatted_address": "Beraban, Kediri, Tabanan Regency, Bali 82121, Indonesia",
+      "place_id": "ChIJq95xT4I30i0RaU3j93Diq8o",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJq95xT4I30i0RaU3j93Diq8o",
+      "lat": -8.621213,
+      "lng": 115.086807,
+      "types": [
+        "establishment",
+        "hindu_temple",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 26.08,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "taro elephant park|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Taro Elephant Park",
+      "canonical_name": "Elephant Park Road",
+      "formatted_address": "Jl. Taman Gajah, Taro, Kec. Tegallalang, Kabupaten Gianyar, Bali 80561, Indonesia",
+      "place_id": "ChIJnYdegVgf0i0RcEZGq_nZK3o",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJnYdegVgf0i0RcEZGq_nZK3o",
+      "lat": -8.3926783,
+      "lng": 115.2846419,
+      "types": [
+        "route"
+      ],
+      "category": "other",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 10.7,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "thousand islands|bali|indonesia": {
+    "accepted": false,
+    "reason": "Too far from Bali: 62.5 km > allowed 50.0 km"
+  },
+  "tirta gangga|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Tirta Gangga",
+      "canonical_name": "Tirta Gangga",
+      "formatted_address": "HHQQ+836, Jalan Raya Abang Desa Adat Jl. Raya Tirta Gangga, Ababi, Kec. Abang, Kabupaten Karangasem, Bali 80852, Indonesia",
+      "place_id": "ChIJ0Zo39DZH0i0R0acI0bADr2U",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ0Zo39DZH0i0R0acI0bADr2U",
+      "lat": -8.4123473,
+      "lng": 115.5872919,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 43.82,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "tulamben|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Tulamben",
+      "canonical_name": "Tulamben",
+      "formatted_address": "Tulamben, Kubu, Karangasem Regency, Bali, Indonesia",
+      "place_id": "ChIJ_-E2Hl3_0S0RIBeDyvsLAwU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_-E2Hl3_0S0RIBeDyvsLAwU",
+      "lat": -8.312404299999999,
+      "lng": 115.5799503,
+      "types": [
+        "administrative_area_level_4",
+        "political"
+      ],
+      "category": "other",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 44.35,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "usat liberty|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "USAT Liberty",
+      "canonical_name": "USAT Liberty Shipwreck",
+      "formatted_address": "PHGV+867 Coral Garden Diving Spot, Tulamben, Kubu, Karangasem Regency, Bali 80852, Indonesia",
+      "place_id": "ChIJKwJQbQD_0S0RhM4oRhZRvaE",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJKwJQbQD_0S0RhM4oRhZRvaE",
+      "lat": -8.273959999999999,
+      "lng": 115.59307,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Bali",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 46.95,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "ubud|bali|indonesia": {
+    "accepted": false,
+    "reason": "Administrative/region result"
+  },
+  "ujung kulon national park|bali|indonesia": {
+    "accepted": false,
+    "reason": "Too far from Bali: 1096.6 km > allowed 50.0 km"
+  },
+  "waterbom|bali|indonesia": {
+    "accepted": true,
+    "data": {
+      "name": "Waterbom",
+      "canonical_name": "Waterbom Bali",
+      "formatted_address": "Jl. Kartika Plaza, Kuta, Kec. Kuta, Kabupaten Badung, Bali 80361, Indonesia",
+      "place_id": "ChIJ34KP7qNG0i0RpX9A85PWkRI",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ34KP7qNG0i0RpX9A85PWkRI",
+      "lat": -8.728581499999999,
+      "lng": 115.1692888,
+      "types": [
+        "amusement_park",
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "entertainment",
+      "assigned_city": "Bali",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 35.54,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "west bali national park|bali|indonesia": {
+    "accepted": false,
+    "reason": "Too far from Bali: 84.5 km > allowed 50.0 km"
+  },
+  "ansa|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "ancasa hotel & spa kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'food', 'gym', 'health', 'lodging', 'point_of_interest', 'restaurant', 'spa']"
+  },
+  "anggun boutique|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['cafe', 'establishment', 'food', 'lodging', 'point_of_interest', 'real_estate_agency', 'restaurant', 'spa', 'travel_agency']"
+  },
+  "arenaa star|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "ascott kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "ascott klcc|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "ascott sentral|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "aura|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Aura",
+      "canonical_name": "AURA Kuala Lumpur",
+      "formatted_address": "3A, Level 2, Star Boulevard, Jalan Yap Kwan Seng, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJJ9FT-VE3zDERvQT0zbBllJc",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJJ9FT-VE3zDERvQT0zbBllJc",
+      "lat": 3.1611776,
+      "lng": 101.712616,
+      "types": [
+        "establishment",
+        "night_club",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "bank negara malaysia museum and art gallery|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Bank Negara Malaysia Museum and Art Gallery",
+      "canonical_name": "Bank Negara Malaysia Museum and Art Gallery",
+      "formatted_address": "Sasana Kijang, 2, Jalan Dato Onn, Kuala Lumpur, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJnWvAPjFIzDERoFfk1RGfzqc",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJnWvAPjFIzDERoFfk1RGfzqc",
+      "lat": 3.1571622,
+      "lng": 101.6904754,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "banyan tree|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "berjaya times square hotel|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'gym', 'health', 'lodging', 'point_of_interest', 'spa']"
+  },
+  "bintang garden|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "canary|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "capitol|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "capri by frase|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "cardogan|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "ceria bb|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "chaos|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "citin seacare (katari)|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "cititel express|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "citizen m|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "city campus lodge|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "city comfort|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "city villa|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "classic inn|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "club dolphin|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "concorde kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "corona inn|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "corus kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "crown regency serviced suited|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "d'elegant|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "D'Elegant",
+      "canonical_name": "D' Elegant",
+      "formatted_address": "18, Lorong Haji Taib 5, Chow Kit, 50350 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJZSKpmSRIzDERmNaNo8zON8I",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJZSKpmSRIzDERmNaNo8zON8I",
+      "lat": 3.1651838,
+      "lng": 101.6976438,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "store"
+      ],
+      "category": "shopping",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "d'or bangsar|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "d'oriental inn|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "d'view inn|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "de sentral|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "dorsett kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "double tree by hilton kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "dragon inn|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Blacklisted place name"
+  },
+  "drop inn|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "eastern|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "EASTERN",
+      "canonical_name": "Great Eastern Mall",
+      "formatted_address": "303, Jln Ampang, Desa Pahlawan, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJW2BdmLA3zDERQI0BrKeUURc",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJW2BdmLA3zDERQI0BrKeUURc",
+      "lat": 3.1602108,
+      "lng": 101.736936,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "shopping_mall"
+      ],
+      "category": "shopping",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "eq kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "eastin|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "easy|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "element kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "else|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "fairfield by marriott|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "farenheitt suite|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "first business inn|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "four points by sheraton|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "four seasons kuala lumpur|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest', 'spa']"
+  },
+  "fraser residence kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "fujisan|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "furama bb|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "gds|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "GDS",
+      "canonical_name": "GDS PROPERTIES",
+      "formatted_address": "Wisma Leopad, Jalan Tun Sambanthan, Brickfields, 51200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJg-pNzUtJzDERy3mjvmo7p8A",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJg-pNzUtJzDERy3mjvmo7p8A",
+      "lat": 3.1830279,
+      "lng": 101.6908104,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "golden suites|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "grand hyatt kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "grand maria|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "grand millennium|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "grand pacific|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "hexa|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['cafe', 'establishment', 'food', 'lodging', 'point_of_interest', 'restaurant', 'store']"
+  },
+  "hilton garden hill|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "hilton kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest', 'spa']"
+  },
+  "holiday inn express|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'gym', 'health', 'lodging', 'point_of_interest']"
+  },
+  "holiday place kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "hotel 99|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "hotel maya|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['bar', 'cafe', 'establishment', 'food', 'gym', 'health', 'lodging', 'point_of_interest', 'restaurant', 'store']"
+  },
+  "hotel olympic|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['cafe', 'establishment', 'food', 'lodging', 'point_of_interest', 'restaurant']"
+  },
+  "hotel pudu plaza|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "hotel raja bot|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "hyatt house kuala lumpur|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "ideas kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "imperial|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "impiana klcc|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "innb|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "intercontinental kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'food', 'lodging', 'point_of_interest', 'restaurant', 'spa']"
+  },
+  "islamic arts museum malaysia|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Islamic Arts Museum Malaysia",
+      "canonical_name": "Islamic Arts Museum Malaysia",
+      "formatted_address": "Islamic Arts Museum Malaysia, Jalan Lembah, Tasik Perdana, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJq6qqqslJzDERi7V1y0B-5Xw",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJq6qqqslJzDERi7V1y0B-5Xw",
+      "lat": 3.1418458,
+      "lng": 101.6899992,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "iyf raja chulan|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "izumi|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "jw marriott|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "jalan alor|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Jalan Alor",
+      "canonical_name": "Jalan Alor",
+      "formatted_address": "亚罗街, Bukit Bintang, Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ-bu2kyk2zDERPz1s89JJHrU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-bu2kyk2zDERPz1s89JJHrU",
+      "lat": 3.1459204,
+      "lng": 101.7089731,
+      "types": [
+        "route"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "jln alor street art|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Jln Alor Street Art",
+      "canonical_name": "Alor Backspace Street Art",
+      "formatted_address": "Unnamed Road, Bukit Bintang, 50200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJrx2J_903zDERp4vdpHzpi2Q",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJrx2J_903zDERp4vdpHzpi2Q",
+      "lat": 3.1456903,
+      "lng": 101.7080137,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "kl butterfly park|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "KL Butterfly Park",
+      "canonical_name": "Kuala Lumpur Butterfly Park",
+      "formatted_address": "Jalan Cenderawasih, Tasik Perdana, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ8wfIRclJzDERbd5b45ki4WM",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ8wfIRclJzDERbd5b45ki4WM",
+      "lat": 3.145777,
+      "lng": 101.6889059,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "nature",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "kl convention centre|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "KL Convention Centre",
+      "canonical_name": "Kuala Lumpur Convention Centre",
+      "formatted_address": "Kuala Lumpur Convention Centre, Kuala Lumpur, 50088 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ__zTe9M3zDERtzz3V5s1Bnc",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ__zTe9M3zDERtzz3V5s1Bnc",
+      "lat": 3.1538815,
+      "lng": 101.7134125,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "kl old railway station|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "KL Old Railway Station",
+      "canonical_name": "Kuala Lumpur Railway Station",
+      "formatted_address": "110, Jalan Sultan Hishamuddin, Kampung Attap, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJRybxN85JzDERrJ1U2pIlX98",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJRybxN85JzDERrJ1U2pIlX98",
+      "lat": 3.1397357,
+      "lng": 101.6937286,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "klcc|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "KLCC",
+      "canonical_name": "Kuala Lumpur City Centre",
+      "formatted_address": "Kuala Lumpur City Centre, Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ14gJ49NJzDERmsAj2n9LSkY",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ14gJ49NJzDERmsAj2n9LSkY",
+      "lat": 3.146642,
+      "lng": 101.6958449,
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "klcc symphony water fountain|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "KLCC Symphony Water Fountain",
+      "canonical_name": "KLCC Lake symphony",
+      "formatted_address": "Kuala Lumpur City Centre, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJyxoaBQA3zDERLIQU-Bxp5dA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJyxoaBQA3zDERLIQU-Bxp5dA",
+      "lat": 3.1568721,
+      "lng": 101.7125587,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "kampung bharu|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Kampung Bharu",
+      "canonical_name": "Kampung Baru",
+      "formatted_address": "Kampung Baru, Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "place_id": "ChIJrVcIUNg3zDER5inaVJ6mT0k",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJrVcIUNg3zDER5inaVJ6mT0k",
+      "lat": 3.1630505,
+      "lng": 101.706183,
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "kasturi walk|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Kasturi Walk",
+      "canonical_name": "Kasturi Walk",
+      "formatted_address": "Kasturi Walk, 32, Jalan Hang Kasturi, City Centre, 50050 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJs0qBwZpJzDER3fDteq5DNRA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJs0qBwZpJzDER3fDteq5DNRA",
+      "lat": 3.1452412,
+      "lng": 101.6957961,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "kingston hotel kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "koptown edc|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "lanson place bukit ceylon|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "le meridien kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "leo express|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "leo palace|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "lido|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Lido",
+      "canonical_name": "Lido Residency",
+      "formatted_address": "3, Jalan Yaacob Latif, Bandar Tun Razak, 56000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJUUZQNWlJzDERhebwf2t4ctg",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJUUZQNWlJzDERhebwf2t4ctg",
+      "lat": 3.1098984,
+      "lng": 101.7274501,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "little india @ brickfields|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Little India @ Brickfields",
+      "canonical_name": "Brickfields",
+      "formatted_address": "Brickfields, Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ1-S_HOtJzDERrm3SU8lx3Yc",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ1-S_HOtJzDERrm3SU8lx3Yc",
+      "lat": 3.129225,
+      "lng": 101.6861389,
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "lotus @ brickfield|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "lotus @masjid india|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "m&m|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "mpalace|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "macktz comfort inn|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "malaysia cartoon & comic house|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Malaysia Cartoon & Comic House",
+      "canonical_name": "Rumah Kartun dan Komik Malaysia RKKM",
+      "formatted_address": "Setapak, Tasik Perdana, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJIwh8MspJzDERApf-QpJGHcM",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJIwh8MspJzDERApf-QpJGHcM",
+      "lat": 3.1467658,
+      "lng": 101.6866523,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "malaysia handicraft development centre|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Malaysia Handicraft Development Centre",
+      "canonical_name": "Kompleks Kraf Kuala Lumpur",
+      "formatted_address": "Jalan Raja Chulan, City Centre, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJcf9x3iw2zDERV_pK7SzvfhU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJcf9x3iw2zDERV_pK7SzvfhU",
+      "lat": 3.1493854,
+      "lng": 101.7189046,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "maluri|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Maluri",
+      "canonical_name": "Maluri",
+      "formatted_address": "Maluri, Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "place_id": "ChIJQ9jUDj82zDERM1QtQtwVkX0",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJQ9jUDj82zDERM1QtQtwVkX0",
+      "lat": 3.13422,
+      "lng": 101.7277009,
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "mandarin oriental|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['bar', 'establishment', 'food', 'lodging', 'point_of_interest', 'spa']"
+  },
+  "masjid jamek|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Masjid Jamek",
+      "canonical_name": "Sultan Abdul Samad Jamek Mosque",
+      "formatted_address": "Jalan Tun Perak, City Centre, 50050 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJeVDgedJJzDERWNeKvpt8kIA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJeVDgedJJzDERWNeKvpt8kIA",
+      "lat": 3.1489235,
+      "lng": 101.6956276,
+      "types": [
+        "establishment",
+        "mosque",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "masjid negara (national mosque)|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Masjid Negara (National Mosque)",
+      "canonical_name": "National Mosque of Malaysia",
+      "formatted_address": "Jalan Perdana, Tasik Perdana, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJJX8hZM9JzDER-yYg0nIT468",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJJX8hZM9JzDER-yYg0nIT468",
+      "lat": 3.1419783,
+      "lng": 101.6917573,
+      "types": [
+        "establishment",
+        "mosque",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "masjid wilayah persekutuan|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Masjid Wilayah Persekutuan",
+      "canonical_name": "Masjid Wilayah Persekutuan (The Federal Territory Mosque)",
+      "formatted_address": "Jabatan Agama Islam Wilayah Persekutuan, Jln Tuanku Abdul Halim, Kompleks Kerajaan, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJaQT5kWdIzDERkFBKWK-bNEk",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJaQT5kWdIzDERkFBKWK-bNEk",
+      "lat": 3.1718992,
+      "lng": 101.6710787,
+      "types": [
+        "establishment",
+        "mosque",
+        "place_of_worship",
+        "point_of_interest"
+      ],
+      "category": "religious",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "melia|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "mercure kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "metro|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "micasa all suites|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "midah|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Midah",
+      "canonical_name": "Taman Midah",
+      "formatted_address": "Taman Midah, 56000 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ9S_-AOo1zDERaCAgmhhRcpc",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ9S_-AOo1zDERaCAgmhhRcpc",
+      "lat": 3.0961933,
+      "lng": 101.7289227,
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "muda|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Muda",
+      "canonical_name": "Kampung Batu Muda",
+      "formatted_address": "Kampung Batu Muda, 51100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJT8q4ppVHzDER4owyJ4TFeRg",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJT8q4ppVHzDER4owyJ4TFeRg",
+      "lat": 3.213372,
+      "lng": 101.6859031,
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "museum of illusion|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Museum of Illusion",
+      "canonical_name": "Museum Of Illusions Kuala Lumpur",
+      "formatted_address": "Level 1, Ansa Hotel, Wilayah Persekutuanalaysia, 101, Jln Bukit Bintang, Bukit Bintang, 55100 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "place_id": "ChIJAQAw-is2zDER-IZQA10XVP8",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJAQAw-is2zDER-IZQA10XVP8",
+      "lat": 3.1471339,
+      "lng": 101.7121372,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "muzium diraja (royal museum)|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Muzium Diraja (Royal Museum)",
+      "canonical_name": "Royal Museum",
+      "formatted_address": "Jln Istana, Istana Negara, 50460 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJAQBwTt1JzDERKIWCiInLbCk",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJAQBwTt1JzDERKIWCiInLbCk",
+      "lat": 3.1324608,
+      "lng": 101.6958556,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "my hotel @bb|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "national library|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Blacklisted place name"
+  },
+  "national museum|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "National Museum",
+      "canonical_name": "The National Museum of Malaysia",
+      "formatted_address": "Department of Museum, Jln Damansara, Tasik Perdana, 50566 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ9_6dH8dJzDERC7k4SHbqU3o",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ9_6dH8dJzDERC7k4SHbqU3o",
+      "lat": 3.137711,
+      "lng": 101.6874214,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "national palace|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "National Palace",
+      "canonical_name": "Istana Negara",
+      "formatted_address": "Jln Tuanku Abdul Halim, Bukit Damansara, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJrcImKFhIzDERyKp873i-bdM",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJrcImKFhIzDERyKp873i-bdM",
+      "lat": 3.1614817,
+      "lng": 101.6634404,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "national planetarium|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "National Planetarium",
+      "canonical_name": "Planetarium Negara",
+      "formatted_address": "53, Jalan Perdana, Tasik Perdana, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ2yat5MVJzDERUIHFb1rkGGw",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ2yat5MVJzDERUIHFb1rkGGw",
+      "lat": 3.1394632,
+      "lng": 101.6895593,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "national science centre|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "National Science Centre",
+      "canonical_name": "National Science Centre",
+      "formatted_address": "50662, Persiaran Bukit Kiara, Bukit Kiara, 50490 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJkXMj_3hJzDERTSCPprMUQMw",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJkXMj_3hJzDERTSCPprMUQMw",
+      "lat": 3.1490163,
+      "lng": 101.6445754,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "national textiles museum|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "National Textiles Museum",
+      "canonical_name": "National Textiles Museum",
+      "formatted_address": "26, Jalan Sultan Hishamuddin, City Centre, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ6_aE4M1JzDERegcsYEwivM4",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ6_aE4M1JzDERegcsYEwivM4",
+      "lat": 3.1467465,
+      "lng": 101.6940414,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "national theatre|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "National Theatre",
+      "canonical_name": "Istana Budaya",
+      "formatted_address": "Jln Tun Razak, Titiwangsa, 50694 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJsRvr8B5IzDER7-59jlkq9ko",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJsRvr8B5IzDER7-59jlkq9ko",
+      "lat": 3.1743519,
+      "lng": 101.7038242,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "national visual arts gallery|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "National Visual Arts Gallery",
+      "canonical_name": "National Art Gallery",
+      "formatted_address": "2, Jalan Temerloh, Lembaga Pembangunan Seni Visual Negara, off, Jln Tun Razak, Titiwangsa, 53200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJn7ct6mxIzDERAfOvaaTX5DM",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJn7ct6mxIzDERAfOvaaTX5DM",
+      "lat": 3.1736636,
+      "lng": 101.7052282,
+      "types": [
+        "art_gallery",
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "new eastern|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "new winner|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "novotel klcc|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "oakwood hotel & residence|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "oasis suites|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "one enigma|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "one-stop residence hotel & office|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "orkid sentral|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "parkroyal|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "parkroyal collection|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "pacific regency|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "pak fook|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "pavillion|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['airport', 'establishment', 'finance', 'local_government_office', 'point_of_interest', 'travel_agency']"
+  },
+  "pavillion bb|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['airport', 'establishment', 'finance', 'local_government_office', 'point_of_interest', 'travel_agency']"
+  },
+  "pavillion embassy suites klcc|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "perdana kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "petronas twin towers|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Petronas Twin Towers",
+      "canonical_name": "Petronas Twin Towers",
+      "formatted_address": "Lower Ground (Concourse) Level, Menara Berkembar Petronas, Kuala Lumpur City Centre, 50088 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJH5xmLdE3zDERVpCKfNH9Op4",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJH5xmLdE3zDERVpCKfNH9Op4",
+      "lat": 3.1574693,
+      "lng": 101.7115639,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "premiera|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "presscott|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "pudu|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Pudu",
+      "canonical_name": "Pudu",
+      "formatted_address": "Pudu, Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "place_id": "ChIJhTzg2yM2zDERhBWYTgvRH2Y",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJhTzg2yM2zDERhBWYTgvRH2Y",
+      "lat": 3.134848,
+      "lng": 101.7135562,
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "pudu bintang|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['bank', 'establishment', 'finance', 'point_of_interest']"
+  },
+  "pudu inn|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "pullman klcc|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "rae|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "ramada encore|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "ramada suites|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "regalia|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['cafe', 'establishment', 'food', 'lodging', 'point_of_interest', 'restaurant']"
+  },
+  "renaissance|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "rome|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Rome",
+      "canonical_name": "ROME CLUB KL",
+      "formatted_address": "Publika Dutamas, 1, Jln Dutamas 1, Solaris Dutamas, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJaR4DZwBJzDERaxyjZVeHD_I",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJaR4DZwBJzDERaxyjZVeHD_I",
+      "lat": 3.1706178,
+      "lng": 101.6655704,
+      "types": [
+        "establishment",
+        "night_club",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "royal kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "royale chulan kuala lumpur|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "royale signature|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "sakura boutique|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "sani|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Blacklisted place name"
+  },
+  "scott|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "sempurna|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'point_of_interest', 'school']"
+  },
+  "sentral kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'point_of_interest', 'subway_station', 'train_station', 'transit_station']"
+  },
+  "seri pacific|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "shang-ri la|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "sheraton imperial|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "sky|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Sky",
+      "canonical_name": "Dinner In The Sky Malaysia",
+      "formatted_address": "TREC Kuala Lumpur, 438, Jln Tun Razak, Royal Selangor Golf Club, 50400 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "place_id": "ChIJjaB_EdY3zDERIo59G6j9omQ",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJjaB_EdY3zDERIo59G6j9omQ",
+      "lat": 3.1398173,
+      "lng": 101.7212306,
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "restaurant",
+        "tourist_attraction"
+      ],
+      "category": "food",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "smile|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'health', 'point_of_interest']"
+  },
+  "smile pudu kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "sofitel kl damansara|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "soleil|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Soleil",
+      "canonical_name": "Soleil",
+      "formatted_address": "Lot L2-13A & L2-15, Second Floor, Damansara City Mall, 6, Jalan Damanlela, Pusat Bandar Damansara, 50490 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJi8USdEJJzDERISZJibX-EKE",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJi8USdEJJzDERISZJibX-EKE",
+      "lat": 3.146313,
+      "lng": 101.6616467,
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "category": "food",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "somerset jalan ampang|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "space chinatown|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "star suites klcc|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "starlight|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "stripes kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "suasana suites|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "summer view|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "sunway putra hotel|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "sunway velocity hotel|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "suria klcc shopping mall|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Suria KLCC Shopping Mall",
+      "canonical_name": "Suria KLCC",
+      "formatted_address": "Lot No. 241, Level 2Menara, Menara Berkembar Petronas, Kuala Lumpur City Centre, 50088 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJH5xmLdE3zDERKa4a_IywVck",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJH5xmLdE3zDERKa4a_IywVck",
+      "lat": 3.1572757,
+      "lng": 101.7122335,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "shopping_mall"
+      ],
+      "category": "shopping",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "swiss garden bukit bintang|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "tamu|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "tang city|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "the 5 elements|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "the chow kit - an ormond|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "the explorers guesthouse|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "the face suites|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "the grand continental|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "the kuala lumpur journal|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "the majestic kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "the maple suites|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "the nomad|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "the pearl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "the penthouse klcc|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "the ritz-carlton|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "the robertson|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'general_contractor', 'lodging', 'point_of_interest']"
+  },
+  "the ruma|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "the st. regis kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "the westin|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "traders|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "transit hotel|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "trillion suites by slg|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "twenty88|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Twenty88",
+      "canonical_name": "Twenty Eight @ Bangsar",
+      "formatted_address": "28, Jalan Telawi 5, Bangsar, 59100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJd1cgvKJJzDERGp6-h5tN4cM",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJd1cgvKJJzDERGp6-h5tN4cM",
+      "lat": 3.1329221,
+      "lng": 101.6715876,
+      "types": [
+        "bar",
+        "cafe",
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "category": "food",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "twin hotel|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "verdant hill|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "vivatel kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "w|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "wolo|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "wp|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "ww kl|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "wan jin|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "westree|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "ymca|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "ywca|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "yy318|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "yy38|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "yy48|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "zamburger wira|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "d'garden|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
   "3d trick art museum|penang|malaysia": {
     "accepted": true,
     "data": {
@@ -20,6 +2804,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "indoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -43,16 +2828,13 @@
       "assigned_city": "Penang",
       "weather_suitability": "indoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
-  "air itam|penang|malaysia": {
-    "accepted": false,
-    "reason": "Administrative/region result"
-  },
   "asahan waterfalls|penang|malaysia": {
     "accepted": false,
-    "reason": "Too far from allowed cities: 395.6 km"
+    "reason": "Too far from Penang: 395.6 km > allowed 50.0 km"
   },
   "asia camera museum|penang|malaysia": {
     "accepted": true,
@@ -73,6 +2855,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "indoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -97,6 +2880,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -119,82 +2903,17 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
-      "verified": true
-    }
-  },
-  "bukit bendera|penang|malaysia": {
-    "accepted": true,
-    "data": {
-      "name": "Bukit Bendera",
-      "canonical_name": "Penang Hill",
-      "formatted_address": "Penang Hill, 11500 Bukit Bendera, Penang, Malaysia",
-      "place_id": "ChIJQ-rUOIfCSjARuSuxHi7HYvg",
-      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJQ-rUOIfCSjARuSuxHi7HYvg",
-      "lat": 5.4084613,
-      "lng": 100.2773317,
-      "types": [
-        "establishment",
-        "natural_feature"
-      ],
-      "category": "nature",
-      "assigned_city": "Penang",
-      "weather_suitability": "outdoor",
-      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
   "bukit gapis (melaka mountain)|penang|malaysia": {
     "accepted": false,
-    "reason": "Too far from allowed cities: 381.1 km"
+    "reason": "Too far from Penang: 381.1 km > allowed 50.0 km"
   },
   "bukit senggeh forest reserve|penang|malaysia": {
     "accepted": false,
-    "reason": "Too far from allowed cities: 383.5 km"
-  },
-  "butterworth art walk|penang|malaysia": {
-    "accepted": true,
-    "data": {
-      "name": "Butterworth Art Walk",
-      "canonical_name": "Butterworth Art Walk",
-      "formatted_address": "1, Lorong Bagan Luar 1, Bagan Luar, 12000 Butterworth, Pulau Pinang, Malaysia",
-      "place_id": "ChIJsXvOMhXESjAR8oY2zabZ2Jg",
-      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJsXvOMhXESjAR8oY2zabZ2Jg",
-      "lat": 5.4095609,
-      "lng": 100.3703333,
-      "types": [
-        "establishment",
-        "point_of_interest",
-        "tourist_attraction"
-      ],
-      "category": "attraction",
-      "assigned_city": "Penang",
-      "weather_suitability": "mixed",
-      "distance_from_city_km": 0.0,
-      "verified": true
-    }
-  },
-  "capal jago kepala batas|penang|malaysia": {
-    "accepted": true,
-    "data": {
-      "name": "Capal Jago Kepala Batas",
-      "canonical_name": "Capal Jago Gemilang",
-      "formatted_address": "Capal jago, 13200 Kepala Batas, Pulau Pinang, Malaysia",
-      "place_id": "ChIJX7wF9GTaSjARP5W4D_j7OKI",
-      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJX7wF9GTaSjARP5W4D_j7OKI",
-      "lat": 5.5173792,
-      "lng": 100.425655,
-      "types": [
-        "establishment",
-        "point_of_interest",
-        "shoe_store",
-        "store"
-      ],
-      "category": "shopping",
-      "assigned_city": "Penang",
-      "weather_suitability": "mixed",
-      "distance_from_city_km": 29.0,
-      "verified": true
-    }
+    "reason": "Too far from Penang: 383.5 km > allowed 50.0 km"
   },
   "carpenters guild|penang|malaysia": {
     "accepted": true,
@@ -214,6 +2933,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -238,6 +2958,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -262,6 +2983,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "indoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -288,6 +3010,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "outdoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -310,6 +3033,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -332,6 +3056,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -358,6 +3083,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -381,20 +3107,17 @@
       "assigned_city": "Penang",
       "weather_suitability": "indoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
   "demang abdul ghani gallery|penang|malaysia": {
     "accepted": false,
-    "reason": "Too far from allowed cities: 408.5 km"
-  },
-  "eagle ranch resort sports paradise|penang|malaysia": {
-    "accepted": false,
-    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+    "reason": "Too far from Penang: 408.5 km > allowed 50.0 km"
   },
   "energ x park|penang|malaysia": {
     "accepted": false,
-    "reason": "Too far from allowed cities: 553.8 km"
+    "reason": "Too far from Penang: 553.8 km > allowed 50.0 km"
   },
   "esplanade|penang|malaysia": {
     "accepted": true,
@@ -414,6 +3137,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "outdoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -436,34 +3160,13 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
-      "verified": true
-    }
-  },
-  "frog hills|penang|malaysia": {
-    "accepted": true,
-    "data": {
-      "name": "Frog Hills",
-      "canonical_name": "Frog Hills Tasek Gelugor",
-      "formatted_address": "14400 Tasek Gelugor, Penang, Malaysia",
-      "place_id": "ChIJ5SDq_wDPSjARvLOxv16plK4",
-      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5SDq_wDPSjARvLOxv16plK4",
-      "lat": 5.4356186,
-      "lng": 100.4852499,
-      "types": [
-        "establishment",
-        "point_of_interest",
-        "tourist_attraction"
-      ],
-      "category": "attraction",
-      "assigned_city": "Penang",
-      "weather_suitability": "outdoor",
-      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
   "galeri aura islam|penang|malaysia": {
     "accepted": false,
-    "reason": "Too far from allowed cities: 550.5 km"
+    "reason": "Too far from Penang: 550.5 km > allowed 50.0 km"
   },
   "galeri melayu pulau pinang|penang|malaysia": {
     "accepted": true,
@@ -486,6 +3189,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "indoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -510,12 +3214,9 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
-  },
-  "george town|penang|malaysia": {
-    "accepted": false,
-    "reason": "Administrative/region result"
   },
   "george town world heritage|penang|malaysia": {
     "accepted": true,
@@ -536,6 +3237,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -560,6 +3262,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "indoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -583,6 +3286,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -606,6 +3310,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -627,12 +3332,13 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
   "hard rock cafe puteri harbour|penang|malaysia": {
     "accepted": false,
-    "reason": "Too far from allowed cities: 554.3 km"
+    "reason": "Too far from Penang: 554.3 km > allowed 50.0 km"
   },
   "house of yeap chor ee|penang|malaysia": {
     "accepted": true,
@@ -653,12 +3359,13 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
   "iskandar malaysia studio|penang|malaysia": {
     "accepted": false,
-    "reason": "Too far from allowed cities: 553.2 km"
+    "reason": "Too far from Penang: 553.2 km > allowed 50.0 km"
   },
   "jalan argyll|penang|malaysia": {
     "accepted": true,
@@ -677,6 +3384,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -697,6 +3405,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -717,6 +3426,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -737,6 +3447,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -757,6 +3468,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -777,6 +3489,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -790,7 +3503,7 @@
   },
   "kampung sungai melayu eco-tourism|penang|malaysia": {
     "accepted": false,
-    "reason": "Too far from allowed cities: 553.2 km"
+    "reason": "Too far from Penang: 553.2 km > allowed 50.0 km"
   },
   "kapitan keling mosque|penang|malaysia": {
     "accepted": true,
@@ -814,6 +3527,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -837,8 +3551,13 @@
       "assigned_city": "Penang",
       "weather_suitability": "indoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
+  },
+  "klah homestay|penang|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
   },
   "komtar|penang|malaysia": {
     "accepted": true,
@@ -858,12 +3577,25 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
   "kota iskandar mosque|penang|malaysia": {
     "accepted": false,
-    "reason": "Too far from allowed cities: 552.8 km"
+    "reason": "Too far from Penang: 552.8 km > allowed 50.0 km"
+  },
+  "kuala woh recreational forest|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Penang: 146.6 km > allowed 50.0 km"
+  },
+  "lata iskandar waterfall|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Penang: 139.9 km > allowed 50.0 km"
+  },
+  "lata kinjang waterfall|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Penang: 136.9 km > allowed 50.0 km"
   },
   "lebuh campbell walk|penang|malaysia": {
     "accepted": true,
@@ -882,6 +3614,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -902,6 +3635,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -922,6 +3656,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -942,6 +3677,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -962,6 +3698,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -982,6 +3719,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "outdoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -1002,6 +3740,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -1024,6 +3763,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -1046,58 +3786,13 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
   "lubok bandung aborigine's village|penang|malaysia": {
     "accepted": false,
     "reason": "No Google result"
-  },
-  "masjid abdullah fahim kepala batas|penang|malaysia": {
-    "accepted": true,
-    "data": {
-      "name": "Masjid Abdullah Fahim Kepala Batas",
-      "canonical_name": "Abdullah Fahim Masjid",
-      "formatted_address": "26, Lorong Bendahara 13, 13100 Kepala Batas, Pulau Pinang, Malaysia",
-      "place_id": "ChIJxZw8kfLQSjARWw_l5l5J9JY",
-      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJxZw8kfLQSjARWw_l5l5J9JY",
-      "lat": 5.5205107,
-      "lng": 100.4639287,
-      "types": [
-        "establishment",
-        "mosque",
-        "place_of_worship",
-        "point_of_interest"
-      ],
-      "category": "religious",
-      "assigned_city": "Penang",
-      "weather_suitability": "mixed",
-      "distance_from_city_km": 28.7,
-      "verified": true
-    }
-  },
-  "masjid jamek haji abdul rashid sungai dua|penang|malaysia": {
-    "accepted": true,
-    "data": {
-      "name": "Masjid Jamek Haji Abdul Rashid Sungai Dua",
-      "canonical_name": "MASJID JAMEK HAJI ABDUL RASHID BUTTERWORTH PULAU PINANG",
-      "formatted_address": "Jalan Besar, Permatang Sungai Dua, 13220 Butterworth, Pulau Pinang, Malaysia",
-      "place_id": "ChIJw2e4sGfFSjARNl3FHBz50cM",
-      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJw2e4sGfFSjARNl3FHBz50cM",
-      "lat": 5.4476983,
-      "lng": 100.4302473,
-      "types": [
-        "establishment",
-        "mosque",
-        "place_of_worship",
-        "point_of_interest"
-      ],
-      "category": "religious",
-      "assigned_city": "Penang",
-      "weather_suitability": "mixed",
-      "distance_from_city_km": 0.0,
-      "verified": true
-    }
   },
   "masjid melayu lebuh acheh|penang|malaysia": {
     "accepted": true,
@@ -1119,29 +3814,30 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
-  "masjid tuan samad permatang dua|penang|malaysia": {
+  "mini animal farm|penang|malaysia": {
     "accepted": true,
     "data": {
-      "name": "Masjid Tuan Samad Permatang Dua",
-      "canonical_name": "Masjid Tuan Samad Permatang Sungai Dua kepala batas",
-      "formatted_address": "Seberang Perai Utara Kepala Batas, Pulau Pinang 13220 Malaysia, Kampung Tebiar, 13220 Kepala Batas, Pulau Pinang, Malaysia",
-      "place_id": "ChIJ7cTbeVLFSjARE-sbLoilrLk",
-      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ7cTbeVLFSjARE-sbLoilrLk",
-      "lat": 5.4678811,
-      "lng": 100.4287331,
+      "name": "Mini Animal Farm",
+      "canonical_name": "Audi Dream Farm",
+      "formatted_address": "Audi dreamfarm 145, MK B, Sg.Rusa, 11010 Balik Pulau, Pulau Pinang, Malaysia",
+      "place_id": "ChIJJ6QQ59PrSjAR-WrOukGa4wA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJJ6QQ59PrSjAR-WrOukGa4wA",
+      "lat": 5.3852058,
+      "lng": 100.2097307,
       "types": [
         "establishment",
-        "mosque",
-        "place_of_worship",
-        "point_of_interest"
+        "point_of_interest",
+        "tourist_attraction"
       ],
-      "category": "religious",
+      "category": "attraction",
       "assigned_city": "Penang",
-      "weather_suitability": "mixed",
-      "distance_from_city_km": 0.0,
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 33.32,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -1165,34 +3861,13 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
-      "verified": true
-    }
-  },
-  "nine emperor gods temple|penang|malaysia": {
-    "accepted": true,
-    "data": {
-      "name": "Nine Emperor Gods Temple",
-      "canonical_name": "Nine Emperor Gods Temple",
-      "formatted_address": "27, Medan Melur Selatan, 4392, Jalan Raja Uda, Kampung Tengah, 12300 Butterworth, Penang, Malaysia",
-      "place_id": "ChIJn1h9JPjESjAR9sLp_mkUbFI",
-      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJn1h9JPjESjAR9sLp_mkUbFI",
-      "lat": 5.4314795,
-      "lng": 100.3836557,
-      "types": [
-        "establishment",
-        "place_of_worship",
-        "point_of_interest"
-      ],
-      "category": "religious",
-      "assigned_city": "Penang",
-      "weather_suitability": "mixed",
-      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
   "orna golf & country club|penang|malaysia": {
     "accepted": false,
-    "reason": "Too far from allowed cities: 391.4 km"
+    "reason": "Too far from Penang: 391.4 km > allowed 50.0 km"
   },
   "p. ramlee's house|penang|malaysia": {
     "accepted": true,
@@ -1214,58 +3889,30 @@
       "assigned_city": "Penang",
       "weather_suitability": "indoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
-  "pd ostrich farm|penang|malaysia": {
-    "accepted": false,
-    "reason": "Too far from allowed cities: 348.5 km"
-  },
-  "pd waterfront|penang|malaysia": {
-    "accepted": false,
-    "reason": "Too far from allowed cities: 338.1 km"
-  },
-  "pasar bisik kuala muda|penang|malaysia": {
+  "penang botanic gardens|penang|malaysia": {
     "accepted": true,
     "data": {
-      "name": "Pasar Bisik Kuala Muda",
-      "canonical_name": "Pasar Bisik Kuala Muda, Penaga Pulau Pinang",
-      "formatted_address": "H8GR+G8, Kampung Kuala Muda, 13110 Penaga, Pulau Pinang, Malaysia",
-      "place_id": "ChIJ3fqbkw7fSjAR5kHpkMdx7wg",
-      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ3fqbkw7fSjAR5kHpkMdx7wg",
-      "lat": 5.5759306,
-      "lng": 100.3412069,
+      "name": "Penang Botanic Gardens",
+      "canonical_name": "Botanical Gardens Penang",
+      "formatted_address": "Kompleks Pentadbiran,Bangunan Pavilion, Jalan Kebun Bunga, 10350 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJWeDiIPHCSjAROzyNNz_QUx8",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJWeDiIPHCSjAROzyNNz_QUx8",
+      "lat": 5.4377324,
+      "lng": 100.2906982,
       "types": [
         "establishment",
-        "point_of_interest"
-      ],
-      "category": "other",
-      "assigned_city": "Penang",
-      "weather_suitability": "mixed",
-      "distance_from_city_km": 38.22,
-      "verified": true
-    }
-  },
-  "pasir panjang recreational forest|penang|malaysia": {
-    "accepted": true,
-    "data": {
-      "name": "Pasir Panjang Recreational Forest",
-      "canonical_name": "Bukit Mertajam Forest Park",
-      "formatted_address": "14000 Bukit Mertajam, Penang, Malaysia",
-      "place_id": "ChIJDQf5Z-7ISjAR0ScYfzrRw7A",
-      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJDQf5Z-7ISjAR0ScYfzrRw7A",
-      "lat": 5.355669799999999,
-      "lng": 100.4923249,
-      "types": [
-        "establishment",
-        "park",
         "point_of_interest",
         "tourist_attraction"
       ],
-      "category": "nature",
+      "category": "attraction",
       "assigned_city": "Penang",
       "weather_suitability": "outdoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -1289,12 +3936,9 @@
       "assigned_city": "Penang",
       "weather_suitability": "indoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
-  },
-  "penang hill railway|penang|malaysia": {
-    "accepted": false,
-    "reason": "Bad activity type: ['establishment', 'point_of_interest', 'transit_station']"
   },
   "penang state art gallery|penang|malaysia": {
     "accepted": true,
@@ -1315,6 +3959,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "indoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -1338,6 +3983,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "indoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -1361,12 +4007,9 @@
       "assigned_city": "Penang",
       "weather_suitability": "indoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
-  },
-  "pengkalan kempas historical complex|penang|malaysia": {
-    "accepted": false,
-    "reason": "Too far from allowed cities: 355.9 km"
   },
   "pinang peranakan mansion|penang|malaysia": {
     "accepted": true,
@@ -1388,6 +4031,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "indoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -1395,9 +4039,13 @@
     "accepted": false,
     "reason": "Administrative/region result"
   },
+  "pusat buah-buahan bidor|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Penang: 155.9 km > allowed 50.0 km"
+  },
   "puteri harbour|penang|malaysia": {
     "accepted": false,
-    "reason": "Too far from allowed cities: 554.0 km"
+    "reason": "Too far from Penang: 554.0 km > allowed 50.0 km"
   },
   "queen victoria memorial clock tower|penang|malaysia": {
     "accepted": true,
@@ -1418,34 +4066,17 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
   "rud carting centre|penang|malaysia": {
     "accepted": false,
-    "reason": "Too far from allowed cities: 552.8 km"
+    "reason": "Too far from Penang: 552.8 km > allowed 50.0 km"
   },
-  "rekreasi air hitam dalam|penang|malaysia": {
-    "accepted": true,
-    "data": {
-      "name": "Rekreasi Air Hitam Dalam",
-      "canonical_name": "Air Hitam Dalam Educational Forest",
-      "formatted_address": "13310 Air Hitam, Pulau Pinang, Malaysia",
-      "place_id": "ChIJmUwOn-3PSjARHtH9d_ubSBs",
-      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJmUwOn-3PSjARHtH9d_ubSBs",
-      "lat": 5.4550563,
-      "lng": 100.4526228,
-      "types": [
-        "establishment",
-        "point_of_interest",
-        "tourist_attraction"
-      ],
-      "category": "attraction",
-      "assigned_city": "Penang",
-      "weather_suitability": "outdoor",
-      "distance_from_city_km": 0.0,
-      "verified": true
-    }
+  "refarm leisure park, temoh|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Penang: 134.0 km > allowed 50.0 km"
   },
   "residence of ku din ku meh|penang|malaysia": {
     "accepted": false,
@@ -1470,28 +4101,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "outdoor",
       "distance_from_city_km": 0.0,
-      "verified": true
-    }
-  },
-  "rope walk taman selat butterworth|penang|malaysia": {
-    "accepted": true,
-    "data": {
-      "name": "Rope walk Taman Selat Butterworth",
-      "canonical_name": "Ropewalk Taman Selat",
-      "formatted_address": "11a, Jalan Selat, Taman Selat, 12000 Butterworth, Pulau Pinang, Malaysia",
-      "place_id": "ChIJAQBA1xbESjARHgxBLrAsl10",
-      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJAQBA1xbESjARHgxBLrAsl10",
-      "lat": 5.4019641,
-      "lng": 100.3674772,
-      "types": [
-        "establishment",
-        "point_of_interest",
-        "shopping_mall"
-      ],
-      "category": "shopping",
-      "assigned_city": "Penang",
-      "weather_suitability": "indoor",
-      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -1515,6 +4125,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -1538,6 +4149,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -1547,11 +4159,11 @@
   },
   "sg. rambai aerodrome|penang|malaysia": {
     "accepted": false,
-    "reason": "Too far from allowed cities: 415.7 km"
+    "reason": "Too far from Penang: 415.7 km > allowed 50.0 km"
   },
   "sireh park|penang|malaysia": {
     "accepted": false,
-    "reason": "Too far from allowed cities: 549.2 km"
+    "reason": "Too far from Penang: 549.2 km > allowed 50.0 km"
   },
   "sri maha mariamman kovil|penang|malaysia": {
     "accepted": true,
@@ -1573,6 +4185,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -1597,12 +4210,9 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
-  },
-  "straits of malacca|penang|malaysia": {
-    "accepted": false,
-    "reason": "Administrative/region result"
   },
   "street of harmony|penang|malaysia": {
     "accepted": true,
@@ -1623,6 +4233,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -1646,6 +4257,7 @@
       "assigned_city": "Penang",
       "weather_suitability": "indoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
@@ -1669,64 +4281,63 @@
       "assigned_city": "Penang",
       "weather_suitability": "indoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
-  "teluk kemang observatory|penang|malaysia": {
+  "taman tasek temoh|penang|malaysia": {
     "accepted": false,
-    "reason": "Too far from allowed cities: 348.2 km"
+    "reason": "Too far from Penang: 139.3 km > allowed 50.0 km"
   },
-  "tukang besi permatang benuan|penang|malaysia": {
+  "tasik amanjaya temoh|penang|malaysia": {
     "accepted": true,
     "data": {
-      "name": "Tukang Besi Permatang Benuan",
-      "canonical_name": "Bengkel besi jaya Dayang enterprise",
-      "formatted_address": "Jalan, Permatang Pasir, 13500 Permatang Pauh, Pulau Pinang, Malaysia",
-      "place_id": "ChIJgTBrV3_FSjARHJcnwZXeXwE",
-      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJgTBrV3_FSjARHJcnwZXeXwE",
-      "lat": 5.4182784,
-      "lng": 100.4369886,
+      "name": "Tasik Amanjaya Temoh",
+      "canonical_name": "Tasik Aman, Universiti Sains Malaysia, Penang",
+      "formatted_address": "Universiti Sains Malaysia, Persiaran Minden, 11800 Gelugor, Penang, Malaysia",
+      "place_id": "ChIJj2fzpK7BSjARfQsKnAhw1p8",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJj2fzpK7BSjARfQsKnAhw1p8",
+      "lat": 5.354457,
+      "lng": 100.2983201,
       "types": [
         "establishment",
+        "park",
         "point_of_interest"
       ],
-      "category": "other",
+      "category": "nature",
       "assigned_city": "Penang",
-      "weather_suitability": "mixed",
+      "weather_suitability": "outdoor",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
-  "upside down house|penang|malaysia": {
+  "wildlife conservation centre|penang|malaysia": {
     "accepted": true,
     "data": {
-      "name": "Upside Down House",
-      "canonical_name": "Upside Down Museum",
-      "formatted_address": "45, Lebuh Kimberley, George Town, 10100 George Town, Pulau Pinang, Malaysia",
-      "place_id": "ChIJLfBSUJHDSjARUKdRl_svCpA",
-      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJLfBSUJHDSjARUKdRl_svCpA",
-      "lat": 5.4158046,
-      "lng": 100.3335296,
+      "name": "Wildlife Conservation Centre",
+      "canonical_name": "Pantai Kerachut Turtle Conservation and Information Centre",
+      "formatted_address": "Penang, Malaysia",
+      "place_id": "ChIJoXj6E8boSjARNvCi8Au3NQU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJoXj6E8boSjARNvCi8Au3NQU",
+      "lat": 5.4497626,
+      "lng": 100.182626,
       "types": [
         "establishment",
-        "museum",
-        "point_of_interest",
-        "tourist_attraction"
+        "park",
+        "point_of_interest"
       ],
-      "category": "culture",
+      "category": "nature",
       "assigned_city": "Penang",
-      "weather_suitability": "indoor",
-      "distance_from_city_km": 0.0,
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 39.34,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   },
   "wisma kastam|penang|malaysia": {
     "accepted": false,
     "reason": "Blacklisted place name"
-  },
-  "x park port dickson|penang|malaysia": {
-    "accepted": false,
-    "reason": "Too far from allowed cities: 351.8 km"
   },
   "yap kongsi|penang|malaysia": {
     "accepted": true,
@@ -1748,6 +4359,1533 @@
       "assigned_city": "Penang",
       "weather_suitability": "mixed",
       "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "asean sculpture garden|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "ASEAN Sculpture Garden",
+      "canonical_name": "ASEAN Sculpture Garden",
+      "formatted_address": "Asean Sculpture Garden, Perdana Botanical Garden, Pesiaran Sultan Salahhudin, Kuala Lumpur, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJm4fmX7VJzDERAr6LJ1p2j8Y",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJm4fmX7VJzDERAr6LJ1p2j8Y",
+      "lat": 3.1504807,
+      "lng": 101.6839757,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "nature",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "aquaria kuala lumpur|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Aquaria Kuala Lumpur",
+      "canonical_name": "Aquaria KLCC",
+      "formatted_address": "Kuala Lumpur Convention Centre, Jalan Pinang, Kuala Lumpur City Centre, 50088 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJM5cxndM3zDER7WuP_cN-omg",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJM5cxndM3zDER7WuP_cN-omg",
+      "lat": 3.1535483,
+      "lng": 101.713178,
+      "types": [
+        "aquarium",
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "berjaya times square|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Berjaya Times Square",
+      "canonical_name": "Berjaya Times Square",
+      "formatted_address": "Berjaya Times Square, Imbi, 55100 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "place_id": "ChIJQ47BkCg2zDER3BvZuEV9la8",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJQ47BkCg2zDER3BvZuEV9la8",
+      "lat": 3.1421984,
+      "lng": 101.7105512,
+      "types": [
+        "premise",
+        "street_address"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "butterworth art walk|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Kuala Lumpur: 292.2 km > allowed 50.0 km"
+  },
+  "capal jago kepala batas|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Kuala Lumpur: 299.7 km > allowed 50.0 km"
+  },
+  "central market|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Central Market",
+      "canonical_name": "Central Market",
+      "formatted_address": "Kuala Lumpur City Centre, 50050 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "place_id": "ChIJVxLq2dFJzDERAmCinEoNs_w",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJVxLq2dFJzDERAmCinEoNs_w",
+      "lat": 3.1452635,
+      "lng": 101.6954158,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "shopping_mall",
+        "tourist_attraction"
+      ],
+      "category": "shopping",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "chan see shu yuen|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Chan See Shu Yuen",
+      "canonical_name": "Chan She Shu Yuen Clan Ancestral Hall",
+      "formatted_address": "172, Jalan Petaling, City Centre, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJF5HxHdpJzDERcxbhlW8Kkg0",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJF5HxHdpJzDERcxbhlW8Kkg0",
+      "lat": 3.1402509,
+      "lng": 101.6984022,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "church of the holy rosary|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Church of the Holy Rosary",
+      "canonical_name": "Catholic Church of The Holy Rosary (1903)",
+      "formatted_address": "Holy Rosary Church, 10, Jalan Tun Sambanthan, Kampung Attap, 50470 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ5ywBfsNJzDERYIXSHfukLd8",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5ywBfsNJzDERYIXSHfukLd8",
+      "lat": 3.1366488,
+      "lng": 101.6929482,
+      "types": [
+        "church",
+        "establishment",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "craft complex|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Craft Complex",
+      "canonical_name": "Kompleks Kraf Kuala Lumpur",
+      "formatted_address": "Jalan Raja Chulan, City Centre, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJcf9x3iw2zDERV_pK7SzvfhU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJcf9x3iw2zDERV_pK7SzvfhU",
+      "lat": 3.1493854,
+      "lng": 101.7189046,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "dataran merdeka|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Dataran Merdeka",
+      "canonical_name": "Merdeka Square",
+      "formatted_address": "Kuala Lumpur City Centre, 50050 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "place_id": "ChIJORWImM1JzDERWTN2vAb5CzQ",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJORWImM1JzDERWTN2vAb5CzQ",
+      "lat": 3.1490605,
+      "lng": 101.6936592,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "nature",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "deer park|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Deer Park",
+      "canonical_name": "Deer Park",
+      "formatted_address": "Jalan Perdana, Tasik Perdana, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJRWYUW8hJzDERROd9PA8MO6c",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJRWYUW8hJzDERROd9PA8MO6c",
+      "lat": 3.1432545,
+      "lng": 101.686266,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest",
+        "tourist_attraction",
+        "zoo"
+      ],
+      "category": "nature",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "frog hills|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Kuala Lumpur: 288.6 km > allowed 50.0 km"
+  },
+  "islamic arts museum|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Islamic Arts Museum",
+      "canonical_name": "Islamic Arts Museum Malaysia",
+      "formatted_address": "Islamic Arts Museum Malaysia, Jalan Lembah, Tasik Perdana, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJq6qqqslJzDERi7V1y0B-5Xw",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJq6qqqslJzDERi7V1y0B-5Xw",
+      "lat": 3.1418458,
+      "lng": 101.6899992,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "istana budaya|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Istana Budaya",
+      "canonical_name": "Istana Budaya",
+      "formatted_address": "Jln Tun Razak, Titiwangsa, 50694 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJsRvr8B5IzDER7-59jlkq9ko",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJsRvr8B5IzDER7-59jlkq9ko",
+      "lat": 3.1743519,
+      "lng": 101.7038242,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "istana negara|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Istana Negara",
+      "canonical_name": "Istana Negara",
+      "formatted_address": "Istana Negara, Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJaeHyrMJJzDERpqLkqZqn2l8",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJaeHyrMJJzDERpqLkqZqn2l8",
+      "lat": 3.132183,
+      "lng": 101.6952998,
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "jalan tunku abdul rahman|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Jalan Tunku Abdul Rahman",
+      "canonical_name": "Jalan Tuanku Abdul Rahman",
+      "formatted_address": "Jalan Tuanku Abdul Rahman, Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJoaZyti9IzDERq6n3NPfQuNg",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJoaZyti9IzDERq6n3NPfQuNg",
+      "lat": 3.1591745,
+      "lng": 101.6965811,
+      "types": [
+        "route"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "kl butterfly|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "KL Butterfly",
+      "canonical_name": "Kuala Lumpur Butterfly Park",
+      "formatted_address": "Jalan Cenderawasih, Tasik Perdana, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ8wfIRclJzDERbd5b45ki4WM",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ8wfIRclJzDERbd5b45ki4WM",
+      "lat": 3.145777,
+      "lng": 101.6889059,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "nature",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "kl forest eco-park|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "KL Forest Eco-Park",
+      "canonical_name": "Kuala Lumpur Eco Park",
+      "formatted_address": "Kuala Lumpur, 57000 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "place_id": "ChIJvwv8fxI1zDERRB1idU9EsJE",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJvwv8fxI1zDERRB1idU9EsJE",
+      "lat": 3.1506078,
+      "lng": 101.702256,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest"
+      ],
+      "category": "nature",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "kl tower|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "KL Tower",
+      "canonical_name": "Menara Kuala Lumpur",
+      "formatted_address": "2 Jalan Punchak, Off, Jalan P. Ramlee, Kuala Lumpur, 50250 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJE1jNHStIzDERujrDO85YYBA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJE1jNHStIzDERujrDO85YYBA",
+      "lat": 3.1528762,
+      "lng": 101.7038516,
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "restaurant",
+        "tourist_attraction"
+      ],
+      "category": "food",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "klcc lake|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "KLCC Lake",
+      "canonical_name": "KLCC Park",
+      "formatted_address": "City Centre, Kuala Lumpur City Centre, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJBWbm2tM3zDERTno0px940s4",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBWbm2tM3zDERTno0px940s4",
+      "lat": 3.1555902,
+      "lng": 101.7147872,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "nature",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "kampung agong|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest', 'tourist_attraction']"
+  },
+  "kuala lumpur|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Administrative/region result"
+  },
+  "kwai chai hong (street arts murals)|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Kwai Chai Hong (Street Arts Murals)",
+      "canonical_name": "Kwai Chai Hong",
+      "formatted_address": "Lorong Panggung, City Centre, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJAY0UL3BJzDERgtnOxJhzC8k",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJAY0UL3BJzDERgtnOxJhzC8k",
+      "lat": 3.1414715,
+      "lng": 101.6976131,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "malaysia tourism centre (matic)|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Malaysia Tourism Centre (MaTiC)",
+      "canonical_name": "MATIC",
+      "formatted_address": "109, Jln Ampang, Kuala Lumpur, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJb24Wb883zDERDRo7gR5kB1E",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJb24Wb883zDERDRo7gR5kB1E",
+      "lat": 3.1573064,
+      "lng": 101.7070846,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "travel_agency"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "masjid abdullah fahim kepala batas|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Kuala Lumpur: 298.1 km > allowed 50.0 km"
+  },
+  "masjid jamek haji abdul rashid sungai dua|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Kuala Lumpur: 292.6 km > allowed 50.0 km"
+  },
+  "masjid tuan samad permatang dua|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Kuala Lumpur: 294.7 km > allowed 50.0 km"
+  },
+  "memorial tun abdul razak|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Memorial Tun Abdul Razak",
+      "canonical_name": "Memorial Tun Abdul Razak",
+      "formatted_address": "Perdana Botanical Garden, Jalan Cenderawasih, Tasik Perdana, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ3fONYshJzDERvrF1u1Aqbbc",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ3fONYshJzDERvrF1u1Aqbbc",
+      "lat": 3.1417537,
+      "lng": 101.6870311,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "merdeka tower118|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Merdeka Tower118",
+      "canonical_name": "Merdeka 118",
+      "formatted_address": "Presint Merdeka 118, City Centre, 50118 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ8dfhij5JzDERYoQs1Ff8HjI",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ8dfhij5JzDERYoQs1Ff8HjI",
+      "lat": 3.1418445,
+      "lng": 101.7006433,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "mid valley megamall|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Mid Valley Megamall",
+      "canonical_name": "Mid Valley Megamall",
+      "formatted_address": "Lingkaran Syed Putra, Mid Valley City, 59200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJPbiasY5JzDER-5Fp9VNQTVY",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJPbiasY5JzDER-5Fp9VNQTVY",
+      "lat": 3.1175628,
+      "lng": 101.6774073,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "shopping_mall"
+      ],
+      "category": "shopping",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "muzium negara|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Muzium Negara",
+      "canonical_name": "The National Museum of Malaysia",
+      "formatted_address": "Department of Museum, Jln Damansara, Tasik Perdana, 50566 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ9_6dH8dJzDERC7k4SHbqU3o",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ9_6dH8dJzDERC7k4SHbqU3o",
+      "lat": 3.137711,
+      "lng": 101.6874214,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "mytown shopping centre|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "MyTown Shopping Centre",
+      "canonical_name": "MyTOWN Shopping Centre",
+      "formatted_address": "6, Jalan Cochrane, Seksyen 90, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJB3uwzD02zDERHQMlA6UmnJU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJB3uwzD02zDERHQMlA6UmnJU",
+      "lat": 3.1348713,
+      "lng": 101.722742,
+      "types": [
+        "establishment",
+        "food",
+        "grocery_or_supermarket",
+        "point_of_interest",
+        "shopping_mall",
+        "store",
+        "supermarket"
+      ],
+      "category": "shopping",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "national monument|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "National Monument",
+      "canonical_name": "National Monument",
+      "formatted_address": "Perdana Botanical Garden, Jln Parlimen, City Centre, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJt0fqfrVJzDERy_5oON8Eb5I",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJt0fqfrVJzDERy_5oON8Eb5I",
+      "lat": 3.1488546,
+      "lng": 101.6838276,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "national mosque|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "National Mosque",
+      "canonical_name": "National Mosque of Malaysia",
+      "formatted_address": "Jalan Perdana, Tasik Perdana, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJJX8hZM9JzDER-yYg0nIT468",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJJX8hZM9JzDER-yYg0nIT468",
+      "lat": 3.1419783,
+      "lng": 101.6917573,
+      "types": [
+        "establishment",
+        "mosque",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "national textile museum|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "National Textile Museum",
+      "canonical_name": "National Textiles Museum",
+      "formatted_address": "26, Jalan Sultan Hishamuddin, City Centre, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ6_aE4M1JzDERegcsYEwivM4",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ6_aE4M1JzDERegcsYEwivM4",
+      "lat": 3.1467465,
+      "lng": 101.6940414,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "negara urban museum|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Negara Urban Museum",
+      "canonical_name": "UR-MU @ Bukit Bintang",
+      "formatted_address": "3, Jalan Bedara, Bukit Bintang, 50200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ8zPgFPk3zDERsyZ2pJTrrP8",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ8zPgFPk3zDERsyZ2pJTrrP8",
+      "lat": 3.1476079,
+      "lng": 101.7094947,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "nine emperor gods temple|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Nine Emperor Gods Temple",
+      "canonical_name": "Nine Emperor Gods Temple",
+      "formatted_address": "P1, Jalan Merdeka, Kampung Baru Ampang, 68000 Ampang, Selangor, Malaysia",
+      "place_id": "ChIJh6O7WeU2zDER-Hui4eLny8o",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJh6O7WeU2zDER-Hui4eLny8o",
+      "lat": 3.1414913,
+      "lng": 101.764422,
+      "types": [
+        "establishment",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 8.99,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "nu sentral|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Nu Sentral",
+      "canonical_name": "NU Sentral",
+      "formatted_address": "201, Jalan Tun Sambanthan, Kuala Lumpur Sentral, 50470 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJgakKKSVJzDERjXMeoGqoR98",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJgakKKSVJzDERjXMeoGqoR98",
+      "lat": 3.1328277,
+      "lng": 101.6873496,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "shopping_mall"
+      ],
+      "category": "shopping",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "orchid garden|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Orchid Garden",
+      "canonical_name": "Kuala Lumpur Orchid Garden",
+      "formatted_address": "Jalan Perdana, Taman Tasik Perdana, Wilayah Persekutuan, Perdana Botanical Gardens, 50480 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "place_id": "ChIJqZg2wMVJzDERdw_L8rBtIfo",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJqZg2wMVJzDERdw_L8rBtIfo",
+      "lat": 3.1440058,
+      "lng": 101.687238,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "pasar bisik kuala muda|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Kuala Lumpur: 309.9 km > allowed 50.0 km"
+  },
+  "perdana botanical garden|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Perdana Botanical Garden",
+      "canonical_name": "Perdana Botanical Garden",
+      "formatted_address": "Jalan Kebun Bunga, Tasik Perdana, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJEWkeL7ZJzDER38lq7GVsWyk",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJEWkeL7ZJzDER38lq7GVsWyk",
+      "lat": 3.1435203,
+      "lng": 101.6837917,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "perdana botanical gardens|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Perdana Botanical Gardens",
+      "canonical_name": "Perdana Botanical Gardens",
+      "formatted_address": "Perdana Botanical Gardens, Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "place_id": "ChIJBabBT8hJzDERQjXrN_7SP4A",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBabBT8hJzDERQjXrN_7SP4A",
+      "lat": 3.143678,
+      "lng": 101.686073,
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "petaling street|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Petaling Street",
+      "canonical_name": "Petaling Street Market",
+      "formatted_address": "Jalan Petaling, City Centre, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJRVe3rdFJzDER_fqRQvv39qk",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJRVe3rdFJzDER_fqRQvv39qk",
+      "lat": 3.1443951,
+      "lng": 101.6976496,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "petronas tower|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Petronas Tower",
+      "canonical_name": "Petronas Twin Towers",
+      "formatted_address": "Lower Ground (Concourse) Level, Menara Berkembar Petronas, Kuala Lumpur City Centre, 50088 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJH5xmLdE3zDERVpCKfNH9Op4",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJH5xmLdE3zDERVpCKfNH9Op4",
+      "lat": 3.1574693,
+      "lng": 101.7115639,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "petrosains|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Petrosains",
+      "canonical_name": "Petrosains, The Discovery Centre",
+      "formatted_address": "Level 4, Menara Berkembar Petronas, Kuala Lumpur City Centre, 50088 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJiXsntdY3zDER0-B-9En1XOQ",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJiXsntdY3zDER0-B-9En1XOQ",
+      "lat": 3.1578933,
+      "lng": 101.711981,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "pintasan saloma|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Pintasan Saloma",
+      "canonical_name": "Saloma Link",
+      "formatted_address": "9, Lorong Raja Muda Musa 3, Kampung Baru, 50300 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ1cjWZl83zDERUD6wJYDNnyM",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ1cjWZl83zDERUD6wJYDNnyM",
+      "lat": 3.1607526,
+      "lng": 101.708301,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "planetarium negara|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Planetarium Negara",
+      "canonical_name": "Planetarium Negara",
+      "formatted_address": "53, Jalan Perdana, Tasik Perdana, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ2yat5MVJzDERUIHFb1rkGGw",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ2yat5MVJzDERUIHFb1rkGGw",
+      "lat": 3.1394632,
+      "lng": 101.6895593,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "rekreasi air hitam dalam|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Kuala Lumpur: 292.2 km > allowed 50.0 km"
+  },
+  "river of life|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "River of Life",
+      "canonical_name": "River of Life",
+      "formatted_address": "Jalan Benteng, City Centre, 50050 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJkSBUv7hJzDERQbxP_WdwMrU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJkSBUv7hJzDERQbxP_WdwMrU",
+      "lat": 3.1477516,
+      "lng": 101.6952781,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "rope walk taman selat butterworth|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Kuala Lumpur: 291.6 km > allowed 50.0 km"
+  },
+  "royal malaysia police museum|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Blacklisted place name"
+  },
+  "royal selangor|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Royal Selangor",
+      "canonical_name": "Royal Selangor Visitor Centre",
+      "formatted_address": "4, Jalan Usahawan 6, Setapak Jaya, 53300 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ380v_Rs4zDERg-ayesQ7RaY",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ380v_Rs4zDERg-ayesQ7RaY",
+      "lat": 3.1966646,
+      "lng": 101.724434,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "rumah penghulu abu seman|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Rumah Penghulu Abu Seman",
+      "canonical_name": "Rumah Penghulu Abu Seman (The Penghulu Abu Seman House)",
+      "formatted_address": "Badan Warisan Malaysia, 2, Jalan Stonor, Kuala Lumpur, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJQd6sOS02zDER_HJnQBZXwXM",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJQd6sOS02zDER_HJnQBZXwXM",
+      "lat": 3.1502709,
+      "lng": 101.7164636,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "sri maha mariamman temple|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Sri Maha Mariamman Temple",
+      "canonical_name": "Sri Maha Mariamman Temple",
+      "formatted_address": "163, Jalan Tun H S Lee, City Centre, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJUXIQqzJIzDERDbwltFc9Pm8",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJUXIQqzJIzDERDbwltFc9Pm8",
+      "lat": 3.1433851,
+      "lng": 101.6964976,
+      "types": [
+        "establishment",
+        "hindu_temple",
+        "place_of_worship",
+        "point_of_interest"
+      ],
+      "category": "religious",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "st mary's cathedral|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "St Mary's Cathedral",
+      "canonical_name": "St Mary's Cathedral",
+      "formatted_address": "Jln Raja, City Centre, 50050 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJMVJtPc1JzDERzgjwHeAcP40",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJMVJtPc1JzDERzgjwHeAcP40",
+      "lat": 3.150278,
+      "lng": 101.6934342,
+      "types": [
+        "church",
+        "establishment",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "sultan abdul samad building|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Sultan Abdul Samad Building",
+      "canonical_name": "Bangunan Sultan Abdul Samad",
+      "formatted_address": "Jln Raja, Kuala Lumpur City Centre, 50050 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ_Y2Rm81JzDERKAawVfuGOd8",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_Y2Rm81JzDERKAawVfuGOd8",
+      "lat": 3.1487179,
+      "lng": 101.6944582,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "sunway putra mall|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Sunway Putra Mall",
+      "canonical_name": "Sunway Putra Mall",
+      "formatted_address": "100, Jalan Putra, Chow Kit, 50350 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJy4nAbDlJzDER6HZyA4ZtdpE",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJy4nAbDlJzDER6HZyA4ZtdpE",
+      "lat": 3.1665524,
+      "lng": 101.6924341,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "shopping_mall"
+      ],
+      "category": "shopping",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "superpark|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Superpark",
+      "canonical_name": "SuperPark Malaysia",
+      "formatted_address": "Unit 4-1, Level 4, Avenue K, Shopping Mall, 156, Jln Ampang, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJVS4Wdas3zDERTQiiUgNQnlI",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJVS4Wdas3zDERTQiiUgNQnlI",
+      "lat": 3.1591675,
+      "lng": 101.7129914,
+      "types": [
+        "amusement_park",
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "entertainment",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "symphony water fountain|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Symphony Water Fountain",
+      "canonical_name": "KLCC Lake symphony",
+      "formatted_address": "Kuala Lumpur City Centre, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJyxoaBQA3zDERLIQU-Bxp5dA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJyxoaBQA3zDERLIQU-Bxp5dA",
+      "lat": 3.1568721,
+      "lng": 101.7125587,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "tourist information center|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "TOURIST INFORMATION CENTER",
+      "canonical_name": "Tourist Information and Interaction Centre (TiiC)",
+      "formatted_address": "Lot 02-03 Mezzanine Floor, Central Market Annexe, Jalan Hang Kasturi, City Centre, 50050 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ9QVrytFJzDERpugoHBEAgeQ",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ9QVrytFJzDERpugoHBEAgeQ",
+      "lat": 3.146433,
+      "lng": 101.6957,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction",
+        "travel_agency"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "trec|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "TREC",
+      "canonical_name": "TREC Kuala Lumpur",
+      "formatted_address": "438, Jln Tun Razak, KL City Centre, 50400 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ60rSYTo2zDERFnjGlXrU6ks",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ60rSYTo2zDERFnjGlXrU6ks",
+      "lat": 3.1397195,
+      "lng": 101.7211132,
+      "types": [
+        "bar",
+        "cafe",
+        "establishment",
+        "food",
+        "night_club",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "category": "food",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "taman dusun bandar|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Taman Dusun Bandar",
+      "canonical_name": "Urban Orchard Park",
+      "formatted_address": "Lorong Bellamy, Istana Negara, 50460 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJVVVViehJzDERw1VuR7SBnbE",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJVVVViehJzDERw1VuR7SBnbE",
+      "lat": 3.1290364,
+      "lng": 101.6943762,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "taman tasik datuk keramat|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Taman Tasik Datuk Keramat",
+      "canonical_name": "Taman Tasik Datuk Keramat",
+      "formatted_address": "Taman Tasik Datuk Keramat, 54000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJPdFb8r43zDER-j7uD3yxmoE",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJPdFb8r43zDER-j7uD3yxmoE",
+      "lat": 3.16775,
+      "lng": 101.733674,
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "taman tasik titiwangsa|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Taman Tasik Titiwangsa",
+      "canonical_name": "Titiwangsa Lake Gardens",
+      "formatted_address": "Jalan Kuantan, Titiwangsa, 53200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJgw_35Us3zDERGSdDxaWqe_o",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJgw_35Us3zDERGSdDxaWqe_o",
+      "lat": 3.1777324,
+      "lng": 101.7071919,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest"
+      ],
+      "category": "nature",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "taman tugu|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Taman Tugu",
+      "canonical_name": "Taman Tugu",
+      "formatted_address": "94-1, Jalan Sultan Salahuddin, Kuala Lumpur, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJCyJhdLxJzDERIgijWhmft1w",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJCyJhdLxJzDERIgijWhmft1w",
+      "lat": 3.1513978,
+      "lng": 101.6845789,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest"
+      ],
+      "category": "nature",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "telekom museum|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Telekom Museum",
+      "canonical_name": "Muzium Telekom",
+      "formatted_address": "Jalan Raja Chulan, Kuala Lumpur, 50200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJJSAtCNNJzDERETbGF9iz7CI",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJJSAtCNNJzDERETbGF9iz7CI",
+      "lat": 3.1488889,
+      "lng": 101.6994444,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "the exchange 106 @ (trx)|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "The Exchange 106 @ (TRX)",
+      "canonical_name": "The Exchange 106 @ TRX",
+      "formatted_address": "Level 5, Exchange 106, Lingkaran TRX, Imbi, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJY29HCDA2zDERiABIG-fg9Jc",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJY29HCDA2zDERiABIG-fg9Jc",
+      "lat": 3.1418492,
+      "lng": 101.7188096,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "the gardens|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "The Gardens",
+      "canonical_name": "The Gardens Mall",
+      "formatted_address": "Lingkaran Syed Putra, Mid Valley City, 59200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJs8bC5Y5JzDERJ6ehASo_-20",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJs8bC5Y5JzDERJ6ehASo_-20",
+      "lat": 3.118791,
+      "lng": 101.6759991,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "shopping_mall"
+      ],
+      "category": "shopping",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "the royal club selangor|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "The Royal Club Selangor",
+      "canonical_name": "Royal Selangor Club",
+      "formatted_address": "Jln Raja, City Centre, 50050 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ_Xa2AM1JzDERXfFpxmCSF6w",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_Xa2AM1JzDERXfFpxmCSF6w",
+      "lat": 3.1489755,
+      "lng": 101.693046,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "the royal selangor polo club|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "The Royal Selangor Polo Club",
+      "canonical_name": "Royal Selangor Polo Club",
+      "formatted_address": "The Royal Selangor Polo Club, Desa Pahlawan, 55000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJKQSATbI3zDERQOR22GU8StQ",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJKQSATbI3zDERQOR22GU8StQ",
+      "lat": 3.153126,
+      "lng": 101.7392149,
+      "types": [
+        "premise",
+        "street_address"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "thean hou temple|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Thean Hou Temple",
+      "canonical_name": "Thean Hou Temple",
+      "formatted_address": "65, Persiaran Endah, Taman Persiaran Desa, 50460 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJqSc-d_JJzDERbOlsCf-UmNs",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJqSc-d_JJzDERbOlsCf-UmNs",
+      "lat": 3.1219525,
+      "lng": 101.6876678,
+      "types": [
+        "establishment",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "tukang besi permatang benuan|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Kuala Lumpur: 289.4 km > allowed 50.0 km"
+  },
+  "tun hussein onn memorial|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Tun Hussein Onn Memorial",
+      "canonical_name": "Tun Hussein Onn Memorial",
+      "formatted_address": "Jalan Dato Onn, Kuala Lumpur, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJM69ydjFIzDERUqzcgxFgGhw",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJM69ydjFIzDERUqzcgxFgGhw",
+      "lat": 3.1556782,
+      "lng": 101.6909461,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "tun razak exchange (trx)|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Tun Razak Exchange (TRX)",
+      "canonical_name": "Tun Razak Exchange",
+      "formatted_address": "Persiaran TRX, Tun Razak Exchange, 55188 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJPaNTGlE3zDERJbFWeJ-1WB4",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJPaNTGlE3zDERJbFWeJ-1WB4",
+      "lat": 3.1437433,
+      "lng": 101.718071,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "tunku abdul rahman memorial|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Tunku Abdul Rahman Memorial",
+      "canonical_name": "Tunku Abdul Rahman Putra Memorial",
+      "formatted_address": "Jalan Dato Onn, Kuala Lumpur, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJB1bYHS5IzDERzuXJS_615Zk",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJB1bYHS5IzDERzuXJS_615Zk",
+      "lat": 3.1564704,
+      "lng": 101.6905323,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
+      "verified": true
+    }
+  },
+  "aquaria klcc|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Aquaria KLCC",
+      "canonical_name": "Aquaria KLCC",
+      "formatted_address": "Kuala Lumpur Convention Centre, Jalan Pinang, Kuala Lumpur City Centre, 50088 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJM5cxndM3zDER7WuP_cN-omg",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJM5cxndM3zDER7WuP_cN-omg",
+      "lat": 3.1535483,
+      "lng": 101.713178,
+      "types": [
+        "aquarium",
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 50.0,
       "verified": true
     }
   }

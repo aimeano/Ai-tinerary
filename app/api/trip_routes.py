@@ -7,10 +7,12 @@ from app.db.trip_repository import (
     load_user_trip,
     save_trip,
     delete_trip,
-    save_chat_message
+    save_chat_message,
+    restore_trip_version,
+    update_trip_weather_only
 )
 from datetime import datetime
-
+from app.planning.weather_enrichment import attach_weather_to_itinerary
 from app.api.schemas import CreateTripRequest,ChatRequest
 from app.orchestrator.langgraph_workflow import run_initial_itinerary
 from app.orchestrator.chat_graph import run_chat_turn
@@ -64,6 +66,17 @@ def get_trip(
                 status_code=404,
                 detail="Trip not found",
             )
+
+        trip["itinerary"] = attach_weather_to_itinerary(
+            trip["itinerary"],
+            geocoded=trip.get("geocoded", []),
+        )
+
+        update_trip_weather_only(
+            db,
+            trip_id,
+            trip["itinerary"],
+        )
 
         clean_chat_history = []
 
@@ -387,6 +400,65 @@ def replace_bad_weather_activity(
             "message": assistant_message,
             "itinerary_updated": itinerary_updated,
             "itinerary": updated_trip["itinerary"],
+        }
+
+    finally:
+        db.close()
+
+@router.post("/{trip_id}/undo")
+def undo_itinerary(
+    trip_id: str,
+    user_id: str = Depends(get_current_user_id),
+):
+    db = SessionLocal()
+
+    try:
+        trip = load_user_trip(db, user_id, trip_id)
+
+        if not trip:
+            raise HTTPException(status_code=404, detail="Trip not found")
+
+        current_version = trip.get("itinerary_version", 1)
+        previous_version = current_version - 1
+
+        if previous_version < 1:
+            raise HTTPException(
+                status_code=400,
+                detail="No previous itinerary version to restore.",
+            )
+
+        restored_trip = restore_trip_version(
+            db,
+            trip_id,
+            previous_version,
+        )
+
+        if not restored_trip:
+            raise HTTPException(
+                status_code=404,
+                detail="Previous version not found.",
+            )
+        
+        undo_message = (
+            f"Undo successful. Restored itinerary version "
+            f"{previous_version}."
+        )
+
+        save_chat_message(
+            db,
+            restored_trip.trip_id,
+            "assistant",
+            undo_message,
+        )
+        
+        
+
+        return {
+            "message": f"Undo successful. Restored version {previous_version}.",
+            "trip_id": restored_trip.trip_id,
+            "current_version": restored_trip.itinerary_version,
+            "restored_from_version": previous_version,
+            "itinerary": restored_trip.itinerary,
         }
 
     finally:

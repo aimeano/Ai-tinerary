@@ -15,6 +15,56 @@ BAD_WEATHER_CODES = {
     95, 96, 99,
 }
 
+WEATHER_CODE_INFO = {
+    0: ("clear", "Clear sky"),
+
+    1: ("partly_cloudy", "Mainly clear"),
+    2: ("partly_cloudy", "Partly cloudy"),
+    3: ("partly_cloudy", "Overcast"),
+
+    45: ("fog", "Fog"),
+    48: ("fog", "Depositing rime fog"),
+
+    51: ("drizzle", "Light drizzle"),
+    53: ("drizzle", "Moderate drizzle"),
+    55: ("drizzle", "Dense drizzle"),
+    56: ("drizzle", "Light freezing drizzle"),
+    57: ("drizzle", "Dense freezing drizzle"),
+
+    61: ("rain", "Slight rain"),
+    63: ("rain", "Moderate rain"),
+    65: ("rain", "Heavy rain"),
+    66: ("rain", "Light freezing rain"),
+    67: ("rain", "Heavy freezing rain"),
+
+    71: ("snow", "Slight snowfall"),
+    73: ("snow", "Moderate snowfall"),
+    75: ("snow", "Heavy snowfall"),
+    77: ("snow", "Snow grains"),
+
+    80: ("rain_showers", "Slight rain showers"),
+    81: ("rain_showers", "Moderate rain showers"),
+    82: ("rain_showers", "Violent rain showers"),
+
+    85: ("snow_showers", "Slight snow showers"),
+    86: ("snow_showers", "Heavy snow showers"),
+
+    95: ("thunderstorm", "Thunderstorm"),
+    96: ("thunderstorm", "Thunderstorm with hail"),
+    99: ("thunderstorm", "Severe thunderstorm with hail"),
+}
+
+def get_weather_description(weather_code):
+    category, description = WEATHER_CODE_INFO.get(
+        weather_code,
+        ("unknown", "Unknown weather")
+    )
+
+    return {
+        "category": category,
+        "description": description,
+    }
+
 
 def get_weather_source(date_str: str) -> str:
     today = datetime.now().date()
@@ -113,16 +163,35 @@ def parse_daily_weather(data: dict, date_str: str, source: str):
         precipitation=precipitation,
     )
 
+    weather_info = get_weather_description(weather_code)
+
+    avg_temp = None
+
+    if temp_max is not None and temp_min is not None:
+        avg_temp = round((temp_max + temp_min) / 2, 1)
+
     return {
         "available": True,
         "source": source,
         "date": date_str,
+
         "weather_code": weather_code,
+        "weather_category": weather_info["category"],
+        "weather_description": weather_info["description"],
+
         "temperature_max": temp_max,
         "temperature_min": temp_min,
+        "temperature_avg": avg_temp,
+
         "precipitation_sum": precipitation,
+
         "is_bad_weather": is_bad,
-        "suggestion": get_weather_suggestion(is_bad),
+
+        "suggestion": get_weather_suggestion(
+            is_bad,
+            weather_info["description"]
+        ),
+
         "updated_at": datetime.now().isoformat(),
     }
 
@@ -137,11 +206,18 @@ def is_bad_weather(weather_code, precipitation) -> bool:
     return False
 
 
-def get_weather_suggestion(is_bad: bool) -> str:
-    if is_bad:
-        return "Weather may affect this outdoor activity. Consider changing it to an indoor activity."
+def get_weather_suggestion(
+    is_bad: bool,
+    description: str,
+) -> str:
 
-    return "Weather looks acceptable for this activity."
+    if is_bad:
+        return (
+            f"{description}. "
+            f"Consider replacing outdoor activities with indoor alternatives."
+        )
+
+    return f"{description}. Weather looks suitable for this activity."
 
 
 def get_activity_weather(activity: dict, date_str: str):

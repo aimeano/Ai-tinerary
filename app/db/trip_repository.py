@@ -2,7 +2,7 @@ import uuid
 from sqlalchemy.orm import Session
 
 from app.db.models import User, Trip, ChatMessage
-from app.db.models import Trip
+from app.db.models import Trip, TripVersion
 
 
 def create_message_id() -> str:
@@ -43,14 +43,27 @@ def save_trip(
     ).first()
 
     if existing:
+        new_version_number = existing.itinerary_version + 1
+
+        history = TripVersion(
+            trip_id=existing.trip_id,
+            version_number=new_version_number,
+            raw_itinerary=trip["raw_itinerary"],
+            itinerary=trip["itinerary"],
+            reason=trip.get("version_reason", "itinerary_updated"),
+        )
+
+        db.add(history)
+
         existing.title = trip["title"]
         existing.profile = trip["profile"]
         existing.raw_itinerary = trip["raw_itinerary"]
         existing.itinerary = trip["itinerary"]
         existing.geocoded = trip.get("geocoded", [])
-        existing.clusters = trip.get("clusters", [])
         existing.enrichment_cache = trip.get("enrichment_cache", {})
-        existing.itinerary_version += 1
+        existing.clusters = trip.get("clusters", [])
+        existing.itinerary_version = new_version_number
+
         db.commit()
         db.refresh(existing)
         return existing
@@ -68,6 +81,17 @@ def save_trip(
     )
 
     db.add(db_trip)
+    db.flush()
+
+    history = TripVersion(
+        trip_id=db_trip.trip_id,
+        version_number=1,
+        raw_itinerary=db_trip.raw_itinerary,
+        itinerary=db_trip.itinerary,
+        reason="initial_generation",
+    )
+
+    db.add(history)
     db.commit()
     db.refresh(db_trip)
 
@@ -266,3 +290,95 @@ def load_user_trip(
     item["chat_history"] = load_chat_history(db, trip_id)
 
     return item
+
+def save_trip_version(
+    db: Session,
+    trip_id: str,
+    version_number: int,
+    raw_itinerary: dict | None,
+    itinerary: dict,
+    reason: str | None = None,
+) -> TripVersion:
+    version = TripVersion(
+        trip_id=trip_id,
+        version_number=version_number,
+        raw_itinerary=raw_itinerary,
+        itinerary=itinerary,
+        reason=reason,
+    )
+
+    db.add(version)
+    db.commit()
+    db.refresh(version)
+
+    return version
+
+def restore_trip_version(
+    db: Session,
+    trip_id: str,
+    version_number: int,
+) -> Trip | None:
+
+    trip = (
+        db.query(Trip)
+        .filter(Trip.trip_id == trip_id)
+        .first()
+    )
+
+    if not trip:
+        return None
+
+    version = (
+        db.query(TripVersion)
+        .filter(
+            TripVersion.trip_id == trip_id,
+            TripVersion.version_number == version_number,
+        )
+        .first()
+    )
+
+    if not version:
+        return None
+
+    # Save current state as history first
+    current_version = trip.itinerary_version + 1
+
+    db.add(
+        TripVersion(
+            trip_id=trip.trip_id,
+            version_number=current_version,
+            raw_itinerary=trip.raw_itinerary,
+            itinerary=trip.itinerary,
+            reason=f"restore_backup_before_v{version_number}",
+        )
+    )
+
+    # Restore selected version
+    trip.raw_itinerary = version.raw_itinerary
+    trip.itinerary = version.itinerary
+    trip.itinerary_version = current_version
+
+    db.commit()
+    db.refresh(trip)
+
+    return trip
+
+
+def update_trip_weather_only(
+    db: Session,
+    trip_id: str,
+    itinerary: dict,
+) -> Trip | None:
+    trip = db.query(Trip).filter(
+        Trip.trip_id == trip_id
+    ).first()
+
+    if not trip:
+        return None
+
+    trip.itinerary = itinerary
+
+    db.commit()
+    db.refresh(trip)
+
+    return trip

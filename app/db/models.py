@@ -64,3 +64,31 @@ class ChatMessage(Base):
         default=lambda: datetime.now(timezone.utc),
         nullable=False,
     )
+
+class TripVersion(Base):
+    __tablename__ = "trip_versions"
+
+    version_id = Column(
+        String,
+        primary_key=True,
+        default=lambda: f"ver_{uuid.uuid4().hex[:8]}",
+    )
+
+    trip_id = Column(
+        String,
+        ForeignKey("trips.trip_id", ondelete="CASCADE"),
+        nullable=False,
+        index=True,
+    )
+
+    version_number = Column(Integer, nullable=False)
+
+    raw_itinerary = Column(JSON, nullable=True)
+    itinerary = Column(JSON, nullable=False)
+
+    reason = Column(String, nullable=True)
+
+    created_at = Column(
+        DateTime(timezone=True),
+        server_default=func.now(),
+    )
