@@ -9,8 +9,10 @@ load_dotenv()
 QDRANT_URL = os.getenv("QDRANT_URL", "http://localhost:6333")
 QDRANT_COLLECTION = os.getenv("QDRANT_COLLECTION", "travel_docs")
 
-client = QdrantClient(url=QDRANT_URL)
-
+client = QdrantClient(
+    url=os.getenv("QDRANT_URL"),
+    api_key=os.getenv("QDRANT_API_KEY"),
+)
 
 def recreate_collection(vector_size: int):
     if client.collection_exists(QDRANT_COLLECTION):

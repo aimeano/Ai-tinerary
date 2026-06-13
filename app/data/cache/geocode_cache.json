@@ -5888,5 +5888,160 @@
       "allowed_radius_km": 50.0,
       "verified": true
     }
+  },
+  "butterworth art walk|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 292.2 km"
+  },
+  "capal jago kepala batas|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 299.7 km"
+  },
+  "energ x park|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "EnerG X Park",
+      "canonical_name": "EnerG X Park (Sunway Velocity)",
+      "formatted_address": "SUNWAY VELOCITY, Mall, Lingkaran SV, Maluri, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJa8mlQn03zDER9vNLpgiTwVI",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJa8mlQn03zDER9vNLpgiTwVI",
+      "lat": 3.1273414,
+      "lng": 101.7248372,
+      "types": [
+        "amusement_park",
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "entertainment",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "verified": true
+    }
+  },
+  "frog hills|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 288.6 km"
+  },
+  "galeri aura islam|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 286.6 km"
+  },
+  "hard rock cafe puteri harbour|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 290.8 km"
+  },
+  "iskandar malaysia studio|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 289.4 km"
+  },
+  "kampung agong|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest', 'tourist_attraction']"
+  },
+  "kampung sungai melayu eco-tourism|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 290.7 km"
+  },
+  "kota iskandar mosque|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 289.3 km"
+  },
+  "masjid abdullah fahim kepala batas|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 298.1 km"
+  },
+  "masjid jamek haji abdul rashid sungai dua|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 292.6 km"
+  },
+  "masjid tuan samad permatang dua|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 294.7 km"
+  },
+  "nine emperor gods temple|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Nine Emperor Gods Temple",
+      "canonical_name": "Nine Emperor Gods Temple",
+      "formatted_address": "P1, Jalan Merdeka, Kampung Baru Ampang, 68000 Ampang, Selangor, Malaysia",
+      "place_id": "ChIJh6O7WeU2zDER-Hui4eLny8o",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJh6O7WeU2zDER-Hui4eLny8o",
+      "lat": 3.1414913,
+      "lng": 101.764422,
+      "types": [
+        "establishment",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 8.99,
+      "verified": true
+    }
+  },
+  "pasar bisik kuala muda|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 309.9 km"
+  },
+  "puteri harbour|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 290.5 km"
+  },
+  "rud carting centre|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "RUD Carting Centre",
+      "canonical_name": "RUD International Circuit (KL)",
+      "formatted_address": "Pusat Perniagaan Suria, Lot 111033, Jln Suria Puchong 6, Puchong Gateway, 47110 Puchong, Selangor, Malaysia",
+      "place_id": "ChIJy0nHKTK1zTERXON-Q_XOLww",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJy0nHKTK1zTERXON-Q_XOLww",
+      "lat": 2.9815438,
+      "lng": 101.6434264,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 17.32,
+      "verified": true
+    }
+  },
+  "rekreasi air hitam dalam|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 292.2 km"
+  },
+  "rope walk taman selat butterworth|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 291.6 km"
+  },
+  "sireh park|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Too far from allowed cities: 286.2 km"
+  },
+  "tukang besi permatang benuan|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Tukang Besi Permatang Benuan",
+      "canonical_name": "Bengkel Awning Grill dan Pagar- Rawang",
+      "formatted_address": "2387 Lorong Ros Bt 17 3/4 Kuang Kuang, Kampung Cempedak, 48050 Rawang, Selangor, Malaysia",
+      "place_id": "ChIJ10BsR21FzDERfDaoWZ_ZGiM",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ10BsR21FzDERfDaoWZ_ZGiM",
+      "lat": 3.2337354,
+      "lng": 101.5374368,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 19.83,
+      "verified": true
+    }
   }
 }
