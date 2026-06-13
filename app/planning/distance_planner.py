@@ -279,6 +279,39 @@ def point_inside_bbox(lat: float, lng: float, bbox: dict | None) -> bool:
         and bbox["west"] <= lng <= bbox["east"]
     )
 
+def estimate_city_radius_km(
+    center: dict,
+    fallback_km: float = 35.0,
+    min_km: float = 50.0,
+    max_km: float = 80.0,
+) -> float:
+    bbox = center.get("bbox")
+
+    if not bbox:
+        return fallback_km
+
+    mid_lat = (bbox["north"] + bbox["south"]) / 2
+    mid_lng = (bbox["east"] + bbox["west"]) / 2
+
+    corners = [
+        (bbox["north"], bbox["east"]),
+        (bbox["north"], bbox["west"]),
+        (bbox["south"], bbox["east"]),
+        (bbox["south"], bbox["west"]),
+    ]
+
+    bbox_radius = max(
+        haversine_km(mid_lat, mid_lng, lat, lng)
+        for lat, lng in corners
+    )
+
+    dynamic_radius = bbox_radius * 1.8
+
+    return min(
+        max(dynamic_radius, min_km),
+        max_km,
+    )
+
 
 def find_nearest_city(lat: float, lng: float, city_centers: list[dict]):
     nearest_city = None
@@ -722,8 +755,25 @@ def validate_google_result(
             for center in city_centers
         )
 
-        if not inside_any_bbox and distance_from_city > max_distance_from_city_km:
-            return None, f"Too far from allowed cities: {distance_from_city:.1f} km"
+        nearest_center = next(
+            (
+                center for center in city_centers
+                if center["name"] == assigned_city
+            ),
+            None,
+        )
+
+        allowed_radius_km = (
+            estimate_city_radius_km(nearest_center)
+            if nearest_center
+            else max_distance_from_city_km
+        )
+
+        if not inside_any_bbox and distance_from_city > allowed_radius_km:
+            return None, (
+                f"Too far from {assigned_city}: "
+                f"{distance_from_city:.1f} km > allowed {allowed_radius_km:.1f} km"
+            )
 
     google_maps_url = (
         f"https://www.google.com/maps/place/?q=place_id:{place_id}"
@@ -744,6 +794,9 @@ def validate_google_result(
         "weather_suitability": infer_weather_suitability(result),
         "distance_from_city_km": round(distance_from_city, 2)
         if distance_from_city is not None
+        else None,
+        "allowed_radius_km": round(allowed_radius_km, 2)
+        if city_centers
         else None,
         "verified": True,
     }

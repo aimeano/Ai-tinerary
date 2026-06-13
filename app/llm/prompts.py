@@ -365,11 +365,7 @@ Forbidden generic location names:
 
 MEAL RULES
 
-Do NOT create standalone meal activities like:
-- Breakfast at X
-- Lunch at X
-- Dinner at X
-- Eat at X
+Do NOT create standalone meal activities.
 
 Nearby restaurants are added later by the backend.
 
