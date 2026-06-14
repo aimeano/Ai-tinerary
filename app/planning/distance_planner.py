@@ -217,7 +217,14 @@ def get_parent_retrieval_locations(
     cities: list[str],
     country: str,
 ) -> list[str]:
-    locations = set()
+    """
+    Returns parent retrieval locations for each city in the SAME ORDER.
+    
+    Example:
+        cities = ['Ipoh', 'Kuala Lumpur']
+        returns = ['Perak', 'Federal Territory']  # Same index correspondence!
+    """
+    locations = []
 
     for city in cities:
         tokens = resolve_city_tokens(city, country)
@@ -227,13 +234,13 @@ def get_parent_retrieval_locations(
             token for token in tokens
             if token != city_norm
         ]
-
         if parent_tokens:
-            locations.update(token.title() for token in parent_tokens)
+            location = parent_tokens[0].title()
         else:
-            locations.add(city.title())
+            location = city.title()
+        locations.append(location)
+    return locations  
 
-    return sorted(locations)
 
 def get_city_center(city: str, country_hint: str = ""):
     query = f"{city}, {country_hint}" if country_hint else city

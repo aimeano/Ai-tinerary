@@ -263,6 +263,9 @@ def list_user_trip_summaries(
             "title": trip.title,
             "country": trip.profile.get("country") if trip.profile else None,
             "cities": trip.profile.get("cities") if trip.profile else [],
+            "start_date": trip.profile.get("start_date") if trip.profile else None,
+            "end_date": trip.profile.get("end_date") if trip.profile else None,       
+            "days": trip.profile.get("days") if trip.profile else 0,                
             "created_at": trip.created_at.isoformat() if trip.created_at else None,
             "updated_at": trip.updated_at.isoformat() if trip.updated_at else None,
         }
