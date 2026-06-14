@@ -19,6 +19,8 @@ from app.orchestrator.chat_graph import run_chat_turn
 from app.memory.trip_state import create_trip_from_generation
 from app.api.schemas import CreateTripRequest, ChatRequest, WeatherReplaceRequest
 from app.planning.distance_planner import get_parent_retrieval_locations, get_weather_safe_clusters,find_city_for_activity
+from fastapi.responses import Response
+from app.services.export_iti import build_itinerary_html, generate_pdf_bytes
 
 router = APIRouter(
     prefix="/trips",
@@ -460,6 +462,42 @@ def undo_itinerary(
             "restored_from_version": previous_version,
             "itinerary": restored_trip.itinerary,
         }
+
+    finally:
+        db.close()
+
+
+@router.get("/{trip_id}/export/pdf")
+def export_trip_pdf(
+    trip_id: str,
+    user_id: str = Depends(get_current_user_id),
+):
+    db = SessionLocal()
+
+    try:
+        trip = load_user_trip(db, user_id, trip_id)
+
+        if not trip:
+            raise HTTPException(
+                status_code=404,
+                detail="Trip not found",
+            )
+
+        html = build_itinerary_html(
+            trip_id=trip_id,
+            itinerary=trip["itinerary"],
+            profile=trip["profile"],
+        )
+
+        pdf_bytes = generate_pdf_bytes(html)
+
+        return Response(
+            content=pdf_bytes,
+            media_type="application/pdf",
+            headers={
+                "Content-Disposition": f'attachment; filename="{trip_id}_itinerary.pdf"'
+            },
+        )
 
     finally:
         db.close()
