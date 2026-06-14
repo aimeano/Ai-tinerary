@@ -186,21 +186,6 @@ def resolve_city_tokens(city: str, country: str) -> set[str]:
                 "west": bounds["southwest"]["lng"],
             }
 
-            max_span = 0.3
-
-            lat_center = (bbox["north"] + bbox["south"]) / 2
-            lng_center = (bbox["east"] + bbox["west"]) / 2
-
-            lat_span = bbox["north"] - bbox["south"]
-            lng_span = bbox["east"] - bbox["west"]
-
-            if lat_span > max_span:
-                bbox["north"] = lat_center + max_span / 2
-                bbox["south"] = lat_center - max_span / 2
-
-            if lng_span > max_span:
-                bbox["east"] = lng_center + max_span / 2
-                bbox["west"] = lng_center - max_span / 2
 
             _city_bbox_cache[cache_key] = bbox
         else:
@@ -217,7 +202,7 @@ def get_parent_retrieval_locations(
     cities: list[str],
     country: str,
 ) -> list[str]:
-    locations = set()
+    locations = []
 
     for city in cities:
         tokens = resolve_city_tokens(city, country)
@@ -229,11 +214,13 @@ def get_parent_retrieval_locations(
         ]
 
         if parent_tokens:
-            locations.update(token.title() for token in parent_tokens)
+            location = parent_tokens[0].title()
         else:
-            locations.add(city.title())
+            location = city.title()
 
-    return sorted(locations)
+        locations.append(location)
+
+    return locations
 
 def get_city_center(city: str, country_hint: str = ""):
     query = f"{city}, {country_hint}" if country_hint else city
@@ -742,6 +729,7 @@ def validate_google_result(
 
     assigned_city = None
     distance_from_city = None
+    allowed_radius_km = None
 
     if city_centers:
         assigned_city, distance_from_city = find_nearest_city(
@@ -763,10 +751,18 @@ def validate_google_result(
             None,
         )
 
-        allowed_radius_km = (
-            estimate_city_radius_km(nearest_center)
+        dynamic_radius_km = (
+            estimate_city_radius_km(
+                nearest_center,
+                max_km=max_distance_from_city_km,
+            )
             if nearest_center
             else max_distance_from_city_km
+        )
+
+        allowed_radius_km = max(
+            dynamic_radius_km,
+            max_distance_from_city_km,
         )
 
         if not inside_any_bbox and distance_from_city > allowed_radius_km:
@@ -808,7 +804,7 @@ def geocode_pois(
     pois: list[str],
     cities: list[str],
     country_hint: str = "",
-    max_distance_from_city_km: float = 50.0,
+    max_distance_from_city_km: float = 80.0,
 ) -> list[dict]:
     if not GOOGLE_MAPS_API_KEY:
         raise ValueError("Missing GOOGLE_MAPS_API_KEY in .env")
@@ -816,6 +812,11 @@ def geocode_pois(
     cache = load_cache()
     geocoded = []
     seen_place_ids = set()
+
+    print("\n===== GEOCODE SETTINGS =====")
+    print("cities:", cities)
+    print("country_hint:", country_hint)
+    print("max_distance_from_city_km:", max_distance_from_city_km)
 
     city_centers = get_city_centers(cities, country_hint)
 
@@ -1313,5 +1314,7 @@ def score_clusters(clusters: list[dict], profile: dict) -> list[dict]:
         key=lambda x: x["cluster_score"],
         reverse=True,
     )
+
+
 
 

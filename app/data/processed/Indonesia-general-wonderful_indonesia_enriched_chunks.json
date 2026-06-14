@@ -1,0 +1,850 @@
+[
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "rules_laws",
+    "content_type": "",
+    "travel_intents": [
+      "follow_laws",
+      "respect_customs"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "Local Law",
+    "parent_id": 0,
+    "child_id": 0,
+    "length": 358,
+    "chunk_text": "When visiting other countries, it is customary to pay close attention to the local laws that apply, Indonesia is no exception. As a country of diversity with an abundance of different cultures, laws, and customs to honour, respect and comply with, travellers who plan to visit Indonesia must follow these local laws & customs to avoid any trouble or mishaps.",
+    "parent_chunk": "When visiting other countries, it is customary to pay close attention to the local laws that apply, Indonesia is no exception. As a country of diversity with an abundance of different cultures, laws, and customs to honour, respect and comply with, travellers who plan to visit Indonesia must follow these local laws & customs to avoid any trouble or mishaps."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "rules_laws",
+    "content_type": "",
+    "travel_intents": [
+      "drug_penalty",
+      "legal_info"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "DRUGS",
+    "parent_id": 1,
+    "child_id": 1,
+    "length": 761,
+    "chunk_text": "What is the penalty for drug possession and trafficking in Indonesia? Like in many countries, Indonesia has Capital Punishments for Possession and Trafficking of illegal drugs.\n\nPossession is punishable by 4 to 12 years of imprisonment. There is also IDR 800 million to 8 billion (US$89,600 to US$896,000) worth of fines. If the drugs exceed 1 kilogram (for raw drugs like marijuana) or 5 grams (for processed drugs like heroin and cocaine), a maximum punishment of life imprisonment may be imposed.\n\nTrafficking is punishable by 5 to 15 years of imprisonment and fines of IDR one billion to ten billion (US$112,000 to US$1.2 million). If the volume of drugs exceeds 1 kilogram (for raw drugs) or 5 grams (for processed drugs), the death penalty may be imposed.",
+    "parent_chunk": "What is the penalty for drug possession and trafficking in Indonesia? Like in many countries, Indonesia has Capital Punishments for Possession and Trafficking of illegal drugs.\n\nPossession is punishable by 4 to 12 years of imprisonment. There is also IDR 800 million to 8 billion (US$89,600 to US$896,000) worth of fines. If the drugs exceed 1 kilogram (for raw drugs like marijuana) or 5 grams (for processed drugs like heroin and cocaine), a maximum punishment of life imprisonment may be imposed.\n\nTrafficking is punishable by 5 to 15 years of imprisonment and fines of IDR one billion to ten billion (US$112,000 to US$1.2 million). If the volume of drugs exceeds 1 kilogram (for raw drugs) or 5 grams (for processed drugs), the death penalty may be imposed."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "rules_laws",
+    "content_type": "",
+    "travel_intents": [
+      "smoking_restrictions"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "Is Smoking Allowed in Indonesia?",
+    "parent_id": 2,
+    "child_id": 2,
+    "length": 323,
+    "chunk_text": "Smoking is prohibited in public places, such as Healthcare Facilities, Educational Facilities, and Places of Worship. Smoking is also prohibited in Public Transport. Children's Outdoor or Indoor Facilities are also a smoke-free zone. Designated smoking areas are a must in other types of public places and office buildings.",
+    "parent_chunk": "Smoking is prohibited in public places, such as Healthcare Facilities, Educational Facilities, and Places of Worship. Smoking is also prohibited in Public Transport. Children's Outdoor or Indoor Facilities are also a smoke-free zone. Designated smoking areas are a must in other types of public places and office buildings."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "rules_laws",
+    "content_type": "",
+    "travel_intents": [
+      "alcohol",
+      "drinking",
+      "public_places",
+      "driving"
+    ],
+    "pois": [
+      "Aceh"
+    ],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "Is alcohol legal in Indonesia?",
+    "parent_id": 3,
+    "child_id": 3,
+    "length": 601,
+    "chunk_text": "As a country with Muslims as the majority, alcohol drinking is prohibited by the laws of the religion and frowned upon. However, since Indonesia is a country with diverse cultures and religions, currently there are no alcohol bans being enforced in Indonesia, with the exception of Aceh.\n\nDrinking is also prohibited in most Public Places such as Worship Places, Workplaces,\n\nSchools, Malls, Supermarkets, Minimarkets, Outdoor/Indoor Public Space, and other places where there are a lot of people/crowd in the area. Also prohibited, driving while under the influence of alcohol. Don't drink and drive!",
+    "parent_chunk": "As a country with Muslims as the majority, alcohol drinking is prohibited by the laws of the religion and frowned upon. However, since Indonesia is a country with diverse cultures and religions, currently there are no alcohol bans being enforced in Indonesia, with the exception of Aceh.\n\nDrinking is also prohibited in most Public Places such as Worship Places, Workplaces,\n\nSchools, Malls, Supermarkets, Minimarkets, Outdoor/Indoor Public Space, and other places where there are a lot of people/crowd in the area. Also prohibited, driving while under the influence of alcohol. Don't drink and drive!"
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "rules_laws",
+    "content_type": "",
+    "travel_intents": [
+      "overstay",
+      "immigration"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "What Happens if You Overstayed in Indonesia?",
+    "parent_id": 4,
+    "child_id": 4,
+    "length": 278,
+    "chunk_text": "Indonesia's law on immigration for travellers who overstay is no more than 60 days. Those who overstay within the 60 days period will have to pay a daily fine of IDR up to 1 million per day. Those who overstayed more than 60 days will face deportation and possible blacklisting.",
+    "parent_chunk": "Indonesia's law on immigration for travellers who overstay is no more than 60 days. Those who overstay within the 60 days period will have to pay a daily fine of IDR up to 1 million per day. Those who overstayed more than 60 days will face deportation and possible blacklisting."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "transport",
+    "content_type": "",
+    "travel_intents": [
+      "driving",
+      "international_driving_permit"
+    ],
+    "pois": [
+      "Jakarta"
+    ],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "Can Foreigners Drive in Indonesia?",
+    "parent_id": 5,
+    "child_id": 5,
+    "length": 372,
+    "chunk_text": "Foreigners can drive using an international driving permit that has been issued in Indonesia, as well as a driver's license from the individual's home country. Alternatively, foreigners can have the international driving permit issued in their home country before they leave, but this may need to be endorsed by the Indonesian licensing office in Jakarta once they arrive.",
+    "parent_chunk": "Foreigners can drive using an international driving permit that has been issued in Indonesia, as well as a driver's license from the individual's home country. Alternatively, foreigners can have the international driving permit issued in their home country before they leave, but this may need to be endorsed by the Indonesian licensing office in Jakarta once they arrive."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "transport",
+    "content_type": "",
+    "travel_intents": [
+      "driving",
+      "speed_limit"
+    ],
+    "pois": [
+      "Java"
+    ],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "What is the speed limit in Indonesia?",
+    "parent_id": 6,
+    "child_id": 6,
+    "length": 246,
+    "chunk_text": "In Indonesia, people drive on the left-hand side of the road, and standard international driving laws apply. The speed limit is 50kph in urban areas in Indonesia, and 100kph on a motorway, but the only proper motorways in the country are in Java.",
+    "parent_chunk": "In Indonesia, people drive on the left-hand side of the road, and standard international driving laws apply. The speed limit is 50kph in urban areas in Indonesia, and 100kph on a motorway, but the only proper motorways in the country are in Java."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "safety",
+    "content_type": "",
+    "travel_intents": [
+      "emergency_contact",
+      "communication"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "WHAT IS THE EMERGENCY HOTLINE IN INDONESIA?",
+    "parent_id": 7,
+    "child_id": 7,
+    "length": 386,
+    "chunk_text": "Indonesia has different systems for landlines and mobile phones: landlines use area codes, while mobile phones do not. For landline area codes, the digit \"0\" is added in front when dialling domestic long distance from within Indonesia, but is always omitted when calling from abroad. Here are some important numbers/hotline for Police Assistance in case you need assistance on a matter:",
+    "parent_chunk": "Indonesia has different systems for landlines and mobile phones: landlines use area codes, while mobile phones do not. For landline area codes, the digit \"0\" is added in front when dialling domestic long distance from within Indonesia, but is always omitted when calling from abroad. Here are some important numbers/hotline for Police Assistance in case you need assistance on a matter:"
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "safety",
+    "content_type": "emergency_numbers",
+    "travel_intents": [
+      "emergency_contacts",
+      "local_services"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "Emergency Numbers",
+    "parent_id": 8,
+    "child_id": 8,
+    "length": 391,
+    "chunk_text": "Police/General Emergencies: 110 or 112(From Satellite and Mobile Phones)\n\nAmbulance and Medical Emergencies: 118 or 119\n\n● Firefighter: 113\n\n● Search and Rescue (BASARNAS): 115\n\n● Natural Disaster Assistance: 129\n\nUseful Numbers:\n\nInternational Phone Number Information: 102\n\nLocal Phone Number Information: 108\n\nDomestic Call Operator: 100 and 106\n\nInternational Call Operators: 101 and 107",
+    "parent_chunk": "Police/General Emergencies: 110 or 112(From Satellite and Mobile Phones)\n\nAmbulance and Medical Emergencies: 118 or 119\n\n● Firefighter: 113\n\n● Search and Rescue (BASARNAS): 115\n\n● Natural Disaster Assistance: 129\n\nUseful Numbers:\n\nInternational Phone Number Information: 102\n\nLocal Phone Number Information: 108\n\nDomestic Call Operator: 100 and 106\n\nInternational Call Operators: 101 and 107"
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "safety",
+    "content_type": "",
+    "travel_intents": [
+      "passport",
+      "identification"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "Tourism Information:",
+    "parent_id": 9,
+    "child_id": 9,
+    "length": 326,
+    "chunk_text": "Bureau of Public Communication of the Ministry of Tourism: +62 21 3838899\n\nImportant note for foreigners visiting Indonesia, be sure to carry your passport with you at all times as a form of identification as a precaution measures. Chances are you won't need it, but there is always a chance that you may be required to do so.",
+    "parent_chunk": "Bureau of Public Communication of the Ministry of Tourism: +62 21 3838899\n\nImportant note for foreigners visiting Indonesia, be sure to carry your passport with you at all times as a form of identification as a precaution measures. Chances are you won't need it, but there is always a chance that you may be required to do so."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "general_overview",
+    "content_type": "",
+    "travel_intents": [
+      "assistance",
+      "diplomatic_missions"
+    ],
+    "pois": [
+      "Jakarta",
+      "Menteng",
+      "M.H. Thamrin Avenue",
+      "Jalan Jenderal Sudirman",
+      "Kuningan",
+      "Mega Kuningan",
+      "Bali"
+    ],
+    "is_itinerary_content": true,
+    "is_practical_info": false,
+    "section": "Embassies",
+    "parent_id": 10,
+    "child_id": 10,
+    "length": 667,
+    "chunk_text": "As Indonesia's capital city, most foreign diplomatic missions reside in Jakarta. Most of the embassies are situated in the Menteng area and M.H. Thamrin Avenue in Central Jakarta, and also Jalan Jenderal Sudirman, Kuningan and Mega Kuningan area in South Jakarta. Apart from Jakarta, a number of consulates are also situated in other major cities of Indonesia, most preferably Bali as one of Indonesia's favorite tourist destinations.\n\nFor travelers visiting cities outside of Jakarta and Bali and in need of assistance from your home country's representative, contact the Jakarta based embassy for information on embassies or consulates in other cities in Indonesia.",
+    "parent_chunk": "As Indonesia's capital city, most foreign diplomatic missions reside in Jakarta. Most of the embassies are situated in the Menteng area and M.H. Thamrin Avenue in Central Jakarta, and also Jalan Jenderal Sudirman, Kuningan and Mega Kuningan area in South Jakarta. Apart from Jakarta, a number of consulates are also situated in other major cities of Indonesia, most preferably Bali as one of Indonesia's favorite tourist destinations.\n\nFor travelers visiting cities outside of Jakarta and Bali and in need of assistance from your home country's representative, contact the Jakarta based embassy for information on embassies or consulates in other cities in Indonesia."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "general_overview",
+    "content_type": "",
+    "travel_intents": [
+      "phone_numbers",
+      "calling"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "How do I make calls in Indonesia using a landline?",
+    "parent_id": 11,
+    "child_id": 11,
+    "length": 684,
+    "chunk_text": "Telephone numbers in Indonesia have different systems for landlines and mobile phones: landlines use area codes, while mobile phones do not. For landline area codes, the digit \"0\" is added in front when dialing domestic long distance from within Indonesia, but is always omitted when calling from abroad. Instead, callers would use the Indonesian country code +62, followed by the area code, without the \"0\". To make a phone call to Indonesia from abroad via landlines, callers dial +62, followed by the area code and subscriber's number, omitting the '0'. For calls to mobile wireless phones (GSM) from abroad, callers dial +62, followed by the subscriber's number, omitting the '0'.",
+    "parent_chunk": "Telephone numbers in Indonesia have different systems for landlines and mobile phones: landlines use area codes, while mobile phones do not. For landline area codes, the digit \"0\" is added in front when dialing domestic long distance from within Indonesia, but is always omitted when calling from abroad. Instead, callers would use the Indonesian country code +62, followed by the area code, without the \"0\". To make a phone call to Indonesia from abroad via landlines, callers dial +62, followed by the area code and subscriber's number, omitting the '0'. For calls to mobile wireless phones (GSM) from abroad, callers dial +62, followed by the subscriber's number, omitting the '0'."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "safety",
+    "content_type": "emergency_numbers",
+    "travel_intents": [
+      "emergency_contacts",
+      "local_services"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "What are the main emergency numbers I need to know?",
+    "parent_id": 12,
+    "child_id": 12,
+    "length": 404,
+    "chunk_text": "● Police/General Emergencies: 110 or 112 (From Satellite and Mobile Phones)\n\nAmbulance and Medical Emergencies: 118 or 119\n\n● Firefighter: 113\n\n● Search and Rescue (BASARNAS): 115\n\n● Natural Disaster Assistance: 129\n\n● Useful Numbers:\n\n● International Phone Number Information: 102\n\n● Local Phone Number Information: 108\n\n● Domestic Call Operator: 100 and 106\n\n● International Call Operators: 101 and 107",
+    "parent_chunk": "● Police/General Emergencies: 110 or 112 (From Satellite and Mobile Phones)\n\nAmbulance and Medical Emergencies: 118 or 119\n\n● Firefighter: 113\n\n● Search and Rescue (BASARNAS): 115\n\n● Natural Disaster Assistance: 129\n\n● Useful Numbers:\n\n● International Phone Number Information: 102\n\n● Local Phone Number Information: 108\n\n● Domestic Call Operator: 100 and 106\n\n● International Call Operators: 101 and 107"
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "weather_climate",
+    "content_type": "",
+    "travel_intents": [
+      "climate",
+      "temperature"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "Weather, Climate & Seasons",
+    "parent_id": 13,
+    "child_id": 13,
+    "length": 503,
+    "chunk_text": "What is the weather like in Indonesia?\n\nThe climate of Indonesia is almost entirely tropical. The uniformly warm waters that make up 81% of Indonesia's area ensures that temperatures on land remain fairly constant, with the coastal plains averaging 28 °C, the inland and mountain areas averaging 26 °C, and the higher mountain regions, 23 °C. Temperature varies little from season to season, and Indonesia experiences relatively little change in the length of daylight hours from one season to the next.",
+    "parent_chunk": "What is the weather like in Indonesia?\n\nThe climate of Indonesia is almost entirely tropical. The uniformly warm waters that make up 81% of Indonesia's area ensures that temperatures on land remain fairly constant, with the coastal plains averaging 28 °C, the inland and mountain areas averaging 26 °C, and the higher mountain regions, 23 °C. Temperature varies little from season to season, and Indonesia experiences relatively little change in the length of daylight hours from one season to the next."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "weather_climate",
+    "content_type": "",
+    "travel_intents": [
+      "rainfall",
+      "humidity",
+      "temperature",
+      "elevation"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "Is the weather generally rainy?",
+    "parent_id": 14,
+    "child_id": 14,
+    "length": 466,
+    "chunk_text": "The main variable of Indonesia's climate is not temperature or air pressure, but rainfall. The area's relative humidity ranges between 70% and 90%. Although air temperature changes little from season to season or from one region to the next, cooler temperatures prevail at higher elevations. In general, temperatures drop approximately 1°C per 90-meter increase in elevation from sea level with some high-altitude interior mountain regions experiencing night frosts.",
+    "parent_chunk": "The main variable of Indonesia's climate is not temperature or air pressure, but rainfall. The area's relative humidity ranges between 70% and 90%. Although air temperature changes little from season to season or from one region to the next, cooler temperatures prevail at higher elevations. In general, temperatures drop approximately 1°C per 90-meter increase in elevation from sea level with some high-altitude interior mountain regions experiencing night frosts."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "weather_climate",
+    "content_type": "",
+    "travel_intents": [
+      "seasons",
+      "dry_season",
+      "wet_season"
+    ],
+    "pois": [
+      "Java",
+      "Bali"
+    ],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "Are there different seasons in Indonesia?",
+    "parent_id": 15,
+    "child_id": 15,
+    "length": 400,
+    "chunk_text": "Being a tropical country, Indonesia does not have spring, summer, autumn, or winter, instead of just the two seasons of Rainy and Dry, both of which are relative. While there is significant regional variation, in most of the country (including Java and Bali) the dry season is April to October, while the wet season is November to March. However, global warming has made the seasons less predictable.",
+    "parent_chunk": "Being a tropical country, Indonesia does not have spring, summer, autumn, or winter, instead of just the two seasons of Rainy and Dry, both of which are relative. While there is significant regional variation, in most of the country (including Java and Bali) the dry season is April to October, while the wet season is November to March. However, global warming has made the seasons less predictable."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "money_currency",
+    "content_type": "",
+    "travel_intents": [
+      "currency",
+      "banknotes",
+      "coins",
+      "exchange_rate",
+      "credit_cards"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "What is the currency of Indonesia?",
+    "parent_id": 16,
+    "child_id": 16,
+    "length": 617,
+    "chunk_text": "The official currency of Indonesia is Rupiah which is Issued and controlled by the Bank of Indonesia. The currency code for Rupiahs is IDR, and the currency symbol is Rp. By law,\n\nall transactions are required to be conducted in rupiah, and information on the daily exchange rate can be found in newspapers or from the internet and online apps. Credit cards are widely accepted in hotels, large restaurants, and large stores.\n\nIndonesian banknotes come in denominations of IDR1000, IDR2000, IDR5000, IDR10000, IDR20000, IDR50000, and IDR100000. Coins in circulation include IDR1000, IDR500, IDR200, IDR100, and IDR50.",
+    "parent_chunk": "The official currency of Indonesia is Rupiah which is Issued and controlled by the Bank of Indonesia. The currency code for Rupiahs is IDR, and the currency symbol is Rp. By law,\n\nall transactions are required to be conducted in rupiah, and information on the daily exchange rate can be found in newspapers or from the internet and online apps. Credit cards are widely accepted in hotels, large restaurants, and large stores.\n\nIndonesian banknotes come in denominations of IDR1000, IDR2000, IDR5000, IDR10000, IDR20000, IDR50000, and IDR100000. Coins in circulation include IDR1000, IDR500, IDR200, IDR100, and IDR50."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "money_currency",
+    "content_type": "",
+    "travel_intents": [
+      "exchange_currency",
+      "money_changer"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "Where can I buy and exchange currency?",
+    "parent_id": 17,
+    "child_id": 17,
+    "length": 496,
+    "chunk_text": "You can exchange foreign currency in major cities throughout the archipelago at banks and money changers. Most tourists' resorts have money changer facilities; however, if you are traveling to more remote areas it is advisable to exchange your money beforehand. If you need a large amount of foreign currency, and you don't have a foreign currency account at your bank, it is best to order the money the day before. Local banks keep a limited amount of foreign currency in their smaller branches.",
+    "parent_chunk": "You can exchange foreign currency in major cities throughout the archipelago at banks and money changers. Most tourists' resorts have money changer facilities; however, if you are traveling to more remote areas it is advisable to exchange your money beforehand. If you need a large amount of foreign currency, and you don't have a foreign currency account at your bank, it is best to order the money the day before. Local banks keep a limited amount of foreign currency in their smaller branches."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "money_currency",
+    "content_type": "",
+    "travel_intents": [
+      "withdraw_money",
+      "use_atm"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "Are ATMs easily accessible?",
+    "parent_id": 18,
+    "child_id": 18,
+    "length": 527,
+    "chunk_text": "ATMs on the international Plus/Cirrus or Alto networks are common in all major Indonesian cities and tourist destinations. Limitation withdrawal is depending on your respective home bank. Machines are loaded with IDR50,000 denomination notes or IDR100,000 denomination notes, as indicated on the machine; however keep in mind that the bigger notes can be harder to split, especially in rural non-tourist areas. It is also best to withdraw some money from an ATM in major cities before venturing onto more secluded destinations.",
+    "parent_chunk": "ATMs on the international Plus/Cirrus or Alto networks are common in all major Indonesian cities and tourist destinations. Limitation withdrawal is depending on your respective home bank. Machines are loaded with IDR50,000 denomination notes or IDR100,000 denomination notes, as indicated on the machine; however keep in mind that the bigger notes can be harder to split, especially in rural non-tourist areas. It is also best to withdraw some money from an ATM in major cities before venturing onto more secluded destinations."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "visa_entry",
+    "content_type": "text",
+    "travel_intents": [
+      "visa_classification",
+      "visa_requirements",
+      "authorized_activities"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "Indonesia Updates Visa Classification System: Understanding the New Visa Indexes",
+    "parent_id": 19,
+    "child_id": 19,
+    "length": 681,
+    "chunk_text": "Indonesia has updated its visa classification system under the Decree of the Minister of Immigration and Corrections of the Republic of Indonesia Number M.IP-08.GR.01.01 of 2025 concerning Visa Classification.\n\nThe updated system introduces new visa indexes and clarifies the activities permitted under each visa category. Travelers are encouraged to understand the purpose of their visa before entering Indonesia, as engaging in activities outside the authorized scope may result in immigration sanctions.\n\nBelow are several examples of visa categories introduced under the updated classification system.\n\nExamples of New Visa Indexes Under Indonesia's Updated Visa Classification",
+    "parent_chunk": "Indonesia has updated its visa classification system under the Decree of the Minister of Immigration and Corrections of the Republic of Indonesia Number M.IP-08.GR.01.01 of 2025 concerning Visa Classification.\n\nThe updated system introduces new visa indexes and clarifies the activities permitted under each visa category. Travelers are encouraged to understand the purpose of their visa before entering Indonesia, as engaging in activities outside the authorized scope may result in immigration sanctions.\n\nBelow are several examples of visa categories introduced under the updated classification system.\n\nExamples of New Visa Indexes Under Indonesia's Updated Visa Classification"
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "visa_entry",
+    "content_type": "text",
+    "travel_intents": [
+      "create_social_media_content",
+      "tourism",
+      "visit_friends_family",
+      "purchase_goods"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "C5A Content Creator Visit Visa",
+    "parent_id": 20,
+    "child_id": 20,
+    "length": 501,
+    "chunk_text": "This visa is intended for foreign nationals who create social media content while visiting\n\nIndonesia.\n\nPermitted activities include:\n\n● Creating social media content\n\n● Tourism activities\n\n● Visiting friends and family\n\n● Purchasing goods for personal use\n\nActivities not permitted include:\n\n● Selling goods or services in Indonesia\n\n● Receiving salaries, wages, or compensation from Indonesian individuals or companies\n\n● Conducting journalistic or filmmaking activities that require special permits",
+    "parent_chunk": "This visa is intended for foreign nationals who create social media content while visiting\n\nIndonesia.\n\nPermitted activities include:\n\n● Creating social media content\n\n● Tourism activities\n\n● Visiting friends and family\n\n● Purchasing goods for personal use\n\nActivities not permitted include:\n\n● Selling goods or services in Indonesia\n\n● Receiving salaries, wages, or compensation from Indonesian individuals or companies\n\n● Conducting journalistic or filmmaking activities that require special permits"
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "visa_entry",
+    "content_type": "information",
+    "travel_intents": [
+      "social_work",
+      "humanitarian_aid",
+      "volunteer_programs",
+      "remote_work",
+      "tourism",
+      "family_visits"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "C6 Social Activities Visit Visa",
+    "parent_id": 21,
+    "child_id": 21,
+    "length": 1133,
+    "chunk_text": "This visa is intended for foreign nationals participating in social, humanitarian, or volunteer activities.\n\nPermitted activities include:\n\n● Social work\n\n● Humanitarian aid activities\n\n● Volunteer programs\n\n● Tourism and family visits\n\nActivities not permitted include:\n\n● Selling goods or services\n\n● Receiving salaries or compensation from Indonesian entities\n\n● Conducting activities outside the approved social purpose\n\nE33G Remote Worker Limited Stay Visa\n\nThis visa is intended for foreign nationals employed by companies located outside Indonesia who perform their work remotely while staying in Indonesia.\n\nPermitted activities include:\n\n● Working remotely for overseas employers\n\n● Living in Indonesia while conducting overseas-based work\n\n● Bringing eligible family members according to immigration regulations\n\n● Tourism and personal travel activities\n\nActivities not permitted include:\n\n● Working for Indonesian companies without the appropriate permit\n\n● Selling goods or services in Indonesia\n\n● Conducting activities beyond the approved visa purpose\n\n● Remaining in Indonesia after the visa or stay permit has expired",
+    "parent_chunk": "This visa is intended for foreign nationals participating in social, humanitarian, or volunteer activities.\n\nPermitted activities include:\n\n● Social work\n\n● Humanitarian aid activities\n\n● Volunteer programs\n\n● Tourism and family visits\n\nActivities not permitted include:\n\n● Selling goods or services\n\n● Receiving salaries or compensation from Indonesian entities\n\n● Conducting activities outside the approved social purpose\n\nE33G Remote Worker Limited Stay Visa\n\nThis visa is intended for foreign nationals employed by companies located outside Indonesia who perform their work remotely while staying in Indonesia.\n\nPermitted activities include:\n\n● Working remotely for overseas employers\n\n● Living in Indonesia while conducting overseas-based work\n\n● Bringing eligible family members according to immigration regulations\n\n● Tourism and personal travel activities\n\nActivities not permitted include:\n\n● Working for Indonesian companies without the appropriate permit\n\n● Selling goods or services in Indonesia\n\n● Conducting activities beyond the approved visa purpose\n\n● Remaining in Indonesia after the visa or stay permit has expired"
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "visa_entry",
+    "content_type": "",
+    "travel_intents": [
+      "visa",
+      "immigration"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "Consequences of Visa Violations",
+    "parent_id": 22,
+    "child_id": 22,
+    "length": 367,
+    "chunk_text": "Foreign nationals who violate immigration regulations (overstaying, violating Indonesian\n\nlaws, Conducting activities beyond the approved visa purpose) may be subject to administrative or legal sanctions, including:\n\n● Administrative fines\n\n● Detention\n\n● Deportation\n\n● Blacklisting from re-entering Indonesia\n\n● Other legal actions in accordance with Indonesian law",
+    "parent_chunk": "Foreign nationals who violate immigration regulations (overstaying, violating Indonesian\n\nlaws, Conducting activities beyond the approved visa purpose) may be subject to administrative or legal sanctions, including:\n\n● Administrative fines\n\n● Detention\n\n● Deportation\n\n● Blacklisting from re-entering Indonesia\n\n● Other legal actions in accordance with Indonesian law"
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "visa_entry",
+    "content_type": "rules_laws",
+    "travel_intents": [
+      "visa_requirements",
+      "travel_responsibility"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "Obligations of All Visa Holders",
+    "parent_id": 23,
+    "child_id": 23,
+    "length": 865,
+    "chunk_text": "All foreign visitors are expected to:\n\n● Comply with Indonesian laws and regulations\n\n● Respect local customs, traditions, and culture\n\n● Maintain sufficient financial means during their stay in Indonesia\n\n● Follow the conditions attached to their visa category\n\nTravel responsibly and ensure that your activities always match the purpose of your visa.\n\nNote that this regulation is dynamic and can be changed from time to time, so that travelers need to recheck and confirm before planning their future journey.\n\nLooking for a complete list of Indonesian visa categories and requirements?\n\nIndonesia's visa regulations continue to evolve, and additional visa categories may be available depending on your purpose of visit.\n\nFor the latest and most comprehensive information on Indonesian visas, please visit the official Directorate General of Immigration website.",
+    "parent_chunk": "All foreign visitors are expected to:\n\n● Comply with Indonesian laws and regulations\n\n● Respect local customs, traditions, and culture\n\n● Maintain sufficient financial means during their stay in Indonesia\n\n● Follow the conditions attached to their visa category\n\nTravel responsibly and ensure that your activities always match the purpose of your visa.\n\nNote that this regulation is dynamic and can be changed from time to time, so that travelers need to recheck and confirm before planning their future journey.\n\nLooking for a complete list of Indonesian visa categories and requirements?\n\nIndonesia's visa regulations continue to evolve, and additional visa categories may be available depending on your purpose of visit.\n\nFor the latest and most comprehensive information on Indonesian visas, please visit the official Directorate General of Immigration website."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "general_overview",
+    "content_type": "",
+    "travel_intents": [
+      "history",
+      "culture"
+    ],
+    "pois": [],
+    "is_itinerary_content": true,
+    "is_practical_info": false,
+    "section": "History",
+    "parent_id": 24,
+    "child_id": 24,
+    "length": 529,
+    "chunk_text": "The history of Indonesia can be marked as the dawn of mankind since it is where the remains of the early man were unearthed. During the ancient age of kingdoms and empires, Indonesia saw the rise of the great empires that ruled over almost all of South-East Asia and regarded to play a key role in the history of the region. After gaining independence from foreign colonization and the wave of both World Wars, Indonesia emerged as one united country and continued to thrive amongst the top nations of the world to this very day.",
+    "parent_chunk": "The history of Indonesia can be marked as the dawn of mankind since it is where the remains of the early man were unearthed. During the ancient age of kingdoms and empires, Indonesia saw the rise of the great empires that ruled over almost all of South-East Asia and regarded to play a key role in the history of the region. After gaining independence from foreign colonization and the wave of both World Wars, Indonesia emerged as one united country and continued to thrive amongst the top nations of the world to this very day."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "general_overview",
+    "content_type": "",
+    "travel_intents": [
+      "history",
+      "archaeology"
+    ],
+    "pois": [
+      "Sangiran",
+      "Liang Bua",
+      "Flores Island",
+      "Central Java"
+    ],
+    "is_itinerary_content": true,
+    "is_practical_info": false,
+    "section": "When was the dawn of mankind in Indonesia?",
+    "parent_id": 25,
+    "child_id": 25,
+    "length": 443,
+    "chunk_text": "Fossilized remains of Homo erectus and his tools, popularly known as the \"Java Man\" found in the archaeological site of Sangiran in Central Java, suggested that the Indonesian archipelago was already inhabited by 'the early man' at least since 1.5 million years ago. Recently, the fossil of Homo floresiensis or nicknamed as 'hobbit man' was discovered in Liang Bua, Flores Island and also believed to be one of the ancestors of modern humans.",
+    "parent_chunk": "Fossilized remains of Homo erectus and his tools, popularly known as the \"Java Man\" found in the archaeological site of Sangiran in Central Java, suggested that the Indonesian archipelago was already inhabited by 'the early man' at least since 1.5 million years ago. Recently, the fossil of Homo floresiensis or nicknamed as 'hobbit man' was discovered in Liang Bua, Flores Island and also believed to be one of the ancestors of modern humans."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "general_overview",
+    "content_type": "",
+    "travel_intents": [
+      "history",
+      "cultural_sites"
+    ],
+    "pois": [
+      "Indonesian Archipelago",
+      "Srivijaya",
+      "Sumatra",
+      "Malacca Straits",
+      "Borobudur",
+      "Prambanan",
+      "Majapahit Kingdom",
+      "Mataram kingdom",
+      "Java",
+      "Bali",
+      "Kalimantan",
+      "Sulawesi",
+      "Ternate",
+      "Moluccas"
+    ],
+    "is_itinerary_content": true,
+    "is_practical_info": false,
+    "section": "What happened during the age of Kings and Sultans?",
+    "parent_id": 26,
+    "child_id": 26,
+    "length": 958,
+    "chunk_text": "Chinese chronicles mention that trade between India, China and the islands within what today is the Indonesian Archipelago was already thriving since the first century AD. The powerful maritime empire of Srivijaya in southern Sumatra that ruled over the Sumatra seas and the Malacca Straits from the 7th to the 13th century was the centre for Buddhism learning and famous for its wealth. In the 8th- 9th century, the Sailendra Dynasty of the Mataram kingdom in Central Java built the magnificent Buddhist Borobudur temple in Central Java and followed by the construction of the Hindu Temple Prambanan.\n\nFrom 1294 to the 15th century the powerful Majapahit Kingdom in East Java held suzerainty over a large part of this archipelago. Meanwhile, small and large sultanates thrived on many islands of the archipelago, from Sumatra to Java and Bali, to Kalimantan, Sulawesi, Ternate and the Moluccas, especially following the arrival of Islam in the 13th Century.",
+    "parent_chunk": "Chinese chronicles mention that trade between India, China and the islands within what today is the Indonesian Archipelago was already thriving since the first century AD. The powerful maritime empire of Srivijaya in southern Sumatra that ruled over the Sumatra seas and the Malacca Straits from the 7th to the 13th century was the centre for Buddhism learning and famous for its wealth. In the 8th- 9th century, the Sailendra Dynasty of the Mataram kingdom in Central Java built the magnificent Buddhist Borobudur temple in Central Java and followed by the construction of the Hindu Temple Prambanan.\n\nFrom 1294 to the 15th century the powerful Majapahit Kingdom in East Java held suzerainty over a large part of this archipelago. Meanwhile, small and large sultanates thrived on many islands of the archipelago, from Sumatra to Java and Bali, to Kalimantan, Sulawesi, Ternate and the Moluccas, especially following the arrival of Islam in the 13th Century."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "general_overview",
+    "content_type": "",
+    "travel_intents": [
+      "history",
+      "colonial"
+    ],
+    "pois": [
+      "Sumatra",
+      "Moluccas",
+      "Maluku Islands",
+      "West Java"
+    ],
+    "is_itinerary_content": true,
+    "is_practical_info": false,
+    "section": "What was the Colonial Era like?",
+    "parent_id": 27,
+    "child_id": 27,
+    "length": 448,
+    "chunk_text": "Following the arrival of Marco polo in Sumatra, successive waves of Europeans-the Portuguese, Spanish, Dutch and British-sought to dominate the spice trade at its sources which is at the Moluccas or Maluku Islands of Indonesia began in the 16th century. In 1596 the first Dutch vessels anchored at the shores of West Java. Over the next three centuries, the Dutch gradually colonized this archipelago until it became known as the Dutch East Indies.",
+    "parent_chunk": "Following the arrival of Marco polo in Sumatra, successive waves of Europeans-the Portuguese, Spanish, Dutch and British-sought to dominate the spice trade at its sources which is at the Moluccas or Maluku Islands of Indonesia began in the 16th century. In 1596 the first Dutch vessels anchored at the shores of West Java. Over the next three centuries, the Dutch gradually colonized this archipelago until it became known as the Dutch East Indies."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "general_overview",
+    "content_type": "",
+    "travel_intents": [
+      "history",
+      "independence"
+    ],
+    "pois": [
+      "Dutch East Indies"
+    ],
+    "is_itinerary_content": false,
+    "is_practical_info": false,
+    "section": "The Emergence of Indonesia and the Declaration of Independence",
+    "parent_id": 28,
+    "child_id": 28,
+    "length": 687,
+    "chunk_text": "Revolt against the oppressing colonizers soon built up throughout the country. The Indonesian youth, in their Youth Pledge of 1928 vowed together to build 'One Country, One Nation and One Language: Indonesia', regardless of race, religion, language or ethnic background in the territory then known as the Dutch East Indies.\n\nFinally, on the 17th of August 1945, after the defeat of the Japanese in the Second World War, the Indonesian people declared their Independence through their leaders Soekarno and Hatta. Freedom, however, was not easily granted. Only after years of bloody fighting did the Dutch government finally relent, officially recognizing Indonesia's Independence in 1950.",
+    "parent_chunk": "Revolt against the oppressing colonizers soon built up throughout the country. The Indonesian youth, in their Youth Pledge of 1928 vowed together to build 'One Country, One Nation and One Language: Indonesia', regardless of race, religion, language or ethnic background in the territory then known as the Dutch East Indies.\n\nFinally, on the 17th of August 1945, after the defeat of the Japanese in the Second World War, the Indonesian people declared their Independence through their leaders Soekarno and Hatta. Freedom, however, was not easily granted. Only after years of bloody fighting did the Dutch government finally relent, officially recognizing Indonesia's Independence in 1950."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "general_overview",
+    "content_type": "",
+    "travel_intents": [
+      "language",
+      "communication"
+    ],
+    "pois": [
+      "Medan",
+      "Pontianak"
+    ],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "What is the main language of Indonesia?",
+    "parent_id": 29,
+    "child_id": 29,
+    "length": 478,
+    "chunk_text": "Bahasa Indonesia is the national and official language of Indonesia and is used in the entire country. It is the language of official communication, taught in schools and used for broadcast in electronic and digital media. Most Indonesians also have their own ethnic language and dialect, with the most widely spoken being Javanese and Sundanese. Some ethnic Chinese communities continue to speak various Chinese dialects, most notably Hokkien in Medan and Teochew in Pontianak.",
+    "parent_chunk": "Bahasa Indonesia is the national and official language of Indonesia and is used in the entire country. It is the language of official communication, taught in schools and used for broadcast in electronic and digital media. Most Indonesians also have their own ethnic language and dialect, with the most widely spoken being Javanese and Sundanese. Some ethnic Chinese communities continue to speak various Chinese dialects, most notably Hokkien in Medan and Teochew in Pontianak."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "general_overview",
+    "content_type": "",
+    "travel_intents": [
+      "language",
+      "communication"
+    ],
+    "pois": [
+      "Bali",
+      "Batam",
+      "Jakarta",
+      "Bandung",
+      "Surabaya",
+      "Yogyakarta"
+    ],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "Do people speak or understand English?",
+    "parent_id": 30,
+    "child_id": 30,
+    "length": 311,
+    "chunk_text": "English is not widely spoken, however, an acceptable level of English can be understood in a number of major cities and tourists' destinations including Bali, Batam, Jakarta, Bandung,\n\nSurabaya, and Yogyakarta. Moreover, most hotel and airline staff can also communicate in English on a basic to moderate level.",
+    "parent_chunk": "English is not widely spoken, however, an acceptable level of English can be understood in a number of major cities and tourists' destinations including Bali, Batam, Jakarta, Bandung,\n\nSurabaya, and Yogyakarta. Moreover, most hotel and airline staff can also communicate in English on a basic to moderate level."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "culture_etiquette",
+    "content_type": "language_phrases",
+    "travel_intents": [
+      "greetings",
+      "basic_phrases"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "What are some common phrases in Bahasa that can help me?",
+    "parent_id": 31,
+    "child_id": 31,
+    "length": 971,
+    "chunk_text": "Indonesian pronunciation is relatively easy to master. Each letter always represents the same sound and most letters are pronounced the same as their English counterparts. The following are examples of some of the common phrases in Bahasa Indonesia that can be useful in conversation:\n\n● Good Morning = Selamat Pagi\n\n● Good Day = Selamat Siang\n\n● Good Afternoon = Selamat Sore\n\n● Good Evening/Good Night = Selamat Malam\n\n● Goodbye = Selamat Tinggal\n\n● How are you? = Apa Kabar\n\n● I'm Fine/Good/Great = Baik-baik (as an answer to Apa Kabar)\n\n● Excuse me = Permisi\n\n● Sorry = Maaf\n\n● Please = Silahkan\n\n● Help! = Tolong!\n\n● Thank You = Terima Kasih\n\n● You're Welcome = Terima kasih Kembali\n\n● Yes = Ya\n\n● Tidak = No\n\n● Mr/Sir = Bapak\n\n● Ms/Ms/Madam = Ibu\n\n● Miss = Nona\n\n● How much/many = Berapa\n\n● How much is it (price)? = Berapa Harganya?\n\n● Where is… = Dimana….\n\n● How to get There = bagaimana caranya kesana?\n\n● I want… = Saya Mau…\n\n● I don't want… = Saya Tidak Mau…..",
+    "parent_chunk": "Indonesian pronunciation is relatively easy to master. Each letter always represents the same sound and most letters are pronounced the same as their English counterparts. The following are examples of some of the common phrases in Bahasa Indonesia that can be useful in conversation:\n\n● Good Morning = Selamat Pagi\n\n● Good Day = Selamat Siang\n\n● Good Afternoon = Selamat Sore\n\n● Good Evening/Good Night = Selamat Malam\n\n● Goodbye = Selamat Tinggal\n\n● How are you? = Apa Kabar\n\n● I'm Fine/Good/Great = Baik-baik (as an answer to Apa Kabar)\n\n● Excuse me = Permisi\n\n● Sorry = Maaf\n\n● Please = Silahkan\n\n● Help! = Tolong!\n\n● Thank You = Terima Kasih\n\n● You're Welcome = Terima kasih Kembali\n\n● Yes = Ya\n\n● Tidak = No\n\n● Mr/Sir = Bapak\n\n● Ms/Ms/Madam = Ibu\n\n● Miss = Nona\n\n● How much/many = Berapa\n\n● How much is it (price)? = Berapa Harganya?\n\n● Where is… = Dimana….\n\n● How to get There = bagaimana caranya kesana?\n\n● I want… = Saya Mau…\n\n● I don't want… = Saya Tidak Mau….."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "visa_entry",
+    "content_type": "article",
+    "travel_intents": [
+      "arrival",
+      "clearance",
+      "customs"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "All Indonesia App Guide for Travelers Entering Indonesia",
+    "parent_id": 32,
+    "child_id": 32,
+    "length": 644,
+    "chunk_text": "Traveling to Indonesia is now easier as arrival reporting and clearance requirements have\n\nbeen digitized. To help travelers enjoy a faster, more organized, and efficient entry\n\nexperience, the government has introduced All Indonesia, an app that travelers can use upon arrival in Indonesia to support the Customs clearance process .\n\nThis app is highly relevant for both international visitors and Indonesian citizens returning from overseas, as it helps make arrival declarations more practical and convenient.\n\nRead this complete guide so you won't feel confused when going through the arrival process at an international airport or seaport.",
+    "parent_chunk": "Traveling to Indonesia is now easier as arrival reporting and clearance requirements have\n\nbeen digitized. To help travelers enjoy a faster, more organized, and efficient entry\n\nexperience, the government has introduced All Indonesia, an app that travelers can use upon arrival in Indonesia to support the Customs clearance process .\n\nThis app is highly relevant for both international visitors and Indonesian citizens returning from overseas, as it helps make arrival declarations more practical and convenient.\n\nRead this complete guide so you won't feel confused when going through the arrival process at an international airport or seaport."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "visa_entry",
+    "content_type": "app_info",
+    "travel_intents": [
+      "digital_arrival",
+      "customs_clearance"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "What is the All Indonesia App?",
+    "parent_id": 33,
+    "child_id": 33,
+    "length": 437,
+    "chunk_text": "All Indonesia is an official app that supports digital arrival reporting, including Customs clearance requirements for travelers. With this app, travelers can complete arrival details and supporting information in a more structured way, helping ensure a smoother inspection process at Indonesia's entry points.\n\nThe app is designed for:\n\n● Foreign travelers (international visitors)\n\n● Indonesian citizens (WNI)\n\n● Individuals and groups",
+    "parent_chunk": "All Indonesia is an official app that supports digital arrival reporting, including Customs clearance requirements for travelers. With this app, travelers can complete arrival details and supporting information in a more structured way, helping ensure a smoother inspection process at Indonesia's entry points.\n\nThe app is designed for:\n\n● Foreign travelers (international visitors)\n\n● Indonesian citizens (WNI)\n\n● Individuals and groups"
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "visa_entry",
+    "content_type": "information",
+    "travel_intents": [
+      "entry_process",
+      "customs",
+      "queue_reduction"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "Why Should Travelers Use All Indonesia?",
+    "parent_id": 34,
+    "child_id": 34,
+    "length": 568,
+    "chunk_text": "Upon arrival in Indonesia, travelers usually go through several steps such as document checks, arrival procedures, and Customs-related processes. In busy airport conditions, manual procedures can create long queues and confusion.\n\nWith All Indonesia, travelers can:\n\n● Reduce waiting time by completing their data in advance.\n\n● Ensure their information is saved properly and can be reused for future trips.\n\n● Get clearer navigation through the arrival process, as the flow is prepared digitally.\n\n● Enjoy a faster and more convenient entry experience into Indonesia.",
+    "parent_chunk": "Upon arrival in Indonesia, travelers usually go through several steps such as document checks, arrival procedures, and Customs-related processes. In busy airport conditions, manual procedures can create long queues and confusion.\n\nWith All Indonesia, travelers can:\n\n● Reduce waiting time by completing their data in advance.\n\n● Ensure their information is saved properly and can be reused for future trips.\n\n● Get clearer navigation through the arrival process, as the flow is prepared digitally.\n\n● Enjoy a faster and more convenient entry experience into Indonesia."
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "visa_entry",
+    "content_type": "information",
+    "travel_intents": [
+      "complete",
+      "arrival"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "When Should You Fill Out All Indonesia?",
+    "parent_id": 35,
+    "child_id": 35,
+    "length": 318,
+    "chunk_text": "Travelers can complete All Indonesia up to 3 days before their arrival date in Indonesia.\n\nThis is very helpful so you won't feel rushed when arriving at the airport. In addition, make sure you already have the following final information:\n\n● Passport number\n\n● Flight details\n\n● Arrival schedule\n\n● Travel information",
+    "parent_chunk": "Travelers can complete All Indonesia up to 3 days before their arrival date in Indonesia.\n\nThis is very helpful so you won't feel rushed when arriving at the airport. In addition, make sure you already have the following final information:\n\n● Passport number\n\n● Flight details\n\n● Arrival schedule\n\n● Travel information"
+  },
+  {
+    "source": "Indonesia-general-wonderful_indonesia.pdf",
+    "country": "Indonesia",
+    "location": "General",
+    "source_type": "Wonderful Indonesia",
+    "topic": "visa_entry",
+    "content_type": "information",
+    "travel_intents": [
+      "visa",
+      "entry",
+      "arrival"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "Practical Tips for Travelers When Using All Indonesia",
+    "parent_id": 36,
+    "child_id": 36,
+    "length": 1077,
+    "chunk_text": "To ensure your arrival process runs smoothly, follow these tips:\n\n● Complete All Indonesia before your departure day-don't wait until you arrive.\n\n● Make sure your passport and flight details are correct (name, passport number, dates).\n\n● Prepare a stable internet connection.\n\n● Save proof of submission or take a screenshot if needed.\n\nAll Indonesia is a practical solution for travelers who want to enter Indonesia more easily.\n\nWith features such as the online arrival card, automatic data storage, multilingual support,\n\nand real-time notifications, travelers can save time and reduce stress upon arrival at the airport.\n\nIf you are planning to travel to Indonesia soon, make sure to access and complete All Indonesia early through the official link:\n\nhttps://allindonesia.imigrasi.go.id\n\nOnce your arrival process is complete, it's time to enjoy your trip!\n\nIf you would like destination recommendations, itineraries, local culture insights, travel tips, or have other questions about traveling in Indonesia, you can ask MaiA, the official AI Chatbot on indonesia.travel.",
+    "parent_chunk": "To ensure your arrival process runs smoothly, follow these tips:\n\n● Complete All Indonesia before your departure day-don't wait until you arrive.\n\n● Make sure your passport and flight details are correct (name, passport number, dates).\n\n● Prepare a stable internet connection.\n\n● Save proof of submission or take a screenshot if needed.\n\nAll Indonesia is a practical solution for travelers who want to enter Indonesia more easily.\n\nWith features such as the online arrival card, automatic data storage, multilingual support,\n\nand real-time notifications, travelers can save time and reduce stress upon arrival at the airport.\n\nIf you are planning to travel to Indonesia soon, make sure to access and complete All Indonesia early through the official link:\n\nhttps://allindonesia.imigrasi.go.id\n\nOnce your arrival process is complete, it's time to enjoy your trip!\n\nIf you would like destination recommendations, itineraries, local culture insights, travel tips, or have other questions about traveling in Indonesia, you can ask MaiA, the official AI Chatbot on indonesia.travel."
+  }
+]

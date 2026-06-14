@@ -1,5 +1,5 @@
 from typing import TypedDict, Dict, Any, List
-
+import json
 from langgraph.graph import StateGraph, END
 
 from app.retrieval.hybrid_retrieve import retrieve_by_location_strategy
@@ -10,10 +10,10 @@ from app.llm.json_utils import extract_json_object
 from copy import deepcopy
 from app.planning.restaurant_suggestions import attach_restaurants_to_itinerary
 from app.planning.attach_travel_time import attach_travel_time
-from app.planning.itinerary_validator import validate_itinerary,validate_and_fix_coordinates
+from app.planning.itinerary_validator import validate_itinerary,validate_and_fix_coordinates,normalize_name
 from app.planning.weather_enrichment import attach_weather_to_itinerary
-from app.planning.distance_planner import get_weather_safe_clusters
-
+from app.planning.distance_planner import get_weather_safe_clusters,geocode_pois,score_pois
+from app.planning.poi_metadata import collect_pois_from_metadata
 
 
 class ChatState(TypedDict):
@@ -377,22 +377,96 @@ def edit_itinerary_node(state: ChatState):
         print(weather_safe_cluster_context[:5000])
 
         weather_rules = f"""
-WEATHER REPLACEMENT RULES:
-- Regenerate the entire requested day, not only one activity.
-- Keep all other days exactly the same.
-- Use ONLY places listed under WEATHER SAFE CLUSTERS.
-- Do not invent new locations.
-- Do not use outdoor activities.
-- Do not use beaches, parks, gardens, islands, waterfalls, hiking areas, viewpoints, outdoor monuments, outdoor markets, marinas, waterfront walks, or open-air attractions.
-- Prefer places from the same cluster so the day remains geographically sensible.
-- Keep the same date and same city for the requested day.
-- Use exact latitude and longitude from WEATHER SAFE CLUSTERS.
-- Do not reuse coordinates from another place.
+            WEATHER REPLACEMENT RULES:
+            - Regenerate the entire requested day, not only one activity.
+            - Keep all other days exactly the same.
+            - Use ONLY places listed under WEATHER SAFE CLUSTERS.
+            - Do not invent new locations.
+            - Do not use outdoor activities.
+            - Do not use beaches, parks, gardens, islands, waterfalls, hiking areas, viewpoints, outdoor monuments, outdoor markets, marinas, waterfront walks, or open-air attractions.
+            - Prefer places from the same cluster so the day remains geographically sensible.
+            - Keep the same date and same city for the requested day.
+            - Use exact latitude and longitude from WEATHER SAFE CLUSTERS.
+            - Do not reuse coordinates from another place.
 
-WEATHER SAFE CLUSTERS:
-{weather_safe_cluster_context}
-"""
+            WEATHER SAFE CLUSTERS:
+            {weather_safe_cluster_context}
+            """
 
+        # =========================
+    # Geocode POIs from newly retrieved chat chunks
+    # =========================
+
+    existing_geocoded = state.get("geocoded", [])
+
+    retrieved_pois = collect_pois_from_metadata(
+        state.get("retrieved", [])
+    )
+
+    existing_names = {
+        normalize_name(poi.get("name"))
+        for poi in existing_geocoded
+    } | {
+        normalize_name(poi.get("canonical_name"))
+        for poi in existing_geocoded
+    }
+
+    new_pois = [
+        poi for poi in retrieved_pois
+        if normalize_name(poi) not in existing_names
+    ]
+
+    new_pois = list(dict.fromkeys(new_pois))
+
+    if new_pois:
+        print("\n===== CHAT EDIT NEW POIs FROM RETRIEVAL =====")
+        print(new_pois[:50])
+
+        new_geocoded = geocode_pois(
+            new_pois,
+            cities=state["profile"]["cities"],
+            country_hint=state["profile"]["country"],
+            max_distance_from_city_km=80,
+        )
+
+        new_geocoded = score_pois(
+            new_geocoded,
+            state["profile"],
+        )
+
+        existing_place_ids = {
+            poi.get("place_id")
+            for poi in existing_geocoded
+            if poi.get("place_id")
+        }
+
+        updated_geocoded = list(existing_geocoded)
+
+        for poi in new_geocoded:
+            place_id = poi.get("place_id")
+
+            if place_id and place_id not in existing_place_ids:
+                updated_geocoded.append(poi)
+                existing_place_ids.add(place_id)
+    else:
+        updated_geocoded = existing_geocoded
+
+    verified_pois_for_prompt = json.dumps(
+    [
+        {
+            "name": poi.get("canonical_name") or poi.get("name"),
+            "latitude": poi.get("lat"),
+            "longitude": poi.get("lng"),
+            "category": poi.get("category"),
+            "place_id": poi.get("place_id"),
+            "google_maps_url": poi.get("google_maps_url"),
+        }
+        for poi in updated_geocoded
+    ],
+    ensure_ascii=False,
+    indent=2,
+    )
+    
     prompt = f"""
 You are an itinerary modification assistant.
 
@@ -410,6 +484,9 @@ Retrieved travel context:
 User requested change:
 {state["user_message"]}
 
+Verified POIs:
+{verified_pois_for_prompt}
+
 Task:
 - Modify the raw itinerary according to the user's request.
 - Keep the same trip duration unless the user asks otherwise.
@@ -417,6 +494,8 @@ Task:
 - Do not include nearby_restaurants.
 - Do not include travel_from_previous.
 - Return ONLY valid JSON.
+- JSON null values must be written as null, never None.
+- Boolean values must be true/false, never True/False.
 - Do not use markdown.
 - Do not wrap in ```json.
 - Do not write explanation.
@@ -426,18 +505,25 @@ Task:
 - Do not move activities between days unless the user asks.
 - Do not duplicate any location already used elsewhere in the itinerary.
 - Before adding a location, check that it does not already appear in another day.
+- When adding or replacing activities, use ONLY places from Verified POIs.
+- Copy latitude, longitude, place_id, and google_maps_url exactly from Verified POIs.
+- If the requested place is not in Verified POIs, use the closest relevant verified POI instead.
+- Never invent coordinates, place_id, or google_maps_url.
 """
+    
+    
 
     updated_raw_itinerary = generate_with_ollama(
         prompt,
         model=MODELS["edit_itinerary"]
     )
 
+
     updated_raw_itinerary = extract_json_object(updated_raw_itinerary)
 
     updated_raw_itinerary, coordinate_issues = validate_and_fix_coordinates(
         updated_raw_itinerary,
-        state["geocoded"],
+        updated_geocoded,
     )
 
     if coordinate_issues:
@@ -463,7 +549,7 @@ Task:
 
     enriched_itinerary = attach_weather_to_itinerary(
         enriched_itinerary,
-        geocoded=state["geocoded"],
+        geocoded=updated_geocoded,
     )
 
     validation = validate_itinerary(enriched_itinerary)
@@ -472,7 +558,10 @@ Task:
         raw_itinerary=updated_raw_itinerary,
         enriched_itinerary=enriched_itinerary,
         validation=validation,
-        state=state,
+        state={
+            **state,
+            "geocoded": updated_geocoded,
+        },
     )
 
     if repaired_raw_itinerary != updated_raw_itinerary:
@@ -492,7 +581,7 @@ Task:
 
         enriched_itinerary = attach_weather_to_itinerary(
             enriched_itinerary,
-            geocoded=state["geocoded"],
+            geocoded=updated_geocoded,
         )
 
         validation = validate_itinerary(enriched_itinerary)
@@ -508,7 +597,9 @@ Task:
             "restaurants": restaurant_cache,
             "travel_times": travel_cache,
         },
+        "geocoded": updated_geocoded,
     }
+
 
 
 def regenerate_itinerary_node(state: ChatState):

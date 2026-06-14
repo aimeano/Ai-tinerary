@@ -240,7 +240,7 @@ def geocode_cluster_node(state: TravelState):
             pois,
             cities=[city],
             country_hint=profile["country"],
-            max_distance_from_city_km=50,
+            max_distance_from_city_km=80,
         )
 
         scored_pois = score_pois(
@@ -250,7 +250,7 @@ def geocode_cluster_node(state: TravelState):
 
         clusters = cluster_pois(
             scored_pois,
-            radius_km=0.8,
+            radius_km=3,
             max_pois_per_cluster=8,
         )
 
@@ -401,6 +401,8 @@ def generate_itinerary_node(state: TravelState):
         },
 
     }
+
+
 
 def resolve_flights_node(state: TravelState):
     from app.services.airlabs_service import get_flight_schedule

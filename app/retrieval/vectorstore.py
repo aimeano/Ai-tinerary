@@ -2,7 +2,7 @@ import os
 import uuid
 from dotenv import load_dotenv
 from qdrant_client import QdrantClient
-from qdrant_client.models import Distance, VectorParams, PointStruct,PayloadSchemaType
+from qdrant_client.models import Distance, VectorParams, PointStruct, PayloadSchemaType
 
 load_dotenv()
 
@@ -26,36 +26,23 @@ def recreate_collection(vector_size: int):
         )
     )
 
-
-def recreate_collection(vector_size: int):
-    if client.collection_exists(QDRANT_COLLECTION):
-        client.delete_collection(QDRANT_COLLECTION)
-
-    client.create_collection(
-        collection_name=QDRANT_COLLECTION,
-        vectors_config=VectorParams(
-            size=vector_size,
-            distance=Distance.COSINE
-        )
-    )
-
+        # Always create payload indexes after collection creation
     client.create_payload_index(
         collection_name=QDRANT_COLLECTION,
-        field_name="country",
+        field_name='country',
         field_schema=PayloadSchemaType.KEYWORD,
     )
 
     client.create_payload_index(
         collection_name=QDRANT_COLLECTION,
-        field_name="location",
+        field_name='location',
         field_schema=PayloadSchemaType.KEYWORD,
     )
 
-    client.create_payload_index(
-        collection_name=QDRANT_COLLECTION,
-        field_name="source",
-        field_schema=PayloadSchemaType.KEYWORD,
-    )
+    print("Collection created with indexes for: country, location")
+
+
+
 
 
 def upsert_chunks(chunks: list[dict], vectors: list[list[float]]):
