@@ -26,7 +26,7 @@ def recreate_collection(vector_size: int):
         )
     )
 
-        # Always create payload indexes after collection creation
+    # Always create payload indexes after collection creation
     client.create_payload_index(
         collection_name=QDRANT_COLLECTION,
         field_name='country',
