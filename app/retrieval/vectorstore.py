@@ -43,6 +43,8 @@ def recreate_collection(vector_size: int):
 
 
 
+
+
 def upsert_chunks(chunks: list[dict], vectors: list[list[float]]):
     points = []
 

@@ -213,6 +213,11 @@ def validate_and_fix_coordinates(
                 )
 
             if not poi:
+                activity["latitude"] = None
+                activity["longitude"] = None
+                activity["place_id"] = None
+                activity["google_maps_url"] = None
+
                 issues.append({
                     "type": "unsupported_poi",
                     "day": day.get("day"),
@@ -221,6 +226,7 @@ def validate_and_fix_coordinates(
                     "best_match_score": match_score,
                     "message": "Activity does not match any verified POI.",
                 })
+
                 continue
 
             activity["title"] = poi.get("name") or activity.get("title")
@@ -233,3 +239,5 @@ def validate_and_fix_coordinates(
             activity["google_maps_url"] = poi.get("google_maps_url")
 
     return raw_itinerary, issues
+
+
