@@ -29,10 +29,10 @@ def signup(payload: SignupRequest):
         token = create_access_token(user.user_id)
 
         return {
-            "access_token": token,
-            "user_id": user.user_id,
-            "email": user.email,
-            "name": user.name,
+            "access_token": token,  
+            "user_id": user.user_id,  
+            "email": user.email,  
+            "name": user.name  
         }
 
     except ValueError as e:
@@ -59,10 +59,10 @@ def login(payload: LoginRequest):
         token = create_access_token(user.user_id)
 
         return {
-            "access_token": token,
-            "user_id": user.user_id,
-            "email": user.email,
-            "name": user.name,
+            "access_token": token,  
+            "user_id": user.user_id,  
+            "email": user.email,  
+            "name": user.name  
         }
 
     except ValueError as e:

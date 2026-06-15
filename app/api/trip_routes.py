@@ -20,13 +20,12 @@ from app.memory.trip_state import create_trip_from_generation
 from app.api.schemas import CreateTripRequest, ChatRequest, WeatherReplaceRequest
 from app.planning.distance_planner import get_parent_retrieval_locations, get_weather_safe_clusters,find_city_for_activity
 from fastapi.responses import Response
-from app.services.export_iti import build_itinerary_html, generate_pdf_bytes
+from app.services.export_iti import build_itinerary_html, generate_pdf_bytes, generate_image_bytes  
 
 router = APIRouter(
     prefix="/trips",
     tags=["trips"],
 )
-
 
 @router.get("")
 def get_trips(
@@ -35,15 +34,55 @@ def get_trips(
     db = SessionLocal()
 
     try:
-        trips = list_user_trip_summaries(
-            db,
-            user_id,
-        )
+        trips_data = list_user_trip_summaries(db, user_id)
+
+        formatted_trips = []
+        for trip in trips_data:
+            try:
+                if isinstance(trip, dict):
+                    profile = trip.get("profile")
+                    
+                    if not profile:
+                        profile = {
+                            "country": trip.get("country", "Unknown"),
+                            "cities": trip.get("cities", []),
+                            "start_date": trip.get("start_date"),
+                            "end_date": trip.get("end_date"),
+                            "days": trip.get("days", 0),
+                        }
+                else:
+                    profile = {
+                        "country": getattr(trip, "country", "Unknown"),
+                        "cities": getattr(trip, "cities", []),
+                        "start_date": getattr(trip, "start_date", None),
+                        "end_date": getattr(trip, "end_date", None),
+                        "days": getattr(trip, "days", 0),
+                    }
+
+                formatted_trip = {
+                    "trip_id": trip["trip_id"] if isinstance(trip, dict) else trip.trip_id,
+                    "title": trip["title"] if isinstance(trip, dict) else trip.title,
+                    "profile": profile,
+                    "created_at": trip.get("created_at") if isinstance(trip, dict) else getattr(trip, "created_at", None),
+                    "updated_at": trip.get("updated_at") if isinstance(trip, dict) else getattr(trip, "updated_at", None),
+                }
+                formatted_trips.append(formatted_trip)
+                print(f"✅ Successfully formatted: {formatted_trip['trip_id']}")
+                
+            except Exception as e:
+                print(f"❌ Error formatting trip: {type(e).__name__}: {e}")
+                continue
+
+        print(f"\n===== RETURNING {len(formatted_trips)} FORMATTED TRIPS =====\n")
 
         return {
             "user_id": user_id,
-            "trips": trips,
+            "trips": formatted_trips,
         }
+
+    except Exception as e:
+        print(f"\n❌ ERROR IN GET_TRIPS: {type(e).__name__}: {e}")
+        raise
 
     finally:
         db.close()
@@ -453,7 +492,6 @@ def undo_itinerary(
             undo_message,
         )
         
-        
 
         return {
             "message": f"Undo successful. Restored version {previous_version}.",
@@ -462,10 +500,9 @@ def undo_itinerary(
             "restored_from_version": previous_version,
             "itinerary": restored_trip.itinerary,
         }
-
+    
     finally:
         db.close()
-
 
 @router.get("/{trip_id}/export/pdf")
 def export_trip_pdf(
@@ -496,6 +533,43 @@ def export_trip_pdf(
             media_type="application/pdf",
             headers={
                 "Content-Disposition": f'attachment; filename="{trip_id}_itinerary.pdf"'
+            },
+        )
+
+    finally:
+        db.close()
+
+@router.get("/{trip_id}/export/image")
+def export_trip_image(
+    trip_id: str,
+    user_id: str = Depends(get_current_user_id),
+):
+    db = SessionLocal()
+
+    try:
+        trip = load_user_trip(db, user_id, trip_id)
+
+        if not trip:
+            raise HTTPException(
+                status_code=404,
+                detail="Trip not found",
+            )
+
+        html = build_itinerary_html(
+            trip_id=trip_id,
+            itinerary=trip["itinerary"],
+            profile=trip["profile"],
+        )
+
+        # Import the async function
+        import asyncio
+        image_bytes = asyncio.run(generate_image_bytes(html))
+
+        return Response(
+            content=image_bytes,
+            media_type="image/png",
+            headers={
+                "Content-Disposition": f'attachment; filename="{trip_id}_itinerary.png"'
             },
         )
 
