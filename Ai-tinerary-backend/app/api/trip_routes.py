@@ -1,0 +1,577 @@
+from fastapi import APIRouter, Depends, HTTPException
+
+from app.api.dependencies import get_current_user_id
+from app.db.database import SessionLocal
+from app.db.trip_repository import (
+    list_user_trip_summaries,
+    load_user_trip,
+    save_trip,
+    delete_trip,
+    save_chat_message,
+    restore_trip_version,
+    update_trip_weather_only
+)
+from datetime import datetime
+from app.planning.weather_enrichment import attach_weather_to_itinerary
+from app.api.schemas import CreateTripRequest,ChatRequest
+from app.orchestrator.langgraph_workflow import run_initial_itinerary
+from app.orchestrator.chat_graph import run_chat_turn
+from app.memory.trip_state import create_trip_from_generation
+from app.api.schemas import CreateTripRequest, ChatRequest, WeatherReplaceRequest
+from app.planning.distance_planner import get_parent_retrieval_locations, get_weather_safe_clusters,find_city_for_activity
+from fastapi.responses import Response
+from app.services.export_iti import build_itinerary_html, generate_pdf_bytes, generate_image_bytes  
+
+router = APIRouter(
+    prefix="/trips",
+    tags=["trips"],
+)
+
+@router.get("")
+def get_trips(
+    user_id: str = Depends(get_current_user_id),
+):
+    db = SessionLocal()
+
+    try:
+        trips_data = list_user_trip_summaries(db, user_id)
+
+        formatted_trips = []
+        for trip in trips_data:
+            try:
+                if isinstance(trip, dict):
+                    profile = trip.get("profile")
+                    
+                    if not profile:
+                        profile = {
+                            "country": trip.get("country", "Unknown"),
+                            "cities": trip.get("cities", []),
+                            "start_date": trip.get("start_date"),
+                            "end_date": trip.get("end_date"),
+                            "days": trip.get("days", 0),
+                        }
+                else:
+                    profile = {
+                        "country": getattr(trip, "country", "Unknown"),
+                        "cities": getattr(trip, "cities", []),
+                        "start_date": getattr(trip, "start_date", None),
+                        "end_date": getattr(trip, "end_date", None),
+                        "days": getattr(trip, "days", 0),
+                    }
+
+                formatted_trip = {
+                    "trip_id": trip["trip_id"] if isinstance(trip, dict) else trip.trip_id,
+                    "title": trip["title"] if isinstance(trip, dict) else trip.title,
+                    "profile": profile,
+                    "created_at": trip.get("created_at") if isinstance(trip, dict) else getattr(trip, "created_at", None),
+                    "updated_at": trip.get("updated_at") if isinstance(trip, dict) else getattr(trip, "updated_at", None),
+                }
+                formatted_trips.append(formatted_trip)
+                print(f"✅ Successfully formatted: {formatted_trip['trip_id']}")
+                
+            except Exception as e:
+                print(f"❌ Error formatting trip: {type(e).__name__}: {e}")
+                continue
+
+        print(f"\n===== RETURNING {len(formatted_trips)} FORMATTED TRIPS =====\n")
+
+        return {
+            "user_id": user_id,
+            "trips": formatted_trips,
+        }
+
+    except Exception as e:
+        print(f"\n❌ ERROR IN GET_TRIPS: {type(e).__name__}: {e}")
+        raise
+
+    finally:
+        db.close()
+
+
+@router.get("/{trip_id}")
+def get_trip(
+    trip_id: str,
+    user_id: str = Depends(get_current_user_id),
+):
+    db = SessionLocal()
+
+    try:
+        trip = load_user_trip(
+            db,
+            user_id,
+            trip_id,
+        )
+
+        if not trip:
+            raise HTTPException(
+                status_code=404,
+                detail="Trip not found",
+            )
+
+        trip["itinerary"] = attach_weather_to_itinerary(
+            trip["itinerary"],
+            geocoded=trip.get("geocoded", []),
+        )
+
+        update_trip_weather_only(
+            db,
+            trip_id,
+            trip["itinerary"],
+        )
+
+        clean_chat_history = []
+
+        for msg in trip.get("chat_history", []):
+            content = msg.get("content")
+
+            if isinstance(content, dict):
+                content = content.get(
+                    "message",
+                    "I've updated your itinerary."
+                )
+
+            clean_chat_history.append({
+                "role": msg.get("role"),
+                "content": content,
+                "created_at": msg.get("created_at"),
+            })
+
+        return {
+            "trip_id": trip["trip_id"],
+            "title": trip["title"],
+            "profile": trip["profile"],
+            "itinerary": trip["itinerary"],
+            "itinerary_version": trip.get("itinerary_version", 1),
+            "chat_history": clean_chat_history,
+            "created_at": trip["created_at"],
+            "updated_at": trip["updated_at"],
+        }
+
+    finally:
+        db.close()
+
+@router.delete("/{trip_id}")
+def delete_trip_route(
+    trip_id: str,
+    user_id: str = Depends(get_current_user_id),
+):
+    db = SessionLocal()
+
+    try:
+        deleted = delete_trip(
+            db,
+            user_id,
+            trip_id,
+        )
+
+        if not deleted:
+            raise HTTPException(
+                status_code=404,
+                detail="Trip not found",
+            )
+
+        return {
+            "deleted": True,
+            "trip_id": trip_id,
+        }
+
+    finally:
+        db.close()
+
+@router.post("")
+def create_trip(
+    payload: CreateTripRequest,
+    user_id: str = Depends(get_current_user_id),
+):
+    start_dt = datetime.strptime(payload.start_date, "%Y-%m-%d")
+    end_dt = datetime.strptime(payload.end_date, "%Y-%m-%d")
+
+    days = (end_dt - start_dt).days + 1
+
+    cities = [
+        city.strip().title()
+        for city in payload.cities
+        if city.strip()
+    ]
+
+    flights = []
+
+    if payload.arrival_flight_number:
+        flights.append({
+            "type": "arrival",
+            "city": cities[0],
+            "date": payload.start_date,
+            "flight_number": payload.arrival_flight_number.strip(),
+        })
+
+    if payload.departure_flight_number:
+        flights.append({
+            "type": "departure",
+            "city": cities[-1],
+            "date": payload.end_date,
+            "flight_number": payload.departure_flight_number.strip(),
+        })
+
+    print("\n===== CREATE TRIP FLIGHT INPUT =====")
+    print("arrival:", payload.arrival_flight_number)
+    print("departure:", payload.departure_flight_number)
+
+    profile = {
+        "country": payload.country.title(),
+        "cities": cities,
+        "retrieval_locations": get_parent_retrieval_locations(
+            cities,
+            payload.country.title(),
+        ),
+        "start_date": payload.start_date,
+        "end_date": payload.end_date,
+        "days": days,
+        "travel_style": payload.travel_style,
+        "interests": payload.interests,
+        "budget": payload.budget,
+        "must_include": payload.must_include,
+        "flights": flights,
+    }
+
+    print("\n===== PROFILE FLIGHTS BEFORE GRAPH =====")
+    print(profile.get("flights"))
+
+    generated = run_initial_itinerary(profile)
+    trip = create_trip_from_generation(generated)
+
+    db = SessionLocal()
+
+
+    try:
+        save_trip(db, user_id, trip)
+
+        return {
+            "trip_id": trip["trip_id"],
+            "title": trip["title"],
+            "profile": trip["profile"],
+            "itinerary": trip["itinerary"],
+            "created": True,
+        }
+
+    finally:
+        db.close()
+
+
+
+@router.post("/{trip_id}/chat")
+def chat_trip(
+    trip_id: str,
+    payload: ChatRequest,
+    user_id: str = Depends(get_current_user_id),
+):
+    db = SessionLocal()
+
+    try:
+        trip = load_user_trip(
+            db,
+            user_id,
+            trip_id,
+        )
+
+        if not trip:
+            raise HTTPException(
+                status_code=404,
+                detail="Trip not found",
+            )
+
+        answer, updated_trip = run_chat_turn(
+            trip,
+            payload.message,
+        )
+
+        if isinstance(answer, dict):
+            itinerary_updated = "itinerary" in answer
+
+            message = answer.get(
+                "message",
+                "I've updated your itinerary."
+                if itinerary_updated
+                else "Done."
+            )
+
+            response = {
+                "trip_id": updated_trip["trip_id"],
+                "message": message,
+                "itinerary_updated": itinerary_updated,
+            }
+
+            if itinerary_updated:
+                response["itinerary"] = answer.get("itinerary")
+                response["validation"] = answer.get("validation")
+                response["itinerary_version"] = updated_trip.get("itinerary_version", 1)
+
+        else:
+            message = answer
+
+            response = {
+                "trip_id": updated_trip["trip_id"],
+                "message": message,
+                "itinerary_updated": False,
+            }
+
+        if response["itinerary_updated"]:
+            save_trip(
+                db,
+                user_id,
+                updated_trip,
+            )
+
+
+
+        save_chat_message(
+            db,
+            updated_trip["trip_id"],
+            "user",
+            payload.message,
+        )
+
+        save_chat_message(
+            db,
+            updated_trip["trip_id"],
+            "assistant",
+            message,
+        )
+
+        return response
+
+    finally:
+        db.close()
+
+@router.post("/{trip_id}/weather-replace")
+def replace_bad_weather_activity(
+    trip_id: str,
+    payload: WeatherReplaceRequest,
+    user_id: str = Depends(get_current_user_id),
+):
+    db = SessionLocal()
+
+    try:
+        trip = load_user_trip(db, user_id, trip_id)
+
+        if not trip:
+            raise HTTPException(
+                status_code=404,
+                detail="Trip not found",
+            )
+
+        day_index = payload.day - 1
+        activity_index = payload.activity_index
+
+        try:
+            day = trip["itinerary"]["days"][day_index]
+            activity = day["activities"][activity_index]
+        except Exception:
+            raise HTTPException(
+                status_code=400,
+                detail="Invalid day or activity_index",
+            )
+        
+        city = find_city_for_activity(
+            activity,
+            trip.get("clusters", []),
+        )
+
+        if not city:
+            city = trip["profile"]["cities"][0]
+
+        print("\n===== WEATHER DAY CITY =====")
+        print(city)
+
+        print("\n===== WEATHER DAY CITY =====")
+        print(city)
+
+        safe_clusters = get_weather_safe_clusters(
+            trip.get("clusters", []),
+            city,
+        )
+
+
+
+        print("\n===== WEATHER SAFE CLUSTERS =====")
+
+        for cluster in safe_clusters:
+            print(
+                cluster["cluster_id"],
+                cluster["assigned_city"],
+                len(cluster["places"]),
+            )
+
+        weather = activity.get("weather", {})
+
+        if not weather.get("is_bad_weather"):
+            raise HTTPException(
+                status_code=400,
+                detail="This activity is not marked as bad weather.",
+            )
+
+        message = (
+            f"Edit itinerary only. Weather is bad on day {payload.day}. "
+            f"Replace the entire day {payload.day} with indoor weather-safe activities only. "
+            f"Use only the provided WEATHER SAFE CLUSTERS. "
+            f"Keep the same city and same date. "
+            f"Keep all other days exactly the same."
+        )
+
+        trip["weather_safe_clusters"] = safe_clusters
+
+        answer, updated_trip = run_chat_turn(
+            trip,
+            message,
+        )
+
+        if isinstance(answer, dict):
+            itinerary_updated = "itinerary" in answer
+            assistant_message = answer.get(
+                "message",
+                "I've replaced the bad-weather activity with an indoor option."
+            )
+        else:
+            itinerary_updated = False
+            assistant_message = answer
+
+        save_trip(db, user_id, updated_trip)
+
+        return {
+            "trip_id": trip_id,
+            "message": assistant_message,
+            "itinerary_updated": itinerary_updated,
+            "itinerary": updated_trip["itinerary"],
+        }
+
+    finally:
+        db.close()
+
+@router.post("/{trip_id}/undo")
+def undo_itinerary(
+    trip_id: str,
+    user_id: str = Depends(get_current_user_id),
+):
+    db = SessionLocal()
+
+    try:
+        trip = load_user_trip(db, user_id, trip_id)
+
+        if not trip:
+            raise HTTPException(status_code=404, detail="Trip not found")
+
+        current_version = trip.get("itinerary_version", 1)
+        previous_version = current_version - 1
+
+        if previous_version < 1:
+            raise HTTPException(
+                status_code=400,
+                detail="No previous itinerary version to restore.",
+            )
+
+        restored_trip = restore_trip_version(
+            db,
+            trip_id,
+            previous_version,
+        )
+
+        if not restored_trip:
+            raise HTTPException(
+                status_code=404,
+                detail="Previous version not found.",
+            )
+        
+        undo_message = (
+            f"Undo successful. Restored itinerary version "
+            f"{previous_version}."
+        )
+
+        save_chat_message(
+            db,
+            restored_trip.trip_id,
+            "assistant",
+            undo_message,
+        )
+        
+
+        return {
+            "message": f"Undo successful. Restored version {previous_version}.",
+            "trip_id": restored_trip.trip_id,
+            "current_version": restored_trip.itinerary_version,
+            "restored_from_version": previous_version,
+            "itinerary": restored_trip.itinerary,
+        }
+    
+    finally:
+        db.close()
+
+@router.get("/{trip_id}/export/pdf")
+def export_trip_pdf(
+    trip_id: str,
+    user_id: str = Depends(get_current_user_id),
+):
+    db = SessionLocal()
+
+    try:
+        trip = load_user_trip(db, user_id, trip_id)
+
+        if not trip:
+            raise HTTPException(
+                status_code=404,
+                detail="Trip not found",
+            )
+
+        html = build_itinerary_html(
+            trip_id=trip_id,
+            itinerary=trip["itinerary"],
+            profile=trip["profile"],
+        )
+
+        pdf_bytes = generate_pdf_bytes(html)
+
+        return Response(
+            content=pdf_bytes,
+            media_type="application/pdf",
+            headers={
+                "Content-Disposition": f'attachment; filename="{trip_id}_itinerary.pdf"'
+            },
+        )
+
+    finally:
+        db.close()
+
+@router.get("/{trip_id}/export/image")
+def export_trip_image(
+    trip_id: str,
+    user_id: str = Depends(get_current_user_id),
+):
+    db = SessionLocal()
+
+    try:
+        trip = load_user_trip(db, user_id, trip_id)
+
+        if not trip:
+            raise HTTPException(
+                status_code=404,
+                detail="Trip not found",
+            )
+
+        html = build_itinerary_html(
+            trip_id=trip_id,
+            itinerary=trip["itinerary"],
+            profile=trip["profile"],
+        )
+
+        # Import the async function
+        import asyncio
+        image_bytes = asyncio.run(generate_image_bytes(html))
+
+        return Response(
+            content=image_bytes,
+            media_type="image/png",
+            headers={
+                "Content-Disposition": f'attachment; filename="{trip_id}_itinerary.png"'
+            },
+        )
+
+    finally:
+        db.close()

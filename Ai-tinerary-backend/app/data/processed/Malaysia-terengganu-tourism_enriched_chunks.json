@@ -1,0 +1,301 @@
+[
+  {
+    "source": "Malaysia-terengganu-tourism.pdf",
+    "country": "Malaysia",
+    "location": "Terengganu",
+    "source_type": "Tourism",
+    "topic": "general_overview",
+    "content_type": "text",
+    "travel_intents": [
+      "overview",
+      "information"
+    ],
+    "pois": [],
+    "is_itinerary_content": false,
+    "is_practical_info": true,
+    "section": "MAP & GUIDE",
+    "parent_id": 0,
+    "child_id": 0,
+    "length": 504,
+    "chunk_text": "ALL RIGHTS RESERVED. No portion of this publication may be reproduced in whole or part without the written permission of the publisher. While every effort has been made to ensure that the information contained herein is correct at the time of publication, Tourism Malaysia shall not be held liable for any errors, omissions or inaccuracies which may occur.\n\nTMG (English) / IH / PR November 2023 (1123)\n\nPublished by Tourism Malaysia, Ministry of Tourism, Arts and Culture, Malaysia\n\nScan for Interactive",
+    "parent_chunk": "ALL RIGHTS RESERVED. No portion of this publication may be reproduced in whole or part without the written permission of the publisher. While every effort has been made to ensure that the information contained herein is correct at the time of publication, Tourism Malaysia shall not be held liable for any errors, omissions or inaccuracies which may occur.\n\nTMG (English) / IH / PR November 2023 (1123)\n\nPublished by Tourism Malaysia, Ministry of Tourism, Arts and Culture, Malaysia\n\nScan for Interactive"
+  },
+  {
+    "source": "Malaysia-terengganu-tourism.pdf",
+    "country": "Malaysia",
+    "location": "Terengganu",
+    "source_type": "Tourism",
+    "topic": "attractions",
+    "content_type": "text",
+    "travel_intents": [
+      "experience",
+      "observe",
+      "participate",
+      "visit"
+    ],
+    "pois": [
+      "Kampung Teluk Ketapang",
+      "Wan Man Island",
+      "Islamic Civilisation Park",
+      "Crystal Mosque",
+      "Terengganu State Museum Complex",
+      "Kampung Losong",
+      "Pulau Duyong"
+    ],
+    "is_itinerary_content": true,
+    "is_practical_info": false,
+    "section": "PLACES OF INTERES",
+    "parent_id": 1,
+    "child_id": 1,
+    "length": 1526,
+    "chunk_text": "Kampung Teluk Ketapang is a small fishing village where visitors can experience the traditional Terengganu way of life. During their stay, guests will have the opportunity to observe how local dishes are prepared and help out in the kitchen. Other activities include participating in various traditional games, fishing as well as visits to local cottage industries.\n\nBuilt on Wan Man Island, the 22-hectare Islamic Civilisation Park takes visitors on an intriguing journey through the Islamic world's rich art and cultural heritage. Among the interactive theme park's key attractions are scaled-down replicas of Islamic monuments from around the world, the iconic Crystal Mosque, 3D cinema and a range of fun rides.\n\nTouted as the largest museum in Southeast Asia, the Terengganu State Museum Complex in Kampung Losong comprises a main museum, maritime museum, fisheries museum, traditional timber houses as well as botanic and herb gardens. Its vast collection of age-old artefacts, works of art and exhibits offers a glimpse into the state's rich heritage. The original Batu Bersurat is prominently displayed at the museum's main entrance.\n\nPulau Duyong is a small island noted for its traditional boat building industry. The master craftsmen here are known to build boats and even yachts from memory and experience without the use of blueprints or nails. Visitors will have the opportunity to observe these skilled boat makers at work in numerous workshops around the island.\n\n+609 623 1553\n\n(Terengganu Tourism Department)",
+    "parent_chunk": "Kampung Teluk Ketapang is a small fishing village where visitors can experience the traditional Terengganu way of life. During their stay, guests will have the opportunity to observe how local dishes are prepared and help out in the kitchen. Other activities include participating in various traditional games, fishing as well as visits to local cottage industries.\n\nBuilt on Wan Man Island, the 22-hectare Islamic Civilisation Park takes visitors on an intriguing journey through the Islamic world's rich art and cultural heritage. Among the interactive theme park's key attractions are scaled-down replicas of Islamic monuments from around the world, the iconic Crystal Mosque, 3D cinema and a range of fun rides.\n\nTouted as the largest museum in Southeast Asia, the Terengganu State Museum Complex in Kampung Losong comprises a main museum, maritime museum, fisheries museum, traditional timber houses as well as botanic and herb gardens. Its vast collection of age-old artefacts, works of art and exhibits offers a glimpse into the state's rich heritage. The original Batu Bersurat is prominently displayed at the museum's main entrance.\n\nPulau Duyong is a small island noted for its traditional boat building industry. The master craftsmen here are known to build boats and even yachts from memory and experience without the use of blueprints or nails. Visitors will have the opportunity to observe these skilled boat makers at work in numerous workshops around the island.\n\n+609 623 1553\n\n(Terengganu Tourism Department)"
+  },
+  {
+    "source": "Malaysia-terengganu-tourism.pdf",
+    "country": "Malaysia",
+    "location": "Terengganu",
+    "source_type": "Tourism",
+    "topic": "attractions",
+    "content_type": "text",
+    "travel_intents": [
+      "sightseeing",
+      "heritage"
+    ],
+    "pois": [
+      "Kampung Cina",
+      "UNESCO World Heritage Site"
+    ],
+    "is_itinerary_content": true,
+    "is_practical_info": false,
+    "section": "KAMPUNG CINA (CHINATOWN)",
+    "parent_id": 2,
+    "child_id": 2,
+    "length": 406,
+    "chunk_text": "Established by the Chinese community in the late 19th century, Kampung Cina was once a major centre of commercial activity in its heyday. Today, its quaint streets are lined with souvenir shops, restaurants as well as a variety of other stores. It has been declared a UNESCO World Heritage Site under the World Monument Watch Programme to ensure the preservation of its pre-colonial heritage and buildings.",
+    "parent_chunk": "Established by the Chinese community in the late 19th century, Kampung Cina was once a major centre of commercial activity in its heyday. Today, its quaint streets are lined with souvenir shops, restaurants as well as a variety of other stores. It has been declared a UNESCO World Heritage Site under the World Monument Watch Programme to ensure the preservation of its pre-colonial heritage and buildings."
+  },
+  {
+    "source": "Malaysia-terengganu-tourism.pdf",
+    "country": "Malaysia",
+    "location": "Terengganu",
+    "source_type": "Tourism",
+    "topic": "attractions",
+    "content_type": "text",
+    "travel_intents": [
+      "visit",
+      "explore",
+      "experience"
+    ],
+    "pois": [
+      "Pasar Kedai Payang",
+      "Waterfront Heritage Bazaar",
+      "Pantai Batu Burok",
+      "Batu Burok Food Centre"
+    ],
+    "is_itinerary_content": true,
+    "is_practical_info": false,
+    "section": "PASAR KEDAI PAYANG",
+    "parent_id": 3,
+    "child_id": 3,
+    "length": 970,
+    "chunk_text": "Kuala Terengganu's central market, Pasar Kedai Payang, is a popular market frequented by both locals and visitors. Besides fresh local produce, the market offers a variety of traditional snacks, textiles, handicrafts, trinkets and more. The nearby Waterfront Heritage Bazaar is another must-visit for visitors to\n\nTerengganu as it boasts an interesting selection of shops selling all kinds of local handicrafts and delicacies.\n\n+609 623 1553\n\n+609 623 1553\n\n(Terengganu Tourism Department)\n\n(Terengganu Tourism Department)\n\nPantai Batu Burok is a beautiful beach located just 1 km away from the Kuala Terengganu city centre. A popular venue for kite flying and picnics, the beach is always a hive of activity. Cultural performances as well as demonstrations of traditional pastimes and games are often staged here on weekends. Visitors can savour an array of local food and beverages at the Batu Burok Food Centre located near the beach.\n\n(Terengganu Tourism Department)",
+    "parent_chunk": "Kuala Terengganu's central market, Pasar Kedai Payang, is a popular market frequented by both locals and visitors. Besides fresh local produce, the market offers a variety of traditional snacks, textiles, handicrafts, trinkets and more. The nearby Waterfront Heritage Bazaar is another must-visit for visitors to\n\nTerengganu as it boasts an interesting selection of shops selling all kinds of local handicrafts and delicacies.\n\n+609 623 1553\n\n+609 623 1553\n\n(Terengganu Tourism Department)\n\n(Terengganu Tourism Department)\n\nPantai Batu Burok is a beautiful beach located just 1 km away from the Kuala Terengganu city centre. A popular venue for kite flying and picnics, the beach is always a hive of activity. Cultural performances as well as demonstrations of traditional pastimes and games are often staged here on weekends. Visitors can savour an array of local food and beverages at the Batu Burok Food Centre located near the beach.\n\n(Terengganu Tourism Department)"
+  },
+  {
+    "source": "Malaysia-terengganu-tourism.pdf",
+    "country": "Malaysia",
+    "location": "Terengganu",
+    "source_type": "Tourism",
+    "topic": "attractions",
+    "content_type": "text",
+    "travel_intents": [
+      "visit",
+      "explore",
+      "sightseeing"
+    ],
+    "pois": [
+      "Masjid Tengku Tengah Zaharah",
+      "Terengganu Drawbridge",
+      "Noor Arta",
+      "Sultan Mahmud Airport",
+      "Redang Island",
+      "Taman Syahbandar",
+      "Mimpi Perhentian",
+      "Dungun Dive Resort",
+      "Taaras Beach & Spa Resort"
+    ],
+    "is_itinerary_content": true,
+    "is_practical_info": false,
+    "section": "MASJID TENGKU TENGAH ZAHARAH",
+    "parent_id": 4,
+    "child_id": 4,
+    "length": 4718,
+    "chunk_text": "Masjid Tengku Tengah Zaharah is often referred to as the 'Floating Mosque' as it was built on a platform in the middle of a lake. The iconic white mosque is a blend of modern and traditional Moorish architecture which reflects the ongoing modernisation of the state. Set against the panoramic backdrop of the South China Sea, this awe-inspiring mosque is truly a sight to behold.\n\nA prestigious landmark in Terengganu, Terengganu Drawbridge is a grand structure spanning 638 metres, connecting the towns of Kuala Terengganu and Kuala Nerus. The bridge is a source of pride for the state as it has the distinction of being Southeast Asia's first tower drawbridge. Its 76-metre bascule is the longest ever to be built on a drawbridge. The walkways on the 15th floor give a chance for visitors to enjoy panoramic views of the South China Sea, Terengganu River and the sprawling city. More attractions include a gallery, an exciting semi glass-bottomed Sky Terrace and a restaurant.\n\nA pioneering and leading producer of hand-painted batik in Malaysia, Noor Arta is known for its meticulous designs and quality fabrics. Located about 15km south of Kuala Terengganu, the 2.5-acre complex houses a manufacturing facility, demonstration areas, factory outlet and one of the nation's largest batik showrooms. More than 200 different kinds of handicraft products are available for purchase at the complex.\n\nSituated in the heart of Southeast Asia, Malaysia is a vibrant destination with a diversity of cultures and traditions. This tropical paradise boasts pristine jungles and verdant national parks that are teeming with numerous species of birds and wildlife.\n\nMalaysia's sun-drenched islands and beaches are home to a stunning range of marine life. Its natural wealth is complemented by magnificent modern landmarks and heritage buildings. There is something to charm every visitor, be it a history-lover, natureenthusiast, sun-seeker or an avid shopper. Explore the length and breadth of the country to discover the many attractions of Malaysia!\n\nA treasure trove of natural and cultural wonders, Terengganu is often fittingly referred to as the 'Gem of the East Coast'. Visitors will be captivated by its unspoiled landscape, dotted with quaint small towns, rustic coastal villages and verdant greenery. To sun and sea lovers, it is the gateway to some of Malaysia's most beautiful islands where diving and other leisure activities abound. Bordered by the South China Sea to the east, it boasts a 244km coastline, the longest in Peninsular Malaysia. Deeply rooted in traditional Malay culture, Terengganu showcases a variety of crafts, from boat building to batik printing.\n\nTerengganu is accessible via an interconnected network of expressways and roads from all major towns and cities in Peninsular Malaysia. The state is also easily accessible by air with Malaysia Airlines, AirAsia and Firefly offering daily flights from Kuala Lumpur to the Sultan Mahmud Airport in Kuala Terengganu, just 14km from the city centre. Besides daily flights to Kuala Terengganu from Penang, Firefly also flies to Kerteh in Kemaman from Subang. SKS Airways operates daily direct flights from Kuala Lumpur to Redang Island.\n\nGetting around Kuala Terengganu is a breeze as Heritage City shuttle buses ply a fixed route past the city's top attractions. The starting point is at Taman Syahbandar, where visitors can choose from the two routes available. Taxis are also easily available in the city and major towns. Brightly-decorated trishaws are another attraction in Kuala Terengganu.\n\nThe best shopping experiences in Terengganu revolve around its cultural heritage and vibrant cottage industries. An endless array of shops selling all kinds of local products can be found at the Pasar Kedai Payang in Kuala Terengganu's city centre. Souvenir items include Terengganu handicrafts such as silverware, batik, songket, brassware as well as woven pandanus mats and baskets.\n\nTerengganu serves up a tempting variety of local delicacies which can be found almost everywhere in the state. Western cuisine is available at hotels while fast food outlets can be found in most major towns. Terengganu is well known for rice-based dishes such as nasi dagang with gulai ikan tongkol (spiced rice with spicy tuna curry), nasi kunyit (glutinous rice cooked in coconut milk and turmeric) and nasi kerabu (rice mixed with various herbs, spices and vegetables). Other must-try local delicacies here are the keropok lekor (crackers made from a mixture of fish and sago), laksam (flat rice noodles in a rich fish gravy) and budu (fermented anchovies).\n\nMimpi Perhentian\n\n09-6977777\n\nDungun Dive Resort\n\n09-8486541\n\nTaaras Beach & Spa Resort *****\n\n09-6308888",
+    "parent_chunk": "Masjid Tengku Tengah Zaharah is often referred to as the 'Floating Mosque' as it was built on a platform in the middle of a lake. The iconic white mosque is a blend of modern and traditional Moorish architecture which reflects the ongoing modernisation of the state. Set against the panoramic backdrop of the South China Sea, this awe-inspiring mosque is truly a sight to behold.\n\nA prestigious landmark in Terengganu, Terengganu Drawbridge is a grand structure spanning 638 metres, connecting the towns of Kuala Terengganu and Kuala Nerus. The bridge is a source of pride for the state as it has the distinction of being Southeast Asia's first tower drawbridge. Its 76-metre bascule is the longest ever to be built on a drawbridge. The walkways on the 15th floor give a chance for visitors to enjoy panoramic views of the South China Sea, Terengganu River and the sprawling city. More attractions include a gallery, an exciting semi glass-bottomed Sky Terrace and a restaurant.\n\nA pioneering and leading producer of hand-painted batik in Malaysia, Noor Arta is known for its meticulous designs and quality fabrics. Located about 15km south of Kuala Terengganu, the 2.5-acre complex houses a manufacturing facility, demonstration areas, factory outlet and one of the nation's largest batik showrooms. More than 200 different kinds of handicraft products are available for purchase at the complex.\n\nSituated in the heart of Southeast Asia, Malaysia is a vibrant destination with a diversity of cultures and traditions. This tropical paradise boasts pristine jungles and verdant national parks that are teeming with numerous species of birds and wildlife.\n\nMalaysia's sun-drenched islands and beaches are home to a stunning range of marine life. Its natural wealth is complemented by magnificent modern landmarks and heritage buildings. There is something to charm every visitor, be it a history-lover, natureenthusiast, sun-seeker or an avid shopper. Explore the length and breadth of the country to discover the many attractions of Malaysia!\n\nA treasure trove of natural and cultural wonders, Terengganu is often fittingly referred to as the 'Gem of the East Coast'. Visitors will be captivated by its unspoiled landscape, dotted with quaint small towns, rustic coastal villages and verdant greenery. To sun and sea lovers, it is the gateway to some of Malaysia's most beautiful islands where diving and other leisure activities abound. Bordered by the South China Sea to the east, it boasts a 244km coastline, the longest in Peninsular Malaysia. Deeply rooted in traditional Malay culture, Terengganu showcases a variety of crafts, from boat building to batik printing.\n\nTerengganu is accessible via an interconnected network of expressways and roads from all major towns and cities in Peninsular Malaysia. The state is also easily accessible by air with Malaysia Airlines, AirAsia and Firefly offering daily flights from Kuala Lumpur to the Sultan Mahmud Airport in Kuala Terengganu, just 14km from the city centre. Besides daily flights to Kuala Terengganu from Penang, Firefly also flies to Kerteh in Kemaman from Subang. SKS Airways operates daily direct flights from Kuala Lumpur to Redang Island.\n\nGetting around Kuala Terengganu is a breeze as Heritage City shuttle buses ply a fixed route past the city's top attractions. The starting point is at Taman Syahbandar, where visitors can choose from the two routes available. Taxis are also easily available in the city and major towns. Brightly-decorated trishaws are another attraction in Kuala Terengganu.\n\nThe best shopping experiences in Terengganu revolve around its cultural heritage and vibrant cottage industries. An endless array of shops selling all kinds of local products can be found at the Pasar Kedai Payang in Kuala Terengganu's city centre. Souvenir items include Terengganu handicrafts such as silverware, batik, songket, brassware as well as woven pandanus mats and baskets.\n\nTerengganu serves up a tempting variety of local delicacies which can be found almost everywhere in the state. Western cuisine is available at hotels while fast food outlets can be found in most major towns. Terengganu is well known for rice-based dishes such as nasi dagang with gulai ikan tongkol (spiced rice with spicy tuna curry), nasi kunyit (glutinous rice cooked in coconut milk and turmeric) and nasi kerabu (rice mixed with various herbs, spices and vegetables). Other must-try local delicacies here are the keropok lekor (crackers made from a mixture of fish and sago), laksam (flat rice noodles in a rich fish gravy) and budu (fermented anchovies).\n\nMimpi Perhentian\n\n09-6977777\n\nDungun Dive Resort\n\n09-8486541\n\nTaaras Beach & Spa Resort *****\n\n09-6308888"
+  },
+  {
+    "source": "Malaysia-terengganu-tourism.pdf",
+    "country": "Malaysia",
+    "location": "Terengganu",
+    "source_type": "Tourism",
+    "topic": "attractions",
+    "content_type": "text",
+    "travel_intents": [
+      "visit",
+      "admire"
+    ],
+    "pois": [
+      "Kampung Raja Woodcarving Centre",
+      "Kuala Besut"
+    ],
+    "is_itinerary_content": true,
+    "is_practical_info": false,
+    "section": "PULAU LANG TENGAH",
+    "parent_id": 5,
+    "child_id": 5,
+    "length": 569,
+    "chunk_text": "019 6243236\n\n011-18881999 012-9562393 016-2603548 019-9232730 09-691 4793\n\n019-309 2145\n\n019-9827488 014-803 300\n\n019-5999628\n\n016 9420732\n\n09-695 6989\n\nBesut takes pride as the woodcarving capital of Terengganu. Visitors can admire the intricate and exquisite designs of this time-honoured art at the Kampung Raja Woodcarving Centre or pay a visit to the master woodcarvers themselves in Kuala Besut. Featuring motifs inspired by Islamic art and nature, the\n\n+609 623 1553 woodcarvings can be found in many public buildings and houses.\n\n(Terengganu Tourism Department)",
+    "parent_chunk": "019 6243236\n\n011-18881999 012-9562393 016-2603548 019-9232730 09-691 4793\n\n019-309 2145\n\n019-9827488 014-803 300\n\n019-5999628\n\n016 9420732\n\n09-695 6989\n\nBesut takes pride as the woodcarving capital of Terengganu. Visitors can admire the intricate and exquisite designs of this time-honoured art at the Kampung Raja Woodcarving Centre or pay a visit to the master woodcarvers themselves in Kuala Besut. Featuring motifs inspired by Islamic art and nature, the\n\n+609 623 1553 woodcarvings can be found in many public buildings and houses.\n\n(Terengganu Tourism Department)"
+  },
+  {
+    "source": "Malaysia-terengganu-tourism.pdf",
+    "country": "Malaysia",
+    "location": "Terengganu",
+    "source_type": "Tourism",
+    "topic": "attractions",
+    "content_type": "text",
+    "travel_intents": [
+      "explore",
+      "weekend getaway",
+      "nature"
+    ],
+    "pois": [
+      "Pantai Bukit Keluang",
+      "Pulau Perhentian",
+      "Perhentian Besar",
+      "Perhentian Kecil"
+    ],
+    "is_itinerary_content": true,
+    "is_practical_info": false,
+    "section": "PANTAI BUKIT KELUANG",
+    "parent_id": 6,
+    "child_id": 6,
+    "length": 840,
+    "chunk_text": "One of the many hidden gems of Terengganu, Pantai Bukit Keluang offers a variety of outdoor experiences for all to enjoy. Besides a long stretch of pristine white sands, the area also features rocky outcrops, lush rainforests, a river and caves for visitors to explore. Located 10km from Kuala Besut, Pantai Bukit Keluang is a favourite weekend stopover for both locals and visitors.\n\n(Terengganu Tourism Department)\n\nPulau Perhentian is made up of two main islands, namely the larger and more developed Perhentian Besar; and Perhentian Kecil which is popular among budget travellers. The islands are a haven of relaxation with unspoiled jungles, shady palm trees and white sandy beaches. Its coral-rich waters and unique marine life make Perhentian a popular underwater paradise for diving and snorkelling.\n\n(Terengganu Tourism Department)",
+    "parent_chunk": "One of the many hidden gems of Terengganu, Pantai Bukit Keluang offers a variety of outdoor experiences for all to enjoy. Besides a long stretch of pristine white sands, the area also features rocky outcrops, lush rainforests, a river and caves for visitors to explore. Located 10km from Kuala Besut, Pantai Bukit Keluang is a favourite weekend stopover for both locals and visitors.\n\n(Terengganu Tourism Department)\n\nPulau Perhentian is made up of two main islands, namely the larger and more developed Perhentian Besar; and Perhentian Kecil which is popular among budget travellers. The islands are a haven of relaxation with unspoiled jungles, shady palm trees and white sandy beaches. Its coral-rich waters and unique marine life make Perhentian a popular underwater paradise for diving and snorkelling.\n\n(Terengganu Tourism Department)"
+  },
+  {
+    "source": "Malaysia-terengganu-tourism.pdf",
+    "country": "Malaysia",
+    "location": "Terengganu",
+    "source_type": "Tourism",
+    "topic": "attractions",
+    "content_type": "text",
+    "travel_intents": [
+      "snorkelling",
+      "diving",
+      "relaxation",
+      "therapeutic",
+      "fishing",
+      "camping",
+      "jungle-trekking"
+    ],
+    "pois": [
+      "Pulau Lang Tengah",
+      "Pulau Perhentian",
+      "Pulau Redang",
+      "Batu Bersurat Terengganu",
+      "Kampung Buluh",
+      "Kuala Berang"
+    ],
+    "is_itinerary_content": true,
+    "is_practical_info": false,
+    "section": "PULAU LANG TENGAH",
+    "parent_id": 7,
+    "child_id": 7,
+    "length": 1060,
+    "chunk_text": "Tucked between the more famous Pulau Perhentian and Pulau Redang islands, Pulau Lang Tengah is really a tiny island as a round-island trip by speedboat takes only 10 minutes. In addition to it being a wonderful place to enjoy a quiet and peaceful break, Lang Tengah also features some of the best snorkelling and diving spots in Malaysia.\n\nVisitors flock to these natural hot springs for a chance to enjoy the therapeutic properties of the sulphur-rich water. Surrounded by a recreational forest and clear streams, this unique spot also offers activities such as fishing, camping and jungle-trekking. Chalets and campgrounds are available for overnight visitors.\n\nDating back to the 4th century, the Batu Bersurat Terengganu is the earliest recorded evidence of the spread of Islam in the region. It is listed on the United Nations Memory of the World register, a UNESCO programme aimed at preserving the world's documentary heritage. A replica has been built as a memorial in Kampung Buluh, Kuala Berang, where it was first discovered in 1903.\n\n+6019 978 6963",
+    "parent_chunk": "Tucked between the more famous Pulau Perhentian and Pulau Redang islands, Pulau Lang Tengah is really a tiny island as a round-island trip by speedboat takes only 10 minutes. In addition to it being a wonderful place to enjoy a quiet and peaceful break, Lang Tengah also features some of the best snorkelling and diving spots in Malaysia.\n\nVisitors flock to these natural hot springs for a chance to enjoy the therapeutic properties of the sulphur-rich water. Surrounded by a recreational forest and clear streams, this unique spot also offers activities such as fishing, camping and jungle-trekking. Chalets and campgrounds are available for overnight visitors.\n\nDating back to the 4th century, the Batu Bersurat Terengganu is the earliest recorded evidence of the spread of Islam in the region. It is listed on the United Nations Memory of the World register, a UNESCO programme aimed at preserving the world's documentary heritage. A replica has been built as a memorial in Kampung Buluh, Kuala Berang, where it was first discovered in 1903.\n\n+6019 978 6963"
+  },
+  {
+    "source": "Malaysia-terengganu-tourism.pdf",
+    "country": "Malaysia",
+    "location": "Terengganu",
+    "source_type": "Tourism",
+    "topic": "attractions",
+    "content_type": "text",
+    "travel_intents": [
+      "explore",
+      "dive",
+      "hike",
+      "cruise"
+    ],
+    "pois": [
+      "Pulau Redang",
+      "Pulau Redang Marine Park",
+      "HMS Prince of Wales",
+      "HMS Repulse",
+      "Gunung Tebu",
+      "Lata Belatan Waterfall",
+      "Pulau Perhentian",
+      "Chemerong Waterfall",
+      "Chemerong Forest Reserve",
+      "Bandar Al Muktafi Billah Shah",
+      "Dungun"
+    ],
+    "is_itinerary_content": true,
+    "is_practical_info": false,
+    "section": "+609 626 3062",
+    "parent_id": 8,
+    "child_id": 8,
+    "length": 1493,
+    "chunk_text": "(Majlis Pengurusan Taman Negeri)\n\nPulau Redang Is the largest of the nine protected islands that make up the Pulau Redang Marine Park. This island is famous for its numerous dive sites, clear waters and coral reefs that are rich in marine life. The waters around here also hold two historic WWII shipwrecks, namely the HMS Prince of Wales and HMS Repulse. The island offers a wide selection of resort-based accommodation.\n\n(Terengganu Tourism Department)\n\nGunung Tebu is said to be one of the easiest mountains to climb in Terengganu. Steeped in legend and blessed with rugged natural beauty, the Gunung Tebu peak is also the place to catch breathtaking views of Pulau Perhentian and the South China Sea. On the way down, visitors can stop by the Lata Belatan Waterfall to rest and cool off.\n\nCovering some 23,000 hectares, these wetlands feature nine interconnected ecosystems: sea, beach, mudflat, lagoon, estuary, river, island, coastal forest and mangrove forest. The area is also a known nesting ground for endangered species such as the green turtle and painted terrapin. Visitors can cruise down the river, go fishing and visit an aquaculture farm.\n\nThe multi-tiered Chemerong Waterfall is widely regarded as the highest waterfall in Malaysia. A truly spectacular sight, the water cascades down some 305m of rugged cliffs and rock faces before reaching the bottom. It is located within the Chemerong Forest Reserve, just 30km from Bandar Al Muktafi Billah Shah in Dungun.\n\n+609 848 1404",
+    "parent_chunk": "(Majlis Pengurusan Taman Negeri)\n\nPulau Redang Is the largest of the nine protected islands that make up the Pulau Redang Marine Park. This island is famous for its numerous dive sites, clear waters and coral reefs that are rich in marine life. The waters around here also hold two historic WWII shipwrecks, namely the HMS Prince of Wales and HMS Repulse. The island offers a wide selection of resort-based accommodation.\n\n(Terengganu Tourism Department)\n\nGunung Tebu is said to be one of the easiest mountains to climb in Terengganu. Steeped in legend and blessed with rugged natural beauty, the Gunung Tebu peak is also the place to catch breathtaking views of Pulau Perhentian and the South China Sea. On the way down, visitors can stop by the Lata Belatan Waterfall to rest and cool off.\n\nCovering some 23,000 hectares, these wetlands feature nine interconnected ecosystems: sea, beach, mudflat, lagoon, estuary, river, island, coastal forest and mangrove forest. The area is also a known nesting ground for endangered species such as the green turtle and painted terrapin. Visitors can cruise down the river, go fishing and visit an aquaculture farm.\n\nThe multi-tiered Chemerong Waterfall is widely regarded as the highest waterfall in Malaysia. A truly spectacular sight, the water cascades down some 305m of rugged cliffs and rock faces before reaching the bottom. It is located within the Chemerong Forest Reserve, just 30km from Bandar Al Muktafi Billah Shah in Dungun.\n\n+609 848 1404"
+  },
+  {
+    "source": "Malaysia-terengganu-tourism.pdf",
+    "country": "Malaysia",
+    "location": "Terengganu",
+    "source_type": "Tourism",
+    "topic": "attractions",
+    "content_type": "text",
+    "travel_intents": [
+      "relaxation",
+      "nature",
+      "culture",
+      "adventure"
+    ],
+    "pois": [
+      "Pantai Penarik",
+      "Redang",
+      "Lang Tengah",
+      "Perhentian",
+      "Pulau Kapas",
+      "Lake Kenyir",
+      "Rantau Abang",
+      "Turtle Information Centre",
+      "Turtle & Marine Ecology Centre",
+      "Terengganu river",
+      "Crystal Mosque",
+      "Terengganu Drawbridge",
+      "Pesisir Payang",
+      "Duyong Marina and Resort",
+      "Pulau Pasir",
+      "Teluk Mak Nik",
+      "Monica Bay",
+      "Kuala Dungun Jetty",
+      "Pulau Tenggol",
+      "Kampung Ibok",
+      "Chukai town"
+    ],
+    "is_itinerary_content": true,
+    "is_practical_info": false,
+    "section": "PANTAI PENARIK",
+    "parent_id": 9,
+    "child_id": 9,
+    "length": 4196,
+    "chunk_text": "Pantai Penarik offers a picturesque setting complete with a long sandy coastline, sparkling waters, quaint fishing villages and traditional Malay houses. From here, visitors can enjoy breathtaking vistas of the state's most famous islands, including Redang, Lang Tengah and Perhentian. The beach is perfect for holidaymakers looking for a quiet and relaxing getaway.\n\nThis recreational beach is best known as the venue for the annual district Cultural Fiesta and Kapas-Marang International Swimathon. A popular weekend destination, the beach is well equipped with facilities such as gazebos, washrooms, a performance stage and ample parking. Food stalls and restaurants nearby serve up fresh seafood delicacies and local favourites.\n\nPulau Kapas is a small island fringed by unspoiled beaches and clear blue waters. Isolated from the bustling mainland and yet easily reached, Pulau Kapas is the perfect place for a relaxing vacation. Its diverse mix of marine life includes fish, turtles and corals, drawing diving enthusiasts from around the world.\n\nMalaysia's largest man-made lake sprawls over 38,000 hectares, dotted by 340 islands. Fringed by a pristine forest reserve, the lake and its hinterland are a paradise for nature activities such as jungle walks, fishing, kayaking, canoeing and birdwatching. Houseboats are a novel way to take in the sights. Major attractions are Lasir and Soak Waterfalls, Kenyir Elephant Conservation Village, Kelan Fish Sanctuary and caving at Gua Bewah. The main entry point to Lake Kenyir is Pengkalan Gawi. Chalets, resorts and floating inns are available.\n\n+609 823 1000 (Lembaga Kemajuan Terengganu Tengah) / +609 626 7788, +609 822 3100 (Pengkalan Gawi Tourist Information Centre)\n\nRantau Abang is famous for being one of only six hatching sites in the world where giant leatherback turtles come ashore to lay their eggs. To know more about the turtles, head to the Turtle Information Centre. An Aquatic Bio-Diversity Gallery at the Turtle & Marine Ecology Centre within the vicinity of the Turtle Information Centre also offers displays of marine life species, seashells, replicas of marine life and marine information.\n\n+609 844 4169\n\n+6014 605 5454 (Jeti Pulau Warisan) Experience a cruise along Terengganu river like never before on board a water taxi! This cruise takes visitors traversing the lush natural setting while enjoying a fresh perspective of popular and iconic attractions such as the Crystal Mosque, Terengganu Drawbridge, Pesisir Payang, Duyong Marina and Resort and Pulau Pasir. Visitors have the option of selecting from two cruise routes. Added with delightful attractions such as selfie opportunities and seafood dinners, the Payang Water Taxi promises a fun-filled time for all.\n\nTeluk Mak Nik, sometimes referred to as Monica Bay, is an important nesting ground for green turtles. Located by the beach, the turtle sanctuary houses a hatchery where visitors can learn more about conservation efforts and view cute newborn hatchlings. Not surprisingly, the main activities here are turtle watching and helping to release turtle hatchlings back into the wild.\n\nThe farthest island from the mainland, Pulau Tenggol is accessible by boat via the Kuala Dungun Jetty, 80km south of Kuala Terengganu. Its well-sheltered bay is home to mature coral gardens with hard and soft corals, and teeming with spectacular marine life, making It a diver's dream destination. The island is located along the migratory route of whale sharks, an event that is highly anticipated by divers.\n\nPantai Kemasik is much more than just a beautiful beach with interesting rock formations. Situated nearby is a traditional fishing village where visitors can observe a simpler yet fascinating way of life. As traditional beach fishing is still practised here, visitors will also have the opportunity to try their hand at pulling in fishing nets on the beach.\n\nLocated in the village of Kampung Ibok, about 14km from Chukai town, this family favourite features a water park, aquarium, elephant park, bird park, orchid garden, fruit orchard and herb garden. Visitors can also enjoy amazing views of the surroundings from the suspension bridge and observation deck.",
+    "parent_chunk": "Pantai Penarik offers a picturesque setting complete with a long sandy coastline, sparkling waters, quaint fishing villages and traditional Malay houses. From here, visitors can enjoy breathtaking vistas of the state's most famous islands, including Redang, Lang Tengah and Perhentian. The beach is perfect for holidaymakers looking for a quiet and relaxing getaway.\n\nThis recreational beach is best known as the venue for the annual district Cultural Fiesta and Kapas-Marang International Swimathon. A popular weekend destination, the beach is well equipped with facilities such as gazebos, washrooms, a performance stage and ample parking. Food stalls and restaurants nearby serve up fresh seafood delicacies and local favourites.\n\nPulau Kapas is a small island fringed by unspoiled beaches and clear blue waters. Isolated from the bustling mainland and yet easily reached, Pulau Kapas is the perfect place for a relaxing vacation. Its diverse mix of marine life includes fish, turtles and corals, drawing diving enthusiasts from around the world.\n\nMalaysia's largest man-made lake sprawls over 38,000 hectares, dotted by 340 islands. Fringed by a pristine forest reserve, the lake and its hinterland are a paradise for nature activities such as jungle walks, fishing, kayaking, canoeing and birdwatching. Houseboats are a novel way to take in the sights. Major attractions are Lasir and Soak Waterfalls, Kenyir Elephant Conservation Village, Kelan Fish Sanctuary and caving at Gua Bewah. The main entry point to Lake Kenyir is Pengkalan Gawi. Chalets, resorts and floating inns are available.\n\n+609 823 1000 (Lembaga Kemajuan Terengganu Tengah) / +609 626 7788, +609 822 3100 (Pengkalan Gawi Tourist Information Centre)\n\nRantau Abang is famous for being one of only six hatching sites in the world where giant leatherback turtles come ashore to lay their eggs. To know more about the turtles, head to the Turtle Information Centre. An Aquatic Bio-Diversity Gallery at the Turtle & Marine Ecology Centre within the vicinity of the Turtle Information Centre also offers displays of marine life species, seashells, replicas of marine life and marine information.\n\n+609 844 4169\n\n+6014 605 5454 (Jeti Pulau Warisan) Experience a cruise along Terengganu river like never before on board a water taxi! This cruise takes visitors traversing the lush natural setting while enjoying a fresh perspective of popular and iconic attractions such as the Crystal Mosque, Terengganu Drawbridge, Pesisir Payang, Duyong Marina and Resort and Pulau Pasir. Visitors have the option of selecting from two cruise routes. Added with delightful attractions such as selfie opportunities and seafood dinners, the Payang Water Taxi promises a fun-filled time for all.\n\nTeluk Mak Nik, sometimes referred to as Monica Bay, is an important nesting ground for green turtles. Located by the beach, the turtle sanctuary houses a hatchery where visitors can learn more about conservation efforts and view cute newborn hatchlings. Not surprisingly, the main activities here are turtle watching and helping to release turtle hatchlings back into the wild.\n\nThe farthest island from the mainland, Pulau Tenggol is accessible by boat via the Kuala Dungun Jetty, 80km south of Kuala Terengganu. Its well-sheltered bay is home to mature coral gardens with hard and soft corals, and teeming with spectacular marine life, making It a diver's dream destination. The island is located along the migratory route of whale sharks, an event that is highly anticipated by divers.\n\nPantai Kemasik is much more than just a beautiful beach with interesting rock formations. Situated nearby is a traditional fishing village where visitors can observe a simpler yet fascinating way of life. As traditional beach fishing is still practised here, visitors will also have the opportunity to try their hand at pulling in fishing nets on the beach.\n\nLocated in the village of Kampung Ibok, about 14km from Chukai town, this family favourite features a water park, aquarium, elephant park, bird park, orchid garden, fruit orchard and herb garden. Visitors can also enjoy amazing views of the surroundings from the suspension bridge and observation deck."
+  }
+]
