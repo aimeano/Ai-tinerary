@@ -6561,5 +6561,2286 @@
       "allowed_radius_km": 80,
       "verified": true
     }
+  },
+  "bangi wonderland|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Bangi Wonderland",
+      "canonical_name": "Bangi Wonderland",
+      "formatted_address": "2, Persiaran Bangi Avenue, Bangi Avenue, 43000 Kajang, Selangor, Malaysia",
+      "place_id": "ChIJL_o0Fc7IzTERO6V6NpPUpn0",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJL_o0Fc7IzTERO6V6NpPUpn0",
+      "lat": 2.9046671,
+      "lng": 101.7909278,
+      "types": [
+        "amusement_park",
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "entertainment",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 27.92,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "bank negara malaysia museum and art gallery|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Bank Negara Malaysia Museum and Art Gallery",
+      "canonical_name": "Bank Negara Malaysia Museum and Art Gallery",
+      "formatted_address": "Sasana Kijang, 2, Jalan Dato Onn, Kuala Lumpur, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJnWvAPjFIzDERoFfk1RGfzqc",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJnWvAPjFIzDERoFfk1RGfzqc",
+      "lat": 3.1571622,
+      "lng": 101.6904754,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "broga hill|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Broga Hill",
+      "canonical_name": "Broga Hill Park",
+      "formatted_address": "B34, 43500 Semenyih, Selangor, Malaysia",
+      "place_id": "ChIJQwDTU-_RzTERgPctqB8XY-8",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJQwDTU-_RzTERgPctqB8XY-8",
+      "lat": 2.9391113,
+      "lng": 101.9015444,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 32.29,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "bukit jugra|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Bukit Jugra",
+      "canonical_name": "Bukit Jugra Lighthouse",
+      "formatted_address": "Jalan Bukit Jugra, Jugra Lama, 42700 Banting, Selangor, Malaysia",
+      "place_id": "ChIJZykUUommzTERDt4U5N85s44",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJZykUUommzTERDt4U5N85s44",
+      "lat": 2.8357026,
+      "lng": 101.4175198,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 44.28,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "chocolate museum|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'food', 'museum', 'parking', 'point_of_interest', 'store', 'tourist_attraction']"
+  },
+  "extreme park shah alam|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Extreme Park Shah Alam",
+      "canonical_name": "Shah Alam Extreme Park",
+      "formatted_address": "Jalan Lompat Pagar 13/37, Seksyen 13, 40100 Shah Alam, Selangor, Malaysia",
+      "place_id": "ChIJb3mbRZZNzDER_qoDn3gG-B4",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJb3mbRZZNzDER_qoDn3gG-B4",
+      "lat": 3.0865079,
+      "lng": 101.5425663,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 16.5,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "g2g animal garden: petting zoo serdang|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "G2G Animal Garden: Petting Zoo Serdang",
+      "canonical_name": "G2G Animal Garden",
+      "formatted_address": "Jalan MAEPS 4/1, Fasa 3 Presint 9, 43400 Serdang, Selangor, Malaysia",
+      "place_id": "ChIJSc-CwJS1zTER0jx4OpVCbPE",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJSc-CwJS1zTER0jx4OpVCbPE",
+      "lat": 2.9757028,
+      "lng": 101.688689,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction",
+        "zoo"
+      ],
+      "category": "entertainment",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 17.38,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "gua damai extreme park|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Gua Damai Extreme Park",
+      "canonical_name": "Gua Damai Extreme Park",
+      "formatted_address": "Jalan Fairuz Off Jalan Zamrut, Kampung Melayu Wira Damai, 68100 Batu Caves, Selangor, Malaysia",
+      "place_id": "ChIJsRZfSQ1HzDER26CWooyIC4Y",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJsRZfSQ1HzDER26CWooyIC4Y",
+      "lat": 3.2478366,
+      "lng": 101.6879575,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 12.9,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "hl dragon fruit eco farm|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "HL Dragon Fruit Eco Farm",
+      "canonical_name": "HL Dragon Fruit Eco Farm X HL Restaurant & Cafe (HALAL)",
+      "formatted_address": "Lot 7608, Jalan Besar Batu Satu, Kampung Baharu Sepang, 43900 Sepang, Selangor, Malaysia",
+      "place_id": "ChIJxe3_orDrzTER5LQGIk81EUw",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJxe3_orDrzTER5LQGIk81EUw",
+      "lat": 2.680926,
+      "lng": 101.7426632,
+      "types": [
+        "cafe",
+        "establishment",
+        "food",
+        "grocery_or_supermarket",
+        "point_of_interest",
+        "restaurant",
+        "store",
+        "tourist_attraction",
+        "travel_agency"
+      ],
+      "category": "shopping",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 50.57,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "islamic art garden complex|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Islamic Art Garden Complex",
+      "canonical_name": "Islamic Arts Museum Malaysia",
+      "formatted_address": "Islamic Arts Museum Malaysia, Jalan Lembah, Tasik Perdana, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJq6qqqslJzDERi7V1y0B-5Xw",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJq6qqqslJzDERi7V1y0B-5Xw",
+      "lat": 3.1418458,
+      "lng": 101.6899992,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "jln alor street art|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Jln Alor Street Art",
+      "canonical_name": "Alor Backspace Street Art",
+      "formatted_address": "Unnamed Road, Bukit Bintang, 50200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJrx2J_903zDERp4vdpHzpi2Q",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJrx2J_903zDERp4vdpHzpi2Q",
+      "lat": 3.1456903,
+      "lng": 101.7080137,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "kl butterfly park|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "KL Butterfly Park",
+      "canonical_name": "Kuala Lumpur Butterfly Park",
+      "formatted_address": "Jalan Cenderawasih, Tasik Perdana, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ8wfIRclJzDERbd5b45ki4WM",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ8wfIRclJzDERbd5b45ki4WM",
+      "lat": 3.145777,
+      "lng": 101.6889059,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "nature",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "kl convention centre|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "KL Convention Centre",
+      "canonical_name": "Kuala Lumpur Convention Centre",
+      "formatted_address": "Kuala Lumpur Convention Centre, Kuala Lumpur, 50088 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ__zTe9M3zDERtzz3V5s1Bnc",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ__zTe9M3zDERtzz3V5s1Bnc",
+      "lat": 3.1538815,
+      "lng": 101.7134125,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "kl old railway station|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "KL Old Railway Station",
+      "canonical_name": "Kuala Lumpur Railway Station",
+      "formatted_address": "110, Jalan Sultan Hishamuddin, Kampung Attap, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJRybxN85JzDERrJ1U2pIlX98",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJRybxN85JzDERrJ1U2pIlX98",
+      "lat": 3.1397357,
+      "lng": 101.6937286,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "klcc symphony water fountain|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "KLCC Symphony Water Fountain",
+      "canonical_name": "Pavilion Crystal Fountain",
+      "formatted_address": "168, Jln Bukit Bintang, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJm2xOdyw2zDERw-xa1e2q23c",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJm2xOdyw2zDERw-xa1e2q23c",
+      "lat": 3.1481824,
+      "lng": 101.712982,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "kasturi walk|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Kasturi Walk",
+      "canonical_name": "Kasturi Walk",
+      "formatted_address": "Kasturi Walk, 32, Jalan Hang Kasturi, City Centre, 50050 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJs0qBwZpJzDER3fDteq5DNRA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJs0qBwZpJzDER3fDteq5DNRA",
+      "lat": 3.1452412,
+      "lng": 101.6957961,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "kidzania kuala lumpur|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "KidZania Kuala Lumpur",
+      "canonical_name": "KidZania Kuala Lumpur",
+      "formatted_address": "5J57+5R Curve Nx, 18, Jalan PJU 7/5, Mutiara Damansara, 47810 Petaling Jaya, Selangor, Malaysia",
+      "place_id": "ChIJebTp9RxPzDERzQPNcVUbckY",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJebTp9RxPzDERzQPNcVUbckY",
+      "lat": 3.1580958,
+      "lng": 101.6138072,
+      "types": [
+        "amusement_park",
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "entertainment",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 8.33,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "kuala selangor nature park|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Kuala Selangor Nature Park",
+      "canonical_name": "Kuala Selangor Nature Park",
+      "formatted_address": "Jalan Klinik, Taman Alam, 45000 Kuala Selangor, Selangor, Malaysia",
+      "place_id": "ChIJ1-SA517zzDER0GcHxWFCFjc",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ1-SA517zzDER0GcHxWFCFjc",
+      "lat": 3.3390018,
+      "lng": 101.244805,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "nature",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 53.93,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "little india klang|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Little India Klang",
+      "canonical_name": "Klang Little India (கிள்ளான் லிட்டில் இந்தியா)",
+      "formatted_address": "Jalan Tengku Kelana, Kawasan 1, 41000 Klang, Selangor, Malaysia",
+      "place_id": "ChIJoy5GMQBTzDERtWAkiIGmElE",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJoy5GMQBTzDERtWAkiIGmElE",
+      "lat": 3.0408419,
+      "lng": 101.4471122,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 28.19,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "maeps|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "MAEPS",
+      "canonical_name": "MAEPS Serdang",
+      "formatted_address": "Taman Ekspo Pertanian Malaysia Serdang (MAEPS Persiaran MARDI - UPM Serdang, 43400 Seri Kembangan, Selangor, Malaysia",
+      "place_id": "ChIJC8XlJTdLzDER1lrOb5bezH4",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJC8XlJTdLzDER1lrOb5bezH4",
+      "lat": 2.9795327,
+      "lng": 101.6976362,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 17.01,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "mah meri cultural village, pulau carey|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Mah Meri Cultural Village, Pulau Carey",
+      "canonical_name": "Mah Meri Cultural Village",
+      "formatted_address": "Jln Kampong Orang Asli Sungai Bumbun, Kampung Manikavasagam, 42960 Pulau Carey, Selangor, Malaysia",
+      "place_id": "ChIJCTpP6USmzTERBwUVbiGiVaU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJCTpP6USmzTERBwUVbiGiVaU",
+      "lat": 2.8518794,
+      "lng": 101.4038193,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 44.02,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "malaysia cartoon & comic house|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Malaysia Cartoon & Comic House",
+      "canonical_name": "Rumah Kartun dan Komik Malaysia RKKM",
+      "formatted_address": "Setapak, Tasik Perdana, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJIwh8MspJzDERApf-QpJGHcM",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJIwh8MspJzDERApf-QpJGHcM",
+      "lat": 3.1467658,
+      "lng": 101.6866523,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "malaysia handicraft development centre|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Malaysia Handicraft Development Centre",
+      "canonical_name": "Kompleks Kraf Kuala Lumpur",
+      "formatted_address": "Jalan Raja Chulan, City Centre, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJcf9x3iw2zDERV_pK7SzvfhU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJcf9x3iw2zDERV_pK7SzvfhU",
+      "lat": 3.1493854,
+      "lng": 101.7189046,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "masjid jamek|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Masjid Jamek",
+      "canonical_name": "Sultan Abdul Samad Jamek Mosque",
+      "formatted_address": "Jalan Tun Perak, City Centre, 50050 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJeVDgedJJzDERWNeKvpt8kIA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJeVDgedJJzDERWNeKvpt8kIA",
+      "lat": 3.1489235,
+      "lng": 101.6956276,
+      "types": [
+        "establishment",
+        "mosque",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "masjid negara (national mosque)|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Masjid Negara (National Mosque)",
+      "canonical_name": "National Mosque of Malaysia",
+      "formatted_address": "Jalan Perdana, Tasik Perdana, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJJX8hZM9JzDER-yYg0nIT468",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJJX8hZM9JzDER-yYg0nIT468",
+      "lat": 3.1419783,
+      "lng": 101.6917573,
+      "types": [
+        "establishment",
+        "mosque",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "museum of illusion|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Museum of Illusion",
+      "canonical_name": "Museum Of Illusions Kuala Lumpur",
+      "formatted_address": "Level 1, Ansa Hotel, Wilayah Persekutuanalaysia, 101, Jln Bukit Bintang, Bukit Bintang, 55100 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "place_id": "ChIJAQAw-is2zDER-IZQA10XVP8",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJAQAw-is2zDER-IZQA10XVP8",
+      "lat": 3.1471339,
+      "lng": 101.7121372,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "muzium diraja (royal museum)|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Muzium Diraja (Royal Museum)",
+      "canonical_name": "Royal Museum",
+      "formatted_address": "Jln Istana, Istana Negara, 50460 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJAQBwTt1JzDERKIWCiInLbCk",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJAQBwTt1JzDERKIWCiInLbCk",
+      "lat": 3.1324608,
+      "lng": 101.6958556,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "national library|kuala lumpur|malaysia": {
+    "accepted": false,
+    "reason": "Blacklisted place name"
+  },
+  "national museum|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "National Museum",
+      "canonical_name": "The National Museum of Malaysia",
+      "formatted_address": "Department of Museum, Jln Damansara, Tasik Perdana, 50566 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ9_6dH8dJzDERC7k4SHbqU3o",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ9_6dH8dJzDERC7k4SHbqU3o",
+      "lat": 3.137711,
+      "lng": 101.6874214,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "national palace|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "National Palace",
+      "canonical_name": "Istana Negara",
+      "formatted_address": "Jln Tuanku Abdul Halim, Bukit Damansara, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJrcImKFhIzDERyKp873i-bdM",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJrcImKFhIzDERyKp873i-bdM",
+      "lat": 3.1614817,
+      "lng": 101.6634404,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "national science centre|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "National Science Centre",
+      "canonical_name": "National Science Centre",
+      "formatted_address": "50662, Persiaran Bukit Kiara, Bukit Kiara, 50490 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJkXMj_3hJzDERTSCPprMUQMw",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJkXMj_3hJzDERTSCPprMUQMw",
+      "lat": 3.1490163,
+      "lng": 101.6445754,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "national textiles museum|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "National Textiles Museum",
+      "canonical_name": "National Textiles Museum",
+      "formatted_address": "26, Jalan Sultan Hishamuddin, City Centre, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJ6_aE4M1JzDERegcsYEwivM4",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ6_aE4M1JzDERegcsYEwivM4",
+      "lat": 3.1467465,
+      "lng": 101.6940414,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "national theatre|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "National Theatre",
+      "canonical_name": "Istana Budaya",
+      "formatted_address": "Jln Tun Razak, Titiwangsa, 50694 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJsRvr8B5IzDER7-59jlkq9ko",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJsRvr8B5IzDER7-59jlkq9ko",
+      "lat": 3.1743519,
+      "lng": 101.7038242,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "national visual arts gallery|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "National Visual Arts Gallery",
+      "canonical_name": "National Art Gallery",
+      "formatted_address": "2, Jalan Temerloh, Lembaga Pembangunan Seni Visual Negara, off, Jln Tun Razak, Titiwangsa, 53200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "place_id": "ChIJn7ct6mxIzDERAfOvaaTX5DM",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJn7ct6mxIzDERAfOvaaTX5DM",
+      "lat": 3.1736636,
+      "lng": 101.7052282,
+      "types": [
+        "art_gallery",
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "raja tun uda library|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Raja Tun Uda Library",
+      "canonical_name": "Pustaka Raja Tun Uda",
+      "formatted_address": "42, Jln Kelab Golf 13/6, Seksyen 13, 40100 Shah Alam, Selangor, Malaysia",
+      "place_id": "ChIJFYu0mIBSzDERZiLUXJSXzSY",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJFYu0mIBSzDERZiLUXJSXzSY",
+      "lat": 3.0893052,
+      "lng": 101.5331974,
+      "types": [
+        "establishment",
+        "library",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 17.41,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "selangor fruit valley|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Selangor Fruit Valley",
+      "canonical_name": "Selangor Fruit Valley (SFV)",
+      "formatted_address": "KM7, Jalan Bestari jaya - Rawang, 45600 Batang Berjuntai, Selangor, Malaysia",
+      "place_id": "ChIJ56KCEydnzDEReScEt6qWP7I",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ56KCEydnzDEReScEt6qWP7I",
+      "lat": 3.3897047,
+      "lng": 101.4488546,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "nature",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 38.77,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "sewing world gallery|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Sewing World Gallery",
+      "canonical_name": "Sewing World",
+      "formatted_address": "11, Jalan PPU 2 Taman Perindustrian Puchong Utama, Bandar Puchong Utama, 47100 Puchong, Selangor, Malaysia",
+      "place_id": "ChIJtTou2SSzzTERQanqmmg7Ljs",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJtTou2SSzzTERQanqmmg7Ljs",
+      "lat": 3.0074535,
+      "lng": 101.6149711,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "store"
+      ],
+      "category": "shopping",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 15.82,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "shah alam lake gardens|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Shah Alam Lake Gardens",
+      "canonical_name": "Perdana Botanical Gardens",
+      "formatted_address": "Perdana Botanical Gardens, Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+      "place_id": "ChIJBabBT8hJzDERQjXrN_7SP4A",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBabBT8hJzDERQjXrN_7SP4A",
+      "lat": 3.143678,
+      "lng": 101.686073,
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "skytrex sungai chongkak|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Skytrex Sungai Chongkak",
+      "canonical_name": "SKYTREX Adventure Sg Congkak",
+      "formatted_address": "Batu 20, 1/2, Jalan Sungai Congkak, Kampung Padang, 43100 Hulu Langat, Selangor, Malaysia",
+      "place_id": "ChIJGy41J9I7zDERwtdfWl53_Gg",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJGy41J9I7zDERwtdfWl53_Gg",
+      "lat": 3.2089852,
+      "lng": 101.8422029,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 19.54,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "sultan abdul aziz royal gallery klang|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Sultan Abdul Aziz Royal Gallery Klang",
+      "canonical_name": "Sultan Abdul Aziz Royal Gallery",
+      "formatted_address": "Jalan Stesen, Kawasan 1, 41000 Klang, Selangor, Malaysia",
+      "place_id": "ChIJJwdomU5TzDERLuRfw43IhXs",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJJwdomU5TzDERLuRfw43IhXs",
+      "lat": 3.041323,
+      "lng": 101.4491882,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 27.96,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "sultan alam shah museum|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Sultan Alam Shah Museum",
+      "canonical_name": "Sultan Alam Shah Museum",
+      "formatted_address": "Persiaran Bandaraya, Seksyen 14, 40000 Shah Alam, Selangor, Malaysia",
+      "place_id": "ChIJk_27MH5SzDER9FN4FREG3uw",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJk_27MH5SzDER9FN4FREG3uw",
+      "lat": 3.0745162,
+      "lng": 101.5209497,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 19.2,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "sungai chiling (kelah sanctuary)|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Sungai Chiling (Kelah Sanctuary)",
+      "canonical_name": "Sungai Chiling Fish Sanctuary",
+      "formatted_address": "44000 Kuala Kubu Bharu, Selangor, Malaysia",
+      "place_id": "ChIJS3Ye2WULzDERDvf_io-ItFQ",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJS3Ye2WULzDERDvf_io-ItFQ",
+      "lat": 3.594444799999999,
+      "lng": 101.7355234,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 51.75,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "taman botani negara shah alam|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Taman Botani Negara Shah Alam",
+      "canonical_name": "National Botanic Gardens Shah Alam",
+      "formatted_address": "Bukit Cahaya Seri Alam, Taman Botani Negara, 40000 Shah Alam, Selangor, Malaysia",
+      "place_id": "ChIJVVVVVRpSzDER6HL4kTQP1uI",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJVVVVVRpSzDER6HL4kTQP1uI",
+      "lat": 3.0944963,
+      "lng": 101.5104943,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "nature",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 19.72,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "wet world shah alam|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Wet World Shah Alam",
+      "canonical_name": "Wet World Water Park Shah Alam",
+      "formatted_address": "3A, Persiaran Dato Menteri, Seksyen 14, 40000 Shah Alam, Selangor, Malaysia",
+      "place_id": "ChIJwwJ_X4dSzDERLuyYzgua5s4",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJwwJ_X4dSzDERLuyYzgua5s4",
+      "lat": 3.0722273,
+      "lng": 101.5125154,
+      "types": [
+        "amusement_park",
+        "establishment",
+        "park",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "nature",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 20.17,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "zipline adventure shah alam|kuala lumpur|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Zipline Adventure Shah Alam",
+      "canonical_name": "Zipline Adventure Shah Alam",
+      "formatted_address": "Persiaran Tasik, Seksyen 14, 40000 Shah Alam, Selangor, Malaysia",
+      "place_id": "ChIJMbQ6twxTzDERoyQqD-OzgCI",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJMbQ6twxTzDERoyQqD-OzgCI",
+      "lat": 3.0748628,
+      "lng": 101.513803,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Kuala Lumpur",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 19.94,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "atv eco tour|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "ATV Eco Tour",
+      "canonical_name": "Penang ATV Eco Tour Balik Pulau",
+      "formatted_address": "No Lot 162,Mukim I, Kampung Perlis, 11000 Balik Pulau, Penang, Malaysia",
+      "place_id": "ChIJTzBmVyXrSjARDqbAdSgRaMo",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJTzBmVyXrSjARDqbAdSgRaMo",
+      "lat": 5.320427400000001,
+      "lng": 100.2034727,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "akuarium tunku abdul rahman|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Akuarium Tunku Abdul Rahman",
+      "canonical_name": "Akuarium Tunku Abdul Rahman (AkuaTAR)",
+      "formatted_address": "Jalan Batu Maung, 11960 Batu Maung, Pulau Pinang, Malaysia",
+      "place_id": "ChIJj9l3JL6_SjARpW6YLDIrtjk",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJj9l3JL6_SjARpW6YLDIrtjk",
+      "lat": 5.2865461,
+      "lng": 100.2860577,
+      "types": [
+        "aquarium",
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "entertainment",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "audi dream farm|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Audi Dream Farm",
+      "canonical_name": "Audi Dream Farm",
+      "formatted_address": "Audi dreamfarm 145, MK B, Sg.Rusa, 11010 Balik Pulau, Pulau Pinang, Malaysia",
+      "place_id": "ChIJJ6QQ59PrSjAR-WrOukGa4wA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJJ6QQ59PrSjAR-WrOukGa4wA",
+      "lat": 5.3852058,
+      "lng": 100.2097307,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "balik pulau street art|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Balik Pulau Street Art",
+      "canonical_name": "Street Art Balik Pulau",
+      "formatted_address": "18, 6, 11000 Balik Pulau, Penang, Malaysia",
+      "place_id": "ChIJh_2O213rSjARldn9ZregnKw",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJh_2O213rSjARldn9ZregnKw",
+      "lat": 5.3494886,
+      "lng": 100.2336809,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "batu ferringhi habitat|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Batu Ferringhi Habitat",
+      "canonical_name": "The Habitat Penang Hill",
+      "formatted_address": "C7G9+69, Bukit Bendera, 11300 Bukit Bendera, Pulau Pinang, Malaysia",
+      "place_id": "ChIJcVQ4gnvCSjARG4IcsNb4dCk",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJcVQ4gnvCSjARG4IcsNb4dCk",
+      "lat": 5.4255625,
+      "lng": 100.2684375,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "nature",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "bukit genting hill leisure park and restaurant|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Bukit Genting Hill Leisure Park and Restaurant",
+      "canonical_name": "Bukit Genting Hill Leisure Park And Restaurant",
+      "formatted_address": "Jalan Teluk Kumbar, 11920 Bayan Lepas, Pulau Pinang, Malaysia",
+      "place_id": "ChIJRwPyzTCVSjARMccUV08Qddg",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJRwPyzTCVSjARMccUV08Qddg",
+      "lat": 5.3092214,
+      "lng": 100.2210165,
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "category": "food",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "bukit panchor state park|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Bukit Panchor State Park",
+      "canonical_name": "Taman Negeri Bukit Panchor, Pulau Pinang",
+      "formatted_address": "Jalan Taman Bukit Negeri, 14300 Nibong Tebal, Pulau Pinang, Malaysia",
+      "place_id": "ChIJiWMlPT6ySjARHixSpSe14TQ",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJiWMlPT6ySjARHixSpSe14TQ",
+      "lat": 5.1600434,
+      "lng": 100.5480337,
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "nature",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "chayamangkalaram thai buddhist temple|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Chayamangkalaram Thai Buddhist Temple",
+      "canonical_name": "Chaiya Mangalaram Thai Buddhist Temple",
+      "formatted_address": "17, Lorong Burma, Pulau Tikus, 10250 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJNZHZhAfDSjARDdvaFwsp64s",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJNZHZhAfDSjARDdvaFwsp64s",
+      "lat": 5.431709,
+      "lng": 100.313829,
+      "types": [
+        "establishment",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "design village|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Design Village",
+      "canonical_name": "Design Village Outlet Mall",
+      "formatted_address": "733, Jalan Cassia Barat 2, Bandar Cassia, 14110 Simpang Ampat, Pulau Pinang, Malaysia",
+      "place_id": "ChIJEzqvkN-5SjARYVj8cOHO0qc",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJEzqvkN-5SjARYVj8cOHO0qc",
+      "lat": 5.2440117,
+      "lng": 100.4382786,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "shopping_mall"
+      ],
+      "category": "shopping",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "dragon fruits|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Penang: 319.2 km > allowed 80.0 km"
+  },
+  "dream countrysides|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Dream Countrysides",
+      "canonical_name": "City of Dreams, Penang",
+      "formatted_address": "City of Dreams, No 1 Jalan Peter Paul Dason, Bandar, Seri Tanjung Pinang, 10470 Tanjung Tokong, Penang, Malaysia",
+      "place_id": "ChIJ17wQDxzDSjARsQD_A76DPyY",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ17wQDxzDSjARsQD_A76DPyY",
+      "lat": 5.445894300000001,
+      "lng": 100.3104185,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "entopia tropical spice garden|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "ENTOPIA Tropical Spice Garden",
+      "canonical_name": "Entopia by Penang Butterfly Farm",
+      "formatted_address": "830, Jalan Teluk Bahang, Teluk Bahang, 11050 Tanjung Bungah, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ83gcpVjoSjARH4vjVeRjzHg",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ83gcpVjoSjARH4vjVeRjzHg",
+      "lat": 5.447621499999999,
+      "lng": 100.2149943,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "escape adventureplay theme park|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "ESCAPE Adventureplay Theme Park",
+      "canonical_name": "ESCAPE Penang",
+      "formatted_address": "828, Jalan Teluk Bahang, Teluk Bahang, 11050 Tanjung Bungah, Pulau Pinang, Malaysia",
+      "place_id": "ChIJdd8lXaTDSjARYLK8T3hGW-U",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJdd8lXaTDSjARYLK8T3hGW-U",
+      "lat": 5.4497405,
+      "lng": 100.214038,
+      "types": [
+        "amusement_park",
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "entertainment",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "fishing village|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Fishing Village",
+      "canonical_name": "Teluk Bahang Viewing Point (Kampung Nelayan)",
+      "formatted_address": "Jalan Nelayan, Teluk Bahang, 11050 Tanjung Bungah, Pulau Pinang, Malaysia",
+      "place_id": "ChIJR960rZjpSjARuxYgRfFEnpA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJR960rZjpSjARuxYgRfFEnpA",
+      "lat": 5.459822,
+      "lng": 100.2109984,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "galeri diraja tuanku ja'afar|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Penang: 325.5 km > allowed 80.0 km"
+  },
+  "gamebox|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Gamebox",
+      "canonical_name": "Big Monster Ball",
+      "formatted_address": "8-K1, Level 8, 1st Avenue, 182, Jalan Magazine, 10300 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJAW-o1JbDSjAR87g9FMCEAFQ",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJAW-o1JbDSjAR87g9FMCEAFQ",
+      "lat": 5.413202999999999,
+      "lng": 100.3313709,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "store"
+      ],
+      "category": "shopping",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "ghee hup nutmeg factory|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Ghee Hup Nutmeg Factory",
+      "canonical_name": "义合豆蔻场 Kilang Buah Pala Ghee Hup",
+      "formatted_address": "MK 3, 202A, Jalan Tanjung Bungah, Kampung Sungai Pinang, 11000 Balik Pulau, Pulau Pinang, Malaysia",
+      "place_id": "ChIJrXV6a4LpSjARiodV_aOZq3M",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJrXV6a4LpSjARiodV_aOZq3M",
+      "lat": 5.3987357,
+      "lng": 100.2160953,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "gravityz|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Gravityz",
+      "canonical_name": "SkyBridge @The TOP Penang",
+      "formatted_address": "Level 65, The Top Penang, No. 1, Komtar, Jln Penang, 10000 George Town, Penang, Malaysia",
+      "place_id": "ChIJU9YsDOTDSjARq2tfIBBYOPc",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJU9YsDOTDSjARq2tfIBBYOPc",
+      "lat": 5.4145728,
+      "lng": 100.3297271,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "ikea penang|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "IKEA Penang",
+      "canonical_name": "IKEA Batu Kawan",
+      "formatted_address": "752, Persiaran Cassia Barat 8, Bandar Cassia, 14110 Simpang Ampat, Pulau Pinang, Malaysia",
+      "place_id": "ChIJvf7YyPi3SjARiY8UnuJUUps",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJvf7YyPi3SjARiY8UnuJUUps",
+      "lat": 5.2334398,
+      "lng": 100.4405397,
+      "types": [
+        "establishment",
+        "furniture_store",
+        "home_goods_store",
+        "point_of_interest",
+        "store"
+      ],
+      "category": "shopping",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "island plaza|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Island Plaza",
+      "canonical_name": "Island 88",
+      "formatted_address": "118, Jln Tanjong Tokong, Seri Tanjung Pinang, 10470 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJzxs3wh_DSjARaRX77aAN1tM",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJzxs3wh_DSjARaRX77aAN1tM",
+      "lat": 5.4504021,
+      "lng": 100.3061231,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "shopping_mall"
+      ],
+      "category": "shopping",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "jelita ostrich farm|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Penang: 324.8 km > allowed 80.0 km"
+  },
+  "kampung agong museum|penang|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest', 'tourist_attraction']"
+  },
+  "kek lok si temple|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Kek Lok Si Temple",
+      "canonical_name": "Kek Lok Si Temple",
+      "formatted_address": "Kek Lok Si Temple, 86s, Jln Balik Pulau, 11500 Ayer Itam, Pulau Pinang, Malaysia",
+      "place_id": "ChIJZYb8XRjCSjARxD5Df-qEkCw",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJZYb8XRjCSjARxD5Df-qEkCw",
+      "lat": 5.3996413,
+      "lng": 100.2736126,
+      "types": [
+        "establishment",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "kota aur homestay|penang|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "lahar yooi bertam souk & water park|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Lahar Yooi Bertam Souk & Water Park",
+      "canonical_name": "Bertam Souk & Water Park, Penang",
+      "formatted_address": "PMT 2200, Bertam Resort & Water Park Penang, Persiaran Bertam 8, 13200 Kepala Batas, Penang, Malaysia",
+      "place_id": "ChIJsfVzUJ_RSjARoWP1xGEZTBs",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJsfVzUJ_RSjARoWP1xGEZTBs",
+      "lat": 5.5194524,
+      "lng": 100.4533259,
+      "types": [
+        "amusement_park",
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "entertainment",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "lorong seni seremban|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Penang: 325.2 km > allowed 80.0 km"
+  },
+  "mangrove forest|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Mangrove Forest",
+      "canonical_name": "Mangrove Forest Penang",
+      "formatted_address": "Jln Kuala Sungai Udang, 14320 Nibong Tebal, Pulau Pinang, Malaysia",
+      "place_id": "ChIJOfe5g767SjARn0QhJPr4Z_I",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJOfe5g767SjARn0QhJPr4Z_I",
+      "lat": 5.150766099999999,
+      "lng": 100.4118848,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "masjid kapitan keling|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Masjid Kapitan Keling",
+      "canonical_name": "Kapitan Keling Mosque",
+      "formatted_address": "14, Lbh Buckingham, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJq5qauJHDSjARY-1J3UITR0U",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJq5qauJHDSjARY-1J3UITR0U",
+      "lat": 5.4169573,
+      "lng": 100.3371206,
+      "types": [
+        "establishment",
+        "mosque",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction",
+        "travel_agency"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "masjid sri sendayan|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Penang: 324.0 km > allowed 80.0 km"
+  },
+  "mengkuang homestay|penang|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "meromictic lake|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Meromictic Lake",
+      "canonical_name": "Meromictic Lake",
+      "formatted_address": "Meromictic Lake, Penang, Malaysia",
+      "place_id": "ChIJG5vuFMfoSjARGrM0xC3mxIA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJG5vuFMfoSjARGrM0xC3mxIA",
+      "lat": 5.4524925,
+      "lng": 100.1852089,
+      "types": [
+        "establishment",
+        "natural_feature"
+      ],
+      "category": "nature",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "museum penang|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Museum Penang",
+      "canonical_name": "Penang Ferry Museum",
+      "formatted_address": "7, Pengkalan Weld, George Town, 10300 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJkfbISQDDSjARrJVBVNxII7g",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJkfbISQDDSjARrJVBVNxII7g",
+      "lat": 5.414495899999999,
+      "lng": 100.3433243,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "nattukkottai chettiar temple|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Nattukkottai Chettiar Temple",
+      "canonical_name": "Nattukkottai Chettiar Temple, Penang",
+      "formatted_address": "Jalan Kebun Bunga, Pulau Tikus, 10350 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ2WDKxvjCSjAR93jAxEaFQAQ",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ2WDKxvjCSjAR93jAxEaFQAQ",
+      "lat": 5.4326015,
+      "lng": 100.298298,
+      "types": [
+        "establishment",
+        "hindu_temple",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "negeri sembilan state mosque|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Penang: 325.5 km > allowed 80.0 km"
+  },
+  "p. ramlee's house|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "P. Ramlee's House",
+      "canonical_name": "P. Ramlee House",
+      "formatted_address": "Lot 2180, Jalan P. Ramlee, Taman P. Ramlee, 10460 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ-aZ-K8jDSjAREf8njX7arQY",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-aZ-K8jDSjAREf8njX7arQY",
+      "lat": 5.409885099999999,
+      "lng": 100.3138274,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "pantai kerachut|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Pantai Kerachut",
+      "canonical_name": "Pantai Keracut",
+      "formatted_address": "Pantai Keracut, Teluk Bahang, Tanjung Bungah, Penang, Malaysia",
+      "place_id": "ChIJS24JN8boSjARMIy-5zW3TjI",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJS24JN8boSjARMIy-5zW3TjI",
+      "lat": 5.4508623,
+      "lng": 100.1827433,
+      "types": [
+        "establishment",
+        "natural_feature"
+      ],
+      "category": "nature",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "penang batik factory|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Penang Batik Factory",
+      "canonical_name": "Penang Batik Factory",
+      "formatted_address": "651 Mk 2 S.W.D, Teluk Bahang, 11050, Penang, Malaysia",
+      "place_id": "ChIJEYwkWHPpSjARGwLlPtrERU8",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJEYwkWHPpSjARGwLlPtrERU8",
+      "lat": 5.456728399999999,
+      "lng": 100.2154421,
+      "types": [
+        "clothing_store",
+        "establishment",
+        "point_of_interest",
+        "store"
+      ],
+      "category": "shopping",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "penang bird park|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Penang Bird Park",
+      "canonical_name": "Penang Bird Park",
+      "formatted_address": "Jalan Todak Seberang Jaya, 13700 Perai, Penang, Malaysia",
+      "place_id": "ChIJT2S65tLFSjARUNwYR2gTwJ0",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJT2S65tLFSjARUNwYR2gTwJ0",
+      "lat": 5.394035,
+      "lng": 100.3947562,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction",
+        "zoo"
+      ],
+      "category": "entertainment",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "penang bridge|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Penang Bridge",
+      "canonical_name": "Penang Bridge",
+      "formatted_address": "Penang, Malaysia",
+      "place_id": "ChIJJwGSxeDGSjARn7Y642rVkVc",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJJwGSxeDGSjARn7Y642rVkVc",
+      "lat": 5.3521727,
+      "lng": 100.3582647,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "penang forestry museum|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Penang Forestry Museum",
+      "canonical_name": "Forestry Museum",
+      "formatted_address": "Teluk Bahang, 11050 Tanjung Bungah, Penang, Malaysia",
+      "place_id": "ChIJK_Cfk1joSjAR83bKrPgaGxI",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJK_Cfk1joSjAR83bKrPgaGxI",
+      "lat": 5.4463519,
+      "lng": 100.2170693,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "penang hill|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Penang Hill",
+      "canonical_name": "Penang Hill",
+      "formatted_address": "Penang Hill, 11500 Bukit Bendera, Penang, Malaysia",
+      "place_id": "ChIJQ-rUOIfCSjARuSuxHi7HYvg",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJQ-rUOIfCSjARuSuxHi7HYvg",
+      "lat": 5.4084613,
+      "lng": 100.2773317,
+      "types": [
+        "establishment",
+        "natural_feature"
+      ],
+      "category": "nature",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "penang sentral|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Penang Sentral",
+      "canonical_name": "Penang Sentral",
+      "formatted_address": "6, Jalan Pantai, 12000 Butterworth, Pulau Pinang, Malaysia",
+      "place_id": "ChIJjzrTkhvESjARS5b43gZcDUE",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJjzrTkhvESjARS5b43gZcDUE",
+      "lat": 5.394979699999999,
+      "lng": 100.3653178,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "shopping_mall"
+      ],
+      "category": "shopping",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "penang toy museum|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Penang Toy Museum",
+      "canonical_name": "Toy Museum",
+      "formatted_address": "Jalan Teluk Bahang, Teluk Bahang, 11050 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJnaDRfXLoSjARhh0xLjSlpF0",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJnaDRfXLoSjARhh0xLjSlpF0",
+      "lat": 5.4562729,
+      "lng": 100.2159863,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "pinang megamall|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Pinang Megamall",
+      "canonical_name": "Megamal Pinang Shopping Complex",
+      "formatted_address": "2828, Jln Baru, Bandar Perai Jaya, 13700 Perai, Pulau Pinang, Malaysia",
+      "place_id": "ChIJA94VQ2PGSjARnuHtz6USRNE",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJA94VQ2PGSjARnuHtz6USRNE",
+      "lat": 5.3761839,
+      "lng": 100.4001367,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "shopping_mall"
+      ],
+      "category": "shopping",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "pulau betong|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Pulau Betong",
+      "canonical_name": "Pulau Betong",
+      "formatted_address": "Pulau Betong, 11000 Balik Pulau, Penang, Malaysia",
+      "place_id": "ChIJQYJLutKUSjARNZqYVTrz0a0",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJQYJLutKUSjARNZqYVTrz0a0",
+      "lat": 5.3066412,
+      "lng": 100.2033609,
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "spice subterranean penang international conference & exhibition centre|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "SPICE Subterranean Penang International Conference & Exhibition Centre",
+      "canonical_name": "Setia SPICE Convention Center",
+      "formatted_address": "108C, Jalan Tun Dr Awang, Bayan Baru, 11900 Bayan Lepas, Pulau Pinang, Malaysia",
+      "place_id": "ChIJb_EntD_ASjARBiXGrY5UjDE",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJb_EntD_ASjARBiXGrY5UjDE",
+      "lat": 5.330262100000001,
+      "lng": 100.28016,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "saanen dairy goat farm|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Saanen Dairy Goat Farm",
+      "canonical_name": "Saanen Dairy Goat Farm",
+      "formatted_address": "298 Mukim 1 Sungai Pinang, Kampung Batu Putih, 11010 Balik Pulau, Penang, Malaysia",
+      "place_id": "ChIJC3UCWFXqSjARuv2dJ2v52U4",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJC3UCWFXqSjARuv2dJ2v52U4",
+      "lat": 5.405516299999999,
+      "lng": 100.2077026,
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "store",
+        "tourist_attraction"
+      ],
+      "category": "shopping",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "seremban lake garden|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Penang: 325.7 km > allowed 80.0 km"
+  },
+  "seremban orchid park|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Penang: 325.8 km > allowed 80.0 km"
+  },
+  "shangri-la's rasa sayang resort & spa|penang|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['establishment', 'lodging', 'point_of_interest']"
+  },
+  "snowlim wonderland|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Penang: 325.7 km > allowed 80.0 km"
+  },
+  "sri bala thandayunthapani temple|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Sri Bala Thandayunthapani Temple",
+      "canonical_name": "Thaneermalai Shree Balathandayuthapani Devasthanam",
+      "formatted_address": "17, Jalan Kebun Bunga, Pulau Tikus, 10350 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJXa909ffCSjARU4noytBF4pA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJXa909ffCSjARU4noytBF4pA",
+      "lat": 5.4326234,
+      "lng": 100.2935867,
+      "types": [
+        "establishment",
+        "hindu_temple",
+        "place_of_worship",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "sri mahamariamman temple|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Sri Mahamariamman Temple",
+      "canonical_name": "Sri Mahamariamman Temple",
+      "formatted_address": "Lebuh Queen, George Town, 10450 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJI3uh15HDSjARdnR9K1KmeN0",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJI3uh15HDSjARdnR9K1KmeN0",
+      "lat": 5.417179,
+      "lng": 100.3383389,
+      "types": [
+        "establishment",
+        "hindu_temple",
+        "place_of_worship",
+        "point_of_interest"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "st. anne's church|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "St. Anne's Church",
+      "canonical_name": "Minor Basilica of St. Anne, Bukit Mertajam",
+      "formatted_address": "Jln Kulim, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",
+      "place_id": "ChIJrzLcX_nISjAROoUcgOWPZAI",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJrzLcX_nISjAROoUcgOWPZAI",
+      "lat": 5.3526054,
+      "lng": 100.4772744,
+      "types": [
+        "church",
+        "establishment",
+        "place_of_worship",
+        "point_of_interest"
+      ],
+      "category": "religious",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "starfresh agro park|penang|malaysia": {
+    "accepted": false,
+    "reason": "Bad activity type: ['campground', 'establishment', 'food', 'lodging', 'point_of_interest', 'restaurant', 'tourist_attraction']"
+  },
+  "straits quay|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Straits Quay",
+      "canonical_name": "Straits Quay Retail Marina",
+      "formatted_address": "3F-G-1, Straits Quay, Lorong Seri Tanjung Pinang, Seri Tanjung Pinang, 10470 Tanjung Tokong, Penang, Malaysia",
+      "place_id": "ChIJXb6HaCTDSjARjZhU6LZAiBA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJXb6HaCTDSjARjZhU6LZAiBA",
+      "lat": 5.458031399999999,
+      "lng": 100.3133518,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "shopping_mall"
+      ],
+      "category": "shopping",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "suffolk house|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Suffolk House",
+      "canonical_name": "Suffolk House Restaurant",
+      "formatted_address": "C864+845, 250, Jalan Air Itam, 10460 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJlT3ZVrXDSjARFDdgGR46CAk",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJlT3ZVrXDSjARFDdgGR46CAk",
+      "lat": 5.4108509,
+      "lng": 100.3054987,
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "restaurant"
+      ],
+      "category": "food",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "sultan abdul halim mu'adzam shah bridge|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Sultan Abdul Halim Mu'adzam Shah Bridge",
+      "canonical_name": "Penang Second Link Bridge",
+      "formatted_address": "Jambatan Kedua Pulau Pinang, Bayan Lepas, Pulau Pinang, Malaysia",
+      "place_id": "ChIJMWiNJBS5SjARYpXvfLlx4jU",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJMWiNJBS5SjARYpXvfLlx4jU",
+      "lat": 5.2797124,
+      "lng": 100.3154376,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "sunway carnival|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Sunway Carnival",
+      "canonical_name": "Sunway Carnival Mall",
+      "formatted_address": "1F-K01 Sunway Carnival Mall 3068, Jalan Todak Pusat Bandar Seberang Jaya, Seberang Jaya, 13700 Perai, Penang, Malaysia",
+      "place_id": "ChIJd4X4hs3FSjARHHCpdB9aIkA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJd4X4hs3FSjARHHCpdB9aIkA",
+      "lat": 5.3986313,
+      "lng": 100.3980421,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "shopping_mall"
+      ],
+      "category": "shopping",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "swettenham pier|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Swettenham Pier",
+      "canonical_name": "Swettenham Pier Penang",
+      "formatted_address": "Pengkalan Weld, George Town, 10300 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJvyL7cArDSjAR5gR126QVJWo",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJvyL7cArDSjAR5gR126QVJWo",
+      "lat": 5.418344299999999,
+      "lng": 100.3464083,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "teddyville|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "TeddyVille",
+      "canonical_name": "Teddyville Museum Penang",
+      "formatted_address": "56, Jalan Low Yat, Puncak Ria, 11100 Batu Ferringhi, Pulau Pinang, Malaysia",
+      "place_id": "ChIJs8fLJFLdSjARdGh83po_RJI",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJs8fLJFLdSjARdGh83po_RJI",
+      "lat": 5.477475399999999,
+      "lng": 100.2693621,
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "teluk bahang|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Teluk Bahang",
+      "canonical_name": "Teluk Bahang",
+      "formatted_address": "Teluk Bahang, 11050 Tanjung Bungah, Penang, Malaysia",
+      "place_id": "ChIJuwgmPPXoSjARpDXrZYb9f6I",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJuwgmPPXoSjARpDXrZYb9f6I",
+      "lat": 5.457317,
+      "lng": 100.213573,
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ],
+      "category": "other",
+      "assigned_city": "Penang",
+      "weather_suitability": "mixed",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "teluk bahang jetty|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Teluk Bahang Jetty",
+      "canonical_name": "Teluk Bahang Jetty",
+      "formatted_address": "634, Jalan Teluk Awak, Teluk Bahang, 11050 Tanjung Bungah, Pulau Pinang, Malaysia",
+      "place_id": "ChIJkSIPLInoSjAR3RQxd_jN0a0",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJkSIPLInoSjAR3RQxd_jN0a0",
+      "lat": 5.457317,
+      "lng": 100.213573,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "tourist_attraction"
+      ],
+      "category": "attraction",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "the top penang theme park|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "The Top Penang Theme Park",
+      "canonical_name": "The TOP Penang, Theme Park Penang",
+      "formatted_address": "1, Jln Penang, 10000 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJ-8pjzpXDSjARhqQbf7o4ang",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-8pjzpXDSjARhqQbf7o4ang",
+      "lat": 5.414454399999999,
+      "lng": 100.3295496,
+      "types": [
+        "amusement_park",
+        "aquarium",
+        "bar",
+        "establishment",
+        "food",
+        "museum",
+        "night_club",
+        "point_of_interest",
+        "restaurant",
+        "spa",
+        "tourist_attraction"
+      ],
+      "category": "culture",
+      "assigned_city": "Penang",
+      "weather_suitability": "indoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
+  },
+  "then sze khoon temple|penang|malaysia": {
+    "accepted": false,
+    "reason": "Too far from Penang: 323.2 km > allowed 80.0 km"
+  },
+  "tropical fruit farm|penang|malaysia": {
+    "accepted": true,
+    "data": {
+      "name": "Tropical Fruit Farm",
+      "canonical_name": "Penang Tropical Fruit Farm",
+      "formatted_address": "18th Mile, Stone, Jalan Teluk Bahang, Teluk Bahang, 11050 George Town, Pulau Pinang, Malaysia",
+      "place_id": "ChIJfWkg8aDpSjARyMmti7MZCAA",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJfWkg8aDpSjARyMmti7MZCAA",
+      "lat": 5.4143722,
+      "lng": 100.216884,
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "restaurant",
+        "tourist_attraction"
+      ],
+      "category": "food",
+      "assigned_city": "Penang",
+      "weather_suitability": "outdoor",
+      "distance_from_city_km": 0.0,
+      "allowed_radius_km": 80,
+      "verified": true
+    }
   }
 }
