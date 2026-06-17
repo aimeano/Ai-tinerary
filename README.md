@@ -14,6 +14,7 @@ Ai-tinerary generates full day-by-day travel itineraries from a user's trip pref
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [System Architecture](#system-architecture)
+- [Knowledge Base](#knowledge-base)
 - [Retrieval Pipeline](#retrieval-pipeline)
 - [Itinerary Generation Pipeline](#itinerary-generation-pipeline)
 - [Conversational Travel Assistant](#conversational-travel-assistant)
@@ -31,15 +32,15 @@ Ai-tinerary generates full day-by-day travel itineraries from a user's trip pref
 
 ## Motivation
 
-Planning a trip is harder than it looks. Most people end up stitching together information from five different tabs — TripAdvisor for places, Google Maps for distances, weather apps for packing, Reddit for local tips, and some blog post from 2019 for restaurant recommendations. By the time you have a coherent plan, half a day is gone.
+Planning a trip is harder than it looks. Most people end up stitching together information from five different tabs — TripAdvisor for places, Google Maps for distances, a weather app for packing, Reddit for local tips, and some blog post from 2019 for restaurant recommendations. By the time you have a coherent plan, half a day is gone.
 
-Existing itinerary tools tend to fall into two camps. Rule-based generators (pick 3 attractions per day, done) produce technically valid but impersonal plans that ignore travel time, opening hours, or what the user actually cares about. Purely LLM-based approaches are more flexible, but models hallucinate place names, invent opening hours, and confidently suggest restaurants that closed years ago.
+Existing itinerary tools tend to fall into two camps. Rule-based generators (pick 3 attractions per day, done) produce technically valid but impersonal plans that ignore travel time, opening hours, or what the user actually cares about. Purely LLM-based approaches are more flexible, but models hallucinate place names, invent opening hours, and confidently recommend restaurants that no longer exist.
 
 We built Ai-tinerary to sit between those two approaches:
 
-- **Retrieval-Augmented Generation (RAG)** grounds the planner in real travel documents — Wikivoyage exports, tourism board guides, city-level travel information — rather than relying on what a language model happens to remember about a destination.
+- **Retrieval-Augmented Generation (RAG)** grounds the planner in real travel documents — Wikivoyage exports, tourism board guides, mixed destination content — rather than relying on whatever a language model happens to remember about a destination.
 - **Conversational refinement** lets users push back on the generated plan without starting over. "Can we swap Day 2 evening for something quieter?" is a natural thing to ask a travel agent; it should work the same way here.
-- **LangGraph orchestration** structures the planning as a proper multi-step workflow — preference extraction, retrieval, POI selection, travel time estimation, weather enrichment, validation — rather than a single monolithic prompt.
+- **LangGraph orchestration** structures planning as a proper multi-step workflow — preference extraction, retrieval, POI selection, travel time estimation, weather enrichment, validation — rather than one monolithic prompt that tries to do everything at once.
 
 The target coverage for this version is Malaysia (all 13 states + federal territories) and Indonesia (Bali, Jakarta).
 
@@ -49,223 +50,280 @@ The target coverage for this version is Malaysia (all 13 states + federal territ
 
 | Feature | Description |
 |---|---|
-| 🗺️ AI Itinerary Generation | Generates a structured day-by-day itinerary from user input |
-| 💬 Travel Assistant Chatbot | Conversational assistant that can explain, revise, and extend the itinerary |
-| 🔍 Retrieval-Augmented Generation | Itinerary content is grounded in retrieved travel documents, not model memory |
-| 🌤️ Weather Enrichment | Attaches weather context to itinerary days based on destination and dates |
-| 🚗 Transportation Planning | Estimates travel times between POIs and accounts for routing logic |
-| 🧠 Trip Memory | Stores the generated itinerary and user preferences for use in follow-up chat |
-| 📄 PDF Export | Exports the final itinerary as a downloadable PDF |
-| 🔐 Authentication | User accounts with login/register, tied to stored trips |
-| 📋 Itinerary Management | Users can view, update, or delete past trips |
+| 🗺️ AI Itinerary Generation | Generates a structured day-by-day itinerary from user trip preferences |
+| 💬 Travel Assistant Chatbot | Conversational assistant streamed via SSE that can explain, revise, and extend the itinerary |
+| 🔍 Retrieval-Augmented Generation | Itinerary content grounded in retrieved travel documents via hybrid search + reranking |
+| 🌤️ Weather Enrichment | Attaches weather context to itinerary days based on destination and travel dates |
+| 🚗 Transportation Planning | Google Maps-based distance and travel time estimation between POIs |
+| ✈️ Flight Data | Live flight information via Airlabs API |
+| 🧠 Trip Memory | Persists trip state and itinerary for use throughout the chat session |
+| 📄 PDF Export | Server-side itinerary export as a downloadable PDF |
+| 🔐 Authentication | JWT-based user accounts with login and registration |
+| 📋 Itinerary Management | Users can view, update, and delete past trips |
 
 ---
 
 ## Screenshots
 
-> Screenshots will be added once the application is deployed. Placeholders show the intended layout.
+> Screenshots will be added once the application is deployed.
 
-**Trip Creation Form**
-![Trip Creation Form](screenshots/trip-creation.png)
-*User inputs destination, cities, travel dates, travel style, and preferences before generation.*
+**Home Page**
+![Home Page](screenshots/home.png)
+*Landing page showing available destinations — Malaysia and Indonesia.*
+
+**Trip Creation**
+![New Trip](screenshots/new-trip.png)
+*User inputs destination, cities, travel dates, travel style, and preferences.*
 
 **Generated Itinerary View**
-![Generated Itinerary](screenshots/itinerary-view.png)
-*Day-by-day itinerary with POIs, estimated travel times, meal suggestions, and weather notes.*
+![Itinerary](screenshots/itinerary.png)
+*Day-by-day itinerary with activity cards, transport options, travel times, and weather notes.*
 
 **Travel Assistant Chat**
-![Chat Interface](screenshots/chat-interface.png)
-*Conversational assistant grounded in the user's itinerary and retrieved destination knowledge.*
-
-**PDF Export**
-![PDF Export](screenshots/pdf-export.png)
-*Downloadable itinerary PDF formatted for offline use.*
+![Chat](screenshots/chat.png)
+*Streamed conversational assistant grounded in the user's itinerary and retrieved destination knowledge.*
 
 ---
 
 ## System Architecture
 
-The system is split into two services — a React frontend and a FastAPI backend — connected over HTTP. The backend runs a LangGraph workflow for itinerary generation and hosts the conversational assistant.
+The system is two services — a React/TypeScript frontend and a FastAPI backend — communicating over REST and Server-Sent Events (SSE). The backend handles JWT authentication, trip persistence in SQLite via SQLAlchemy, LangGraph workflow orchestration, and the Qdrant-backed retrieval pipeline.
 
 ```mermaid
 graph TD
-    A[User] -->|Trip preferences / Chat messages| B[React Frontend]
-    B -->|HTTP requests| C[FastAPI Backend]
+    A[User] -->|Trip form / Chat messages| B[React Frontend]
+    B -->|REST API| C[FastAPI Backend]
+    B -->|SSE stream| C
 
     C --> D{Request Type}
-    D -->|Generate itinerary| E[LangGraph Workflow]
-    D -->|Chat message| F[Travel Assistant Graph]
+    D -->|Register / Login| E[Verify credentials\nIssue JWT token]
+    D -->|Generate itinerary| F[Run LangGraph\nGeneration Workflow]
+    D -->|Chat message| G[Run LangGraph\nChat Graph]
+    D -->|Export| H[Render itinerary\nas PDF]
+    D -->|Trip CRUD| I[Read / write\ntrip from database]
 
-    E --> G[Preference Extractor]
-    G --> H[Retrieval Pipeline]
-    H --> I[Qdrant Vector DB]
-    H --> J[LuxiaCloud Embeddings]
-    I --> K[Hybrid Retrieval + RRF]
-    K --> L[POI Selector]
-    L --> M[Travel Time Planner]
-    M --> N[Weather Enrichment]
-    N --> O[Itinerary Validator]
-    O --> P[Final Itinerary]
-    P --> Q[SQLite / PostgreSQL]
-    P --> B
+    F --> J[Extract user preferences]
+    J --> K[Retrieval Pipeline]
+    K --> L[Semantic vector search\nQdrant]
+    K --> M[Keyword search\nBM25]
+    L --> N[Merge results\nwith RRF]
+    M --> N
+    N --> O[Normalise chunks]
+    O --> P[Rerank with\ncross-encoder]
+    P --> Q[Extract and enrich\nPOI metadata]
+    Q --> R[Calculate distances\nand order POIs]
+    R --> S[Attach travel times\nto each day]
+    S --> T[Add weather context]
+    T --> U[Suggest restaurants\nfor meal slots]
+    U --> V[Validate itinerary\nfor conflicts]
+    V --> W[Persist to SQLite]
+    V --> B
 
-    F --> R[Trip Memory Loader]
-    R --> H
-    H --> S[Response Generator]
-    S --> B
+    G --> X[Load trip state\nand itinerary from DB]
+    X --> K
+    K --> Y[Generate response\nwith LLM]
+    Y -->|Stream tokens via SSE| B
 ```
+
+---
+
+## Knowledge Base
+
+The retrieval index is built from a curated set of travel documents covering Malaysia and Indonesia. Documents live in `app/data/` and move through three processing stages before being indexed in Qdrant.
+
+### Document Sources
+
+Each destination has up to two source types, combined into "Mixed" files where both exist:
+
+| Source Type | Description |
+|---|---|
+| `wikivoyage` | Community-maintained travel articles — POIs, neighbourhoods, practical tips, transport |
+| `tourism` | Official tourism board content — destination highlights, cultural context, regional guides |
+| `Mixed` | Combined wikivoyage + tourism content for richer destination coverage |
+
+### Destination Coverage
+
+**Malaysia** — General country guide + all 13 states and federal territories:
+Johor, Kedah, Kelantan, Kuala Lumpur, Labuan, Melaka, Negeri Sembilan, Pahang, Penang, Perak, Perlis, Putrajaya, Sabah, Sarawak, Selangor, Terengganu
+
+**Indonesia** — General country guide + city-level content:
+Bali, Jakarta (each with Wikivoyage, tourism board, and combined Mixed sources)
+
+### Data Pipeline Stages
+
+```
+app/data/
+├── raw/          ← Original PDFs (scraped / downloaded)
+├── clean/        ← Parsed markdown after LuxiaCloud processing
+└── processed/    ← Chunked and metadata-enriched JSON, ready for Qdrant ingestion
+                     (*_chunks.json and *_enriched_chunks.json per document)
+```
+
+Every document produces two JSON outputs: a base chunks file and an enriched chunks file with metadata annotations (destination, source type, section labels) attached by `metadata_extract.py`.
 
 ---
 
 ## Retrieval Pipeline
 
-Rather than relying on model memory for travel facts, the system builds a retrieval index from curated travel documents and queries it at generation time.
-
-### Data Sources
-
-The knowledge base contains:
-- **Wikivoyage exports** — community-maintained travel articles with POIs, tips, and neighbourhood descriptions
-- **Tourism board documents** — official destination guides for Malaysian states and Indonesian cities
-- **Country and city travel guides** — structured information on transport, customs, and logistics
-
-Coverage: all 13 Malaysian states plus Putrajaya, Labuan, and Wilayah Persekutuan; Bali and Jakarta for Indonesia.
-
-### Pipeline Steps
+At query time, the system runs hybrid retrieval against the Qdrant index rather than relying on model memory. The full pipeline lives across `app/retrieval/` and `app/services/`.
 
 ```mermaid
 flowchart LR
-    A[Raw Documents] --> B[LuxiaCloud Parse]
-    B --> C[LuxiaCloud Chunk]
-    C --> D[LuxiaCloud Embed]
-    D --> E[Qdrant Upsert]
+    A[Raw PDFs\napp/data/raw] --> B[luxia_parse.py]
+    B --> C[luxia_chunk.py\n+ section_splitter.py]
+    C --> D[metadata_extract.py]
+    D --> E[luxia_embed.py]
+    E --> F[ingest.py\nQdrant upsert]
 
-    F[User Query] --> G[Query Embedding]
-    F --> H[Keyword Extraction]
-    G --> I[Vector Search]
-    H --> J[Keyword Search]
-    I --> K[RRF Ranking]
-    J --> K
-    K --> L[Top-K Context Chunks]
-    L --> M[Context Construction]
+    G[User Query] --> H[luxia_embed.py\nquery vector]
+    G --> I[keyword_index.py\nBM25 index]
+    H --> J[vectorstore.py\nvector search]
+    I --> K[keyword search]
+    J --> L[hybrid_retrieve.py\nRRF merge]
+    K --> L
+    L --> M[normalize_chunks.py]
+    M --> N[rerank.py\nluxia_rerank.py]
+    N --> O[retrieve.py\nTop-K context]
 ```
 
-**1. Document Collection** — Travel documents are collected per destination and tagged with country, state/city, and content type metadata.
+**Parsing** — `luxia_parse.py` sends raw PDFs from `app/data/raw/` to LuxiaCloud's Parse API, producing the clean markdown files in `app/data/clean/`. Tested in `tests/test_luxia_parse_url.py` and `tests/test_parser.py`.
 
-**2. Parsing** — LuxiaCloud Parse handles structure extraction from PDFs and markdown travel documents, producing clean text with preserved structure.
+**Chunking** — `luxia_chunk.py` splits clean documents via LuxiaCloud's Chunk API. `section_splitter.py` in `app/preprocessing/` handles additional structural splitting for long travel guides to avoid oversized chunks. Tested in `tests/test_chunk.py`.
 
-**3. Chunking** — LuxiaCloud Chunk splits documents into overlapping text chunks sized for embedding. Chunk boundaries are paragraph-aware to avoid cutting mid-sentence on a POI description.
+**Metadata Extraction** — `metadata_extract.py` annotates each chunk with destination tags, source type, and section labels, producing the `*_enriched_chunks.json` files in `app/data/processed/`. Tested in `tests/test_metadata_one_file.py`.
 
-**4. Embedding Generation** — LuxiaCloud's embedding API converts chunks to dense vectors. Using a managed embedding service rather than a self-hosted model kept the pipeline simple during development.
+**Embedding** — `luxia_embed.py` converts enriched chunks to dense vectors via LuxiaCloud's Embedding API. Using a managed embedding service kept embedding consistent across all document types and reduced infrastructure complexity. Tested in `tests/test_embed.py` and `tests/test_embed_all.py`.
 
-**5. Vector Storage** — Qdrant stores the chunk vectors with metadata payloads (destination, source, chunk type). Qdrant was chosen because it's open source, easy to run locally, and has first-class support for hybrid retrieval.
+**Ingestion** — `ingest.py` upserts vectors and metadata payloads to Qdrant. Tested in `tests/test_ingest.py` and `tests/test_qdrant_ingest.py`.
 
-**6. Hybrid Retrieval** — At query time, the system runs both vector search (semantic similarity) and keyword search (BM25-style) in parallel.
+**Hybrid Retrieval** — `hybrid_retrieve.py` runs vector search via `vectorstore.py` (Qdrant) and keyword search via `keyword_index.py` (BM25 using `rank-bm25`) in parallel, then merges results using Reciprocal Rank Fusion. `normalize_chunks.py` standardises chunk format before merging. Tested in `tests/test_hybrid.py`, `tests/test_retrieve.py`, and `tests/test_normalize.py`.
 
-**7. RRF Ranking** — Results from both search paths are merged using Reciprocal Rank Fusion. Each result's final score is based on its rank across both lists, not raw similarity scores.
+**Reranking** — `rerank.py` calls `luxia_rerank.py` (LuxiaCloud's cross-encoder) to apply a final relevance pass over the fused results before handing context to the LLM. Tested in `tests/test_rerank.py`.
 
-**8. Context Construction** — Top-K chunks are assembled into a structured context block passed to the LLM along with the generation prompt.
+**Context Assembly** — `retrieve.py` assembles the final Top-K chunks into a structured context block passed to the LLM via `generate.py` and `prompts.py`.
 
 ---
 
 ## Itinerary Generation Pipeline
-
-Once retrieval context is ready, itinerary generation runs as a LangGraph stateful workflow. Each node has a specific job, and the state is passed forward through the graph.
-
+ 
+Generation runs as a stateful LangGraph workflow in `langgraph_workflow.py`. Prompts and model configuration are managed in `app/llm/` (`prompts.py`, `model_config.py`, `generate.py`). The full flow is tested in `tests/test_generate_itinerary.py`.
+ 
 ```mermaid
 flowchart TD
-    A[User Trip Form] --> B[Preference Extractor]
-    B --> C[Retrieval Pipeline]
-    C --> D[POI Selector]
-    D --> E[Restaurant Suggester]
-    E --> F[Distance and Travel Time Planner]
-    F --> G[Weather Enrichment]
-    G --> H[Itinerary Validator]
-    H --> I{Valid?}
-    I -->|Yes| J[Final Itinerary]
-    I -->|No, issues found| D
-    J --> K[Store to DB]
-    J --> L[Return to Frontend]
+    A[User submits trip form] --> B[Extract structured\npreference profile]
+    B --> C[Retrieve relevant\ntravel knowledge]
+    C --> D[Extract and enrich\nPOI metadata]
+    D --> E[Suggest restaurants\nfor meal slots]
+    E --> F[Order POIs to reduce\nbacktracking via Google Maps]
+    F --> G[Attach travel times\nbetween each location]
+    G --> H[Add weather context\nto affected days]
+    H --> I[Validate for conflicts\nand duplicates]
+    I --> J{Valid?}
+    J -->|Yes| K[Final LLM pass —\nformat natural language itinerary]
+    J -->|No — issues found| D
+    K --> L[Persist to SQLite]
+    K --> M[Return to itinerary view]
 ```
+ 
+**Preference Extraction** — Raw form input (destination, cities, travel dates, travel style, interests) is parsed by `preference_extractor.py` into a structured profile that drives retrieval queries and POI selection. Output is stored in `json_utils.py`-validated structured format throughout the workflow.
 
-**Step 1 — Preference Extraction:** The raw form input (destination, dates, travel style, interests) is parsed into a structured preference object used to guide POI selection and retrieval.
+**POI Metadata** — `poi_metadata.py` extracts and structures point-of-interest data from retrieved chunks, adding category labels and visit duration hints. Coordinates are resolved via Google Maps, with results cached in `app/data/cache/geocode_cache.json` to avoid redundant API calls. Tested in `tests/test_poi_pipeline.py`.
 
-**Step 2 — Retrieval:** The hybrid pipeline queries Qdrant for relevant chunks based on the destination cities and user interests.
+**Restaurant Suggestions** — `restaurant_suggestions.py` fills meal slots based on destination, meal type, and user preferences. Tested in `tests/test_events.py`.
 
-**Step 3 — POI Selection:** Retrieved context is used to select appropriate points of interest for each day. Selection accounts for category balance (cultural, nature, food, leisure) based on travel style.
+**Distance Planning** — `distance_planner.py` orders POIs within each day to reduce backtracking and calculates distances via the Google Maps API.
 
-**Step 4 — Travel Time Planning:** POIs are ordered within each day to minimise unnecessary backtracking. Estimated travel times between locations are attached based on distance proxies and transport mode.
+**Travel Time Attachment** — `attach_travel_time.py` appends estimated travel durations between consecutive POIs to each day block.
 
-**Step 5 — Weather Enrichment:** Weather context for the destination and travel period is fetched and attached to relevant itinerary days (e.g., flagging outdoor activities on potentially rainy days).
+**Weather Enrichment** — `weather_enrichment.py` fetches weather context for the destination and travel period, flagging outdoor activities on potentially poor-weather days.
 
-**Step 6 — Restaurant Suggestions:** Meal slots are filled with restaurant suggestions appropriate to the destination and user preference (budget, cuisine type).
+**Validation** — `itinerary_validator.py` checks for duplicate locations, scheduling conflicts, unrealistic travel times, and missing time blocks. If issues are found the graph loops back to POI selection.
 
-**Step 7 — Validation:** The validator checks for common issues — duplicate locations, same-day scheduling conflicts, unrealistic travel times, missing time blocks. If issues are found, the relevant step is re-run.
-
-**Step 8 — Final Itinerary:** A clean, structured itinerary is returned to the frontend and persisted to the database tied to the user's account.
+**Final LLM Pass** — Once the structured plan passes validation, `generate.py` formats it using templates in `prompts.py` for the final natural-language itinerary returned to the frontend.
 
 ---
 
 ## Conversational Travel Assistant
 
-After an itinerary is generated, users can chat with an AI travel assistant that knows about their specific trip.
+After an itinerary is generated, users open the chat panel (`ChatPanel.tsx`, `ChatInput.tsx`, `ChatMessage.tsx`) backed by `chat_graph.py` — a separate LangGraph graph from the generation workflow. Responses stream to the frontend via Server-Sent Events handled by `useSSE.ts`.
 
 ### How It Works
 
-**Trip Memory** — When a user opens the chat interface for a trip, the stored itinerary and preference profile are loaded from the database and injected into the assistant's context. The assistant knows which cities the user is visiting, for how long, and in what order.
+**Trip State Loading** — When a chat session opens, `trip_state.py` in `app/memory/` loads the stored itinerary and trip preferences from SQLite (`trip_repository.py`) and injects them into the graph state. The assistant knows the full trip without the user restating anything.
 
-**Retrieval Reuse** — The same hybrid retrieval pipeline used during generation is also available during chat. If a user asks about a specific place ("what's the best time to visit Batu Caves?"), the assistant queries Qdrant for relevant context before responding.
+**Retrieval During Chat** — The same hybrid pipeline (`retrieve.py`) is available during conversation. If a user asks about a specific place or activity, the assistant queries Qdrant before responding — grounding answers in retrieved content rather than model memory.
 
-**Itinerary Modification** — Users can ask the assistant to modify the itinerary in natural language. The assistant interprets the request, makes the change, and writes the updated itinerary back to the database. Changes are reflected in the itinerary view without regenerating the entire plan.
+**Itinerary Modification** — The assistant interprets natural language modification requests, updates the relevant itinerary section, and writes the change back to SQLite via `trip_repository.py`. Changes appear in `TripDetail.tsx` without full regeneration.
 
-**Conversation History** — The full conversation is maintained within the session so the assistant can refer back to earlier exchanges ("like I mentioned earlier, I prefer evenings indoors").
+**Streamed Responses** — The chat graph streams token-by-token output via SSE, handled client-side by `useSSE.ts`. This avoids long blocking waits during LLM generation.
+
+**Conversation History** — Full conversation history is maintained in the LangGraph state across turns, keeping responses coherent over multi-turn exchanges.
 
 ---
 
 ## Why Hybrid Retrieval and RRF
 
-This is one of the more deliberate technical decisions in the project, so it's worth explaining properly.
-
 ### The Problem with Vector Search Alone
 
-Vector search works well for semantic similarity — "temples in Penang" will surface chunks about George Town's religious sites even if they don't use that exact phrase. But it can underperform on exact entity matching. If a user's preferences mention "Petronas Twin Towers" specifically, a purely vector-based search might rank a generic Kuala Lumpur overview above a chunk that directly describes the towers, because the semantic distance between a KL overview and a specific landmark query can be small.
+Vector search handles semantic similarity well — "temples in Penang" surfaces chunks about George Town's heritage sites even without exact phrase overlap. But it can underperform on named entity precision. A query for "Petronas Twin Towers" specifically might rank a general Kuala Lumpur overview above a chunk that directly describes the towers, because the semantic distance between them is small.
 
 ### The Problem with Keyword Search Alone
 
-BM25-style keyword search reliably retrieves documents containing exact terms, but it has no understanding of semantic equivalence. A chunk about "Menara Kembar Petronas" (the Malay name) won't surface for the query "Petronas Twin Towers" unless there's explicit synonym handling.
+BM25-style keyword search reliably retrieves documents containing exact terms, but has no understanding of semantic equivalence. A chunk about "Menara Kembar Petronas" won't surface for an English-language query without explicit synonym handling. Given the bilingual nature of Malaysian destination names, this is a real gap.
 
-### Why Hybrid Retrieval
+### Why Hybrid + Reranking
 
-Running both search types in parallel and combining results captures the strengths of each. Semantic search handles conceptual queries; keyword search handles named entity precision.
+`hybrid_retrieve.py` runs both search paths in parallel and merges with RRF. RRF works on rank positions rather than raw scores, so a result that ranks highly in both paths gets a high combined score without requiring score normalisation or weight tuning.
 
-### Why RRF Instead of Score Fusion
-
-Combining vector similarity scores with BM25 scores directly requires normalisation and weight tuning — two parameters that are highly dataset-dependent and annoying to calibrate. RRF sidesteps this entirely by working on rank positions, not raw scores. A result that ranks highly in both retrieval paths gets a high combined RRF score regardless of the absolute score magnitudes. It's not perfect — it treats a rank-1 result the same whether it was a strong or marginal first-place — but for this project's scale it performed well without any manual tuning.
+After RRF, `luxia_rerank.py` applies a cross-encoder reranker for a final relevance pass. The cross-encoder reads both the query and each candidate chunk together, giving it more context than the retrieval phase alone. This meaningfully improved context quality on destination-specific queries during testing — particularly on queries that mixed specific landmark names with broader activity types.
 
 ### Trade-offs
 
-- RRF doesn't preserve the margin information between ranks, so a retriever that found a very strong match and a weak match will treat them the same distance apart as two moderate matches.
-- Running two search paths doubles the number of Qdrant queries per request.
-- For very small datasets (a single city), keyword and vector results tend to overlap heavily, reducing the benefit of fusion.
-
-For a travel RAG system at this scale, the simplicity and calibration-free nature of RRF outweighed these limitations.
+- RRF discards score margin information — a strong rank-1 result is treated the same as a marginal one.
+- Two search paths means two Qdrant queries per request plus a reranking API call.
+- The BM25 index in `keyword_index.py` is built at ingestion time. If the Qdrant collection is updated without rebuilding the keyword index, both retrieval paths fall out of sync and RRF produces inconsistent results.
+- For single-city queries with narrow scope, both paths tend to return the same chunks, reducing the benefit of fusion.
 
 ---
 
 ## Tech Stack
 
-| Layer | Technology | Reason |
-|---|---|---|
-| Frontend Framework | React + TypeScript | Component-based UI, type safety |
-| Frontend Build Tool | Vite | Fast development server, modern bundling |
-| Styling | TailwindCSS | Utility-first, consistent design without a heavy component library |
-| Backend Framework | FastAPI | Async support, automatic OpenAPI docs, clean routing |
-| Workflow Orchestration | LangGraph | Stateful multi-step AI workflow with branching and cycles |
-| Vector Database | Qdrant | Open source, local deployment, native hybrid retrieval |
-| Embedding + Parsing | LuxiaCloud | Managed embedding and document processing pipeline |
-| Retrieval Strategy | Hybrid (Vector + Keyword) + RRF | Better coverage than either approach alone |
-| Database | SQLite (dev) / PostgreSQL (prod) | User data, trips, itineraries, conversation history |
-| Authentication | JWT-based auth | Stateless, easy to integrate with FastAPI |
-| PDF Export | Python PDF library | Server-side itinerary export |
+### Backend
+
+| Component | Technology |
+|---|---|
+| Framework | FastAPI + Uvicorn |
+| AI Workflow | LangGraph (`langgraph`, `langgraph-checkpoint`, `langgraph-prebuilt`, `langgraph-sdk`) |
+| LLM Layer | LangChain + Ollama — `generate.py`, `prompts.py`, `model_config.py` |
+| Vector Database | Qdrant (`qdrant-client`) |
+| Keyword Search | BM25 via `rank-bm25` |
+| Document Pipeline | LuxiaCloud Parse → Chunk → Embed → Rerank |
+| Distance Planning | Google Maps API + local geocode cache |
+| Flight Data | Airlabs API |
+| Document Parsing | `pypdf`, `beautifulsoup4`, `lxml`, `playwright` |
+| Database | SQLite via SQLAlchemy (`database.py`, `models.py`, `auth_repository.py`, `trip_repository.py`) |
+| Authentication | JWT via `python-jose` + `bcrypt` + `passlib` |
+| PDF Export | `export_iti.py` |
+| HTTP Client | `httpx`, `requests` |
+| Data Validation | Pydantic v2 |
+| ML Utilities | `scikit-learn`, `scipy`, `numpy` |
+| Streaming | Server-Sent Events (SSE) via FastAPI |
+
+### Frontend
+
+| Component | Technology |
+|---|---|
+| Framework | React + TypeScript |
+| Build Tool | Vite |
+| Styling | TailwindCSS + shadcn/ui + Radix UI |
+| Animations | Framer Motion |
+| Routing | React Router |
+| Forms | React Hook Form + Zod |
+| State | Zustand + `AuthContext.tsx` |
+| Charts | Recharts (`chart.tsx`) |
+| Streaming | `useSSE.ts` — custom SSE hook for chat responses |
+| Date Handling | date-fns + react-day-picker |
+| UI Extras | cmdk, vaul, sonner, embla-carousel, lucide-react |
 
 ---
 
@@ -274,57 +332,119 @@ For a travel RAG system at this scale, the simplicity and calibration-free natur
 ```
 Ai-tinerary/
 ├── README.md
-├── .gitignore
 │
 ├── AI-tinerary-frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── TripForm/          # Trip creation interface
-│   │   │   ├── ItineraryView/     # Day-by-day itinerary display
-│   │   │   ├── ChatInterface/     # Travel assistant chat UI
-│   │   │   └── Auth/              # Login and registration
-│   │   ├── pages/
-│   │   ├── hooks/
-│   │   ├── lib/
-│   │   │   └── api.ts             # Backend API calls
-│   │   └── main.tsx
-│   ├── public/
 │   ├── index.html
-│   ├── tailwind.config.ts
-│   ├── vite.config.ts
-│   └── package.json
+│   ├── vite.config.js
+│   ├── tailwind.config.js
+│   ├── tsconfig.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── scripts/build.mjs
+│   └── src/
+│       ├── App.tsx
+│       ├── main.tsx
+│       ├── assets/
+│       │   ├── Malaysia.jpg
+│       │   ├── Indonesia.jpg
+│       │   └── logo.jpeg
+│       ├── components/
+│       │   ├── chat/
+│       │   │   ├── ChatPanel.tsx      # Main chat container
+│       │   │   ├── ChatInput.tsx      # Message input with send
+│       │   │   └── ChatMessage.tsx    # Individual message bubble
+│       │   ├── itinerary/
+│       │   │   ├── ItineraryDay.tsx       # Day-level itinerary block
+│       │   │   ├── ActivityCard.tsx       # Individual POI/activity card
+│       │   │   └── TransportOptionList.tsx
+│       │   ├── layout/AppShell.tsx    # App-wide layout wrapper
+│       │   ├── media/UploadedImage.tsx
+│       │   ├── trips/
+│       │   │   ├── TripCard.tsx       # Trip summary card
+│       │   │   └── TripGrid.tsx       # Trip listing grid
+│       │   └── ui/                    # Full shadcn/ui component library
+│       ├── context/AuthContext.tsx    # Auth state and JWT management
+│       ├── hooks/
+│       │   ├── useSSE.ts              # SSE streaming for chat responses
+│       │   ├── use-mobile.tsx
+│       │   └── use-toast.ts
+│       ├── lib/
+│       │   ├── api.ts                 # All backend API calls
+│       │   ├── assistant.ts           # Chat assistant helpers
+│       │   └── utils.ts
+│       ├── mocks/initMock.ts          # Dev mock data
+│       ├── pages/
+│       │   ├── Home.tsx               # Destination selection landing
+│       │   ├── Login.tsx
+│       │   ├── Signup.tsx
+│       │   ├── NewTrip.tsx            # Trip creation form
+│       │   └── TripDetail.tsx         # Itinerary view + chat panel
+│       └── types/
+│           ├── trip.ts
+│           ├── itinerary.ts
+│           └── chat.ts
 │
 └── Ai-tinerary-backend/
+    ├── main.py                        # FastAPI entry point
+    ├── requirements.txt
+    ├── app.db                         # SQLite database
     ├── app/
     │   ├── api/
-    │   │   └── routes.py           # FastAPI route handlers
+    │   │   ├── app.py                 # App factory, router registration, CORS
+    │   │   ├── auth_routes.py         # POST /register, POST /login
+    │   │   ├── trip_routes.py         # Trip CRUD + itinerary generation endpoints
+    │   │   ├── schemas.py             # Pydantic request/response models
+    │   │   └── dependencies.py        # get_current_user dependency
+    │   ├── auth/
+    │   │   └── jwt_utils.py           # Token creation and verification
+    │   ├── data/
+    │   │   ├── raw/                   # Original PDFs (25 source documents)
+    │   │   ├── clean/                 # Parsed markdown (LuxiaCloud output)
+    │   │   ├── processed/             # Chunked + enriched JSON for Qdrant
+    │   │   └── cache/geocode_cache.json  # Cached Google Maps geocode results
+    │   ├── db/
+    │   │   ├── database.py            # SQLAlchemy engine and session
+    │   │   ├── models.py              # User and Trip ORM models
+    │   │   ├── auth_repository.py     # User CRUD
+    │   │   └── trip_repository.py     # Trip and itinerary CRUD
+    │   ├── llm/
+    │   │   ├── generate.py            # LLM call wrapper
+    │   │   ├── prompts.py             # All prompt templates
+    │   │   ├── model_config.py        # Model selection and parameters
+    │   │   └── json_utils.py          # LLM output parsing and validation
+    │   ├── memory/
+    │   │   └── trip_state.py          # Loads trip context for chat sessions
     │   ├── orchestrator/
-    │   │   ├── langgraph_workflow.py   # Itinerary generation graph
+    │   │   ├── langgraph_workflow.py  # Itinerary generation graph
     │   │   └── chat_graph.py          # Conversational assistant graph
     │   ├── planning/
     │   │   ├── preference_extractor.py
-    │   │   ├── poi_selector.py
+    │   │   ├── poi_metadata.py
+    │   │   ├── restaurant_suggestions.py
     │   │   ├── distance_planner.py
-    │   │   ├── travel_time.py
+    │   │   ├── attach_travel_time.py
     │   │   ├── weather_enrichment.py
-    │   │   ├── restaurant_suggester.py
-    │   │   └── validator.py
+    │   │   └── itinerary_validator.py
+    │   ├── preprocessing/
+    │   │   └── section_splitter.py    # Structural chunking for long documents
     │   ├── retrieval/
-    │   │   ├── pipeline.py         # Hybrid retrieval + RRF
-    │   │   ├── qdrant_client.py
-    │   │   └── embeddings.py
-    │   ├── models/
-    │   │   └── schemas.py          # Pydantic models
-    │   ├── db/
-    │   │   └── crud.py             # Database operations
-    │   └── export/
-    │       └── pdf_exporter.py
-    ├── data/
-    │   ├── malaysia/               # Per-state travel documents
-    │   └── indonesia/              # Bali, Jakarta
-    ├── main.py
-    ├── requirements.txt
-    └── .env.sample
+    │   │   ├── ingest.py              # Qdrant upsert pipeline
+    │   │   ├── vectorstore.py         # Qdrant vector search
+    │   │   ├── keyword_index.py       # BM25 index (rank-bm25)
+    │   │   ├── hybrid_retrieve.py     # Parallel search + RRF merge
+    │   │   ├── normalize_chunks.py    # Chunk format standardisation
+    │   │   ├── rerank.py              # Reranking orchestration
+    │   │   └── retrieve.py            # Final Top-K context assembly
+    │   └── services/
+    │       ├── luxia_parse.py         # LuxiaCloud document parser
+    │       ├── luxia_chunk.py         # LuxiaCloud chunker
+    │       ├── luxia_embed.py         # LuxiaCloud embeddings
+    │       ├── luxia_rerank.py        # LuxiaCloud cross-encoder reranker
+    │       ├── metadata_extract.py    # Chunk metadata annotation
+    │       ├── airlabs_service.py     # Airlabs flight data API
+    │       └── export_iti.py          # PDF itinerary export
+    └── scripts/
+        └── init_db.py                 # Database schema initialisation
 ```
 
 ---
@@ -334,9 +454,11 @@ Ai-tinerary/
 ### Prerequisites
 
 - Node.js 18+
-- Python 3.10+
-- Qdrant (local Docker instance or Qdrant Cloud)
+- Python 3.11+
+- Docker (for Qdrant)
 - LuxiaCloud API key
+- Google Maps API key
+- Airlabs API key
 
 ### 1. Clone the Repository
 
@@ -354,49 +476,56 @@ source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Copy the environment file and fill in your values:
+Create a `.env` file from the sample:
 
 ```bash
-cp .env.sample .env
+cp .env_sample .env
 ```
 
-`.env` variables:
+Fill in your values:
 
 ```env
-# LuxiaCloud
-LUXIACLOUD_API_KEY=your_key_here
-
-# Qdrant
+LUXIA_API_KEY=your_luxiacloud_key
+GOOGLE_MAPS_API_KEY=your_google_maps_key
+AIRLABS_API_KEY=your_airlabs_key
+DATABASE_URL=sqlite:///./app.db
+JWT_SECRET_KEY=your_jwt_secret
+JWT_ALGORITHM=HS256
+JWT_EXPIRE_MINUTES=60
 QDRANT_URL=http://localhost:6333
-QDRANT_COLLECTION=aitinerary
-
-# Auth
-SECRET_KEY=your_jwt_secret
-ALGORITHM=HS256
-ACCESS_TOKEN_EXPIRE_MINUTES=60
-
-# Database
-DATABASE_URL=sqlite:///./aitinerary.db
-
-# Weather API
-WEATHER_API_KEY=your_key_here
+QDRANT_API_KEY=                 # leave empty for local Qdrant
 ```
 
-### 3. Start Qdrant (Docker)
+### 3. Start Qdrant
 
 ```bash
 docker run -p 6333:6333 qdrant/qdrant
 ```
 
-### 4. Index Travel Documents
+### 4. Initialise the Database
 
 ```bash
-python scripts/index_documents.py
+python scripts/init_db.py
 ```
 
-This will parse, chunk, embed, and upload all documents in `data/` to Qdrant.
+### 5. Index Travel Documents
 
-### 5. Run the Backend
+The `app/data/processed/` enriched chunk files are already included in the repository. To ingest them into Qdrant:
+
+```bash
+python -m app.retrieval.ingest
+```
+
+To rebuild from raw PDFs (re-runs the full parse → chunk → embed pipeline):
+
+```bash
+python -m app.services.luxia_parse
+python -m app.services.luxia_chunk
+python -m app.services.luxia_embed
+python -m app.retrieval.ingest
+```
+
+### 6. Run the Backend
 
 ```bash
 uvicorn main:app --reload --port 8000
@@ -404,7 +533,7 @@ uvicorn main:app --reload --port 8000
 
 API docs available at `http://localhost:8000/docs`.
 
-### 6. Frontend Setup
+### 7. Frontend Setup
 
 ```bash
 cd ../AI-tinerary-frontend
@@ -423,13 +552,20 @@ npm run dev
 
 Frontend runs at `http://localhost:5173`.
 
+### 8. Run Tests
+
+```bash
+cd Ai-tinerary-backend
+python -m pytest tests/
+```
+
 ---
 
 ## Example Usage
 
 ### 1. Create a Trip
 
-Fill in the trip form with:
+Register or log in, then fill in the trip form on `NewTrip.tsx`:
 - **Destination:** Malaysia
 - **Cities:** Kuala Lumpur, Penang
 - **Travel Dates:** 10 days
@@ -438,64 +574,69 @@ Fill in the trip form with:
 
 ### 2. Generate Itinerary
 
-The system will:
-1. Extract your preferences
-2. Retrieve relevant travel context from Qdrant
-3. Select and sequence POIs
-4. Attach travel times and weather notes
-5. Validate and return a structured day-by-day plan
+The backend runs the LangGraph workflow:
+1. Extracts a structured preference profile
+2. Runs hybrid retrieval from Qdrant for the target cities
+3. Selects and sequences POIs with metadata
+4. Calculates distances via Google Maps (cached geocoding)
+5. Attaches travel times and weather context
+6. Validates and finalises the structured plan
+7. Persists to SQLite and streams the result back
 
 ### 3. Chat with the Travel Assistant
 
-Example questions the assistant handles:
+The `TripDetail.tsx` page shows the itinerary alongside the chat panel. Responses stream token-by-token via SSE:
 
 ```
-"Can you swap the Batu Caves visit to the morning instead?"
+"Can you move Batu Caves to the morning of Day 2?"
 
-"What should I know about getting from KL to Penang?"
+"What's the easiest way to get from KL to Penang?"
 
-"Is Jalan Alor night market worth going to on a weekday?"
+"Is Jalan Alor worth visiting on a weekday?"
 
-"Add a half-day in Penang Hill, somewhere on Day 6."
+"Add Penang Hill somewhere on Day 6 — half day is fine."
 ```
 
-### 4. Export Itinerary
+### 4. Export to PDF
 
-Click **Export PDF** from the itinerary view. A formatted PDF with the full day-by-day plan will download to your device.
+Click **Export PDF** from the itinerary view. The `export_iti.py` service generates and returns a formatted PDF.
 
 ---
 
 ## Challenges Encountered
 
 **Retrieval Quality on Sparse Destinations**
-Some Malaysian states have significantly less Wikivoyage coverage than others. For those, retrieval returns fewer high-quality chunks, and the LLM has to fill gaps from memory — which reintroduces the hallucination risk we were trying to avoid. Adding more local tourism board documents helped, but this is an ongoing data coverage problem.
+Some Malaysian states have significantly less Wikivoyage coverage than others. For those, retrieval returns fewer high-quality chunks and the LLM fills gaps from training memory — reintroducing the hallucination risk RAG is meant to prevent. Supplementing with official tourism board documents helped, but content depth varies across destinations.
 
 **Duplicate POIs Across Chunks**
-The same landmark can appear in multiple chunks from different documents (e.g., Petronas Twin Towers mentioned in a Kuala Lumpur city guide and a Malaysia country overview). Without deduplication, early versions of the itinerary would list the same location twice on different days. The validator catches explicit duplicates but subtler cases (two differently-named entrances to the same complex) are harder to detect.
+The same landmark appears in multiple source documents (e.g., Petronas Twin Towers is mentioned in the KL Wikivoyage article, the KL tourism doc, and the Malaysia general guide). Without deduplication, early itinerary versions scheduled the same location on different days. `itinerary_validator.py` catches explicit name duplicates; subtler overlaps (Malay vs English name for the same place) are harder to detect.
 
-**Travel Time Estimation**
-Without a live maps API, travel time between POIs is estimated using approximate coordinates and transport mode assumptions. This works reasonably well within city centres but produces poor estimates for cross-city legs where tolls, traffic patterns, and transport options matter significantly.
+**Geocode Caching Consistency**
+`distance_planner.py` caches Google Maps geocode results in `geocode_cache.json` to reduce API calls. If a POI name is returned with slight variation between documents (e.g., "Batu Caves" vs "Batu Caves Temple"), the cache misses and an unnecessary API call is made. Normalising POI names before geocoding improved hit rate but didn't eliminate the issue entirely.
+
+**Travel Time Accuracy**
+The Google Maps integration works well within city centres but produces less reliable estimates for cross-city legs where toll routes, traffic, and transport mode choices vary significantly by time of day.
 
 **Itinerary Consistency After Chat Edits**
-When a user modifies the itinerary through chat, keeping the rest of the plan internally consistent is difficult. Swapping a museum visit on Day 3 might create a travel time conflict if the new location is far from Day 3's next POI. The current approach re-validates after modifications but doesn't always catch cascading timing issues.
+Swapping a POI through chat can create downstream timing conflicts — the new location might be far from the next scheduled stop. The validator reruns after modifications but doesn't always catch cascading issues across the rest of the day's schedule.
 
 **LLM Hallucinations on Local Details**
-Opening hours, ticket prices, and seasonal availability are the most common hallucination targets. The retrieval grounding reduces this substantially compared to a direct prompt, but it doesn't eliminate it — particularly for less-documented restaurants and small local attractions.
+Opening hours, ticket prices, and seasonal closures are the most common hallucination targets. Retrieval grounding reduces this substantially but doesn't eliminate it — particularly for smaller, less-documented restaurants and local attractions not covered in the source documents.
 
-**RRF with Imbalanced Result Counts**
-When one retrieval path returns far more results than the other (vector search returned 20 chunks, keyword search returned 3), RRF can be dominated by the larger pool. We apply a result count cap to both paths before fusion to keep the merge more balanced.
+**BM25 Index Synchronisation**
+`keyword_index.py` builds the BM25 index at ingestion time as a separate artefact from the Qdrant collection. If documents are added to Qdrant without rebuilding the keyword index, the two retrieval paths operate on different sets of documents and RRF produces inconsistent merged results.
 
 ---
 
 ## Future Improvements
 
-- **Reranking** — Adding a cross-encoder reranker after RRF to improve the final context ordering. Cohere Rerank or a local cross-encoder model would both work.
-- **Multi-agent architecture** — Breaking the LangGraph workflow into specialised agents (retrieval agent, planning agent, validation agent) that collaborate rather than running in a fixed sequence.
-- **Hotel and flight integration** — Connecting to booking APIs to suggest accommodations and surface flight options between cities within the trip.
-- **Live event integration** — Pulling in local events, festivals, and seasonal activities from public event APIs to make itineraries more timely.
-- **Dynamic replanning** — If a user reports that a location was closed or they ran out of time, the assistant should be able to replan the remainder of the day dynamically.
-- **Larger destination coverage** — Extending the knowledge base beyond Malaysia and Indonesia to cover Southeast Asia more broadly.
-- **User feedback loop** — Collecting explicit ratings on itinerary quality to identify systematic weaknesses in POI selection or retrieval for specific destinations.
+- **Broader Destination Coverage** — Extending the knowledge base beyond Malaysia and Indonesia to cover Southeast Asia more broadly. The existing pipeline structure makes adding new destinations straightforward: add source documents to `app/data/raw/`, run the parse → chunk → embed → ingest pipeline.
+- **Multi-agent Architecture** — Splitting the LangGraph workflow into specialised agents (retrieval, planning, validation) that coordinate rather than running in a fixed linear sequence. This would make the system more adaptable when individual planning steps need retrying independently.
+- **Hotel and Flight Integration** — The `airlabs_service.py` integration is a starting point. Connecting to accommodation booking APIs would allow the system to suggest lodging options that fit the generated itinerary's city sequence.
+- **Live Event Integration** — Pulling in local festivals, cultural events, and seasonal attractions from public event APIs to make itineraries more timely and contextual.
+- **Dynamic Replanning** — If a user flags a closed venue or a timing overrun during the trip, the assistant should replan the rest of the affected day without regenerating the entire itinerary.
+- **Automated BM25 Index Rebuilds** — Triggering a keyword index rebuild whenever the Qdrant collection is updated, to keep both retrieval paths in sync automatically.
+- **User Feedback Loop** — Collecting explicit itinerary ratings to surface systematic weaknesses in POI selection or retrieval quality for specific destinations.
 
 ---
 
@@ -506,8 +647,8 @@ This project was completed as a collaborative team effort by:
 - **Muhammad Syahrul Aiman**
 - **Nur Ain Salsabila**
 - **Balqis**
-- **Shannon Nathania Susilo**
 - **Nurnisa Humaira**
+- **Shannon Nathania Susilo**
 
 The team collectively contributed to the planning, implementation, testing, and documentation of the project.
 
@@ -518,6 +659,12 @@ The team collectively contributed to the planning, implementation, testing, and 
 - [React](https://react.dev/) — Frontend framework
 - [FastAPI](https://fastapi.tiangolo.com/) — Backend framework
 - [LangGraph](https://langchain-ai.github.io/langgraph/) — AI workflow orchestration
+- [LangChain](https://www.langchain.com/) — LLM integration and text splitters
+- [Ollama](https://ollama.com/) — Local LLM inference
 - [Qdrant](https://qdrant.tech/) — Vector database
-- [LuxiaCloud](https://luxia.cloud/) — Document parsing, chunking, and embeddings
+- [LuxiaCloud](https://luxia.cloud/) — Document parsing, chunking, embedding, and reranking
+- [Airlabs](https://airlabs.co/) — Flight data API
+- [shadcn/ui](https://ui.shadcn.com/) — Accessible UI component library
+- [Framer Motion](https://www.framer.com/motion/) — Animation library
 - [Wikivoyage](https://en.wikivoyage.org/) — Open travel knowledge base (CC BY-SA)
+- Tourism Malaysia and Wonderful Indonesia for destination content
