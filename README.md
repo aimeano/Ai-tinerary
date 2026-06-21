@@ -534,12 +534,9 @@ The `app/data/processed/` enriched chunk files are already included in the repos
 python -m app.retrieval.ingest
 ```
 
-To rebuild from raw PDFs (re-runs the full parse → chunk → embed pipeline):
+To rebuild from raw PDFs (re-runs the full parse → chunk → embed pipeline), also do:
 
 ```bash
-python -m app.services.luxia_parse
-python -m app.services.luxia_chunk
-python -m app.services.luxia_embed
 python -m app.retrieval.ingest
 ```
 
