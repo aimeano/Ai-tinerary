@@ -1,5 +1,15 @@
 # ✈️ Ai-tinerary
 
+![React](https://img.shields.io/badge/react-18-149eca?logo=react&logoColor=white&labelColor=2b2b2b)
+![TypeScript](https://img.shields.io/badge/typescript-5-3178c6?logo=typescript&logoColor=white&labelColor=2b2b2b)
+![Vite](https://img.shields.io/badge/vite-bundler-646cff?logo=vite&logoColor=white&labelColor=2b2b2b)
+![Python](https://img.shields.io/badge/python-3.11+-3776ab?logo=python&logoColor=white&labelColor=2b2b2b)
+![FastAPI](https://img.shields.io/badge/fastapi-backend-009688?logo=fastapi&logoColor=white&labelColor=2b2b2b)
+![LangGraph](https://img.shields.io/badge/langgraph-orchestration-1c3c3c?labelColor=2b2b2b)
+![Qdrant](https://img.shields.io/badge/qdrant-vector%20db-dc244c?labelColor=2b2b2b)
+![Database](https://img.shields.io/badge/database-sqlite%20%2F%20postgresql-336791?logo=postgresql&logoColor=white&labelColor=2b2b2b)
+![License](https://img.shields.io/badge/license-unspecified-red?labelColor=2b2b2b)
+
 **An AI-powered travel itinerary planner with a conversational travel assistant.**
 
 Ai-tinerary generates full day-by-day travel itineraries from a user's trip preferences, then lets the user refine, question, and modify the plan through a chat interface — all grounded in retrieved travel knowledge rather than model memorisation.
@@ -87,7 +97,7 @@ The target coverage for this version is Malaysia (all 13 states + federal territ
 
 ## System Architecture
 
-The system is two services — a React/TypeScript frontend and a FastAPI backend — communicating over REST and Server-Sent Events (SSE). The backend handles JWT authentication, trip persistence in SQLite via SQLAlchemy, LangGraph workflow orchestration, and the Qdrant-backed retrieval pipeline.
+The system is two services — a React/TypeScript frontend and a FastAPI backend — communicating over REST and Server-Sent Events (SSE). The backend handles JWT authentication, trip persistence via SQLAlchemy (SQLite for local development, PostgreSQL in production), LangGraph workflow orchestration, and the Qdrant-backed retrieval pipeline.
 
 ```mermaid
 graph TD
@@ -116,7 +126,7 @@ graph TD
     S --> T[Add weather context]
     T --> U[Suggest restaurants\nfor meal slots]
     U --> V[Validate itinerary\nfor conflicts]
-    V --> W[Persist to SQLite]
+    V --> W[Persist via SQLAlchemy]
     V --> B
 
     G --> X[Load trip state\nand itinerary from DB]
@@ -205,9 +215,9 @@ flowchart LR
 ---
 
 ## Itinerary Generation Pipeline
- 
+
 Generation runs as a stateful LangGraph workflow in `langgraph_workflow.py`. Prompts and model configuration are managed in `app/llm/` (`prompts.py`, `model_config.py`, `generate.py`). The full flow is tested in `tests/test_generate_itinerary.py`.
- 
+
 ```mermaid
 flowchart TD
     A[User submits trip form] --> B[Extract structured\npreference profile]
@@ -221,10 +231,10 @@ flowchart TD
     I --> J{Valid?}
     J -->|Yes| K[Final LLM pass —\nformat natural language itinerary]
     J -->|No — issues found| D
-    K --> L[Persist to SQLite]
+    K --> L[Persist via SQLAlchemy]
     K --> M[Return to itinerary view]
 ```
- 
+
 **Preference Extraction** — Raw form input (destination, cities, travel dates, travel style, interests) is parsed by `preference_extractor.py` into a structured profile that drives retrieval queries and POI selection. Output is stored in `json_utils.py`-validated structured format throughout the workflow.
 
 **POI Metadata** — `poi_metadata.py` extracts and structures point-of-interest data from retrieved chunks, adding category labels and visit duration hints. Coordinates are resolved via Google Maps, with results cached in `app/data/cache/geocode_cache.json` to avoid redundant API calls. Tested in `tests/test_poi_pipeline.py`.
@@ -249,11 +259,11 @@ After an itinerary is generated, users open the chat panel (`ChatPanel.tsx`, `Ch
 
 ### How It Works
 
-**Trip State Loading** — When a chat session opens, `trip_state.py` in `app/memory/` loads the stored itinerary and trip preferences from SQLite (`trip_repository.py`) and injects them into the graph state. The assistant knows the full trip without the user restating anything.
+**Trip State Loading** — When a chat session opens, `trip_state.py` in `app/memory/` loads the stored itinerary and trip preferences from the database (`trip_repository.py`) and injects them into the graph state. The assistant knows the full trip without the user restating anything.
 
 **Retrieval During Chat** — The same hybrid pipeline (`retrieve.py`) is available during conversation. If a user asks about a specific place or activity, the assistant queries Qdrant before responding — grounding answers in retrieved content rather than model memory.
 
-**Itinerary Modification** — The assistant interprets natural language modification requests, updates the relevant itinerary section, and writes the change back to SQLite via `trip_repository.py`. Changes appear in `TripDetail.tsx` without full regeneration.
+**Itinerary Modification** — The assistant interprets natural language modification requests, updates the relevant itinerary section, and writes the change back to the database via `trip_repository.py`. Changes appear in `TripDetail.tsx` without full regeneration.
 
 **Streamed Responses** — The chat graph streams token-by-token output via SSE, handled client-side by `useSSE.ts`. This avoids long blocking waits during LLM generation.
 
@@ -301,7 +311,7 @@ After RRF, `luxia_rerank.py` applies a cross-encoder reranker for a final releva
 | Distance Planning | Google Maps API + local geocode cache |
 | Flight Data | Airlabs API |
 | Document Parsing | `pypdf`, `beautifulsoup4`, `lxml`, `playwright` |
-| Database | SQLite via SQLAlchemy (`database.py`, `models.py`, `auth_repository.py`, `trip_repository.py`) |
+| Database | SQLite (dev) / PostgreSQL (prod) via SQLAlchemy (`database.py`, `models.py`, `auth_repository.py`, `trip_repository.py`) |
 | Authentication | JWT via `python-jose` + `bcrypt` + `passlib` |
 | PDF Export | `export_iti.py` |
 | HTTP Client | `httpx`, `requests` |
@@ -387,7 +397,7 @@ Ai-tinerary/
 └── Ai-tinerary-backend/
     ├── main.py                        # FastAPI entry point
     ├── requirements.txt
-    ├── app.db                         # SQLite database
+    ├── app.db                         # SQLite database (local dev; PostgreSQL used in production)
     ├── app/
     │   ├── api/
     │   │   ├── app.py                 # App factory, router registration, CORS
@@ -476,6 +486,14 @@ source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+The `playwright` Python package is listed in `requirements.txt`, but pip install alone does not download the actual browser binary. Run this once after installing dependencies:
+
+```bash
+playwright install chromium
+```
+
+Skipping this step will cause any scraping or document-fetching step that relies on `playwright` to fail at runtime, even though the package imports successfully.
+
 Create a `.env` file from the sample:
 
 ```bash
@@ -488,7 +506,7 @@ Fill in your values:
 LUXIA_API_KEY=your_luxiacloud_key
 GOOGLE_MAPS_API_KEY=your_google_maps_key
 AIRLABS_API_KEY=your_airlabs_key
-DATABASE_URL=sqlite:///./app.db
+DATABASE_URL=sqlite:///./app.db     # use a postgresql:// URL in production
 JWT_SECRET_KEY=your_jwt_secret
 JWT_ALGORITHM=HS256
 JWT_EXPIRE_MINUTES=60
@@ -581,7 +599,7 @@ The backend runs the LangGraph workflow:
 4. Calculates distances via Google Maps (cached geocoding)
 5. Attaches travel times and weather context
 6. Validates and finalises the structured plan
-7. Persists to SQLite and streams the result back
+7. Persists via SQLAlchemy and streams the result back
 
 ### 3. Chat with the Travel Assistant
 
